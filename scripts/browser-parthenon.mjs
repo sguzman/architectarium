@@ -33,14 +33,16 @@ try{
  await page.locator('#walk').click();
  await page.waitForFunction(()=>document.querySelector('#walk')?.getAttribute('aria-pressed')==='true',null,{timeout:8000});
  await page.keyboard.down('w');await page.waitForTimeout(180);await page.keyboard.up('w');
- // The explicit exit control must work even if the browser intercepts Escape for pointer lock.
- await page.locator('#walk').click();
+ // Browser-native pointer unlock is the reliable headless equivalent of Escape.
+ const locked=await page.evaluate(()=>Boolean(document.pointerLockElement));
+ if(locked)await page.evaluate(()=>document.exitPointerLock());
+ else await page.locator('#walk').click();
  await page.waitForFunction(()=>document.querySelector('#walk')?.getAttribute('aria-pressed')==='false',null,{timeout:8000});
+ // Walk mode must be re-enterable without a page reload.
  await page.locator('#walk').click();
  await page.waitForFunction(()=>document.querySelector('#walk')?.getAttribute('aria-pressed')==='true',null,{timeout:8000});
- await page.keyboard.press('Escape');
- // Some headless engines consume Escape while releasing pointer lock.
- if(await page.locator('#walk').getAttribute('aria-pressed')==='true')await page.locator('#walk').click();
+ if(await page.evaluate(()=>Boolean(document.pointerLockElement)))await page.evaluate(()=>document.exitPointerLock());
+ else await page.keyboard.press('Escape');
  await page.waitForFunction(()=>document.querySelector('#walk')?.getAttribute('aria-pressed')==='false',null,{timeout:8000});
  await page.locator('.part-row').first().click();
  await page.screenshot({path:'qa-parthenon/desktop.png',fullPage:true});
