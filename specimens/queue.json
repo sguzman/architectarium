@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "specimens": [
+    {
+      "id": "parthenon",
+      "title": "Parthenon",
+      "location": "Athens, Greece",
+      "tradition": "classical",
+      "stage": "model-draft",
+      "sourceIds": [
+        "acropolis-parthenon"
+      ],
+      "priority": 1,
+      "model": {
+        "kind": "procedural-study",
+        "accuracy": "schematic"
+      },
+      "rights": "Source documentation only; geometry must be original or explicitly licensed",
+      "nextStage": "survey-plan-and-verify-part-placement"
+    },
+    {
+      "id": "pantheon",
+      "title": "Pantheon",
+      "location": "Rome, Italy",
+      "tradition": "roman",
+      "stage": "research",
+      "sourceIds": [
+        "pantheon-ministry"
+      ],
+      "priority": 2,
+      "model": {
+        "kind": "pending",
+        "accuracy": "not-modeled"
+      },
+      "rights": "Source documentation only; geometry must be original or explicitly licensed",
+      "nextStage": "collect-references-and-evidence"
+    },
+    {
+      "id": "chartres",
+      "title": "Chartres Cathedral",
+      "location": "Chartres, France",
+      "tradition": "gothic",
+      "stage": "queued",
+      "sourceIds": [
+        "chartres-official"
+      ],
+      "priority": 3,
+      "model": {
+        "kind": "pending",
+        "accuracy": "not-modeled"
+      },
+      "rights": "Source documentation only; geometry must be original or explicitly licensed",
+      "nextStage": "collect-references-and-evidence"
+    },
+    {
+      "id": "hagia-sophia",
+      "title": "Hagia Sophia",
+      "location": "Istanbul, Türkiye",
+      "tradition": "byzantine",
+      "stage": "queued",
+      "sourceIds": [
+        "hagia-unesco"
+      ],
+      "priority": 4,
+      "model": {
+        "kind": "pending",
+        "accuracy": "not-modeled"
+      },
+      "rights": "Source documentation only; geometry must be original or explicitly licensed",
+      "nextStage": "collect-references-and-evidence"
+    },
+    {
+      "id": "fallingwater",
+      "title": "Fallingwater",
+      "location": "Mill Run, Pennsylvania, USA",
+      "tradition": "modern",
+      "stage": "queued",
+      "sourceIds": [
+        "fallingwater-foundation"
+      ],
+      "priority": 5,
+      "model": {
+        "kind": "pending",
+        "accuracy": "not-modeled"
+      },
+      "rights": "Source documentation only; geometry must be original or explicitly licensed",
+      "nextStage": "collect-references-and-evidence"
+    }
+  ]
+}

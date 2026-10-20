@@ -1,0 +1,896 @@
+{
+  "version": 1,
+  "description": "Architectural component TYPES, not particular building instances",
+  "components": [
+    {
+      "id": "foundation",
+      "name": "Foundation",
+      "category": "substructure",
+      "definition": "Structural system conveying building loads into supporting ground",
+      "typicalLocation": "Below grade",
+      "function": "support",
+      "connectedTo": [
+        "stereobate",
+        "pier"
+      ],
+      "examples": [
+        {
+          "building": "Parthenon",
+          "sourceId": "acropolis-parthenon"
+        }
+      ],
+      "synonyms": [],
+      "geometryMapping": "optional",
+      "reviewStatus": "initial-reference"
+    },
+    {
+      "id": "stereobate",
+      "name": "Stereobate",
+      "category": "substructure",
+      "definition": "Supporting stepped platform below the uppermost course of a classical temple",
+      "typicalLocation": "Base of temple",
+      "function": "support",
+      "connectedTo": [
+        "stylobate",
+        "foundation"
+      ],
+      "examples": [
+        {
+          "building": "Parthenon",
+          "sourceId": "acropolis-parthenon"
+        }
+      ],
+      "synonyms": [],
+      "geometryMapping": "optional",
+      "reviewStatus": "initial-reference"
+    },
+    {
+      "id": "stylobate",
+      "name": "Stylobate",
+      "category": "substructure",
+      "definition": "Uppermost continuous step or platform on which a Greek temple colonnade stands",
+      "typicalLocation": "Below column bases",
+      "function": "support",
+      "connectedTo": [
+        "stereobate",
+        "column-shaft"
+      ],
+      "examples": [
+        {
+          "building": "Parthenon",
+          "sourceId": "acropolis-parthenon"
+        }
+      ],
+      "synonyms": [],
+      "geometryMapping": "optional",
+      "reviewStatus": "initial-reference"
+    },
+    {
+      "id": "peristyle",
+      "name": "Peristyle",
+      "category": "space",
+      "definition": "Continuous colonnade enclosing a court or building perimeter",
+      "typicalLocation": "Perimeter",
+      "function": "circulation",
+      "connectedTo": [
+        "colonnade",
+        "stylobate"
+      ],
+      "examples": [
+        {
+          "building": "Parthenon",
+          "sourceId": "acropolis-parthenon"
+        }
+      ],
+      "synonyms": [],
+      "geometryMapping": "optional",
+      "reviewStatus": "initial-reference"
+    },
+    {
+      "id": "colonnade",
+      "name": "Colonnade",
+      "category": "assembly",
+      "definition": "Ordered sequence of columns supporting an architectural member",
+      "typicalLocation": "Facades and perimeter walks",
+      "function": "support",
+      "connectedTo": [
+        "column-shaft",
+        "architrave"
+      ],
+      "examples": [
+        {
+          "building": "Parthenon",
+          "sourceId": "acropolis-parthenon"
+        }
+      ],
+      "synonyms": [],
+      "geometryMapping": "optional",
+      "reviewStatus": "initial-reference"
+    },
+    {
+      "id": "column-shaft",
+      "name": "Column shaft",
+      "category": "support",
+      "definition": "Upright body of a column between lower bearing and capital",
+      "typicalLocation": "Vertical support bays",
+      "function": "support",
+      "connectedTo": [
+        "stylobate",
+        "echinus",
+        "fluting"
+      ],
+      "examples": [
+        {
+          "building": "Parthenon",
+          "sourceId": "acropolis-parthenon"
+        }
+      ],
+      "synonyms": [],
+      "geometryMapping": "optional",
+      "reviewStatus": "initial-reference"
+    },
+    {
+      "id": "fluting",
+      "name": "Fluting",
+      "category": "surface",
+      "definition": "Longitudinal concave grooves carved in a column shaft",
+      "typicalLocation": "Column exterior",
+      "function": "finish",
+      "connectedTo": [
+        "column-shaft"
+      ],
+      "examples": [
+        {
+          "building": "Parthenon",
+          "sourceId": "acropolis-parthenon"
+        }
+      ],
+      "synonyms": [],
+      "geometryMapping": "optional",
+      "reviewStatus": "initial-reference"
+    },
+    {
+      "id": "entasis",
+      "name": "Entasis",
+      "category": "geometry",
+      "definition": "Subtle convex adjustment to the apparent straight taper of a column",
+      "typicalLocation": "Column profile",
+      "function": "optical refinement",
+      "connectedTo": [
+        "column-shaft"
+      ],
+      "examples": [
+        {
+          "building": "Parthenon",
+          "sourceId": "acropolis-parthenon"
+        }
+      ],
+      "synonyms": [],
+      "geometryMapping": "optional",
+      "reviewStatus": "initial-reference"
+    },
+    {
+      "id": "echinus",
+      "name": "Echinus",
+      "category": "capital",
+      "definition": "Curved cushion-like moulding beneath the abacus in a Doric capital",
+      "typicalLocation": "Top of Doric column shaft",
+      "function": "load transition",
+      "connectedTo": [
+        "column-shaft",
+        "abacus"
+      ],
+      "examples": [
+        {
+          "building": "Parthenon",
+          "sourceId": "acropolis-parthenon"
+        }
+      ],
+      "synonyms": [],
+      "geometryMapping": "optional",
+      "reviewStatus": "initial-reference"
+    },
+    {
+      "id": "abacus",
+      "name": "Abacus",
+      "category": "capital",
+      "definition": "Square slab crowning a classical capital",
+      "typicalLocation": "Between capital and architrave",
+      "function": "bearing",
+      "connectedTo": [
+        "echinus",
+        "architrave"
+      ],
+      "examples": [
+        {
+          "building": "Parthenon",
+          "sourceId": "acropolis-parthenon"
+        }
+      ],
+      "synonyms": [],
+      "geometryMapping": "optional",
+      "reviewStatus": "initial-reference"
+    },
+    {
+      "id": "architrave",
+      "name": "Architrave",
+      "category": "entablature",
+      "definition": "Horizontal beam or lintel resting directly above columns",
+      "typicalLocation": "Lowest member of an entablature",
+      "function": "span",
+      "connectedTo": [
+        "abacus",
+        "frieze"
+      ],
+      "examples": [
+        {
+          "building": "Parthenon",
+          "sourceId": "acropolis-parthenon"
+        }
+      ],
+      "synonyms": [],
+      "geometryMapping": "optional",
+      "reviewStatus": "initial-reference"
+    },
+    {
+      "id": "entablature",
+      "name": "Entablature",
+      "category": "assembly",
+      "definition": "Horizontal assembly above columns comprising architrave, frieze and cornice",
+      "typicalLocation": "Above colonnade",
+      "function": "load distribution",
+      "connectedTo": [
+        "architrave",
+        "frieze",
+        "cornice"
+      ],
+      "examples": [
+        {
+          "building": "Parthenon",
+          "sourceId": "acropolis-parthenon"
+        }
+      ],
+      "synonyms": [],
+      "geometryMapping": "optional",
+      "reviewStatus": "initial-reference"
+    },
+    {
+      "id": "frieze",
+      "name": "Frieze",
+      "category": "entablature",
+      "definition": "Middle horizontal band of an entablature, potentially carved or subdivided",
+      "typicalLocation": "Between architrave and cornice",
+      "function": "decoration",
+      "connectedTo": [
+        "architrave",
+        "triglyph",
+        "metope",
+        "cornice"
+      ],
+      "examples": [
+        {
+          "building": "Parthenon",
+          "sourceId": "acropolis-parthenon"
+        }
+      ],
+      "synonyms": [],
+      "geometryMapping": "optional",
+      "reviewStatus": "initial-reference"
+    },
+    {
+      "id": "triglyph",
+      "name": "Triglyph",
+      "category": "ornament",
+      "definition": "Doric frieze panel with three vertical bands divided by grooves",
+      "typicalLocation": "Alternating along Doric frieze",
+      "function": "decoration",
+      "connectedTo": [
+        "frieze",
+        "metope"
+      ],
+      "examples": [
+        {
+          "building": "Parthenon",
+          "sourceId": "acropolis-parthenon"
+        }
+      ],
+      "synonyms": [],
+      "geometryMapping": "optional",
+      "reviewStatus": "initial-reference"
+    },
+    {
+      "id": "metope",
+      "name": "Metope",
+      "category": "ornament",
+      "definition": "Panel between triglyphs in a Doric frieze, often bearing relief sculpture",
+      "typicalLocation": "Doric frieze",
+      "function": "decoration",
+      "connectedTo": [
+        "triglyph",
+        "frieze"
+      ],
+      "examples": [
+        {
+          "building": "Parthenon",
+          "sourceId": "acropolis-parthenon"
+        }
+      ],
+      "synonyms": [],
+      "geometryMapping": "optional",
+      "reviewStatus": "initial-reference"
+    },
+    {
+      "id": "ionic-frieze",
+      "name": "Ionic continuous frieze",
+      "category": "ornament",
+      "definition": "Continuous carved band around the outer upper walls of the Parthenon cella",
+      "typicalLocation": "Upper cella wall",
+      "function": "narrative relief",
+      "connectedTo": [
+        "cella",
+        "frieze"
+      ],
+      "examples": [
+        {
+          "building": "Parthenon",
+          "sourceId": "acropolis-frieze"
+        }
+      ],
+      "synonyms": [],
+      "geometryMapping": "optional",
+      "reviewStatus": "initial-reference"
+    },
+    {
+      "id": "cornice",
+      "name": "Cornice",
+      "category": "entablature",
+      "definition": "Projecting horizontal moulding crowning an entablature or wall",
+      "typicalLocation": "Upper facade or eaves",
+      "function": "weather protection",
+      "connectedTo": [
+        "frieze",
+        "pediment"
+      ],
+      "examples": [
+        {
+          "building": "Parthenon",
+          "sourceId": "acropolis-parthenon"
+        }
+      ],
+      "synonyms": [],
+      "geometryMapping": "optional",
+      "reviewStatus": "initial-reference"
+    },
+    {
+      "id": "pediment",
+      "name": "Pediment",
+      "category": "roof",
+      "definition": "Gabled triangular composition above the horizontal cornice of a classical facade",
+      "typicalLocation": "Gable ends",
+      "function": "enclosure",
+      "connectedTo": [
+        "cornice",
+        "tympanum",
+        "roof"
+      ],
+      "examples": [
+        {
+          "building": "Parthenon",
+          "sourceId": "acropolis-parthenon"
+        }
+      ],
+      "synonyms": [],
+      "geometryMapping": "optional",
+      "reviewStatus": "initial-reference"
+    },
+    {
+      "id": "tympanum",
+      "name": "Tympanum",
+      "category": "ornament",
+      "definition": "Recessed field inside a pediment or above an arched opening",
+      "typicalLocation": "Pediment field",
+      "function": "decoration",
+      "connectedTo": [
+        "pediment"
+      ],
+      "examples": [
+        {
+          "building": "Parthenon",
+          "sourceId": "acropolis-parthenon"
+        }
+      ],
+      "synonyms": [],
+      "geometryMapping": "optional",
+      "reviewStatus": "initial-reference"
+    },
+    {
+      "id": "cella",
+      "name": "Cella",
+      "category": "space",
+      "definition": "Enclosed inner sanctuary of a classical temple, also called naos",
+      "typicalLocation": "Within outer colonnade",
+      "function": "ritual space",
+      "connectedTo": [
+        "pronaos",
+        "ionic-frieze",
+        "roof"
+      ],
+      "examples": [
+        {
+          "building": "Parthenon",
+          "sourceId": "acropolis-parthenon"
+        }
+      ],
+      "synonyms": [],
+      "geometryMapping": "optional",
+      "reviewStatus": "initial-reference"
+    },
+    {
+      "id": "pronaos",
+      "name": "Pronaos",
+      "category": "space",
+      "definition": "Porch or vestibule preceding the temple's main enclosed room",
+      "typicalLocation": "Entrance approach",
+      "function": "transition",
+      "connectedTo": [
+        "cella",
+        "colonnade"
+      ],
+      "examples": [
+        {
+          "building": "Parthenon",
+          "sourceId": "acropolis-parthenon"
+        }
+      ],
+      "synonyms": [],
+      "geometryMapping": "optional",
+      "reviewStatus": "initial-reference"
+    },
+    {
+      "id": "roof",
+      "name": "Roof",
+      "category": "envelope",
+      "definition": "Upper covering that shelters interior spaces from weather",
+      "typicalLocation": "Over enclosed volume",
+      "function": "weather protection",
+      "connectedTo": [
+        "cornice",
+        "pediment"
+      ],
+      "examples": [
+        {
+          "building": "Parthenon",
+          "sourceId": "acropolis-parthenon"
+        }
+      ],
+      "synonyms": [],
+      "geometryMapping": "optional",
+      "reviewStatus": "initial-reference"
+    },
+    {
+      "id": "portico",
+      "name": "Portico",
+      "category": "space",
+      "definition": "Covered entrance porch supported by columns or piers",
+      "typicalLocation": "Building entrance",
+      "function": "circulation",
+      "connectedTo": [
+        "column-shaft",
+        "pediment"
+      ],
+      "examples": [
+        {
+          "building": "Pantheon",
+          "sourceId": "pantheon-ministry"
+        }
+      ],
+      "synonyms": [],
+      "geometryMapping": "optional",
+      "reviewStatus": "initial-reference"
+    },
+    {
+      "id": "rotunda",
+      "name": "Rotunda",
+      "category": "space",
+      "definition": "Building volume organized around a circular plan",
+      "typicalLocation": "Central interior",
+      "function": "enclosure",
+      "connectedTo": [
+        "drum",
+        "dome",
+        "oculus"
+      ],
+      "examples": [
+        {
+          "building": "Pantheon",
+          "sourceId": "pantheon-ministry"
+        }
+      ],
+      "synonyms": [],
+      "geometryMapping": "optional",
+      "reviewStatus": "initial-reference"
+    },
+    {
+      "id": "drum",
+      "name": "Drum",
+      "category": "support",
+      "definition": "Cylindrical or polygonal wall supporting a dome",
+      "typicalLocation": "Below dome springing",
+      "function": "support",
+      "connectedTo": [
+        "dome",
+        "rotunda"
+      ],
+      "examples": [
+        {
+          "building": "Pantheon",
+          "sourceId": "pantheon-ministry"
+        }
+      ],
+      "synonyms": [],
+      "geometryMapping": "optional",
+      "reviewStatus": "initial-reference"
+    },
+    {
+      "id": "dome",
+      "name": "Dome",
+      "category": "roof",
+      "definition": "Vaulted roof or ceiling generated by an arch rotated about a vertical axis",
+      "typicalLocation": "Above central hall",
+      "function": "span",
+      "connectedTo": [
+        "drum",
+        "coffer",
+        "oculus"
+      ],
+      "examples": [
+        {
+          "building": "Pantheon",
+          "sourceId": "pantheon-ministry"
+        }
+      ],
+      "synonyms": [],
+      "geometryMapping": "optional",
+      "reviewStatus": "initial-reference"
+    },
+    {
+      "id": "coffer",
+      "name": "Coffer",
+      "category": "surface",
+      "definition": "Sunken decorative panel recessed into a ceiling, vault or dome",
+      "typicalLocation": "Vault or dome intrados",
+      "function": "surface articulation",
+      "connectedTo": [
+        "dome"
+      ],
+      "examples": [
+        {
+          "building": "Pantheon",
+          "sourceId": "pantheon-ministry"
+        }
+      ],
+      "synonyms": [],
+      "geometryMapping": "optional",
+      "reviewStatus": "initial-reference"
+    },
+    {
+      "id": "oculus",
+      "name": "Oculus",
+      "category": "opening",
+      "definition": "Circular opening used for light, ventilation or visual focus",
+      "typicalLocation": "Top of dome or wall",
+      "function": "daylighting",
+      "connectedTo": [
+        "dome",
+        "coffer"
+      ],
+      "examples": [
+        {
+          "building": "Pantheon",
+          "sourceId": "pantheon-ministry"
+        }
+      ],
+      "synonyms": [],
+      "geometryMapping": "optional",
+      "reviewStatus": "initial-reference"
+    },
+    {
+      "id": "corinthian-capital",
+      "name": "Corinthian capital",
+      "category": "capital",
+      "definition": "Capital articulated with acanthus foliage and scrolls",
+      "typicalLocation": "Head of classical column",
+      "function": "load transition",
+      "connectedTo": [
+        "column-shaft",
+        "architrave"
+      ],
+      "examples": [
+        {
+          "building": "Pantheon",
+          "sourceId": "pantheon-ministry"
+        }
+      ],
+      "synonyms": [],
+      "geometryMapping": "optional",
+      "reviewStatus": "initial-reference"
+    },
+    {
+      "id": "pier",
+      "name": "Pier",
+      "category": "support",
+      "definition": "Massive vertical support resisting compressive and lateral loads",
+      "typicalLocation": "Arcade and vault supports",
+      "function": "support",
+      "connectedTo": [
+        "arch",
+        "rib-vault",
+        "pendentive"
+      ],
+      "examples": [
+        {
+          "building": "Hagia Sophia",
+          "sourceId": "hagia-unesco"
+        }
+      ],
+      "synonyms": [],
+      "geometryMapping": "optional",
+      "reviewStatus": "initial-reference"
+    },
+    {
+      "id": "arch",
+      "name": "Arch",
+      "category": "support",
+      "definition": "Curved structural span that transfers load through compression to supports",
+      "typicalLocation": "Openings and vault transitions",
+      "function": "span",
+      "connectedTo": [
+        "pier",
+        "pendentive"
+      ],
+      "examples": [
+        {
+          "building": "Hagia Sophia",
+          "sourceId": "hagia-unesco"
+        }
+      ],
+      "synonyms": [],
+      "geometryMapping": "optional",
+      "reviewStatus": "initial-reference"
+    },
+    {
+      "id": "pendentive",
+      "name": "Pendentive",
+      "category": "transition",
+      "definition": "Curved triangular surface mediating between square support bays and a circular dome",
+      "typicalLocation": "Beneath dome",
+      "function": "load transition",
+      "connectedTo": [
+        "arch",
+        "pier",
+        "dome"
+      ],
+      "examples": [
+        {
+          "building": "Hagia Sophia",
+          "sourceId": "hagia-unesco"
+        }
+      ],
+      "synonyms": [],
+      "geometryMapping": "optional",
+      "reviewStatus": "initial-reference"
+    },
+    {
+      "id": "semi-dome",
+      "name": "Semi-dome",
+      "category": "roof",
+      "definition": "Half-dome commonly terminating an apse or abutting a central dome",
+      "typicalLocation": "At apse or end bay",
+      "function": "span",
+      "connectedTo": [
+        "dome",
+        "apse"
+      ],
+      "examples": [
+        {
+          "building": "Hagia Sophia",
+          "sourceId": "hagia-unesco"
+        }
+      ],
+      "synonyms": [],
+      "geometryMapping": "optional",
+      "reviewStatus": "initial-reference"
+    },
+    {
+      "id": "apse",
+      "name": "Apse",
+      "category": "space",
+      "definition": "Semicircular or polygonal termination of a principal interior axis",
+      "typicalLocation": "Church sanctuary end",
+      "function": "liturgical space",
+      "connectedTo": [
+        "semi-dome",
+        "nave"
+      ],
+      "examples": [
+        {
+          "building": "Hagia Sophia",
+          "sourceId": "hagia-unesco"
+        }
+      ],
+      "synonyms": [],
+      "geometryMapping": "optional",
+      "reviewStatus": "initial-reference"
+    },
+    {
+      "id": "nave",
+      "name": "Nave",
+      "category": "space",
+      "definition": "Principal longitudinal body of a church used by congregants",
+      "typicalLocation": "Central axis",
+      "function": "circulation",
+      "connectedTo": [
+        "apse",
+        "rib-vault",
+        "clerestory"
+      ],
+      "examples": [
+        {
+          "building": "Chartres Cathedral",
+          "sourceId": "chartres-official"
+        }
+      ],
+      "synonyms": [],
+      "geometryMapping": "optional",
+      "reviewStatus": "initial-reference"
+    },
+    {
+      "id": "transept",
+      "name": "Transept",
+      "category": "space",
+      "definition": "Transverse arm crossing the nave in a cruciform church",
+      "typicalLocation": "Crossing of church",
+      "function": "circulation",
+      "connectedTo": [
+        "nave",
+        "clerestory"
+      ],
+      "examples": [
+        {
+          "building": "Chartres Cathedral",
+          "sourceId": "chartres-official"
+        }
+      ],
+      "synonyms": [],
+      "geometryMapping": "optional",
+      "reviewStatus": "initial-reference"
+    },
+    {
+      "id": "rib-vault",
+      "name": "Rib vault",
+      "category": "roof",
+      "definition": "Vault whose intersecting ribs organize geometry and channel loads toward supports",
+      "typicalLocation": "Ceilings over bays",
+      "function": "span",
+      "connectedTo": [
+        "pier",
+        "flying-buttress",
+        "nave"
+      ],
+      "examples": [
+        {
+          "building": "Chartres Cathedral",
+          "sourceId": "chartres-official"
+        }
+      ],
+      "synonyms": [],
+      "geometryMapping": "optional",
+      "reviewStatus": "initial-reference"
+    },
+    {
+      "id": "flying-buttress",
+      "name": "Flying buttress",
+      "category": "support",
+      "definition": "Detached external pier connected by arched strut to resist outward roof and vault thrust",
+      "typicalLocation": "Outer church perimeter",
+      "function": "lateral restraint",
+      "connectedTo": [
+        "rib-vault",
+        "pier"
+      ],
+      "examples": [
+        {
+          "building": "Chartres Cathedral",
+          "sourceId": "chartres-official"
+        }
+      ],
+      "synonyms": [],
+      "geometryMapping": "optional",
+      "reviewStatus": "initial-reference"
+    },
+    {
+      "id": "clerestory",
+      "name": "Clerestory",
+      "category": "opening",
+      "definition": "High wall zone with windows above adjoining roofs or aisles",
+      "typicalLocation": "Upper nave wall",
+      "function": "daylighting",
+      "connectedTo": [
+        "nave",
+        "rib-vault"
+      ],
+      "examples": [
+        {
+          "building": "Chartres Cathedral",
+          "sourceId": "chartres-official"
+        }
+      ],
+      "synonyms": [],
+      "geometryMapping": "optional",
+      "reviewStatus": "initial-reference"
+    },
+    {
+      "id": "cantilever",
+      "name": "Cantilever",
+      "category": "support",
+      "definition": "Projecting structural member fixed or restrained at one end",
+      "typicalLocation": "Balconies and projecting terraces",
+      "function": "span",
+      "connectedTo": [
+        "terrace",
+        "parapet"
+      ],
+      "examples": [
+        {
+          "building": "Fallingwater",
+          "sourceId": "fallingwater-foundation"
+        }
+      ],
+      "synonyms": [],
+      "geometryMapping": "optional",
+      "reviewStatus": "initial-reference"
+    },
+    {
+      "id": "terrace",
+      "name": "Terrace",
+      "category": "space",
+      "definition": "Usable outdoor horizontal platform adjacent to or above a building",
+      "typicalLocation": "Exterior stepped levels",
+      "function": "occupancy",
+      "connectedTo": [
+        "cantilever",
+        "parapet"
+      ],
+      "examples": [
+        {
+          "building": "Fallingwater",
+          "sourceId": "fallingwater-foundation"
+        }
+      ],
+      "synonyms": [],
+      "geometryMapping": "optional",
+      "reviewStatus": "initial-reference"
+    },
+    {
+      "id": "parapet",
+      "name": "Parapet",
+      "category": "envelope",
+      "definition": "Low protective wall at a roof, terrace or bridge edge",
+      "typicalLocation": "Exposed perimeter edges",
+      "function": "fall protection",
+      "connectedTo": [
+        "terrace",
+        "cantilever"
+      ],
+      "examples": [
+        {
+          "building": "Fallingwater",
+          "sourceId": "fallingwater-foundation"
+        }
+      ],
+      "synonyms": [],
+      "geometryMapping": "optional",
+      "reviewStatus": "initial-reference"
+    }
+  ]
+}

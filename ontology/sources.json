@@ -1,0 +1,53 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": "acropolis-parthenon",
+      "title": "The Parthenon",
+      "publisher": "Acropolis Museum / Hellenic Ministry of Culture",
+      "url": "https://parthenonfrieze.gr/en/the-parthenon/",
+      "scope": "Building form, plan, order and sculptural programs",
+      "usage": "Linked research reference only; no copyrighted media copied"
+    },
+    {
+      "id": "acropolis-frieze",
+      "title": "The frieze",
+      "publisher": "Acropolis Museum",
+      "url": "https://emfc.gr/en/sculptural-decoration/frieze",
+      "scope": "Ionic frieze around the cella",
+      "usage": "Linked research reference only; no copyrighted media copied"
+    },
+    {
+      "id": "pantheon-ministry",
+      "title": "Pantheon historical background",
+      "publisher": "Direzione Musei nazionali della città di Roma",
+      "url": "https://direzionemuseiroma.cultura.gov.it/en/pantheon/historical-background/",
+      "scope": "Pantheon plan, dome, coffers and oculus",
+      "usage": "Linked research reference only; no copyrighted media copied"
+    },
+    {
+      "id": "chartres-official",
+      "title": "Visits and activities",
+      "publisher": "Cathédrale de Chartres",
+      "url": "https://www.chartres-cathedrale.fr/en/visit/visits-and-activities",
+      "scope": "Flying buttresses and roof structure",
+      "usage": "Linked research reference only; no copyrighted media copied"
+    },
+    {
+      "id": "hagia-unesco",
+      "title": "Structural discussion of Hagia Sophia",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/document/135738",
+      "scope": "Pendentives, piers and hemidomes",
+      "usage": "Linked research reference only; no copyrighted media copied"
+    },
+    {
+      "id": "fallingwater-foundation",
+      "title": "Fallingwater",
+      "publisher": "Frank Lloyd Wright Foundation",
+      "url": "https://franklloydwright.org/site/fallingwater/",
+      "scope": "Cantilevered terraces and relationship to site",
+      "usage": "Linked research reference only; no copyrighted media copied"
+    }
+  ]
+}
