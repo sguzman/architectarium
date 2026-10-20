@@ -42,7 +42,7 @@ try{
   assert.equal(exhibit.status(),200,'Published exhibit must be served from generated GitHub Pages release');
   const data=await page.request.get(new URL('./specimens/parthenon/data/instances.json',origin).href);
   assert.equal(data.status(),200,'Public physical component data must be available');
-  assert.equal((await data.json()).instances.length,486);
+  assert.equal((await data.json()).instances.length,536);
   assert.ok((await page.locator('#terms button.term').count())>=40,'Missing ontology terms');
   await page.locator('#search').fill('cornice');
   assert.ok((await page.locator('#terms button.term').count())>0,'Search returned nothing');
