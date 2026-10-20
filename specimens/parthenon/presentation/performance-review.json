@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "specimenId": "parthenon",
+  "taskId": "PAR-3D-019",
+  "reviewTier": "source-aware schematic 3D study",
+  "subject": "incremental build and budgets",
+  "outcome": "The model is assembled in reusable geometry batches; the first architectural objects are rendered during construction. Pixel ratio is bounded at 1.5, cached shafts share geometry and a browser report records first-batch and total model build timings.",
+  "acceptanceCriteriaReviewed": [
+    "Provide measurable startup/rendering budgets and limit excessive memory or draw calls",
+    "Load heavy geometry incrementally and avoid blocking the first useful frame"
+  ],
+  "implementationFiles": [
+    "site/specimens/parthenon/model.js",
+    "site/specimens/parthenon/viewer.js",
+    "scripts/browser-parthenon.mjs"
+  ],
+  "verificationFiles": [
+    "scripts/test-parthenon.mjs",
+    "scripts/browser-parthenon.mjs"
+  ],
+  "validation": "Architecture unit checks and rendered Chromium desktop/mobile review; relevant scene behavior inspected in source and QA captures.",
+  "browserEvidence": "https://github.com/sguzman/architectarium/actions/runs/39504446353",
+  "limits": [
+    "No quantified field-device benchmark beyond headless Chromium has yet been documented; archive sizes and frame rates are hardware-dependent."
+  ],
+  "review": {
+    "status": "passed",
+    "scope": "schematic tier only",
+    "note": "Deliverable is implemented in independently authored project code and checked against recorded public evidence and browser tests."
+  }
+}

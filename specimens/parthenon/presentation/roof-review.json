@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "specimenId": "parthenon",
+  "taskId": "PAR-3D-007",
+  "reviewTier": "source-aware schematic 3D study",
+  "subject": "roof and pediments",
+  "outcome": "Two modeled roof planes, two pediment envelopes, and independent visibility toggles allow non-destructive examination of enclosed structure.",
+  "acceptanceCriteriaReviewed": [
+    "Reconcile roof form and pediments with phase-specific evidence",
+    "Support visibility toggles without falsely implying original completeness"
+  ],
+  "implementationFiles": [
+    "site/specimens/parthenon/model.js",
+    "site/specimens/parthenon/viewer.js",
+    "scripts/browser-parthenon.mjs"
+  ],
+  "verificationFiles": [
+    "scripts/test-parthenon.mjs",
+    "scripts/browser-parthenon.mjs"
+  ],
+  "validation": "Architecture unit checks and rendered Chromium desktop/mobile review; relevant scene behavior inspected in source and QA captures.",
+  "browserEvidence": "https://github.com/sguzman/architectarium/actions/runs/39504446353",
+  "limits": [
+    "Individual tile, timber-truss and pediment sculptural evidence is not reconstructed."
+  ],
+  "review": {
+    "status": "passed",
+    "scope": "schematic tier only",
+    "note": "Deliverable is implemented in independently authored project code and checked against recorded public evidence and browser tests."
+  }
+}

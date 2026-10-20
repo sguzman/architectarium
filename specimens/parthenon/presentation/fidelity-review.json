@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "specimenId": "parthenon",
+  "taskId": "PAR-3D-018",
+  "reviewTier": "source-aware schematic 3D study",
+  "subject": "fidelity and historical state",
+  "outcome": "The exhibit displays the schematic tier, per-instance source-confidence labels and a visible explanation that extant or restored fabric and original sculpture are not represented.",
+  "acceptanceCriteriaReviewed": [
+    "Identify schematic, evidence-based and survey-validated portions accurately",
+    "Distinguish original, current, restored and conjectural conditions in the viewer"
+  ],
+  "implementationFiles": [
+    "site/specimens/parthenon/index.html",
+    "specimens/parthenon/research/uncertainty.json"
+  ],
+  "verificationFiles": [
+    "scripts/test-parthenon.mjs",
+    "scripts/browser-parthenon.mjs"
+  ],
+  "validation": "Architecture unit checks and rendered Chromium desktop/mobile review; relevant scene behavior inspected in source and QA captures.",
+  "browserEvidence": "https://github.com/sguzman/architectarium/actions/runs/39504446353",
+  "limits": [
+    "Not a georeferenced scan, surveyed restoration or complete archaeological digital twin."
+  ],
+  "review": {
+    "status": "passed",
+    "scope": "schematic tier only",
+    "note": "Deliverable is implemented in independently authored project code and checked against recorded public evidence and browser tests."
+  }
+}

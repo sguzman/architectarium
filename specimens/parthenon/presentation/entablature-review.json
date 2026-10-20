@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "specimenId": "parthenon",
+  "taskId": "PAR-3D-006",
+  "reviewTier": "source-aware schematic 3D study",
+  "subject": "Doric upper order",
+  "outcome": "The scene includes distinct architectural architraves, triglyphs, 92 blank metope positions, cornices and continuous Ionic cella frieze bands, with object IDs and ontology links.",
+  "acceptanceCriteriaReviewed": [
+    "Model appropriate architrave, frieze, cornice and supported ornamental divisions",
+    "Link visible elements to ontology IDs and disclose interpretive details"
+  ],
+  "implementationFiles": [
+    "site/specimens/parthenon/model.js",
+    "specimens/parthenon/ontology/instances.json",
+    "scripts/test-parthenon.mjs"
+  ],
+  "verificationFiles": [
+    "scripts/test-parthenon.mjs",
+    "scripts/browser-parthenon.mjs"
+  ],
+  "validation": "Architecture unit checks and rendered Chromium desktop/mobile review; relevant scene behavior inspected in source and QA captures.",
+  "browserEvidence": "https://github.com/sguzman/architectarium/actions/runs/39504446353",
+  "limits": [
+    "Original carved metope and Ionic-frieze sculpture is intentionally omitted."
+  ],
+  "review": {
+    "status": "passed",
+    "scope": "schematic tier only",
+    "note": "Deliverable is implemented in independently authored project code and checked against recorded public evidence and browser tests."
+  }
+}

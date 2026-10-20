@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "specimenId": "parthenon",
+  "taskId": "PAR-SP-016",
+  "findings": [
+    "The public viewer and the specimen inventory share the same unique physical instance identifiers.",
+    "Select and inspect operations are tied to canonical ontology types with source attribution.",
+    "Aggregate dimensions, archaeological rooms, peristyle quantities and decorative omissions align with research records.",
+    "The reconstruction is clearly labeled as schematic, not a surveyed present-day or original-state restoration."
+  ],
+  "blockers": [],
+  "openForFutureResearch": [
+    "Licensable survey maps for geospatial reconstruction",
+    "Specialist validation of shaft inclinations, refinements and interior layout"
+  ],
+  "decision": "accept for schematic release only"
+}

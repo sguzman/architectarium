@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "specimenId": "parthenon",
+  "taskId": "PAR-3D-014",
+  "reviewTier": "source-aware schematic 3D study",
+  "subject": "orbit and reset controls",
+  "outcome": "The viewer supports drag-to-orbit, zoom, controlled distance and angle constraints, larger-screen/compact framing and a camera reset action.",
+  "acceptanceCriteriaReviewed": [
+    "Provide reliable drag, zoom, target selection and reset behaviors",
+    "Verify camera bounds and viewport resize behavior"
+  ],
+  "implementationFiles": [
+    "site/specimens/parthenon/viewer.js",
+    "scripts/browser-parthenon.mjs"
+  ],
+  "verificationFiles": [
+    "scripts/test-parthenon.mjs",
+    "scripts/browser-parthenon.mjs"
+  ],
+  "validation": "Architecture unit checks and rendered Chromium desktop/mobile review; relevant scene behavior inspected in source and QA captures.",
+  "browserEvidence": "https://github.com/sguzman/architectarium/actions/runs/39504446353",
+  "limits": [
+    "Camera bounds are viewer conveniences, not site boundaries."
+  ],
+  "review": {
+    "status": "passed",
+    "scope": "schematic tier only",
+    "note": "Deliverable is implemented in independently authored project code and checked against recorded public evidence and browser tests."
+  }
+}

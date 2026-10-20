@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "specimenId": "parthenon",
+  "taskId": "PAR-3D-005",
+  "reviewTier": "source-aware schematic 3D study",
+  "subject": "column systems",
+  "outcome": "Unique, selectable shafts, capitals and abaci represent 46 external peristyle shafts, 12 additional porch shafts and four western Ionic shafts; east two-tier colonnade is interpretive. Exterior shaft height and bays follow published aggregate measurements.",
+  "acceptanceCriteriaReviewed": [
+    "Build separately identifiable supports, shafts and capitals at documented positions",
+    "Verify count, rhythm, proportions and refinements within declared tolerances"
+  ],
+  "implementationFiles": [
+    "specimens/parthenon/ontology/instances.json",
+    "scripts/test-parthenon.mjs",
+    "specimens/parthenon/research/dimensions.json"
+  ],
+  "verificationFiles": [
+    "scripts/test-parthenon.mjs",
+    "scripts/browser-parthenon.mjs"
+  ],
+  "validation": "Architecture unit checks and rendered Chromium desktop/mobile review; relevant scene behavior inspected in source and QA captures.",
+  "browserEvidence": "https://github.com/sguzman/architectarium/actions/runs/39504446353",
+  "limits": [
+    "Detailed entasis, individual optical leaning, capital refinements and eastern interior pier pattern are not survey-validated."
+  ],
+  "review": {
+    "status": "passed",
+    "scope": "schematic tier only",
+    "note": "Deliverable is implemented in independently authored project code and checked against recorded public evidence and browser tests."
+  }
+}

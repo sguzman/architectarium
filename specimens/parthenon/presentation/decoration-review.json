@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "specimenId": "parthenon",
+  "taskId": "PAR-3D-009",
+  "reviewTier": "source-aware schematic 3D study",
+  "subject": "sculpture and finishes scope",
+  "outcome": "No copyrighted sculpture, archaeological plan image, museum photo or protected mesh is redistributed; structural decorative member placement is explained without fabricated relief designs.",
+  "acceptanceCriteriaReviewed": [
+    "Document included and omitted artistic features with sources and permissions",
+    "Show uncertain finishes as optional interpretation with clear labels"
+  ],
+  "implementationFiles": [
+    "specimens/parthenon/research/finishes.json",
+    "specimens/parthenon/research/assets.json",
+    "site/specimens/parthenon/index.html"
+  ],
+  "verificationFiles": [
+    "scripts/test-parthenon.mjs",
+    "scripts/browser-parthenon.mjs"
+  ],
+  "validation": "Architecture unit checks and rendered Chromium desktop/mobile review; relevant scene behavior inspected in source and QA captures.",
+  "browserEvidence": "https://github.com/sguzman/architectarium/actions/runs/39504446353",
+  "limits": [
+    "Ancient pigments, high-fidelity masonry tooling and lost carvings remain outside this schematic tier."
+  ],
+  "review": {
+    "status": "passed",
+    "scope": "schematic tier only",
+    "note": "Deliverable is implemented in independently authored project code and checked against recorded public evidence and browser tests."
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "specimenId": "parthenon",
+  "taskId": "PAR-3D-021",
+  "reviewedCaptures": [
+    {
+      "view": "desktop",
+      "size": "1536x960",
+      "workflowUrl": "https://github.com/sguzman/architectarium/actions/runs/39504446353"
+    },
+    {
+      "view": "mobile",
+      "size": "390x844",
+      "workflowUrl": "https://github.com/sguzman/architectarium/actions/runs/39504446353"
+    }
+  ],
+  "checks": [
+    "Schematic temple silhouette, stylobate and both roof planes visible in orbit view",
+    "Temple model not clipped by stage borders",
+    "Sunlight and shadows present; surface colors restrained and original",
+    "Inspector search, labels and source references legible",
+    "Narrow-viewport responsive layout without horizontal overflow"
+  ],
+  "notReconstructed": [
+    "Original sculpture",
+    "Survey-validated refinements",
+    "Correct ancient pigment palette",
+    "All interior joinery"
+  ],
+  "classification": "schematic",
+  "decision": "accepted for explicitly schematic exhibit; not accepted as a faithful archaeological digital twin."
+}

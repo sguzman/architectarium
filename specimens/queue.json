@@ -6,7 +6,7 @@
       "title": "Parthenon",
       "location": "Athens, Greece",
       "tradition": "classical",
-      "stage": "queued",
+      "stage": "review",
       "sourceIds": [
         "acropolis-parthenon"
       ],
@@ -16,7 +16,7 @@
         "accuracy": "schematic"
       },
       "rights": "Source documentation only; geometry must be original or explicitly licensed",
-      "nextStage": "begin-first-specimen-source-audit-after-bootstrap"
+      "nextStage": "complete-reviewed-release-packaging-and-gallery-publication"
     },
     {
       "id": "pantheon",

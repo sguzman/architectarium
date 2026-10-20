@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "specimenId": "parthenon",
+  "taskId": "PAR-3D-015",
+  "reviewTier": "source-aware schematic 3D study",
+  "subject": "keyboard walk mode",
+  "outcome": "WASD or arrow keys enable an interpretive walk; pointer lock is optional, drag look is supported without pointer lock, and a visible exit control and Escape release walk state. Static wall and column collision constraints prevent major penetrations.",
+  "acceptanceCriteriaReviewed": [
+    "Support sensible spawn points, interiors, thresholds and collision-aware movement",
+    "Test mouse/keyboard control release, floor height and reentry behavior"
+  ],
+  "implementationFiles": [
+    "site/specimens/parthenon/viewer.js",
+    "site/specimens/parthenon/model.js",
+    "scripts/browser-parthenon.mjs"
+  ],
+  "verificationFiles": [
+    "scripts/test-parthenon.mjs",
+    "scripts/browser-parthenon.mjs"
+  ],
+  "validation": "Architecture unit checks and rendered Chromium desktop/mobile review; relevant scene behavior inspected in source and QA captures.",
+  "browserEvidence": "https://github.com/sguzman/architectarium/actions/runs/39504446353",
+  "limits": [
+    "Collision geometry is simplified and is not appropriate for conservation or accessibility-route certification."
+  ],
+  "review": {
+    "status": "passed",
+    "scope": "schematic tier only",
+    "note": "Deliverable is implemented in independently authored project code and checked against recorded public evidence and browser tests."
+  }
+}

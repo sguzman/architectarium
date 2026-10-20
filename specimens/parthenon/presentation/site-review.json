@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "specimenId": "parthenon",
+  "taskId": "PAR-3D-003",
+  "reviewTier": "source-aware schematic 3D study",
+  "subject": "site context",
+  "outcome": "The temple is positioned at a reproducible local model origin. Low-detail non-semantic stone scattering and ground plane provide a restrained site context.",
+  "acceptanceCriteriaReviewed": [
+    "Represent supported local terrain and temple position in known coordinates",
+    "Separate simplified contextual dressing from source-backed reconstruction"
+  ],
+  "implementationFiles": [
+    "site/specimens/parthenon/model.js",
+    "specimens/parthenon/research/coordinates.json"
+  ],
+  "verificationFiles": [
+    "scripts/test-parthenon.mjs",
+    "scripts/browser-parthenon.mjs"
+  ],
+  "validation": "Architecture unit checks and rendered Chromium desktop/mobile review; relevant scene behavior inspected in source and QA captures.",
+  "browserEvidence": "https://github.com/sguzman/architectarium/actions/runs/39504446353",
+  "limits": [
+    "The terrain is illustrative and not a surveyed Acropolis DEM or GIS model."
+  ],
+  "review": {
+    "status": "passed",
+    "scope": "schematic tier only",
+    "note": "Deliverable is implemented in independently authored project code and checked against recorded public evidence and browser tests."
+  }
+}

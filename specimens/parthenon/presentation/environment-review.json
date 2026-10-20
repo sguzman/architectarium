@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "specimenId": "parthenon",
+  "taskId": "PAR-3D-012",
+  "reviewTier": "source-aware schematic 3D study",
+  "subject": "lightweight environment",
+  "outcome": "Static optional particle atmosphere and fog adjustment can be disabled without affecting anatomy picking; no continuous decorative animation is required.",
+  "acceptanceCriteriaReviewed": [
+    "Add appropriate optional context without obscuring the building",
+    "Support disabling animated atmosphere and reduced-motion preferences"
+  ],
+  "implementationFiles": [
+    "site/specimens/parthenon/model.js",
+    "site/specimens/parthenon/viewer.js"
+  ],
+  "verificationFiles": [
+    "scripts/test-parthenon.mjs",
+    "scripts/browser-parthenon.mjs"
+  ],
+  "validation": "Architecture unit checks and rendered Chromium desktop/mobile review; relevant scene behavior inspected in source and QA captures.",
+  "browserEvidence": "https://github.com/sguzman/architectarium/actions/runs/39504446353",
+  "limits": [
+    "Landscape dressing is illustrative and not ancient vegetation reconstruction."
+  ],
+  "review": {
+    "status": "passed",
+    "scope": "schematic tier only",
+    "note": "Deliverable is implemented in independently authored project code and checked against recorded public evidence and browser tests."
+  }
+}

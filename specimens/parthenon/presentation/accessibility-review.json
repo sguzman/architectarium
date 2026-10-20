@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "specimenId": "parthenon",
+  "taskId": "PAR-3D-020",
+  "reviewTier": "source-aware schematic 3D study",
+  "subject": "accessible fallback and responsive layout",
+  "outcome": "The canvas has an accessible label and focus target; text search and selectable buttons offer non-pointer anatomy access, the interface stacks for compact screens, and no mandatory animated environment runs.",
+  "acceptanceCriteriaReviewed": [
+    "Test keyboard focus, non-pointer fallback, explanatory text and responsive layout",
+    "Ensure motion and optional effects honor accessibility preferences"
+  ],
+  "implementationFiles": [
+    "site/specimens/parthenon/index.html",
+    "site/specimens/parthenon/viewer.css",
+    "scripts/browser-parthenon.mjs"
+  ],
+  "verificationFiles": [
+    "scripts/test-parthenon.mjs",
+    "scripts/browser-parthenon.mjs"
+  ],
+  "validation": "Architecture unit checks and rendered Chromium desktop/mobile review; relevant scene behavior inspected in source and QA captures.",
+  "browserEvidence": "https://github.com/sguzman/architectarium/actions/runs/39504446353",
+  "limits": [
+    "No claim of full formal WCAG conformance without dedicated assistive-technology assessment."
+  ],
+  "review": {
+    "status": "passed",
+    "scope": "schematic tier only",
+    "note": "Deliverable is implemented in independently authored project code and checked against recorded public evidence and browser tests."
+  }
+}

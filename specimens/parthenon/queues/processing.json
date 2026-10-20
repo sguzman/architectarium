@@ -438,7 +438,7 @@
       "id": "PAR-SP-016",
       "title": "Review integrated specimen evidence and public interpretation",
       "description": "Deliver and verify this stage of the processing workflow.",
-      "status": "pending",
+      "status": "done",
       "priority": 16,
       "dependsOn": [
         "PAR-SP-015",
@@ -452,10 +452,19 @@
       "outputs": [
         "specimens/parthenon/reviews/integration.json"
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "path": "specimens/parthenon/reviews/integration.json",
+          "note": "Integrated ontology, model and source-based interpretation review."
+        },
+        {
+          "path": "specimens/parthenon/research/model-brief.json",
+          "note": "Architecture and viewer acceptance criteria for the schematic tier."
+        }
+      ],
       "review": {
-        "status": "not-reviewed",
-        "notes": ""
+        "status": "passed",
+        "notes": "The source-based architecture, semantic scene mapping and fidelity notices are consistent for this release tier."
       },
       "blockedReason": null
     },
@@ -463,7 +472,7 @@
       "id": "PAR-SP-017",
       "title": "Complete rights, quality and provenance publication audits",
       "description": "Deliver and verify this stage of the processing workflow.",
-      "status": "pending",
+      "status": "done",
       "priority": 17,
       "dependsOn": [
         "PAR-SP-013",
@@ -477,10 +486,19 @@
       "outputs": [
         "specimens/parthenon/reviews/publication.json"
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "path": "specimens/parthenon/reviews/publication.json",
+          "note": "Final triad of quality, provenance and publication-safety reviews."
+        },
+        {
+          "path": "specimens/parthenon/reviews/assets.json",
+          "note": "Independent source and asset reuse audit for redistribution."
+        }
+      ],
       "review": {
-        "status": "not-reviewed",
-        "notes": ""
+        "status": "passed",
+        "notes": "Geometry, visitor experience and asset rights verified for schematic release; final deployment still required."
       },
       "blockedReason": null
     },

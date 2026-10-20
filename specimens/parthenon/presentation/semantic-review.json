@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "specimenId": "parthenon",
+  "taskId": "PAR-3D-013",
+  "reviewTier": "source-aware schematic 3D study",
+  "subject": "semantic picking",
+  "outcome": "Every architectural mesh carries an independently stable physical instance ID and canonical ontology type; explicit physical relationships navigate between components.",
+  "acceptanceCriteriaReviewed": [
+    "Bind each pickable item to stable physical instance and ontology type IDs",
+    "Test repeat instances, selection highlight and grouping consistency"
+  ],
+  "implementationFiles": [
+    "specimens/parthenon/ontology/mesh-map.json",
+    "site/specimens/parthenon/model.js",
+    "site/specimens/parthenon/viewer.js"
+  ],
+  "verificationFiles": [
+    "scripts/test-parthenon.mjs",
+    "scripts/browser-parthenon.mjs"
+  ],
+  "validation": "Architecture unit checks and rendered Chromium desktop/mobile review; relevant scene behavior inspected in source and QA captures.",
+  "browserEvidence": "https://github.com/sguzman/architectarium/actions/runs/39504446353",
+  "limits": [
+    "Landscape rocks are not architectural specimen instances and are intentionally not pickable."
+  ],
+  "review": {
+    "status": "passed",
+    "scope": "schematic tier only",
+    "note": "Deliverable is implemented in independently authored project code and checked against recorded public evidence and browser tests."
+  }
+}

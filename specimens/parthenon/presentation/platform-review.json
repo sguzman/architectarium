@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "specimenId": "parthenon",
+  "taskId": "PAR-3D-004",
+  "reviewTier": "source-aware schematic 3D study",
+  "subject": "stylobate envelope",
+  "outcome": "The top step models published aggregate dimensions of 30.88 by 69.50 metres. Two lower steps are independently modeled and linked to their component types.",
+  "acceptanceCriteriaReviewed": [
+    "Compare dimensions and levels to the evidence baseline",
+    "Preserve component identities and report deviations"
+  ],
+  "implementationFiles": [
+    "specimens/parthenon/ontology/instances.json",
+    "scripts/test-parthenon.mjs"
+  ],
+  "verificationFiles": [
+    "scripts/test-parthenon.mjs",
+    "scripts/browser-parthenon.mjs"
+  ],
+  "validation": "Architecture unit checks and rendered Chromium desktop/mobile review; relevant scene behavior inspected in source and QA captures.",
+  "browserEvidence": "https://github.com/sguzman/architectarium/actions/runs/39504446353",
+  "limits": [
+    "Step rise and block profiles remain interpretive."
+  ],
+  "review": {
+    "status": "passed",
+    "scope": "schematic tier only",
+    "note": "Deliverable is implemented in independently authored project code and checked against recorded public evidence and browser tests."
+  }
+}

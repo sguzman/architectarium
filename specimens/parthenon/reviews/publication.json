@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "specimenId": "parthenon",
+  "taskId": "PAR-SP-017",
+  "audits": [
+    {
+      "name": "geometry",
+      "record": "specimens/parthenon/reviews/geometry.json",
+      "result": "passes published aggregate checks; not survey validated"
+    },
+    {
+      "name": "visitor",
+      "record": "specimens/parthenon/reviews/visitor.json",
+      "result": "desktop/mobile interaction workflow passed"
+    },
+    {
+      "name": "asset rights",
+      "record": "specimens/parthenon/reviews/assets.json",
+      "result": "no third-party artwork or protected plans redistributed"
+    },
+    {
+      "name": "publication safety",
+      "record": "scripts/publication_guard.py",
+      "result": "automated high-signal scanner included in Pages verification, with human review still required"
+    }
+  ],
+  "notes": [
+    "Source provenance and model output are independent project records",
+    "Schematic confidence and artistic omissions remain visible throughout the visitor experience"
+  ],
+  "decision": "approved for a schematic-tier public release, subject to final generated deployment and standalone exhibit check"
+}

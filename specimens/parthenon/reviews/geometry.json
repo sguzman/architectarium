@@ -1,0 +1,56 @@
+{
+  "version": 1,
+  "specimenId": "parthenon",
+  "taskId": "PAR-3D-023",
+  "sourceIds": [
+    "perseus-parthenon",
+    "ysma-parthenon",
+    "acropolis-architecture"
+  ],
+  "documentedConstraints": [
+    {
+      "part": "stylobate",
+      "dimensions": [
+        30.88,
+        69.5
+      ],
+      "unit": "m",
+      "status": "matches published aggregate",
+      "test": "scripts/test-parthenon.mjs"
+    },
+    {
+      "part": "exterior peristyle",
+      "shafts": 46,
+      "height": 10.43,
+      "unit": "m",
+      "status": "matches published count and height aggregate"
+    },
+    {
+      "part": "secondary porch systems",
+      "shafts": 12,
+      "status": "matches institutional count"
+    },
+    {
+      "part": "western room Ionic supports",
+      "shafts": 4,
+      "status": "matches institutional count"
+    },
+    {
+      "part": "Doric metope locations",
+      "panels": 92,
+      "status": "matches cited count; relief sculpture intentionally omitted"
+    },
+    {
+      "part": "east and west cella rooms",
+      "status": "two separate modeled chambers with schematic dimensions"
+    }
+  ],
+  "unverified": [
+    "Exact column inclinations and optical corrections",
+    "Survey-grade site orientation and member profiles",
+    "East interior column/pier placement",
+    "Masonry course and statuary reconstruction"
+  ],
+  "tier": "schematic",
+  "decision": "verified against aggregate architectural constraints, explicitly not a surveyed restoration"
+}

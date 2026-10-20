@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "specimenId": "parthenon",
+  "taskId": "PAR-3D-022",
+  "workflowRuns": [
+    {
+      "url": "https://github.com/sguzman/architectarium/actions/runs/39504446353",
+      "result": "success"
+    },
+    {
+      "url": "https://github.com/sguzman/architectarium/actions/runs/39504733301",
+      "result": "success"
+    }
+  ],
+  "coverage": [
+    "Three.js WebGL scene initialized with 482 selectable parts",
+    "Semantic type and physical relation navigation",
+    "Texture/modeled geometry source integrity checks",
+    "Roof and walls toggles, sunlight slider and atmosphere",
+    "Keyboard walk entry/exit and reentry",
+    "Desktop full-page and narrow mobile viewport captures"
+  ],
+  "limits": [
+    "Pointer lock availability varies by browser policy; keyboard walk and drag-look fallback provided",
+    "Visual and runtime testing completed in headless Chromium, not independently audited on every GPU/browser"
+  ],
+  "decision": "passed for schematic public experience"
+}

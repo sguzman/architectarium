@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "specimenId": "parthenon",
+  "taskId": "PAR-3D-017",
+  "reviewTier": "source-aware schematic 3D study",
+  "subject": "physical inspector",
+  "outcome": "Selection displays the uniquely identified modeled part, glossary type, architectural function, approximate coordinates, source links and explicit physical relations; search and zone filters navigate the parts.",
+  "acceptanceCriteriaReviewed": [
+    "Selection shows authoritative definition, instance position, relations and evidence",
+    "Support searching by component name and navigating related instances"
+  ],
+  "implementationFiles": [
+    "site/specimens/parthenon/viewer.js",
+    "specimens/parthenon/ontology/instance-relations.json",
+    "scripts/browser-parthenon.mjs"
+  ],
+  "verificationFiles": [
+    "scripts/test-parthenon.mjs",
+    "scripts/browser-parthenon.mjs"
+  ],
+  "validation": "Architecture unit checks and rendered Chromium desktop/mobile review; relevant scene behavior inspected in source and QA captures.",
+  "browserEvidence": "https://github.com/sguzman/architectarium/actions/runs/39504446353",
+  "limits": [
+    "Type-level definitions are general architectural vocabulary, not measurements of individual surviving marble pieces."
+  ],
+  "review": {
+    "status": "passed",
+    "scope": "schematic tier only",
+    "note": "Deliverable is implemented in independently authored project code and checked against recorded public evidence and browser tests."
+  }
+}

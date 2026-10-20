@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "specimenId": "parthenon",
+  "taskId": "PAR-3D-008",
+  "reviewTier": "source-aware schematic 3D study",
+  "subject": "separate interior chambers",
+  "outcome": "The modeled central dividing wall separates the large eastern and smaller western cella chambers, with independent east and west entrances, an inner U-form system and four western Ionic supports.",
+  "acceptanceCriteriaReviewed": [
+    "Provide coherent modeled internal spaces and doorway circulation",
+    "Separate evidence-backed partitions from visitor convenience simplifications"
+  ],
+  "implementationFiles": [
+    "specimens/parthenon/ontology/instances.json",
+    "site/specimens/parthenon/model.js",
+    "specimens/parthenon/research/spaces.json"
+  ],
+  "verificationFiles": [
+    "scripts/test-parthenon.mjs",
+    "scripts/browser-parthenon.mjs"
+  ],
+  "validation": "Architecture unit checks and rendered Chromium desktop/mobile review; relevant scene behavior inspected in source and QA captures.",
+  "browserEvidence": "https://github.com/sguzman/architectarium/actions/runs/39504446353",
+  "limits": [
+    "Interior measurements and roof supporting assemblies are approximations for exploration, not measured."
+  ],
+  "review": {
+    "status": "passed",
+    "scope": "schematic tier only",
+    "note": "Deliverable is implemented in independently authored project code and checked against recorded public evidence and browser tests."
+  }
+}

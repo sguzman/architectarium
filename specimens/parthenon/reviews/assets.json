@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "specimenId": "parthenon",
+  "taskId": "PAR-3D-024",
+  "rightsScope": "Redistributed public application assets and metadata",
+  "licenseFindings": [
+    {
+      "component": "Procedural geometry, mineral pattern texture and optional rock context",
+      "origin": "original authored source-code geometry and deterministic runtime noise",
+      "license": "MIT project license"
+    },
+    {
+      "component": "Three.js 0.180.0",
+      "origin": "pinned jsDelivr external import",
+      "license": "MIT third-party library, loaded via external CDN"
+    },
+    {
+      "component": "Google Fonts service CSS",
+      "origin": "externally loaded font stylesheet",
+      "license": "font licensing governed by published provider terms; no font binaries copied"
+    }
+  ],
+  "excluded": [
+    "Photogrammetry survey meshes and scanned plans",
+    "Museum photography",
+    "Protected sculptural copies",
+    "Third-party realistic PBR textures"
+  ],
+  "checks": [
+    "Public assets are text/source files; no imported copyrighted geometry or museum media",
+    "Public information scanner and source integrity CI used",
+    "Only documented public architecture source links added"
+  ],
+  "limitations": [
+    "External CDN dependency and font availability are not fully offline",
+    "Source citations do not confer permission to reproduce their art or plans"
+  ],
+  "decision": "approved for redistribution of original procedural assets with external library attribution"
+}

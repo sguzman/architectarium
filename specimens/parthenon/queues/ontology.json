@@ -413,7 +413,7 @@
       "id": "PAR-ON-015",
       "title": "Test actual interactive instance selection and navigation",
       "description": "Deliver and verify this stage of the ontology workflow.",
-      "status": "pending",
+      "status": "done",
       "priority": 15,
       "dependsOn": [
         "PAR-ON-014",
@@ -426,10 +426,19 @@
       "outputs": [
         "specimens/parthenon/reviews/ontology-interaction.json"
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "path": "specimens/parthenon/reviews/ontology-interaction.json",
+          "note": "Verified unique pick IDs and related physical component navigation."
+        },
+        {
+          "path": "scripts/browser-parthenon.mjs",
+          "note": "Browser assertions exercise instance selection and relationship navigation."
+        }
+      ],
       "review": {
-        "status": "not-reviewed",
-        "notes": ""
+        "status": "passed",
+        "notes": "Distinct geometry instance IDs map to canonical types; physical relations and accessible index tested."
       },
       "blockedReason": null
     },
@@ -437,7 +446,7 @@
       "id": "PAR-ON-016",
       "title": "Approve specimen ontology release",
       "description": "Deliver and verify this stage of the ontology workflow.",
-      "status": "pending",
+      "status": "done",
       "priority": 16,
       "dependsOn": [
         "PAR-ON-015"
@@ -449,10 +458,19 @@
       "outputs": [
         "specimens/parthenon/reviews/ontology.json"
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "path": "specimens/parthenon/reviews/ontology.json",
+          "note": "Independent specimen ontology consistency and interpretation review."
+        },
+        {
+          "path": "scripts/test-parthenon.mjs",
+          "note": "Automated integrity assertions for geometric instance mapping and source references."
+        }
+      ],
       "review": {
-        "status": "not-reviewed",
-        "notes": ""
+        "status": "passed",
+        "notes": "Ontology and interactive semantic navigation verified for labeled schematic tier; incomplete archaeological items disclosed."
       },
       "blockedReason": null
     }

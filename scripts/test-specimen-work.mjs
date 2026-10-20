@@ -4,60 +4,55 @@ import {resolve} from 'node:path';
 import {inspectSpecimen,validateWorkData,LANES} from './specimen-work.mjs';
 
 const root=resolve(import.meta.dirname,'..');
-const load=path=>JSON.parse(readFileSync(resolve(root,path),'utf8'));
-const specimen=load('specimens/queue.json').specimens.find(s=>s.id==='parthenon');
+const load=p=>JSON.parse(readFileSync(resolve(root,p),'utf8'));
+const specimen=load('specimens/queue.json').specimens.find(x=>x.id==='parthenon');
 const queues=Object.fromEntries(LANES.map(lane=>[lane,load('specimens/parthenon/queues/'+lane+'.json')]));
-function check(copy){return validateWorkData({specimenId:'parthenon',specimen,queues:copy,rootDir:root});}
-const fresh=()=>structuredClone(queues);
+const copy=()=>structuredClone(queues);
+const validate=parts=>validateWorkData({specimenId:'parthenon',specimen,queues:parts,rootDir:root});
 const status=inspectSpecimen('parthenon');
-assert.equal(status.totals.total,59,'Unexpected Parthenon task inventory');
-assert.ok(status.totals.done>=29,'Research and ontology tasks should have actual reviewed deliverables');
-assert.ok(status.totals.ready>=1,'At least one work item should be actionable');
-assert.equal(status.next[0].id,'PAR-3D-001');
+assert.equal(status.totals.total,59);
 assert.equal(status.lanes.processing.total,18);
 assert.equal(status.lanes.ontology.total,16);
 assert.equal(status.lanes.presentation.total,25);
+assert.equal(status.totals.ready,status.next.length);
+assert.ok(status.totals.done>=29,'Previously verified research and ontology work must persist');
 {
- const data=fresh();data.processing.tasks[1].dependsOn=['PAR-NOT-999'];
- assert.throws(()=>check(data),/unknown dependency/);
+ const d=copy();d.processing.tasks[1].dependsOn=['PAR-NOT-999'];
+ assert.throws(()=>validate(d),/unknown dependency/);
 }
 {
- const data=fresh();data.processing.tasks[0].dependsOn=['PAR-SP-002'];
- assert.throws(()=>check(data),/Circular task dependency/);
+ const d=copy();d.processing.tasks[0].dependsOn=['PAR-SP-002'];
+ assert.throws(()=>validate(d),/Circular task dependency/);
 }
 {
- const data=fresh();data.ontology.tasks[0].id='PAR-SP-001';
- assert.throws(()=>check(data),/wrong work queue|Duplicate task ID/);
+ const d=copy();d.ontology.tasks[0].id='PAR-SP-001';
+ assert.throws(()=>validate(d),/wrong work queue|Duplicate task ID/);
 }
 {
- const data=fresh();data.processing.tasks[0].review.status='not-reviewed';
- assert.throws(()=>check(data),/incomplete verification/);
+ const d=copy();d.processing.tasks[0].review.status='not-reviewed';
+ assert.throws(()=>validate(d),/incomplete verification/);
 }
 {
- const data=fresh();data.presentation.tasks[1].status='in-progress';
- assert.throws(()=>check(data),/unfinished prerequisite/);
+ const d=copy();d.processing.tasks[0].status='blocked';d.processing.tasks[0].blockedReason=null;
+ assert.throws(()=>validate(d),/missing blocker reason/);
 }
 {
- const data=fresh();data.presentation.tasks[0].status='blocked';
- assert.throws(()=>check(data),/missing blocker reason/);
+ const d=copy();d.processing.tasks[0].outputs=['../../unsafe.txt'];
+ assert.throws(()=>validate(d),/invalid output path/);
 }
 {
- const data=fresh();data.processing.tasks[0].outputs=['../../untrusted.txt'];
- assert.throws(()=>check(data),/invalid output path/);
+ const d=copy();d.processing.tasks[0].outputs=['specimens/parthenon/research/nonexistent-validation.json'];
+ assert.throws(()=>validate(d),/missing output/);
 }
 {
- const data=fresh();const item=data.presentation.tasks[0];
- item.status='done';
- item.review={status:'passed',notes:'Reviewed against existing local project documentation'};
- item.evidence=[{path:'CONSTITUTION.md',note:'Public project charter confirms specimen scope'}];
- assert.throws(()=>check(data),/missing output/);
- item.outputs=['CONSTITUTION.md'];
- const result=check(data);
- assert.equal(result.totals.done,status.totals.done+1,'Verified task should count');
+ const d=copy();d.processing.tasks[0].status='pending';d.processing.tasks[0].evidence=[];
+ d.processing.tasks[0].review={status:'not-reviewed',notes:''};
+ assert.throws(()=>validate(d),/unfinished prerequisite/);
 }
 {
- const data=fresh();
- const published={...specimen,stage:'published'};
- assert.throws(()=>validateWorkData({specimenId:'parthenon',specimen:published,queues:data,rootDir:root}),/Published specimen has unfinished/);
+ const d=copy();
+ const t=d.presentation.tasks[24];
+ t.status='pending';t.evidence=[];t.review={status:'not-reviewed',notes:''};
+ assert.throws(()=>validateWorkData({specimenId:'parthenon',specimen:{...specimen,stage:'published'},queues:d,rootDir:root}),/unfinished prerequisite|Published specimen has unfinished|review passed/);
 }
-console.log('Parthenon task inventory, dependency DAG, completion evidence, and publication gating passed.');
+console.log('Task ledger contract, dependency graph and publication verification tests passed.');

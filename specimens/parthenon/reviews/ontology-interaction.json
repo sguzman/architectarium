@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "specimenId": "parthenon",
+  "taskId": "PAR-ON-015",
+  "checks": [
+    "Physical mesh carries source-linked instanceId and typeId",
+    "WebGL hit testing resolves selection to one specific record",
+    "Related physical parts are selected from a dedicated instance-relation panel",
+    "Instance-specific coordinates, material and evidence class shown",
+    "Keyboard/text search allows access without 3D pointer hit-testing"
+  ],
+  "testPaths": [
+    "scripts/browser-parthenon.mjs",
+    "scripts/test-parthenon.mjs"
+  ],
+  "interactions": {
+    "exampleSource": "parthenon/west-room/ionic/column-01/capital",
+    "relationType": "rests-on",
+    "expectedTarget": "parthenon/west-room/ionic/column-01/shaft"
+  },
+  "status": "passed",
+  "limit": "Some unmodeled architectural details have no physical instance"
+}

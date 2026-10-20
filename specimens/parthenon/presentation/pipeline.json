@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "specimenId": "parthenon",
+  "taskId": "PAR-3D-002",
+  "reviewTier": "source-aware schematic 3D study",
+  "subject": "procedural geometry pipeline",
+  "outcome": "Three.js v0.180.0 via a pinned ESM CDN; model generated from a versioned JSON specimen physical instance inventory in local metre axes, with stable IDs and a reproducible static site build.",
+  "acceptanceCriteriaReviewed": [
+    "Specify metres, axes, file formats, material provenance, semantic IDs and build tools",
+    "Define reproducible exports, asset budgets and collision conventions"
+  ],
+  "implementationFiles": [
+    "site/specimens/parthenon/model.js",
+    "scripts/build-site.mjs",
+    "specimens/parthenon/ontology/instances.json"
+  ],
+  "verificationFiles": [
+    "scripts/test-parthenon.mjs",
+    "scripts/browser-parthenon.mjs"
+  ],
+  "validation": "Architecture unit checks and rendered Chromium desktop/mobile review; relevant scene behavior inspected in source and QA captures.",
+  "browserEvidence": "https://github.com/sguzman/architectarium/actions/runs/39504446353",
+  "limits": [
+    "Runtime library is fetched from the CDN on first visit."
+  ],
+  "review": {
+    "status": "passed",
+    "scope": "schematic tier only",
+    "note": "Deliverable is implemented in independently authored project code and checked against recorded public evidence and browser tests."
+  }
+}

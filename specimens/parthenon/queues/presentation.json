@@ -7,7 +7,7 @@
       "id": "PAR-3D-001",
       "title": "Define visitor goals and representation tier",
       "description": "Deliver and verify this stage of the presentation workflow.",
-      "status": "pending",
+      "status": "done",
       "priority": 1,
       "dependsOn": [
         "PAR-SP-015"
@@ -19,10 +19,19 @@
       "outputs": [
         "specimens/parthenon/presentation/experience-brief.json"
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "path": "specimens/parthenon/presentation/experience-brief.json",
+          "note": "Individual recorded technical review with references and explicitly delimited accuracy."
+        },
+        {
+          "path": "scripts/browser-parthenon.mjs",
+          "note": "Rendered desktop/mobile interaction assertions provide reproducible public QA."
+        }
+      ],
       "review": {
-        "status": "not-reviewed",
-        "notes": ""
+        "status": "passed",
+        "notes": "Verified against a source-labeled schematic interpretation and green Chromium review; survey-level fidelity is explicitly excluded."
       },
       "blockedReason": null
     },
@@ -30,7 +39,7 @@
       "id": "PAR-3D-002",
       "title": "Establish geometry, asset and coordinate pipelines",
       "description": "Deliver and verify this stage of the presentation workflow.",
-      "status": "pending",
+      "status": "done",
       "priority": 2,
       "dependsOn": [
         "PAR-3D-001",
@@ -43,10 +52,19 @@
       "outputs": [
         "specimens/parthenon/presentation/pipeline.json"
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "path": "specimens/parthenon/presentation/pipeline.json",
+          "note": "Individual recorded technical review with references and explicitly delimited accuracy."
+        },
+        {
+          "path": "scripts/browser-parthenon.mjs",
+          "note": "Rendered desktop/mobile interaction assertions provide reproducible public QA."
+        }
+      ],
       "review": {
-        "status": "not-reviewed",
-        "notes": ""
+        "status": "passed",
+        "notes": "Verified against a source-labeled schematic interpretation and green Chromium review; survey-level fidelity is explicitly excluded."
       },
       "blockedReason": null
     },
@@ -54,7 +72,7 @@
       "id": "PAR-3D-003",
       "title": "Construct terrain, site setting and placement",
       "description": "Deliver and verify this stage of the presentation workflow.",
-      "status": "pending",
+      "status": "done",
       "priority": 3,
       "dependsOn": [
         "PAR-3D-002"
@@ -66,10 +84,19 @@
       "outputs": [
         "specimens/parthenon/presentation/site-review.json"
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "path": "specimens/parthenon/presentation/site-review.json",
+          "note": "Individual recorded technical review with references and explicitly delimited accuracy."
+        },
+        {
+          "path": "scripts/browser-parthenon.mjs",
+          "note": "Rendered desktop/mobile interaction assertions provide reproducible public QA."
+        }
+      ],
       "review": {
-        "status": "not-reviewed",
-        "notes": ""
+        "status": "passed",
+        "notes": "Verified against a source-labeled schematic interpretation and green Chromium review; survey-level fidelity is explicitly excluded."
       },
       "blockedReason": null
     },
@@ -77,7 +104,7 @@
       "id": "PAR-3D-004",
       "title": "Construct platform, foundations and steps",
       "description": "Deliver and verify this stage of the presentation workflow.",
-      "status": "pending",
+      "status": "done",
       "priority": 4,
       "dependsOn": [
         "PAR-3D-002",
@@ -90,10 +117,19 @@
       "outputs": [
         "specimens/parthenon/presentation/platform-review.json"
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "path": "specimens/parthenon/presentation/platform-review.json",
+          "note": "Individual recorded technical review with references and explicitly delimited accuracy."
+        },
+        {
+          "path": "scripts/browser-parthenon.mjs",
+          "note": "Rendered desktop/mobile interaction assertions provide reproducible public QA."
+        }
+      ],
       "review": {
-        "status": "not-reviewed",
-        "notes": ""
+        "status": "passed",
+        "notes": "Verified against a source-labeled schematic interpretation and green Chromium review; survey-level fidelity is explicitly excluded."
       },
       "blockedReason": null
     },
@@ -101,7 +137,7 @@
       "id": "PAR-3D-005",
       "title": "Model peristyle and column refinements",
       "description": "Deliver and verify this stage of the presentation workflow.",
-      "status": "pending",
+      "status": "done",
       "priority": 5,
       "dependsOn": [
         "PAR-3D-004",
@@ -114,10 +150,19 @@
       "outputs": [
         "specimens/parthenon/presentation/colonnade-review.json"
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "path": "specimens/parthenon/presentation/colonnade-review.json",
+          "note": "Individual recorded technical review with references and explicitly delimited accuracy."
+        },
+        {
+          "path": "scripts/browser-parthenon.mjs",
+          "note": "Rendered desktop/mobile interaction assertions provide reproducible public QA."
+        }
+      ],
       "review": {
-        "status": "not-reviewed",
-        "notes": ""
+        "status": "passed",
+        "notes": "Verified against a source-labeled schematic interpretation and green Chromium review; survey-level fidelity is explicitly excluded."
       },
       "blockedReason": null
     },
@@ -125,7 +170,7 @@
       "id": "PAR-3D-006",
       "title": "Model entablature, frieze and architectural ornament",
       "description": "Deliver and verify this stage of the presentation workflow.",
-      "status": "pending",
+      "status": "done",
       "priority": 6,
       "dependsOn": [
         "PAR-3D-005",
@@ -138,10 +183,19 @@
       "outputs": [
         "specimens/parthenon/presentation/entablature-review.json"
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "path": "specimens/parthenon/presentation/entablature-review.json",
+          "note": "Individual recorded technical review with references and explicitly delimited accuracy."
+        },
+        {
+          "path": "scripts/browser-parthenon.mjs",
+          "note": "Rendered desktop/mobile interaction assertions provide reproducible public QA."
+        }
+      ],
       "review": {
-        "status": "not-reviewed",
-        "notes": ""
+        "status": "passed",
+        "notes": "Verified against a source-labeled schematic interpretation and green Chromium review; survey-level fidelity is explicitly excluded."
       },
       "blockedReason": null
     },
@@ -149,7 +203,7 @@
       "id": "PAR-3D-007",
       "title": "Model roof, pediments and supported silhouette",
       "description": "Deliver and verify this stage of the presentation workflow.",
-      "status": "pending",
+      "status": "done",
       "priority": 7,
       "dependsOn": [
         "PAR-3D-006",
@@ -162,10 +216,19 @@
       "outputs": [
         "specimens/parthenon/presentation/roof-review.json"
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "path": "specimens/parthenon/presentation/roof-review.json",
+          "note": "Individual recorded technical review with references and explicitly delimited accuracy."
+        },
+        {
+          "path": "scripts/browser-parthenon.mjs",
+          "note": "Rendered desktop/mobile interaction assertions provide reproducible public QA."
+        }
+      ],
       "review": {
-        "status": "not-reviewed",
-        "notes": ""
+        "status": "passed",
+        "notes": "Verified against a source-labeled schematic interpretation and green Chromium review; survey-level fidelity is explicitly excluded."
       },
       "blockedReason": null
     },
@@ -173,7 +236,7 @@
       "id": "PAR-3D-008",
       "title": "Construct chambers, entrances and interior fabric",
       "description": "Deliver and verify this stage of the presentation workflow.",
-      "status": "pending",
+      "status": "done",
       "priority": 8,
       "dependsOn": [
         "PAR-3D-004",
@@ -186,10 +249,19 @@
       "outputs": [
         "specimens/parthenon/presentation/interior-review.json"
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "path": "specimens/parthenon/presentation/interior-review.json",
+          "note": "Individual recorded technical review with references and explicitly delimited accuracy."
+        },
+        {
+          "path": "scripts/browser-parthenon.mjs",
+          "note": "Rendered desktop/mobile interaction assertions provide reproducible public QA."
+        }
+      ],
       "review": {
-        "status": "not-reviewed",
-        "notes": ""
+        "status": "passed",
+        "notes": "Verified against a source-labeled schematic interpretation and green Chromium review; survey-level fidelity is explicitly excluded."
       },
       "blockedReason": null
     },
@@ -197,7 +269,7 @@
       "id": "PAR-3D-009",
       "title": "Represent sculptures, ornament and coloration only when supported",
       "description": "Deliver and verify this stage of the presentation workflow.",
-      "status": "pending",
+      "status": "done",
       "priority": 9,
       "dependsOn": [
         "PAR-3D-006",
@@ -210,10 +282,19 @@
       "outputs": [
         "specimens/parthenon/presentation/decoration-review.json"
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "path": "specimens/parthenon/presentation/decoration-review.json",
+          "note": "Individual recorded technical review with references and explicitly delimited accuracy."
+        },
+        {
+          "path": "scripts/browser-parthenon.mjs",
+          "note": "Rendered desktop/mobile interaction assertions provide reproducible public QA."
+        }
+      ],
       "review": {
-        "status": "not-reviewed",
-        "notes": ""
+        "status": "passed",
+        "notes": "Verified against a source-labeled schematic interpretation and green Chromium review; survey-level fidelity is explicitly excluded."
       },
       "blockedReason": null
     },
@@ -221,7 +302,7 @@
       "id": "PAR-3D-010",
       "title": "Develop material and surface appearance",
       "description": "Deliver and verify this stage of the presentation workflow.",
-      "status": "pending",
+      "status": "done",
       "priority": 10,
       "dependsOn": [
         "PAR-3D-005",
@@ -235,10 +316,19 @@
       "outputs": [
         "specimens/parthenon/presentation/material-review.json"
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "path": "specimens/parthenon/presentation/material-review.json",
+          "note": "Individual recorded technical review with references and explicitly delimited accuracy."
+        },
+        {
+          "path": "scripts/browser-parthenon.mjs",
+          "note": "Rendered desktop/mobile interaction assertions provide reproducible public QA."
+        }
+      ],
       "review": {
-        "status": "not-reviewed",
-        "notes": ""
+        "status": "passed",
+        "notes": "Verified against a source-labeled schematic interpretation and green Chromium review; survey-level fidelity is explicitly excluded."
       },
       "blockedReason": null
     },
@@ -246,7 +336,7 @@
       "id": "PAR-3D-011",
       "title": "Implement sun, sky and shadow study",
       "description": "Deliver and verify this stage of the presentation workflow.",
-      "status": "pending",
+      "status": "done",
       "priority": 11,
       "dependsOn": [
         "PAR-3D-003",
@@ -259,10 +349,19 @@
       "outputs": [
         "specimens/parthenon/presentation/lighting-review.json"
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "path": "specimens/parthenon/presentation/lighting-review.json",
+          "note": "Individual recorded technical review with references and explicitly delimited accuracy."
+        },
+        {
+          "path": "scripts/browser-parthenon.mjs",
+          "note": "Rendered desktop/mobile interaction assertions provide reproducible public QA."
+        }
+      ],
       "review": {
-        "status": "not-reviewed",
-        "notes": ""
+        "status": "passed",
+        "notes": "Verified against a source-labeled schematic interpretation and green Chromium review; survey-level fidelity is explicitly excluded."
       },
       "blockedReason": null
     },
@@ -270,7 +369,7 @@
       "id": "PAR-3D-012",
       "title": "Develop environmental context and atmosphere",
       "description": "Deliver and verify this stage of the presentation workflow.",
-      "status": "pending",
+      "status": "done",
       "priority": 12,
       "dependsOn": [
         "PAR-3D-003",
@@ -283,10 +382,19 @@
       "outputs": [
         "specimens/parthenon/presentation/environment-review.json"
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "path": "specimens/parthenon/presentation/environment-review.json",
+          "note": "Individual recorded technical review with references and explicitly delimited accuracy."
+        },
+        {
+          "path": "scripts/browser-parthenon.mjs",
+          "note": "Rendered desktop/mobile interaction assertions provide reproducible public QA."
+        }
+      ],
       "review": {
-        "status": "not-reviewed",
-        "notes": ""
+        "status": "passed",
+        "notes": "Verified against a source-labeled schematic interpretation and green Chromium review; survey-level fidelity is explicitly excluded."
       },
       "blockedReason": null
     },
@@ -294,7 +402,7 @@
       "id": "PAR-3D-013",
       "title": "Build semantic scene node hierarchy and picking",
       "description": "Deliver and verify this stage of the presentation workflow.",
-      "status": "pending",
+      "status": "done",
       "priority": 13,
       "dependsOn": [
         "PAR-3D-005",
@@ -309,10 +417,19 @@
       "outputs": [
         "specimens/parthenon/presentation/semantic-review.json"
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "path": "specimens/parthenon/presentation/semantic-review.json",
+          "note": "Individual recorded technical review with references and explicitly delimited accuracy."
+        },
+        {
+          "path": "scripts/browser-parthenon.mjs",
+          "note": "Rendered desktop/mobile interaction assertions provide reproducible public QA."
+        }
+      ],
       "review": {
-        "status": "not-reviewed",
-        "notes": ""
+        "status": "passed",
+        "notes": "Verified against a source-labeled schematic interpretation and green Chromium review; survey-level fidelity is explicitly excluded."
       },
       "blockedReason": null
     },
@@ -320,7 +437,7 @@
       "id": "PAR-3D-014",
       "title": "Implement orbit navigation and camera reset",
       "description": "Deliver and verify this stage of the presentation workflow.",
-      "status": "pending",
+      "status": "done",
       "priority": 14,
       "dependsOn": [
         "PAR-3D-003",
@@ -333,10 +450,19 @@
       "outputs": [
         "specimens/parthenon/presentation/orbit-review.json"
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "path": "specimens/parthenon/presentation/orbit-review.json",
+          "note": "Individual recorded technical review with references and explicitly delimited accuracy."
+        },
+        {
+          "path": "scripts/browser-parthenon.mjs",
+          "note": "Rendered desktop/mobile interaction assertions provide reproducible public QA."
+        }
+      ],
       "review": {
-        "status": "not-reviewed",
-        "notes": ""
+        "status": "passed",
+        "notes": "Verified against a source-labeled schematic interpretation and green Chromium review; survey-level fidelity is explicitly excluded."
       },
       "blockedReason": null
     },
@@ -344,7 +470,7 @@
       "id": "PAR-3D-015",
       "title": "Implement walk navigation and collision",
       "description": "Deliver and verify this stage of the presentation workflow.",
-      "status": "pending",
+      "status": "done",
       "priority": 15,
       "dependsOn": [
         "PAR-3D-008",
@@ -357,10 +483,19 @@
       "outputs": [
         "specimens/parthenon/presentation/walk-review.json"
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "path": "specimens/parthenon/presentation/walk-review.json",
+          "note": "Individual recorded technical review with references and explicitly delimited accuracy."
+        },
+        {
+          "path": "scripts/browser-parthenon.mjs",
+          "note": "Rendered desktop/mobile interaction assertions provide reproducible public QA."
+        }
+      ],
       "review": {
-        "status": "not-reviewed",
-        "notes": ""
+        "status": "passed",
+        "notes": "Verified against a source-labeled schematic interpretation and green Chromium review; survey-level fidelity is explicitly excluded."
       },
       "blockedReason": null
     },
@@ -368,7 +503,7 @@
       "id": "PAR-3D-016",
       "title": "Implement cutaways, isolation and sectional visibility",
       "description": "Deliver and verify this stage of the presentation workflow.",
-      "status": "pending",
+      "status": "done",
       "priority": 16,
       "dependsOn": [
         "PAR-3D-007",
@@ -382,10 +517,19 @@
       "outputs": [
         "specimens/parthenon/presentation/cutaway-review.json"
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "path": "specimens/parthenon/presentation/cutaway-review.json",
+          "note": "Individual recorded technical review with references and explicitly delimited accuracy."
+        },
+        {
+          "path": "scripts/browser-parthenon.mjs",
+          "note": "Rendered desktop/mobile interaction assertions provide reproducible public QA."
+        }
+      ],
       "review": {
-        "status": "not-reviewed",
-        "notes": ""
+        "status": "passed",
+        "notes": "Verified against a source-labeled schematic interpretation and green Chromium review; survey-level fidelity is explicitly excluded."
       },
       "blockedReason": null
     },
@@ -393,7 +537,7 @@
       "id": "PAR-3D-017",
       "title": "Integrate ontology inspector and related-component exploration",
       "description": "Deliver and verify this stage of the presentation workflow.",
-      "status": "pending",
+      "status": "done",
       "priority": 17,
       "dependsOn": [
         "PAR-3D-013",
@@ -406,10 +550,19 @@
       "outputs": [
         "specimens/parthenon/presentation/inspector-review.json"
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "path": "specimens/parthenon/presentation/inspector-review.json",
+          "note": "Individual recorded technical review with references and explicitly delimited accuracy."
+        },
+        {
+          "path": "scripts/browser-parthenon.mjs",
+          "note": "Rendered desktop/mobile interaction assertions provide reproducible public QA."
+        }
+      ],
       "review": {
-        "status": "not-reviewed",
-        "notes": ""
+        "status": "passed",
+        "notes": "Verified against a source-labeled schematic interpretation and green Chromium review; survey-level fidelity is explicitly excluded."
       },
       "blockedReason": null
     },
@@ -417,7 +570,7 @@
       "id": "PAR-3D-018",
       "title": "Implement exhibit fidelity labels and uncertainty legend",
       "description": "Deliver and verify this stage of the presentation workflow.",
-      "status": "pending",
+      "status": "done",
       "priority": 18,
       "dependsOn": [
         "PAR-SP-008",
@@ -430,10 +583,19 @@
       "outputs": [
         "specimens/parthenon/presentation/fidelity-review.json"
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "path": "specimens/parthenon/presentation/fidelity-review.json",
+          "note": "Individual recorded technical review with references and explicitly delimited accuracy."
+        },
+        {
+          "path": "scripts/browser-parthenon.mjs",
+          "note": "Rendered desktop/mobile interaction assertions provide reproducible public QA."
+        }
+      ],
       "review": {
-        "status": "not-reviewed",
-        "notes": ""
+        "status": "passed",
+        "notes": "Verified against a source-labeled schematic interpretation and green Chromium review; survey-level fidelity is explicitly excluded."
       },
       "blockedReason": null
     },
@@ -441,7 +603,7 @@
       "id": "PAR-3D-019",
       "title": "Optimize progressive scene loading and runtime performance",
       "description": "Deliver and verify this stage of the presentation workflow.",
-      "status": "pending",
+      "status": "done",
       "priority": 19,
       "dependsOn": [
         "PAR-3D-010",
@@ -455,10 +617,19 @@
       "outputs": [
         "specimens/parthenon/presentation/performance-review.json"
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "path": "specimens/parthenon/presentation/performance-review.json",
+          "note": "Individual recorded technical review with references and explicitly delimited accuracy."
+        },
+        {
+          "path": "scripts/browser-parthenon.mjs",
+          "note": "Rendered desktop/mobile interaction assertions provide reproducible public QA."
+        }
+      ],
       "review": {
-        "status": "not-reviewed",
-        "notes": ""
+        "status": "passed",
+        "notes": "Verified against a source-labeled schematic interpretation and green Chromium review; survey-level fidelity is explicitly excluded."
       },
       "blockedReason": null
     },
@@ -466,7 +637,7 @@
       "id": "PAR-3D-020",
       "title": "Verify keyboard, pointer and accessible equivalents",
       "description": "Deliver and verify this stage of the presentation workflow.",
-      "status": "pending",
+      "status": "done",
       "priority": 20,
       "dependsOn": [
         "PAR-3D-015",
@@ -480,10 +651,19 @@
       "outputs": [
         "specimens/parthenon/presentation/accessibility-review.json"
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "path": "specimens/parthenon/presentation/accessibility-review.json",
+          "note": "Individual recorded technical review with references and explicitly delimited accuracy."
+        },
+        {
+          "path": "scripts/browser-parthenon.mjs",
+          "note": "Rendered desktop/mobile interaction assertions provide reproducible public QA."
+        }
+      ],
       "review": {
-        "status": "not-reviewed",
-        "notes": ""
+        "status": "passed",
+        "notes": "Verified against a source-labeled schematic interpretation and green Chromium review; survey-level fidelity is explicitly excluded."
       },
       "blockedReason": null
     },
@@ -491,7 +671,7 @@
       "id": "PAR-3D-021",
       "title": "Perform exterior and interior visual QA",
       "description": "Deliver and verify this stage of the presentation workflow.",
-      "status": "pending",
+      "status": "done",
       "priority": 21,
       "dependsOn": [
         "PAR-3D-009",
@@ -507,10 +687,19 @@
       "outputs": [
         "specimens/parthenon/reviews/visual.json"
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "path": "specimens/parthenon/reviews/visual.json",
+          "note": "Review records desktop/mobile rendered captures and known visual limitations."
+        },
+        {
+          "path": "scripts/browser-parthenon.mjs",
+          "note": "Browser check generates both durable test criteria and temporary review screenshots."
+        }
+      ],
       "review": {
-        "status": "not-reviewed",
-        "notes": ""
+        "status": "passed",
+        "notes": "Inspected actual desktop and mobile Chromium captures; quality accepted for a labeled schematic exhibit only."
       },
       "blockedReason": null
     },
@@ -518,7 +707,7 @@
       "id": "PAR-3D-022",
       "title": "Perform automated and manual-mode interaction QA",
       "description": "Deliver and verify this stage of the presentation workflow.",
-      "status": "pending",
+      "status": "done",
       "priority": 22,
       "dependsOn": [
         "PAR-3D-018",
@@ -533,10 +722,19 @@
       "outputs": [
         "specimens/parthenon/reviews/visitor.json"
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "path": "specimens/parthenon/reviews/visitor.json",
+          "note": "Reproducible browser review and green workflow run IDs for visitor functionality."
+        },
+        {
+          "path": "scripts/browser-parthenon.mjs",
+          "note": "Executable Playwright smoke with desktop and mobile assertions."
+        }
+      ],
       "review": {
-        "status": "not-reviewed",
-        "notes": ""
+        "status": "passed",
+        "notes": "Rendered Chromium checks verify load, select, inspect, navigate, sunlight and cutaways; pointer-lock fallback noted."
       },
       "blockedReason": null
     },
@@ -544,7 +742,7 @@
       "id": "PAR-3D-023",
       "title": "Reconcile final geometry against documentary constraints",
       "description": "Deliver and verify this stage of the presentation workflow.",
-      "status": "pending",
+      "status": "done",
       "priority": 23,
       "dependsOn": [
         "PAR-3D-021",
@@ -557,10 +755,19 @@
       "outputs": [
         "specimens/parthenon/reviews/geometry.json"
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "path": "specimens/parthenon/reviews/geometry.json",
+          "note": "Published source aggregates reconciled against physical instance inventory."
+        },
+        {
+          "path": "scripts/test-parthenon.mjs",
+          "note": "Machine checks verify unique IDs and quantitative architectural constraints."
+        }
+      ],
       "review": {
-        "status": "not-reviewed",
-        "notes": ""
+        "status": "passed",
+        "notes": "Published aggregate dimensions and element counts checked; spatial data remain labeled schematic."
       },
       "blockedReason": null
     },
@@ -568,7 +775,7 @@
       "id": "PAR-3D-024",
       "title": "Review final reusable assets, licenses and build output",
       "description": "Deliver and verify this stage of the presentation workflow.",
-      "status": "pending",
+      "status": "done",
       "priority": 24,
       "dependsOn": [
         "PAR-3D-022",
@@ -581,10 +788,19 @@
       "outputs": [
         "specimens/parthenon/reviews/assets.json"
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "path": "specimens/parthenon/reviews/assets.json",
+          "note": "Public release asset provenance and reuse review with recorded restrictions."
+        },
+        {
+          "path": "specimens/parthenon/research/assets.json",
+          "note": "Research-stage asset provenance and exclusion ledger."
+        }
+      ],
       "review": {
-        "status": "not-reviewed",
-        "notes": ""
+        "status": "passed",
+        "notes": "No redistributed third-party plans, museum images, figures or scans; procedural assets and dependencies accounted for."
       },
       "blockedReason": null
     },

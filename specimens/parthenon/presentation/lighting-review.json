@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "specimenId": "parthenon",
+  "taskId": "PAR-3D-011",
+  "reviewTier": "source-aware schematic 3D study",
+  "subject": "time-of-day control",
+  "outcome": "An interactive sunlight slider drives directional lighting and casts shadows, with neutral fill lighting and a stable scene state.",
+  "acceptanceCriteriaReviewed": [
+    "Provide usable lighting controls and directional shadows",
+    "Keep light simulation distinct from claims about historically exact conditions"
+  ],
+  "implementationFiles": [
+    "site/specimens/parthenon/viewer.js",
+    "scripts/browser-parthenon.mjs"
+  ],
+  "verificationFiles": [
+    "scripts/test-parthenon.mjs",
+    "scripts/browser-parthenon.mjs"
+  ],
+  "validation": "Architecture unit checks and rendered Chromium desktop/mobile review; relevant scene behavior inspected in source and QA captures.",
+  "browserEvidence": "https://github.com/sguzman/architectarium/actions/runs/39504446353",
+  "limits": [
+    "Simulated illumination does not claim fifth-century weather or exact historical solar setting."
+  ],
+  "review": {
+    "status": "passed",
+    "scope": "schematic tier only",
+    "note": "Deliverable is implemented in independently authored project code and checked against recorded public evidence and browser tests."
+  }
+}

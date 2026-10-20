@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "specimenId": "parthenon",
+  "taskId": "PAR-3D-016",
+  "reviewTier": "source-aware schematic 3D study",
+  "subject": "architectural cutaways",
+  "outcome": "Wall and roof visibility can be controlled independently, with roof automatically hidden for wall cutaway and both restored by reset.",
+  "acceptanceCriteriaReviewed": [
+    "Allow examination of interior systems without losing context",
+    "Keep picking, collision and inspector behavior predictable when parts are hidden"
+  ],
+  "implementationFiles": [
+    "site/specimens/parthenon/viewer.js",
+    "scripts/browser-parthenon.mjs"
+  ],
+  "verificationFiles": [
+    "scripts/test-parthenon.mjs",
+    "scripts/browser-parthenon.mjs"
+  ],
+  "validation": "Architecture unit checks and rendered Chromium desktop/mobile review; relevant scene behavior inspected in source and QA captures.",
+  "browserEvidence": "https://github.com/sguzman/architectarium/actions/runs/39504446353",
+  "limits": [
+    "Hidden elements represent an inspection effect rather than physical absence in antiquity."
+  ],
+  "review": {
+    "status": "passed",
+    "scope": "schematic tier only",
+    "note": "Deliverable is implemented in independently authored project code and checked against recorded public evidence and browser tests."
+  }
+}
