@@ -7,7 +7,7 @@ const data=read('specimens/parthenon/ontology/instances.json'),parts=data.instan
 const ontology=read('ontology/components.json'),sources=read('ontology/sources.json');
 const types=new Set(ontology.components.map(c=>c.id)),ids=new Set(parts.map(p=>p.id)),refs=new Set(sources.sources.map(s=>s.id));
 assert.equal(ids.size,parts.length,'Duplicate physical part ID');
-assert.ok(parts.length>=480,'Building has too few semantic objects for current reconstruction scope');
+assert.equal(parts.length,536,'Physical inventory must reflect the eastern sanctuary support revision');
 for(const p of parts){
  assert.ok(types.has(p.typeId),p.id+': invalid type');
  assert.ok(/^(parthenon\/)[a-z0-9/-]+$/.test(p.id),p.id+': unstable physical ID');
@@ -21,7 +21,14 @@ const count=fragment=>parts.filter(p=>p.id.includes(fragment)&&p.id.endsWith('/s
 assert.equal(count('/peristyle/'),46,'Exterior Doric perimeter must have 46 distinct shafts');
 assert.equal(count('/porch/'),12,'Outer pronaos and opisthonaos need 12 distinct shafts');
 assert.equal(count('/west-room/'),4,'West chamber should have four Ionic shafts');
-assert.ok(count('/east-room/')>=20,'East two-level colonnade not represented');
+assert.equal(count('/east-room/lower/'),21,'Lower eastern U-shaped colonnade must have 21 shafts');
+assert.equal(count('/east-room/upper/'),21,'Upper schematic colonnade must include 21 shafts');
+assert.equal(parts.filter(p=>p.id.startsWith('parthenon/east-room/lower/pier-')).length,2,'Two terminal piers required');
+const eastInner=parts.filter(p=>p.id.startsWith('parthenon/east-room/lower/')&&p.id.endsWith('/shaft'));
+assert.equal(eastInner.filter(p=>p.position[0]===-6.4).length,9,'North U arm requires nine columns');
+assert.equal(eastInner.filter(p=>p.position[0]===6.4).length,9,'South U arm requires nine columns');
+assert.equal(eastInner.filter(p=>Math.abs(p.position[0])<4).length,3,'The U return requires three columns');
+for(const side of ['north','south'])assert.equal(parts.find(p=>p.id==='parthenon/east-room/lower/pier-'+side)?.typeId,'pier');
 assert.equal(parts.filter(p=>p.typeId==='metope').length,92,'Wrong metope count');
 assert.equal(parts.filter(p=>p.shape==='roof').length,2);
 assert.equal(parts.filter(p=>p.shape==='pediment').length,2);
@@ -68,6 +75,7 @@ const model=readFileSync(resolve(root,'site/specimens/parthenon/model.js'),'utf8
 const viewer=readFileSync(resolve(root,'site/specimens/parthenon/viewer.js'),'utf8');
 assert.match(model,/userData\.instanceId/);
 assert.match(model,/createRealisticMaterials/);
+assert.match(model,/particleCount=900/,'The optional atmosphere must have visible dust sprites');
 assert.match(model,/new THREE.ExtrudeGeometry/,'Pediment must be solid, not a single flat triangle');
 assert.match(model,/slab with top|weathering slab/i,'Roof must be a closed solid, not a single open quad');
 const materialModule=readFileSync(resolve(root,'site/specimens/parthenon/materials.js'),'utf8');
