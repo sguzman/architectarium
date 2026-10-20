@@ -30,7 +30,7 @@ jobs:
         run: |
           mkdir -p _preview/specimens/parthenon/data _preview/data
           cp -a site/specimens/parthenon/. _preview/specimens/parthenon/
-          cp specimens/parthenon/ontology/instances.json _preview/specimens/parthenon/data/
+          cp specimens/parthenon/ontology/instances.json specimens/parthenon/ontology/instance-relations.json _preview/specimens/parthenon/data/
           cp ontology/components.json ontology/sources.json _preview/data/
       - name: Test rendered exhibit
         run: |

@@ -58,6 +58,12 @@ export function build(){
   writeFileSync(resolve(OUT,'.nojekyll'),'');
   for(const entry of entries){
     cpSync(resolve(SITE,'specimens',entry.id),resolve(OUT,'specimens',entry.id),{recursive:true});
+    mkdirSync(resolve(OUT,'specimens',entry.id,'data'),{recursive:true});
+    for(const datafile of ['instances.json','instance-relations.json']){
+      const source=resolve(root,'specimens',entry.id,'ontology',datafile);
+      assert.ok(existsSync(source),'Missing specimen ontology file '+source);
+      cpSync(source,resolve(OUT,'specimens',entry.id,'data',datafile));
+    }
   }
   assert.equal(existsSync(resolve(OUT,'data/queue.json')),false,'Editorial queue leaked into public build');
   assert.equal(existsSync(resolve(OUT,'model.js')),false,'Draft model entered public build');

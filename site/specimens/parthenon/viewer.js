@@ -7,7 +7,7 @@ const load=async url=>{const r=await fetch(url);if(!r.ok)throw Error(url+' '+r.s
 const elem=(tag,cls,value)=>{const e=document.createElement(tag);if(cls)e.className=cls;if(value!==undefined)e.textContent=String(value);return e;};
 const href=(url,label)=>{const a=elem('a','',label);a.href=url;a.target='_blank';a.rel='noopener noreferrer';return a;};
 try{
- const [data,ontology,books]=await Promise.all([load('./data/instances.json'),load('../../data/components.json'),load('../../data/sources.json')]);
+ const [data,ontology,books,instanceEdges]=await Promise.all([load('./data/instances.json'),load('../../data/components.json'),load('../../data/sources.json'),load('./data/instance-relations.json')]);
  const inventory=data.instances,records=new Map(inventory.map(x=>[x.id,x])),types=new Map(ontology.components.map(x=>[x.id,x])),sources=new Map(books.sources.map(x=>[x.id,x]));
  if(records.size!==inventory.length)throw Error('Duplicate physical instance IDs');
  for(const p of inventory){if(!types.has(p.typeId))throw Error('Unknown component type '+p.typeId);if(p.sourceIds.some(s=>!sources.has(s)))throw Error('Unknown evidence source for '+p.id);}
@@ -23,8 +23,17 @@ try{
  const light=new THREE.DirectionalLight(0xffe2bd,3.1);light.castShadow=true;light.shadow.mapSize.set(2048,2048);light.shadow.bias=-.00014;
  Object.assign(light.shadow.camera,{left:-52,right:52,top:75,bottom:-75,near:1,far:180});scene.add(light);
  const fill=new THREE.DirectionalLight(0xb4cfe0,.8);fill.position.set(-40,35,20);scene.add(fill);
- const model=buildParthenon(inventory);scene.add(model.root);
+ const firstFrameStart=performance.now();
+ const model=await buildParthenon(inventory,(root,completed)=>{
+  if(!root.parent)scene.add(root);
+  const w=stage.clientWidth,h=stage.clientHeight;
+  if(w>0&&h>0){camera.aspect=w/h;camera.updateProjectionMatrix();renderer.setSize(w,h,false);}
+  $('count').textContent='Building scene: '+completed+' / '+inventory.length;
+  renderer.render(scene,camera);
+ });
+ if(!model.root.parent)scene.add(model.root);
  $('count').textContent=model.modelCount+' individual selectable parts';
+ window.__architectariumMetrics={parts:model.modelCount,buildMilliseconds:Math.round(performance.now()-firstFrameStart),progressive:true};
  const ray=new THREE.Raycaster(),uv=new THREE.Vector2();let activeId=null,material=null,selected=null,walking=false,hiddenRoof=false,hiddenWalls=false,search='',zone='all',frame=0,last=0,dirty=true;
  const keys=new Set(),zones=[...new Set(inventory.map(x=>x.zone))].sort();
  function press(id,on,onLabel,offLabel){const b=$(id);b.classList.toggle('active',on);b.setAttribute('aria-pressed',String(on));if(onLabel)b.textContent=on?onLabel:offLabel;}
@@ -72,13 +81,20 @@ try{
   const type=types.get(part.typeId),panel=$('detail');panel.replaceChildren();
   panel.append(elem('div','tag',part.zone.toUpperCase()+' / '+part.certainty.toUpperCase()),elem('h2','',part.label),elem('p','',type.definition));
   const dl=elem('dl');
-  for(const [name,value] of [['Type',type.name],['Location',type.typicalLocation],['Purpose',type.function],['Shape',part.shape],['Dimension envelope',part.size.map(x=>x.toFixed(2)).join(' × ')+' m'],['Reference frame','Approximate local model coordinates'],['Evidence status',part.certainty]]){
+  for(const [name,value] of [['Type',type.name],['Location',type.typicalLocation],['Purpose',type.function],['Shape',part.shape],['Modeled centre',part.position.map(x=>x.toFixed(2)).join(' / ')+' m'],['Dimension envelope',part.size.map(x=>x.toFixed(2)).join(' × ')+' m'],['Reference frame','Approximate local model coordinates'],['Evidence status',part.certainty]]){
    dl.append(elem('dt','',name),elem('dd','',value));
   }
   panel.append(dl);
   const relations=elem('div','related');
   for(const id of type.connectedTo){const c=types.get(id);if(!c)continue;const b=elem('button','',c.name);b.type='button';b.addEventListener('click',()=>{search=c.name.toLowerCase();$('search').value=c.name;zone='all';drawZones();drawParts();});relations.append(b);}
   panel.append(elem('div','tag','RELATED COMPONENT TYPES'),relations);
+  const physical=elem('div','related instance-related');
+  for(const e of instanceEdges.relations.filter(e=>e.from===part.id&&records.has(e.to)).slice(0,14)){
+   const target=records.get(e.to),b=elem('button','',e.predicate.replaceAll('-',' ')+' → '+target.label);
+   b.type='button';b.addEventListener('click',()=>{select(target.id);});
+   physical.append(b);
+  }
+  if(physical.childElementCount){panel.append(elem('div','tag','CONNECTED PHYSICAL PARTS'),physical);}
   const refs=elem('div','');for(const id of part.sourceIds){const s=sources.get(id);if(s)refs.append(href(s.url,s.publisher+' ↗'),elem('span','', ' '));}
   panel.append(elem('div','tag','ARCHITECTURAL REFERENCES'),refs,elem('p','detail-note','The chosen geometry is an interpretive component instance, not evidence of a measured surviving block.'));
   drawParts();draw();
@@ -99,7 +115,7 @@ try{
  canvas.addEventListener('pointerup',e=>{
   if(!down||Math.hypot(e.clientX-down[0],e.clientY-down[1])>7){down=null;return;}down=null;
   if(walking)uv.set(0,0);else{const b=canvas.getBoundingClientRect();uv.set((e.clientX-b.left)*2/b.width-1,1-(e.clientY-b.top)*2/b.height);}
-  ray.setFromCamera(uv,camera);const hits=ray.intersectObjects(model.pickables,false).find(h=>h.object.visible&&h.object.userData.instanceId);
+  ray.setFromCamera(uv,camera);const hits=ray.intersectObjects(model.pickables,true).find(h=>h.object.visible&&h.object.userData.instanceId);
   if(hits)select(hits.object.userData.instanceId);
  });
  document.addEventListener('keydown',e=>{if(!walking)return;if(e.code==='Escape'){if(walk.isLocked)walk.unlock();resetCamera();return;}if(/^(Key[WASD]|Arrow(Up|Down|Left|Right)|ShiftLeft)$/.test(e.code)){e.preventDefault();keys.add(e.code);draw();}});

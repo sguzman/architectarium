@@ -1,5 +1,5 @@
 import * as THREE from 'three';
-export function buildParthenon(inventory){
+export async function buildParthenon(inventory,onBatch=()=>{}){
  const root=new THREE.Group(),pickables=[],byId=new Map(),roofs=[],walls=[],colliders=[];
  const palette={
   marble:new THREE.MeshStandardMaterial({color:0xdfceb2,roughness:.83,metalness:0}),
@@ -52,6 +52,7 @@ export function buildParthenon(inventory){
   }
   throw Error('Unsupported geometry '+record.shape);
  }
+ let appended=0;
  for(const record of inventory){
   const mat=record.shape==='pediment'?palette.pediment:(palette[record.material]||palette.marble),mesh=new THREE.Mesh(geometry(record),mat);
   mesh.position.set(...record.position);
@@ -59,8 +60,18 @@ export function buildParthenon(inventory){
   mesh.castShadow=true;mesh.receiveShadow=true;
   // Static semantic picking; each physical instance retains its own unique ID.
   root.add(mesh);pickables.push(mesh);byId.set(record.id,mesh);
+  if(record.shape==='ionic'){
+   for(const z of [-record.size[0]*.26,record.size[0]*.26])
+    for(const x of [-record.size[0]*.29,record.size[0]*.29]){
+     const scroll=new THREE.Mesh(new THREE.TorusGeometry(record.size[0]*.17,record.size[0]*.035,6,24,Math.PI*1.75),palette.light);
+     scroll.position.set(x,0,z);scroll.userData.instanceId=record.id;scroll.userData.typeId=record.typeId;
+     mesh.add(scroll);
+    }
+  }
   if(record.shape==='roof'||record.shape==='pediment')roofs.push(mesh);
   if(record.id.includes('/cella/')&&record.shape==='box'){walls.push(mesh);colliders.push(new THREE.Box3().setFromObject(mesh));}
+  appended++;
+  if(appended%160===0||appended===inventory.length){onBatch(root,appended);await new Promise(resolve=>requestAnimationFrame(resolve));}
  }
  // Static atmospheric points; no continuous rendering or animation is required.
  const particles=new Float32Array(200*3);let state=109;
@@ -70,5 +81,5 @@ export function buildParthenon(inventory){
  const dust=new THREE.Points(dustGeometry,new THREE.PointsMaterial({color:0xffe7c9,size:.11,transparent:true,opacity:.42,depthWrite:false}));
  dust.visible=false;root.add(dust);
  return {root,pickables,byId,roofs,walls,colliders,dust,materials:palette,texture,modelCount:byId.size,
-  dispose(){const seen=new Set();for(const p of pickables){if(!seen.has(p.geometry)){p.geometry.dispose();seen.add(p.geometry);}}ground.geometry.dispose();dust.geometry.dispose();dust.material.dispose();texture.dispose();for(const m of Object.values(palette))m.dispose();}};
+  dispose(){const seen=new Set();for(const p of pickables){p.traverse(node=>{if(node.geometry&&!seen.has(node.geometry)){node.geometry.dispose();seen.add(node.geometry);}});}ground.geometry.dispose();dust.geometry.dispose();dust.material.dispose();texture.dispose();for(const m of Object.values(palette))m.dispose();}};
 }

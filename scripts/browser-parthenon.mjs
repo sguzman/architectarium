@@ -11,8 +11,18 @@ try{
  await page.waitForFunction(()=>document.querySelector('#count')?.textContent?.includes('individual selectable parts'),null,{timeout:65000});
  assert.equal(await page.locator('#error').isHidden(),true);
  assert.match(await page.locator('#count').innerText(),/482 individual selectable parts/);
+ assert.equal(await page.evaluate(()=>window.__architectariumMetrics?.progressive),true,'Model must have a progressive build');
+ assert.ok((await page.evaluate(()=>window.__architectariumMetrics?.buildMilliseconds))>0,'Missing build metric');
  assert.ok(await page.locator('#viewer').evaluate(el=>!!(el.getContext('webgl2')||el.getContext('webgl'))));
  assert.match(await page.locator('.fidelity').innerText(),/SCHEMATIC/);
+ await page.locator('#search').fill('ionic capital');
+ // Use the full physical ID search to inspect a child with physical dependencies.
+ await page.locator('#search').fill('west-room/ionic/column-01/capital');
+ assert.ok((await page.locator('.part-row').count())>0,'Missing Ionic capital instance');
+ await page.locator('.part-row').first().click();
+ assert.ok((await page.locator('#detail .instance-related button').count())>0,'Instance-to-instance relationships must navigate');
+ await page.locator('#detail .instance-related button').first().click();
+ assert.match(await page.locator('#detail h2').innerText(),/shaft/i);
  await page.locator('#search').fill('metope');
  assert.ok(await page.locator('.part-row').count()>=14,'Metope search failed');
  await page.locator('.part-row').first().click();
