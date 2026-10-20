@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "specimenId": "parthenon",
+  "taskId": "PAR-3D-026",
+  "status": "passed",
+  "tier": "schematic",
+  "modifications": [
+    "Both roof halves use sealed soffit, eave fascia and gable-edge faces rather than open quads",
+    "The end pediments are solid extruded prisms aligned with the approximate roof ridge and eaves",
+    "Four newly source-linked frieze backing instances close former gaps between architrave and cornice",
+    "Enclosing cella walls extend toward the roof and are still explicitly schematic"
+  ],
+  "verifiedGeometry": {
+    "totalInstances": 486,
+    "addedFriezeBands": 4,
+    "roofSlabs": 2,
+    "extrudedPediments": 2
+  },
+  "verification": [
+    "scripts/test-parthenon.mjs",
+    "scripts/browser-parthenon.mjs"
+  ],
+  "workflowUrl": "https://github.com/sguzman/architectarium/actions/runs/39510944218",
+  "caveat": "Closed *modeled assembly* is verified; individual archaeological masonry blocks, original roof trusses and precise stone joints are not."
+}

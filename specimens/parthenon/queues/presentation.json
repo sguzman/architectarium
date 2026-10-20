@@ -813,7 +813,8 @@
       "dependsOn": [
         "PAR-3D-023",
         "PAR-3D-024",
-        "PAR-ON-016"
+        "PAR-ON-016",
+        "PAR-3D-027"
       ],
       "acceptanceCriteria": [
         "Provide real exhibit page, working model and semantic data with accurate notices",
@@ -834,7 +835,83 @@
       ],
       "review": {
         "status": "passed",
-        "notes": "Standalone public exhibit and data dependencies validated by project staging and the full browser smoke suite."
+        "notes": "Standalone public exhibit and data dependencies validated by project staging and the full browser smoke suite. Subsequent connected-surface and optional-material maintenance checks are recorded as PAR-3D-026 and PAR-3D-027."
+      },
+      "blockedReason": null
+    },
+    {
+      "id": "PAR-3D-026",
+      "title": "Close structural joints in the interpretive roof and entablature",
+      "description": "Review and verify maintenance enhancements to the published schematic architectural exhibit.",
+      "status": "done",
+      "priority": 26,
+      "dependsOn": [
+        "PAR-3D-006",
+        "PAR-3D-007",
+        "PAR-3D-023"
+      ],
+      "acceptanceCriteria": [
+        "Use solid roof and pediment geometry with overlapping eave, gable and ridge bounds rather than disconnected single faces",
+        "Ensure all four Doric backing bands connect to the architrave and cornice with explicit quantitative continuity tests"
+      ],
+      "outputs": [
+        "specimens/parthenon/reviews/assembly-continuity.json"
+      ],
+      "evidence": [
+        {
+          "path": "specimens/parthenon/reviews/assembly-continuity.json",
+          "note": "Independent maintenance review, explicit scope boundaries and verification results."
+        },
+        {
+          "path": "scripts/test-parthenon.mjs",
+          "note": "Tracked implementation or executable regression evidence for the visitor feature."
+        },
+        {
+          "path": "site/specimens/parthenon/model.js",
+          "note": "Tracked implementation or executable regression evidence for the visitor feature."
+        }
+      ],
+      "review": {
+        "status": "passed",
+        "notes": "Solid gable and roof geometry, continuity bands and aligned cella masonry meet mathematical schematic envelopes."
+      },
+      "blockedReason": null
+    },
+    {
+      "id": "PAR-3D-027",
+      "title": "Provide optional realistic procedural material rendering",
+      "description": "Review and verify maintenance enhancements to the published schematic architectural exhibit.",
+      "status": "done",
+      "priority": 27,
+      "dependsOn": [
+        "PAR-3D-010",
+        "PAR-3D-024",
+        "PAR-3D-026"
+      ],
+      "acceptanceCriteria": [
+        "Switch between Study and Realistic material rendering without changing the mesh inventory, camera orientation or component selection",
+        "Produce original deterministic stone color, relief and roughness maps without third-party protected textures and preserve the visitor-selected mode"
+      ],
+      "outputs": [
+        "specimens/parthenon/reviews/material-mode.json"
+      ],
+      "evidence": [
+        {
+          "path": "specimens/parthenon/reviews/material-mode.json",
+          "note": "Independent maintenance review, explicit scope boundaries and verification results."
+        },
+        {
+          "path": "site/specimens/parthenon/materials.js",
+          "note": "Tracked implementation or executable regression evidence for the visitor feature."
+        },
+        {
+          "path": "scripts/browser-parthenon.mjs",
+          "note": "Tracked implementation or executable regression evidence for the visitor feature."
+        }
+      ],
+      "review": {
+        "status": "passed",
+        "notes": "The source-linked model now supports opt-in original multichannel detailed stone maps; review confirms mode switching, scene integrity and visitor labeling."
       },
       "blockedReason": null
     }

@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "specimenId": "parthenon",
+  "taskId": "PAR-3D-027",
+  "status": "passed",
+  "modes": {
+    "study": "Previously published simplified material palette",
+    "realistic": "Opt-in generated color, relief, roughness and roof surface textures"
+  },
+  "source": "Procedurally synthesized canvases in the original project source; no third-party scanned textures, sculpture images, or copyrighted surface assets.",
+  "visitorBehavior": [
+    "Toggle works without changing meshes or semantic instance IDs",
+    "Browser can retain selected mode across sessions",
+    "Changing material modes does not deliberately alter camera framing or visibility states",
+    "Study mode remains default until explicitly changed"
+  ],
+  "verification": [
+    "scripts/browser-parthenon.mjs",
+    "site/specimens/parthenon/model.js",
+    "site/specimens/parthenon/materials.js"
+  ],
+  "workflowUrl": "https://github.com/sguzman/architectarium/actions/runs/39510944218",
+  "limits": [
+    "Realistic means a higher-detail visual shader, not historically verified stone color",
+    "Texture detail is synthetic, not captured from actual surviving Parthenon material"
+  ]
+}

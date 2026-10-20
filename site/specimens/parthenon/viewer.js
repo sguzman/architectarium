@@ -72,7 +72,7 @@ try{
  function setSun(h){const t=(h-7)/12*Math.PI,a=(h-12)/12*Math.PI;light.position.set(Math.sin(a)*85,Math.max(7,Math.sin(t)*105),-Math.cos(a)*75);light.intensity=.8+2.7*Math.max(.1,Math.sin(t));$('hour').textContent=String(Math.floor(h)).padStart(2,'0')+':'+(h%1?'30':'00');draw();}
  $('sun').addEventListener('input',e=>setSun(Number(e.target.value)));setSun(15);
  $('atmos').addEventListener('click',()=>{const enabled=!model.dust.visible;model.dust.visible=enabled;scene.fog=enabled?new THREE.FogExp2(0xabb7b4,.0048):new THREE.FogExp2(0xabb7b4,.0034);press('atmos',enabled,'Clear atmosphere','Atmosphere');draw();});
- const materialKey='architectarium.parthenon.material-mode';
+ const materialKey='architectarium.material-mode';
  function materialPreference(){try{return localStorage.getItem(materialKey)==='realistic'?'realistic':'study';}catch{return 'study';}}
  function applyMaterialMode(mode){
   const previousId=activeId;

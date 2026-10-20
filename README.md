@@ -18,6 +18,10 @@ Queue → source audit → ontology mapping → spatial research → licensed/or
 
 See [specimen protocol](docs/SPECIMEN_PROTOCOL.md) and [model standards](docs/MODEL_STANDARDS.md).
 
+## Parthenon model materials and assembly
+
+The public Parthenon exhibit provides a **Materials: Study / Realistic** toggle. Study retains the initial simplified materials; Realistic uses deterministic locally generated stone color, bump and roughness maps. The mode is a display choice, not evidence of recovered original pigment or measured surface finish. No museum media or external texture assets are distributed. The roof and pediments use sealed interpretive solid geometry, with explicit frieze and cornice continuity checks. The machine-readable specimen inventory contains 486 addressable architectural instances.
+
 ## Color theme
 
 The ontology and specimen pages offer **System / Light / Dark**. The default **System** follows the browser's live `prefers-color-scheme` preference. Manual overrides persist locally across pages. On Linux the browser must receive the preference via desktop settings or XDG portals; websites cannot directly read local theme-scheduling services.
