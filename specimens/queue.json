@@ -6,7 +6,7 @@
       "title": "Parthenon",
       "location": "Athens, Greece",
       "tradition": "classical",
-      "stage": "model-draft",
+      "stage": "queued",
       "sourceIds": [
         "acropolis-parthenon"
       ],
@@ -16,14 +16,14 @@
         "accuracy": "schematic"
       },
       "rights": "Source documentation only; geometry must be original or explicitly licensed",
-      "nextStage": "survey-plan-and-verify-part-placement"
+      "nextStage": "begin-first-specimen-source-audit-after-bootstrap"
     },
     {
       "id": "pantheon",
       "title": "Pantheon",
       "location": "Rome, Italy",
       "tradition": "roman",
-      "stage": "ontology-ready",
+      "stage": "queued",
       "sourceIds": [
         "pantheon-ministry"
       ],
@@ -33,14 +33,14 @@
         "accuracy": "not-modeled"
       },
       "rights": "Source documentation only; geometry must be original or explicitly licensed",
-      "nextStage": "collect-measured-plans-sections-and-geometry-permissions"
+      "nextStage": "await-first-specimen-before-intake"
     },
     {
       "id": "chartres",
       "title": "Chartres Cathedral",
       "location": "Chartres, France",
       "tradition": "gothic",
-      "stage": "research",
+      "stage": "queued",
       "sourceIds": [
         "chartres-official",
         "chartres-cathedral-architecture",
@@ -52,14 +52,14 @@
         "accuracy": "not-modeled"
       },
       "rights": "Source documentation only; geometry must be original or explicitly licensed",
-      "nextStage": "review-component-claims-and-plan-evidence"
+      "nextStage": "await-first-specimen-before-intake"
     },
     {
       "id": "hagia-sophia",
       "title": "Hagia Sophia",
       "location": "Istanbul, Türkiye",
       "tradition": "byzantine",
-      "stage": "research",
+      "stage": "queued",
       "sourceIds": [
         "hagia-unesco",
         "istanbul-unesco"
@@ -70,14 +70,14 @@
         "accuracy": "not-modeled"
       },
       "rights": "Source documentation only; geometry must be original or explicitly licensed",
-      "nextStage": "verify-dome-phases-and-geometric-evidence"
+      "nextStage": "await-first-specimen-before-intake"
     },
     {
       "id": "fallingwater",
       "title": "Fallingwater",
       "location": "Mill Run, Pennsylvania, USA",
       "tradition": "modern",
-      "stage": "research",
+      "stage": "queued",
       "sourceIds": [
         "fallingwater-foundation"
       ],
@@ -87,7 +87,7 @@
         "accuracy": "not-modeled"
       },
       "rights": "Source documentation only; geometry must be original or explicitly licensed",
-      "nextStage": "document-structural-conservation-and-material-provenance"
+      "nextStage": "await-first-specimen-before-intake"
     }
   ]
 }
