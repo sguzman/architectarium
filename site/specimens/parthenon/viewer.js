@@ -101,7 +101,7 @@ try{
   ray.setFromCamera(uv,camera);const hits=ray.intersectObjects(model.pickables,false).find(h=>h.object.visible&&h.object.userData.instanceId);
   if(hits)select(hits.object.userData.instanceId);
  });
- document.addEventListener('keydown',e=>{if(!walking)return;if(e.code==='Escape'&&!walk.isLocked){resetCamera();return;}if(/^(Key[WASD]|Arrow(Up|Down|Left|Right)|ShiftLeft)$/.test(e.code)){e.preventDefault();keys.add(e.code);draw();}});
+ document.addEventListener('keydown',e=>{if(!walking)return;if(e.code==='Escape'){if(walk.isLocked)walk.unlock();else resetCamera();return;}if(/^(Key[WASD]|Arrow(Up|Down|Left|Right)|ShiftLeft)$/.test(e.code)){e.preventDefault();keys.add(e.code);draw();}});
  document.addEventListener('keyup',e=>keys.delete(e.code));window.addEventListener('blur',()=>keys.clear());
  $('reset').addEventListener('click',()=>{if(walking)walk.unlock();else resetCamera();if(hiddenRoof)$('roof').click();if(hiddenWalls)$('cutaway').click();clearSelection();$('selectionStatus').textContent='SELECT A PART';$('detail').replaceChildren(elem('p','detail-note','Select a distinct architectural component to inspect its ontology.'));drawParts();});
  window.addEventListener('pagehide',()=>{cancelAnimationFrame(frame);orbit.dispose();walk.disconnect();model.dispose();renderer.dispose();},{once:true});
