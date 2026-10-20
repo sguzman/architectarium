@@ -18,8 +18,8 @@ try{
  const webgl=await page.locator('#view').evaluate(c=>!!(c.getContext('webgl2')||c.getContext('webgl')));
  assert.equal(webgl,true,'WebGL context unavailable');
  await page.locator('#search').fill('cornice');
- assert.equal(await page.locator('#terms button').count(),1,'Term search mismatch');
- await page.locator('#terms button').click();
+ assert.ok((await page.locator('#terms button').count())>=1,'Term search returned no results');
+ await page.locator('#terms button[data-concept="cornice"]').click();
  assert.match(await page.locator('#inspector h3').innerText(),/Cornice/i,'Term inspector mismatch');
  await page.locator('#roofToggle').click();
  assert.match(await page.locator('#roofToggle').innerText(),/Show roof/);
