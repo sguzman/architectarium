@@ -10,7 +10,7 @@ A public, self-contained architectural research collection and interactive build
 
 ## Integrity and fidelity
 
-Architectural research and illustrative geometry are **not interchangeable**. The Parthenon draft is schematic, not a measured reconstruction, and is excluded from the public gallery until its specimen review is complete. Building/part data require traceable source links, confidence notes and model-specific mapping; no implied precision. No copyrighted photographs, scans, purchased meshes or private materials belong in this public repository.
+Architectural research and illustrative geometry are **not interchangeable**. The published Parthenon exhibit is an independently modeled, source-linked **schematic** reconstruction, not a measured archaeological restoration; details and uncertainty tiers are disclosed in the viewer. Building/part data require traceable source links, confidence notes and model-specific mapping; no implied precision. No copyrighted photographs, scans, purchased meshes or private materials belong in this public repository.
 
 ## Specimen lifecycle
 
@@ -32,4 +32,4 @@ Before publishing, review content and provenance and run `python3 scripts/public
 
 ## What the public gallery shows
 
-The gallery contains only reviewed, **published** specimens. Research candidates and prototype geometry do not appear as exhibit cards or 3D pages. The research queue is maintained independently; see [gallery publication policy](docs/GALLERY_PUBLICATION.md). No building has completed the review gate yet, so the collection is currently empty. The published architecture terminology index remains available.
+The gallery contains only reviewed, **published** specimens. Research candidates and prototype geometry do not appear as exhibit cards or 3D pages. The research queue is maintained independently; see [gallery publication policy](docs/GALLERY_PUBLICATION.md). The Parthenon is the first approved gallery specimen, at the openly labeled **schematic** fidelity tier; other queued buildings remain absent from the public site. The published architecture terminology index remains available.

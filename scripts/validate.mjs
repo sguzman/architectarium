@@ -55,7 +55,7 @@ for(const q of queue){
  for(const id of q.sourceIds)assert.ok(sourceIds.has(id),q.id+' lacks reference '+id);
  if(q.stage==='published')assert.notEqual(q.model.accuracy,'not-modeled');
 }
-assert.equal(part.id,'parthenon');assert.equal(part.modelStatus,'illustrative');
+assert.equal(part.id,'parthenon');assert.ok(['illustrative','published-schematic'].includes(part.modelStatus));
 for(const binding of part.meshBindings)assert.ok(conceptIds.has(binding),'Missing ontology term '+binding);
 for(const fact of part.facts)assert.ok(sourceIds.has(fact.sourceId),'Unsourced fact');
 for(const q of queue.filter(x=>x.stage==='model-draft'))assert.ok(q.model.kind!=='pending','Model draft lacks a model '+q.id);

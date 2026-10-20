@@ -39,7 +39,7 @@
     "cella",
     "pronaos"
   ],
-  "modelStatus": "illustrative",
+  "modelStatus": "published-schematic",
   "assets": [],
   "access": "virtual walkthrough is interpretive, not a reconstruction of historical public access",
   "partInventory": [
@@ -2453,5 +2453,25 @@
       "typeId": "roof",
       "sourceId": "acropolis-architecture"
     }
-  ]
+  ],
+  "geometryReview": {
+    "status": "passed",
+    "tier": "schematic",
+    "evidence": "specimens/parthenon/reviews/geometry.json"
+  },
+  "visitorQA": {
+    "status": "passed",
+    "evidence": "specimens/parthenon/reviews/visitor.json",
+    "browserRun": "https://github.com/sguzman/architectarium/actions/runs/39504924652"
+  },
+  "rightsReview": {
+    "status": "passed",
+    "evidence": "specimens/parthenon/reviews/assets.json"
+  },
+  "publication": {
+    "status": "approved",
+    "tier": "schematic",
+    "publicRoute": "./specimens/parthenon/",
+    "record": "specimens/parthenon/reviews/release.json"
+  }
 }

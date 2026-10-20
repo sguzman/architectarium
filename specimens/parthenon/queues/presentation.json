@@ -808,7 +808,7 @@
       "id": "PAR-3D-025",
       "title": "Prepare versioned standalone exhibit for publication",
       "description": "Deliver and verify this stage of the presentation workflow.",
-      "status": "pending",
+      "status": "done",
       "priority": 25,
       "dependsOn": [
         "PAR-3D-023",
@@ -822,10 +822,19 @@
       "outputs": [
         "site/specimens/parthenon/index.html"
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "path": "site/specimens/parthenon/index.html",
+          "note": "Complete interactive building page with verified scene, ontology and public fidelity disclosures."
+        },
+        {
+          "path": "scripts/browser-parthenon.mjs",
+          "note": "Desktop/mobile renderer, visitor controls and individual component inspection regression suite."
+        }
+      ],
       "review": {
-        "status": "not-reviewed",
-        "notes": ""
+        "status": "passed",
+        "notes": "Standalone public exhibit and data dependencies validated by project staging and the full browser smoke suite."
       },
       "blockedReason": null
     }

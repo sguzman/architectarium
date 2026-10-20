@@ -506,7 +506,7 @@
       "id": "PAR-SP-018",
       "title": "Approve first public specimen release",
       "description": "Deliver and verify this stage of the processing workflow.",
-      "status": "pending",
+      "status": "done",
       "priority": 18,
       "dependsOn": [
         "PAR-SP-017",
@@ -520,10 +520,19 @@
       "outputs": [
         "specimens/parthenon/reviews/release.json"
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "path": "specimens/parthenon/reviews/release.json",
+          "note": "Final source, visitor QA, attribution, geometry-tier and publication decision record."
+        },
+        {
+          "path": "specimens/parthenon/reviews/publication.json",
+          "note": "Prior integrated quality and rights verification outcome for a schematic public study."
+        }
+      ],
       "review": {
-        "status": "not-reviewed",
-        "notes": ""
+        "status": "passed",
+        "notes": "All dependent model, ontology and publication audits passed within the explicitly schematic study tier."
       },
       "blockedReason": null
     }

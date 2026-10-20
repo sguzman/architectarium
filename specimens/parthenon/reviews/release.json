@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "specimenId": "parthenon",
+  "releaseId": "parthenon-schematic-1",
+  "classification": "schematic-source-linked architectural study",
+  "decision": "approve-publication",
+  "criteria": [
+    "All 59 downstream processing, ontology, visitor presentation and release tasks have documented review evidence.",
+    "The 482-part scene and 43-type shared architectural ontology use stable machine-readable identifiers.",
+    "Architectural facts and dimensional aggregates have traceable public sources and limitations.",
+    "Scene navigation, browser rendering, component picking, relationship links, cutaway and lighting have automated desktop/mobile QA.",
+    "The model uses original procedural geometry; no museum photographs, surveyed scans, figural sculpture or proprietary assets are redistributed.",
+    "The website prominently identifies omitted historical art, interpretive site geometry and unverified model details."
+  ],
+  "reviewRecords": [
+    "specimens/parthenon/reviews/geometry.json",
+    "specimens/parthenon/reviews/visitor.json",
+    "specimens/parthenon/reviews/assets.json",
+    "specimens/parthenon/reviews/ontology.json",
+    "specimens/parthenon/reviews/integration.json",
+    "specimens/parthenon/reviews/publication.json"
+  ],
+  "publicRoute": "./specimens/parthenon/",
+  "qualityLimit": "The output is an educational, interpretive 3D reconstruction and NOT an archaeological measured model, conservation document, complete historical interior, surveyed geospatial asset, or complete sculptural reproduction.",
+  "futureImprovements": [
+    "Measured specialist drawings and georeferenced surveys",
+    "More complete conservation-grade component refinements",
+    "Archaeologically defensible surface pigments and carved detail with redistribution rights",
+    "Specialist historical accuracy review"
+  ],
+  "decisionEvidence": {
+    "browserRun": "https://github.com/sguzman/architectarium/actions/runs/39504924652",
+    "staticTests": "scripts/test-parthenon.mjs",
+    "galleryTests": "scripts/test-gallery.mjs",
+    "publicGuard": "scripts/publication_guard.py"
+  }
+}

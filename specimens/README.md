@@ -8,4 +8,4 @@ The [Parthenon evidence ledger](parthenon/evidence.json) deliberately separates 
 
 For every queued building, verify whether published evidence concerns the **original**, **present**, **restored**, or **hypothetical** condition. Preserve that state per claim and per geometry.
 
-**Queue interpretation:** all entries are currently unprocessed candidates. Any existing preliminary research files and schematic geometry are preparation material only and do not confer a completed processing stage. The first planned full specimen is the Parthenon.
+**Queue interpretation:** the Parthenon has completed its three downstream work queues and is published as a schematic exhibit. All other candidates remain unprocessed; source notes are preparation material and do not confer an approved status. No other specimen is published.

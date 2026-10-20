@@ -9,11 +9,11 @@
 - A build that excludes editorial queue data and draft models from GitHub Pages.
 - Automated tests for ontology consistency, exhibit admission, release isolation and desktop/mobile browser behavior.
 
-## Specimen processing not started
+## First specimen processed: Parthenon
 
-All candidate entries in `specimens/queue.json` are initially `queued`. Existing research notes and procedural geometry are preparatory drafts only, not approved specimen releases. They do not appear on the public site.
+The Parthenon has completed the processing, ontology and 3D presentation task ledgers and is approved as a schematic public exhibit. All other candidates remain queued, with no published galleries or modeled previews.
 
-The Parthenon is the first candidate for full processing. Begin with source audit, architectural component inventory and surveyed geometric references; only then advance through spatial evidence, licensed/original model production, interior navigation, technical/visual QA, rights review and publication.
+The Parthenon research, instance ontology, original procedural model and desktop/mobile viewer have passed the explicitly **schematic** quality gate. Detailed survey-level archaeological fidelity, historical art reproduction and exact site measurements remain future research opportunities, not claims of completeness.
 
 The ontology is a versioned foundation rather than a claim of exhaustive architectural coverage. Each processed building should contribute additional rigorously sourced types and relationships when needed.
 

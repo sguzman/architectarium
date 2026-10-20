@@ -15,4 +15,4 @@ To publish an individual building:
 5. Add exactly one entry to `gallery/catalog.json` with `id`, `title`, `summary`, and `path: "./specimens/<id>/"`.
 6. Pass `node scripts/test-gallery.mjs`, content safety checks, ontology validation, and browser smoke tests.
 
-No hero banners, galleries, cards or public 3D previews of pending candidates. The site intentionally has **zero** exhibits until the first building passes this gate. This does not prevent research on drafts inside the repository.
+No public gallery cards or 3D previews of pending candidates. The Parthenon is the first reviewed exhibit at a clearly disclosed schematic tier; other candidates remain unpublished. Research drafts may exist separately in the repository.
