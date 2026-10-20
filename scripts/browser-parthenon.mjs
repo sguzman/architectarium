@@ -7,7 +7,19 @@ const browser=await chromium.launch({headless:true,args:['--use-gl=angle','--use
 try{
  const page=await browser.newPage({viewport:{width:1536,height:960},deviceScaleFactor:1});
  const issues=[];page.on('pageerror',e=>issues.push(e.message));page.on('console',e=>{if(e.type()==='error')issues.push(e.text());});
+ await page.emulateMedia({colorScheme:'dark'});
  await page.goto(origin,{waitUntil:'domcontentloaded',timeout:45000});
+ assert.equal(await page.locator('#siteTheme').inputValue(),'system');
+ assert.equal(await page.locator('html').getAttribute('data-resolved-theme'),'dark');
+ await page.emulateMedia({colorScheme:'light'});
+ await page.waitForFunction(()=>document.documentElement.dataset.resolvedTheme==='light');
+ const lightColor=await page.locator('.inspector').evaluate(x=>getComputedStyle(x).backgroundColor);
+ await page.locator('#siteTheme').selectOption('dark');
+ assert.equal(await page.locator('html').getAttribute('data-resolved-theme'),'dark');
+ assert.notEqual(lightColor,await page.locator('.inspector').evaluate(x=>getComputedStyle(x).backgroundColor));
+ await page.reload({waitUntil:'domcontentloaded'});
+ assert.equal(await page.locator('#siteTheme').inputValue(),'dark');
+ await page.locator('#siteTheme').selectOption('system');
  await page.waitForFunction(()=>document.querySelector('#count')?.textContent?.includes('individual selectable parts'),null,{timeout:65000});
  assert.equal(await page.locator('#error').isHidden(),true);
  assert.match(await page.locator('#count').innerText(),/482 individual selectable parts/);
