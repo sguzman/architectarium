@@ -3,10 +3,10 @@
   "version": 1,
   "localAxes": {
     "units": "approximate metres",
-    "x": "transverse across short facade",
+    "x": "transverse: negative x = geographic north side; positive x = geographic south side",
     "y": "vertical",
-    "z": "longitudinal",
-    "note": "Model coordinates are interpretive; no georeferenced or surveyed northing/easting is asserted."
+    "z": "longitudinal: negative z = east entrance facade; positive z = west rear facade",
+    "note": "A locally oriented educational model, not georeferenced surveying data or current true-north verification."
   },
   "facts": [
     {
