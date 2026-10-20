@@ -50,11 +50,12 @@ try{
  let sizeMode=null;function resize(){const w=stage.clientWidth,h=stage.clientHeight;if(!w||!h)return;const next=w<650?'compact':'wide';if(next!==sizeMode&&!walking){sizeMode=next;home.copy(next==='compact'?smallHome:wideHome);camera.position.copy(home);orbit.target.copy(center);orbit.update();}camera.aspect=w/h;camera.updateProjectionMatrix();renderer.setSize(w,h,false);draw();}
  new ResizeObserver(resize).observe(stage);resize();
  function resetCamera(){walking=false;orbit.enabled=true;stage.classList.remove('walking');keys.clear();camera.position.copy(home);orbit.target.copy(center);orbit.update();press('orbit',true);press('walk',false);$('modeLabel').textContent='ORBIT / DRAG TO ROTATE';draw();}
- walk.addEventListener('lock',()=>{walking=true;stage.classList.add('walking');press('orbit',false);press('walk',true);$('modeLabel').textContent='WASD / MOUSE · ESC TO EXIT';draw();});
+ walk.addEventListener('lock',()=>{$('modeLabel').textContent='WASD / MOUSE · ESC TO EXIT';draw();});
  walk.addEventListener('unlock',resetCamera);
- document.addEventListener('pointerlockerror',resetCamera);
- $('walk').addEventListener('click',()=>{if(walking)return;orbit.enabled=false;camera.position.set(0,2.86,-38);camera.lookAt(0,3,-15);draw();walk.lock();});
- $('orbit').addEventListener('click',()=>walking?walk.unlock():resetCamera());
+ document.addEventListener('pointerlockerror',()=>{if(walking){$('modeLabel').textContent='WASD / DRAG TO LOOK · ORBIT TO EXIT';draw();}});
+ // Keyboard movement is available even when the browser denies pointer lock.
+ $('walk').addEventListener('click',()=>{if(walking)return;walking=true;stage.classList.add('walking');press('orbit',false);press('walk',true);orbit.enabled=false;camera.position.set(0,2.86,-38);camera.lookAt(0,3,-15);canvas.focus();$('modeLabel').textContent='WASD / DRAG TO LOOK · ESC TO EXIT';draw();walk.lock();});
+ $('orbit').addEventListener('click',()=>{if(walk.isLocked)walk.unlock();else resetCamera();});
  $('roof').addEventListener('click',()=>{hiddenRoof=!hiddenRoof;for(const mesh of model.roofs)mesh.visible=!hiddenRoof;press('roof',hiddenRoof,'Restore roof','Hide roof');draw();});
  $('cutaway').addEventListener('click',()=>{hiddenWalls=!hiddenWalls;for(const mesh of model.walls)mesh.visible=!hiddenWalls;press('cutaway',hiddenWalls,'Restore walls','Cutaway');if(hiddenWalls&&!hiddenRoof)$('roof').click();draw();});
  function setSun(h){const t=(h-7)/12*Math.PI,a=(h-12)/12*Math.PI;light.position.set(Math.sin(a)*85,Math.max(7,Math.sin(t)*105),-Math.cos(a)*75);light.intensity=.8+2.7*Math.max(.1,Math.sin(t));$('hour').textContent=String(Math.floor(h)).padStart(2,'0')+':'+(h%1?'30':'00');draw();}
@@ -87,13 +88,20 @@ try{
  if(!match.length)root.append(elem('p','detail-note','No matching parts.'));
  }
  $('search').addEventListener('input',e=>{search=e.target.value.trim().toLowerCase();drawParts();});drawZones();drawParts();
- let down;canvas.addEventListener('pointerdown',e=>down=[e.clientX,e.clientY]);canvas.addEventListener('pointerup',e=>{
+ let down;canvas.addEventListener('pointerdown',e=>down=[e.clientX,e.clientY]);
+ canvas.addEventListener('pointermove',e=>{
+  if(!walking||walk.isLocked||!down)return;
+  const rot=new THREE.Euler().setFromQuaternion(camera.quaternion,'YXZ');
+  rot.y-=(e.movementX||0)*.003;rot.x=Math.max(-Math.PI/2+.03,Math.min(Math.PI/2-.03,rot.x-(e.movementY||0)*.003));
+  camera.quaternion.setFromEuler(rot);draw();
+ });
+ canvas.addEventListener('pointerup',e=>{
   if(!down||Math.hypot(e.clientX-down[0],e.clientY-down[1])>7){down=null;return;}down=null;
   if(walking)uv.set(0,0);else{const b=canvas.getBoundingClientRect();uv.set((e.clientX-b.left)*2/b.width-1,1-(e.clientY-b.top)*2/b.height);}
   ray.setFromCamera(uv,camera);const hits=ray.intersectObjects(model.pickables,false).find(h=>h.object.visible&&h.object.userData.instanceId);
   if(hits)select(hits.object.userData.instanceId);
  });
- document.addEventListener('keydown',e=>{if(!walking)return;if(/^(Key[WASD]|Arrow(Up|Down|Left|Right)|ShiftLeft)$/.test(e.code)){e.preventDefault();keys.add(e.code);draw();}});
+ document.addEventListener('keydown',e=>{if(!walking)return;if(e.code==='Escape'&&!walk.isLocked){resetCamera();return;}if(/^(Key[WASD]|Arrow(Up|Down|Left|Right)|ShiftLeft)$/.test(e.code)){e.preventDefault();keys.add(e.code);draw();}});
  document.addEventListener('keyup',e=>keys.delete(e.code));window.addEventListener('blur',()=>keys.clear());
  $('reset').addEventListener('click',()=>{if(walking)walk.unlock();else resetCamera();if(hiddenRoof)$('roof').click();if(hiddenWalls)$('cutaway').click();clearSelection();$('selectionStatus').textContent='SELECT A PART';$('detail').replaceChildren(elem('p','detail-note','Select a distinct architectural component to inspect its ontology.'));drawParts();});
  window.addEventListener('pagehide',()=>{cancelAnimationFrame(frame);orbit.dispose();walk.disconnect();model.dispose();renderer.dispose();},{once:true});
