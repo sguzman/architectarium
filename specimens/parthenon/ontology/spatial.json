@@ -2655,1092 +2655,1092 @@
       "position": [
         -6.4,
         4.07,
-        -20
+        -20.5
       ],
       "size": [
         1.35,
         5.6,
         1.35
       ],
-      "certainty": "schematic"
+      "certainty": "interpretive-axes-published-arrangement"
     },
     {
       "id": "parthenon/east-room/lower/column-01/capital",
       "position": [
         -6.4,
         7.07,
-        -20
+        -20.5
       ],
       "size": [
         1.458,
         0.4,
         1.458
       ],
-      "certainty": "schematic"
+      "certainty": "interpretive-axes-published-arrangement"
     },
     {
       "id": "parthenon/east-room/lower/column-01/abacus",
       "position": [
         -6.4,
         7.33,
-        -20
+        -20.5
       ],
       "size": [
         1.553,
         0.18,
         1.553
       ],
-      "certainty": "schematic"
+      "certainty": "interpretive-axes-published-arrangement"
     },
     {
       "id": "parthenon/east-room/lower/column-02/shaft",
       "position": [
         6.4,
         4.07,
-        -20
+        -20.5
       ],
       "size": [
         1.35,
         5.6,
         1.35
       ],
-      "certainty": "schematic"
+      "certainty": "interpretive-axes-published-arrangement"
     },
     {
       "id": "parthenon/east-room/lower/column-02/capital",
       "position": [
         6.4,
         7.07,
-        -20
+        -20.5
       ],
       "size": [
         1.458,
         0.4,
         1.458
       ],
-      "certainty": "schematic"
+      "certainty": "interpretive-axes-published-arrangement"
     },
     {
       "id": "parthenon/east-room/lower/column-02/abacus",
       "position": [
         6.4,
         7.33,
-        -20
+        -20.5
       ],
       "size": [
         1.553,
         0.18,
         1.553
       ],
-      "certainty": "schematic"
+      "certainty": "interpretive-axes-published-arrangement"
     },
     {
       "id": "parthenon/east-room/lower/column-03/shaft",
       "position": [
         -6.4,
         4.07,
-        -14.7
+        -14.2
       ],
       "size": [
         1.35,
         5.6,
         1.35
       ],
-      "certainty": "schematic"
+      "certainty": "interpretive-axes-published-arrangement"
     },
     {
       "id": "parthenon/east-room/lower/column-03/capital",
       "position": [
         -6.4,
         7.07,
-        -14.7
+        -14.2
       ],
       "size": [
         1.458,
         0.4,
         1.458
       ],
-      "certainty": "schematic"
+      "certainty": "interpretive-axes-published-arrangement"
     },
     {
       "id": "parthenon/east-room/lower/column-03/abacus",
       "position": [
         -6.4,
         7.33,
-        -14.7
+        -14.2
       ],
       "size": [
         1.553,
         0.18,
         1.553
       ],
-      "certainty": "schematic"
+      "certainty": "interpretive-axes-published-arrangement"
     },
     {
       "id": "parthenon/east-room/lower/column-04/shaft",
       "position": [
         6.4,
         4.07,
-        -14.7
+        -14.2
       ],
       "size": [
         1.35,
         5.6,
         1.35
       ],
-      "certainty": "schematic"
+      "certainty": "interpretive-axes-published-arrangement"
     },
     {
       "id": "parthenon/east-room/lower/column-04/capital",
       "position": [
         6.4,
         7.07,
-        -14.7
+        -14.2
       ],
       "size": [
         1.458,
         0.4,
         1.458
       ],
-      "certainty": "schematic"
+      "certainty": "interpretive-axes-published-arrangement"
     },
     {
       "id": "parthenon/east-room/lower/column-04/abacus",
       "position": [
         6.4,
         7.33,
-        -14.7
+        -14.2
       ],
       "size": [
         1.553,
         0.18,
         1.553
       ],
-      "certainty": "schematic"
+      "certainty": "interpretive-axes-published-arrangement"
     },
     {
       "id": "parthenon/east-room/lower/column-05/shaft",
       "position": [
         -6.4,
         4.07,
-        -9.4
+        -7.9
       ],
       "size": [
         1.35,
         5.6,
         1.35
       ],
-      "certainty": "schematic"
+      "certainty": "interpretive-axes-published-arrangement"
     },
     {
       "id": "parthenon/east-room/lower/column-05/capital",
       "position": [
         -6.4,
         7.07,
-        -9.4
+        -7.9
       ],
       "size": [
         1.458,
         0.4,
         1.458
       ],
-      "certainty": "schematic"
+      "certainty": "interpretive-axes-published-arrangement"
     },
     {
       "id": "parthenon/east-room/lower/column-05/abacus",
       "position": [
         -6.4,
         7.33,
-        -9.4
+        -7.9
       ],
       "size": [
         1.553,
         0.18,
         1.553
       ],
-      "certainty": "schematic"
+      "certainty": "interpretive-axes-published-arrangement"
     },
     {
       "id": "parthenon/east-room/lower/column-06/shaft",
       "position": [
         6.4,
         4.07,
-        -9.4
+        -7.9
       ],
       "size": [
         1.35,
         5.6,
         1.35
       ],
-      "certainty": "schematic"
+      "certainty": "interpretive-axes-published-arrangement"
     },
     {
       "id": "parthenon/east-room/lower/column-06/capital",
       "position": [
         6.4,
         7.07,
-        -9.4
+        -7.9
       ],
       "size": [
         1.458,
         0.4,
         1.458
       ],
-      "certainty": "schematic"
+      "certainty": "interpretive-axes-published-arrangement"
     },
     {
       "id": "parthenon/east-room/lower/column-06/abacus",
       "position": [
         6.4,
         7.33,
-        -9.4
+        -7.9
       ],
       "size": [
         1.553,
         0.18,
         1.553
       ],
-      "certainty": "schematic"
+      "certainty": "interpretive-axes-published-arrangement"
     },
     {
       "id": "parthenon/east-room/lower/column-07/shaft",
       "position": [
         -6.4,
         4.07,
-        -4.1
+        -1.6
       ],
       "size": [
         1.35,
         5.6,
         1.35
       ],
-      "certainty": "schematic"
+      "certainty": "interpretive-axes-published-arrangement"
     },
     {
       "id": "parthenon/east-room/lower/column-07/capital",
       "position": [
         -6.4,
         7.07,
-        -4.1
+        -1.6
       ],
       "size": [
         1.458,
         0.4,
         1.458
       ],
-      "certainty": "schematic"
+      "certainty": "interpretive-axes-published-arrangement"
     },
     {
       "id": "parthenon/east-room/lower/column-07/abacus",
       "position": [
         -6.4,
         7.33,
-        -4.1
+        -1.6
       ],
       "size": [
         1.553,
         0.18,
         1.553
       ],
-      "certainty": "schematic"
+      "certainty": "interpretive-axes-published-arrangement"
     },
     {
       "id": "parthenon/east-room/lower/column-08/shaft",
       "position": [
         6.4,
         4.07,
-        -4.1
+        -1.6
       ],
       "size": [
         1.35,
         5.6,
         1.35
       ],
-      "certainty": "schematic"
+      "certainty": "interpretive-axes-published-arrangement"
     },
     {
       "id": "parthenon/east-room/lower/column-08/capital",
       "position": [
         6.4,
         7.07,
-        -4.1
+        -1.6
       ],
       "size": [
         1.458,
         0.4,
         1.458
       ],
-      "certainty": "schematic"
+      "certainty": "interpretive-axes-published-arrangement"
     },
     {
       "id": "parthenon/east-room/lower/column-08/abacus",
       "position": [
         6.4,
         7.33,
-        -4.1
+        -1.6
       ],
       "size": [
         1.553,
         0.18,
         1.553
       ],
-      "certainty": "schematic"
+      "certainty": "interpretive-axes-published-arrangement"
     },
     {
       "id": "parthenon/east-room/lower/column-09/shaft",
       "position": [
         -6.4,
         4.07,
-        1.2
+        4.7
       ],
       "size": [
         1.35,
         5.6,
         1.35
       ],
-      "certainty": "schematic"
+      "certainty": "interpretive-axes-published-arrangement"
     },
     {
       "id": "parthenon/east-room/lower/column-09/capital",
       "position": [
         -6.4,
         7.07,
-        1.2
+        4.7
       ],
       "size": [
         1.458,
         0.4,
         1.458
       ],
-      "certainty": "schematic"
+      "certainty": "interpretive-axes-published-arrangement"
     },
     {
       "id": "parthenon/east-room/lower/column-09/abacus",
       "position": [
         -6.4,
         7.33,
-        1.2
+        4.7
       ],
       "size": [
         1.553,
         0.18,
         1.553
       ],
-      "certainty": "schematic"
+      "certainty": "interpretive-axes-published-arrangement"
     },
     {
       "id": "parthenon/east-room/lower/column-10/shaft",
       "position": [
         6.4,
         4.07,
-        1.2
+        4.7
       ],
       "size": [
         1.35,
         5.6,
         1.35
       ],
-      "certainty": "schematic"
+      "certainty": "interpretive-axes-published-arrangement"
     },
     {
       "id": "parthenon/east-room/lower/column-10/capital",
       "position": [
         6.4,
         7.07,
-        1.2
+        4.7
       ],
       "size": [
         1.458,
         0.4,
         1.458
       ],
-      "certainty": "schematic"
+      "certainty": "interpretive-axes-published-arrangement"
     },
     {
       "id": "parthenon/east-room/lower/column-10/abacus",
       "position": [
         6.4,
         7.33,
-        1.2
+        4.7
       ],
       "size": [
         1.553,
         0.18,
         1.553
       ],
-      "certainty": "schematic"
+      "certainty": "interpretive-axes-published-arrangement"
     },
     {
       "id": "parthenon/east-room/lower/column-11/shaft",
       "position": [
-        -4.5,
+        -3.2,
         4.07,
-        6.5
+        6.8
       ],
       "size": [
         1.35,
         5.6,
         1.35
       ],
-      "certainty": "schematic"
+      "certainty": "interpretive-axes-published-arrangement"
     },
     {
       "id": "parthenon/east-room/lower/column-11/capital",
       "position": [
-        -4.5,
+        -3.2,
         7.07,
-        6.5
+        6.8
       ],
       "size": [
         1.458,
         0.4,
         1.458
       ],
-      "certainty": "schematic"
+      "certainty": "interpretive-axes-published-arrangement"
     },
     {
       "id": "parthenon/east-room/lower/column-11/abacus",
       "position": [
-        -4.5,
+        -3.2,
         7.33,
-        6.5
+        6.8
       ],
       "size": [
         1.553,
         0.18,
         1.553
       ],
-      "certainty": "schematic"
+      "certainty": "interpretive-axes-published-arrangement"
     },
     {
       "id": "parthenon/east-room/lower/column-12/shaft",
       "position": [
         0,
         4.07,
-        6.5
+        6.8
       ],
       "size": [
         1.35,
         5.6,
         1.35
       ],
-      "certainty": "schematic"
+      "certainty": "interpretive-axes-published-arrangement"
     },
     {
       "id": "parthenon/east-room/lower/column-12/capital",
       "position": [
         0,
         7.07,
-        6.5
+        6.8
       ],
       "size": [
         1.458,
         0.4,
         1.458
       ],
-      "certainty": "schematic"
+      "certainty": "interpretive-axes-published-arrangement"
     },
     {
       "id": "parthenon/east-room/lower/column-12/abacus",
       "position": [
         0,
         7.33,
-        6.5
+        6.8
       ],
       "size": [
         1.553,
         0.18,
         1.553
       ],
-      "certainty": "schematic"
+      "certainty": "interpretive-axes-published-arrangement"
     },
     {
       "id": "parthenon/east-room/lower/column-13/shaft",
       "position": [
-        4.5,
+        3.2,
         4.07,
-        6.5
+        6.8
       ],
       "size": [
         1.35,
         5.6,
         1.35
       ],
-      "certainty": "schematic"
+      "certainty": "interpretive-axes-published-arrangement"
     },
     {
       "id": "parthenon/east-room/lower/column-13/capital",
       "position": [
-        4.5,
+        3.2,
         7.07,
-        6.5
+        6.8
       ],
       "size": [
         1.458,
         0.4,
         1.458
       ],
-      "certainty": "schematic"
+      "certainty": "interpretive-axes-published-arrangement"
     },
     {
       "id": "parthenon/east-room/lower/column-13/abacus",
       "position": [
-        4.5,
+        3.2,
         7.33,
-        6.5
+        6.8
       ],
       "size": [
         1.553,
         0.18,
         1.553
       ],
-      "certainty": "schematic"
+      "certainty": "interpretive-axes-published-arrangement"
     },
     {
       "id": "parthenon/east-room/upper/column-01/shaft",
       "position": [
         -6.4,
         8.5,
-        -20
+        -20.5
       ],
       "size": [
         1,
         3.1,
         1
       ],
-      "certainty": "schematic"
+      "certainty": "interpretive-axes-published-arrangement"
     },
     {
       "id": "parthenon/east-room/upper/column-01/capital",
       "position": [
         -6.4,
         10.25,
-        -20
+        -20.5
       ],
       "size": [
         1.08,
         0.4,
         1.08
       ],
-      "certainty": "schematic"
+      "certainty": "interpretive-axes-published-arrangement"
     },
     {
       "id": "parthenon/east-room/upper/column-01/abacus",
       "position": [
         -6.4,
         10.51,
-        -20
+        -20.5
       ],
       "size": [
         1.15,
         0.18,
         1.15
       ],
-      "certainty": "schematic"
+      "certainty": "interpretive-axes-published-arrangement"
     },
     {
       "id": "parthenon/east-room/upper/column-02/shaft",
       "position": [
         6.4,
         8.5,
-        -20
+        -20.5
       ],
       "size": [
         1,
         3.1,
         1
       ],
-      "certainty": "schematic"
+      "certainty": "interpretive-axes-published-arrangement"
     },
     {
       "id": "parthenon/east-room/upper/column-02/capital",
       "position": [
         6.4,
         10.25,
-        -20
+        -20.5
       ],
       "size": [
         1.08,
         0.4,
         1.08
       ],
-      "certainty": "schematic"
+      "certainty": "interpretive-axes-published-arrangement"
     },
     {
       "id": "parthenon/east-room/upper/column-02/abacus",
       "position": [
         6.4,
         10.51,
-        -20
+        -20.5
       ],
       "size": [
         1.15,
         0.18,
         1.15
       ],
-      "certainty": "schematic"
+      "certainty": "interpretive-axes-published-arrangement"
     },
     {
       "id": "parthenon/east-room/upper/column-03/shaft",
       "position": [
         -6.4,
         8.5,
-        -14.7
+        -14.2
       ],
       "size": [
         1,
         3.1,
         1
       ],
-      "certainty": "schematic"
+      "certainty": "interpretive-axes-published-arrangement"
     },
     {
       "id": "parthenon/east-room/upper/column-03/capital",
       "position": [
         -6.4,
         10.25,
-        -14.7
+        -14.2
       ],
       "size": [
         1.08,
         0.4,
         1.08
       ],
-      "certainty": "schematic"
+      "certainty": "interpretive-axes-published-arrangement"
     },
     {
       "id": "parthenon/east-room/upper/column-03/abacus",
       "position": [
         -6.4,
         10.51,
-        -14.7
+        -14.2
       ],
       "size": [
         1.15,
         0.18,
         1.15
       ],
-      "certainty": "schematic"
+      "certainty": "interpretive-axes-published-arrangement"
     },
     {
       "id": "parthenon/east-room/upper/column-04/shaft",
       "position": [
         6.4,
         8.5,
-        -14.7
+        -14.2
       ],
       "size": [
         1,
         3.1,
         1
       ],
-      "certainty": "schematic"
+      "certainty": "interpretive-axes-published-arrangement"
     },
     {
       "id": "parthenon/east-room/upper/column-04/capital",
       "position": [
         6.4,
         10.25,
-        -14.7
+        -14.2
       ],
       "size": [
         1.08,
         0.4,
         1.08
       ],
-      "certainty": "schematic"
+      "certainty": "interpretive-axes-published-arrangement"
     },
     {
       "id": "parthenon/east-room/upper/column-04/abacus",
       "position": [
         6.4,
         10.51,
-        -14.7
+        -14.2
       ],
       "size": [
         1.15,
         0.18,
         1.15
       ],
-      "certainty": "schematic"
+      "certainty": "interpretive-axes-published-arrangement"
     },
     {
       "id": "parthenon/east-room/upper/column-05/shaft",
       "position": [
         -6.4,
         8.5,
-        -9.4
+        -7.9
       ],
       "size": [
         1,
         3.1,
         1
       ],
-      "certainty": "schematic"
+      "certainty": "interpretive-axes-published-arrangement"
     },
     {
       "id": "parthenon/east-room/upper/column-05/capital",
       "position": [
         -6.4,
         10.25,
-        -9.4
+        -7.9
       ],
       "size": [
         1.08,
         0.4,
         1.08
       ],
-      "certainty": "schematic"
+      "certainty": "interpretive-axes-published-arrangement"
     },
     {
       "id": "parthenon/east-room/upper/column-05/abacus",
       "position": [
         -6.4,
         10.51,
-        -9.4
+        -7.9
       ],
       "size": [
         1.15,
         0.18,
         1.15
       ],
-      "certainty": "schematic"
+      "certainty": "interpretive-axes-published-arrangement"
     },
     {
       "id": "parthenon/east-room/upper/column-06/shaft",
       "position": [
         6.4,
         8.5,
-        -9.4
+        -7.9
       ],
       "size": [
         1,
         3.1,
         1
       ],
-      "certainty": "schematic"
+      "certainty": "interpretive-axes-published-arrangement"
     },
     {
       "id": "parthenon/east-room/upper/column-06/capital",
       "position": [
         6.4,
         10.25,
-        -9.4
+        -7.9
       ],
       "size": [
         1.08,
         0.4,
         1.08
       ],
-      "certainty": "schematic"
+      "certainty": "interpretive-axes-published-arrangement"
     },
     {
       "id": "parthenon/east-room/upper/column-06/abacus",
       "position": [
         6.4,
         10.51,
-        -9.4
+        -7.9
       ],
       "size": [
         1.15,
         0.18,
         1.15
       ],
-      "certainty": "schematic"
+      "certainty": "interpretive-axes-published-arrangement"
     },
     {
       "id": "parthenon/east-room/upper/column-07/shaft",
       "position": [
         -6.4,
         8.5,
-        -4.1
+        -1.6
       ],
       "size": [
         1,
         3.1,
         1
       ],
-      "certainty": "schematic"
+      "certainty": "interpretive-axes-published-arrangement"
     },
     {
       "id": "parthenon/east-room/upper/column-07/capital",
       "position": [
         -6.4,
         10.25,
-        -4.1
+        -1.6
       ],
       "size": [
         1.08,
         0.4,
         1.08
       ],
-      "certainty": "schematic"
+      "certainty": "interpretive-axes-published-arrangement"
     },
     {
       "id": "parthenon/east-room/upper/column-07/abacus",
       "position": [
         -6.4,
         10.51,
-        -4.1
+        -1.6
       ],
       "size": [
         1.15,
         0.18,
         1.15
       ],
-      "certainty": "schematic"
+      "certainty": "interpretive-axes-published-arrangement"
     },
     {
       "id": "parthenon/east-room/upper/column-08/shaft",
       "position": [
         6.4,
         8.5,
-        -4.1
+        -1.6
       ],
       "size": [
         1,
         3.1,
         1
       ],
-      "certainty": "schematic"
+      "certainty": "interpretive-axes-published-arrangement"
     },
     {
       "id": "parthenon/east-room/upper/column-08/capital",
       "position": [
         6.4,
         10.25,
-        -4.1
+        -1.6
       ],
       "size": [
         1.08,
         0.4,
         1.08
       ],
-      "certainty": "schematic"
+      "certainty": "interpretive-axes-published-arrangement"
     },
     {
       "id": "parthenon/east-room/upper/column-08/abacus",
       "position": [
         6.4,
         10.51,
-        -4.1
+        -1.6
       ],
       "size": [
         1.15,
         0.18,
         1.15
       ],
-      "certainty": "schematic"
+      "certainty": "interpretive-axes-published-arrangement"
     },
     {
       "id": "parthenon/east-room/upper/column-09/shaft",
       "position": [
         -6.4,
         8.5,
-        1.2
+        4.7
       ],
       "size": [
         1,
         3.1,
         1
       ],
-      "certainty": "schematic"
+      "certainty": "interpretive-axes-published-arrangement"
     },
     {
       "id": "parthenon/east-room/upper/column-09/capital",
       "position": [
         -6.4,
         10.25,
-        1.2
+        4.7
       ],
       "size": [
         1.08,
         0.4,
         1.08
       ],
-      "certainty": "schematic"
+      "certainty": "interpretive-axes-published-arrangement"
     },
     {
       "id": "parthenon/east-room/upper/column-09/abacus",
       "position": [
         -6.4,
         10.51,
-        1.2
+        4.7
       ],
       "size": [
         1.15,
         0.18,
         1.15
       ],
-      "certainty": "schematic"
+      "certainty": "interpretive-axes-published-arrangement"
     },
     {
       "id": "parthenon/east-room/upper/column-10/shaft",
       "position": [
         6.4,
         8.5,
-        1.2
+        4.7
       ],
       "size": [
         1,
         3.1,
         1
       ],
-      "certainty": "schematic"
+      "certainty": "interpretive-axes-published-arrangement"
     },
     {
       "id": "parthenon/east-room/upper/column-10/capital",
       "position": [
         6.4,
         10.25,
-        1.2
+        4.7
       ],
       "size": [
         1.08,
         0.4,
         1.08
       ],
-      "certainty": "schematic"
+      "certainty": "interpretive-axes-published-arrangement"
     },
     {
       "id": "parthenon/east-room/upper/column-10/abacus",
       "position": [
         6.4,
         10.51,
-        1.2
+        4.7
       ],
       "size": [
         1.15,
         0.18,
         1.15
       ],
-      "certainty": "schematic"
+      "certainty": "interpretive-axes-published-arrangement"
     },
     {
       "id": "parthenon/east-room/upper/column-11/shaft",
       "position": [
-        -4.5,
+        -3.2,
         8.5,
-        6.5
+        6.8
       ],
       "size": [
         1,
         3.1,
         1
       ],
-      "certainty": "schematic"
+      "certainty": "interpretive-axes-published-arrangement"
     },
     {
       "id": "parthenon/east-room/upper/column-11/capital",
       "position": [
-        -4.5,
+        -3.2,
         10.25,
-        6.5
+        6.8
       ],
       "size": [
         1.08,
         0.4,
         1.08
       ],
-      "certainty": "schematic"
+      "certainty": "interpretive-axes-published-arrangement"
     },
     {
       "id": "parthenon/east-room/upper/column-11/abacus",
       "position": [
-        -4.5,
+        -3.2,
         10.51,
-        6.5
+        6.8
       ],
       "size": [
         1.15,
         0.18,
         1.15
       ],
-      "certainty": "schematic"
+      "certainty": "interpretive-axes-published-arrangement"
     },
     {
       "id": "parthenon/east-room/upper/column-12/shaft",
       "position": [
         0,
         8.5,
-        6.5
+        6.8
       ],
       "size": [
         1,
         3.1,
         1
       ],
-      "certainty": "schematic"
+      "certainty": "interpretive-axes-published-arrangement"
     },
     {
       "id": "parthenon/east-room/upper/column-12/capital",
       "position": [
         0,
         10.25,
-        6.5
+        6.8
       ],
       "size": [
         1.08,
         0.4,
         1.08
       ],
-      "certainty": "schematic"
+      "certainty": "interpretive-axes-published-arrangement"
     },
     {
       "id": "parthenon/east-room/upper/column-12/abacus",
       "position": [
         0,
         10.51,
-        6.5
+        6.8
       ],
       "size": [
         1.15,
         0.18,
         1.15
       ],
-      "certainty": "schematic"
+      "certainty": "interpretive-axes-published-arrangement"
     },
     {
       "id": "parthenon/east-room/upper/column-13/shaft",
       "position": [
-        4.5,
+        3.2,
         8.5,
-        6.5
+        6.8
       ],
       "size": [
         1,
         3.1,
         1
       ],
-      "certainty": "schematic"
+      "certainty": "interpretive-axes-published-arrangement"
     },
     {
       "id": "parthenon/east-room/upper/column-13/capital",
       "position": [
-        4.5,
+        3.2,
         10.25,
-        6.5
+        6.8
       ],
       "size": [
         1.08,
         0.4,
         1.08
       ],
-      "certainty": "schematic"
+      "certainty": "interpretive-axes-published-arrangement"
     },
     {
       "id": "parthenon/east-room/upper/column-13/abacus",
       "position": [
-        4.5,
+        3.2,
         10.51,
-        6.5
+        6.8
       ],
       "size": [
         1.15,
         0.18,
         1.15
       ],
-      "certainty": "schematic"
+      "certainty": "interpretive-axes-published-arrangement"
     },
     {
       "id": "parthenon/cella/north-wall",
@@ -6807,6 +6807,706 @@
         67.5
       ],
       "certainty": "schematic-assembly"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-14/shaft",
+      "position": [
+        -6.4,
+        4.07,
+        -17.35
+      ],
+      "size": [
+        1.35,
+        5.6,
+        1.35
+      ],
+      "certainty": "schematic-spacing-supported-configuration"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-14/capital",
+      "position": [
+        -6.4,
+        7.07,
+        -17.35
+      ],
+      "size": [
+        1.458,
+        0.4,
+        1.458
+      ],
+      "certainty": "schematic-spacing-supported-configuration"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-14/abacus",
+      "position": [
+        -6.4,
+        7.33,
+        -17.35
+      ],
+      "size": [
+        1.553,
+        0.18,
+        1.553
+      ],
+      "certainty": "schematic-spacing-supported-configuration"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-15/shaft",
+      "position": [
+        -6.4,
+        4.07,
+        -11.05
+      ],
+      "size": [
+        1.35,
+        5.6,
+        1.35
+      ],
+      "certainty": "schematic-spacing-supported-configuration"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-15/capital",
+      "position": [
+        -6.4,
+        7.07,
+        -11.05
+      ],
+      "size": [
+        1.458,
+        0.4,
+        1.458
+      ],
+      "certainty": "schematic-spacing-supported-configuration"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-15/abacus",
+      "position": [
+        -6.4,
+        7.33,
+        -11.05
+      ],
+      "size": [
+        1.553,
+        0.18,
+        1.553
+      ],
+      "certainty": "schematic-spacing-supported-configuration"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-16/shaft",
+      "position": [
+        -6.4,
+        4.07,
+        -4.75
+      ],
+      "size": [
+        1.35,
+        5.6,
+        1.35
+      ],
+      "certainty": "schematic-spacing-supported-configuration"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-16/capital",
+      "position": [
+        -6.4,
+        7.07,
+        -4.75
+      ],
+      "size": [
+        1.458,
+        0.4,
+        1.458
+      ],
+      "certainty": "schematic-spacing-supported-configuration"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-16/abacus",
+      "position": [
+        -6.4,
+        7.33,
+        -4.75
+      ],
+      "size": [
+        1.553,
+        0.18,
+        1.553
+      ],
+      "certainty": "schematic-spacing-supported-configuration"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-17/shaft",
+      "position": [
+        -6.4,
+        4.07,
+        1.55
+      ],
+      "size": [
+        1.35,
+        5.6,
+        1.35
+      ],
+      "certainty": "schematic-spacing-supported-configuration"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-17/capital",
+      "position": [
+        -6.4,
+        7.07,
+        1.55
+      ],
+      "size": [
+        1.458,
+        0.4,
+        1.458
+      ],
+      "certainty": "schematic-spacing-supported-configuration"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-17/abacus",
+      "position": [
+        -6.4,
+        7.33,
+        1.55
+      ],
+      "size": [
+        1.553,
+        0.18,
+        1.553
+      ],
+      "certainty": "schematic-spacing-supported-configuration"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-18/shaft",
+      "position": [
+        6.4,
+        4.07,
+        -17.35
+      ],
+      "size": [
+        1.35,
+        5.6,
+        1.35
+      ],
+      "certainty": "schematic-spacing-supported-configuration"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-18/capital",
+      "position": [
+        6.4,
+        7.07,
+        -17.35
+      ],
+      "size": [
+        1.458,
+        0.4,
+        1.458
+      ],
+      "certainty": "schematic-spacing-supported-configuration"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-18/abacus",
+      "position": [
+        6.4,
+        7.33,
+        -17.35
+      ],
+      "size": [
+        1.553,
+        0.18,
+        1.553
+      ],
+      "certainty": "schematic-spacing-supported-configuration"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-19/shaft",
+      "position": [
+        6.4,
+        4.07,
+        -11.05
+      ],
+      "size": [
+        1.35,
+        5.6,
+        1.35
+      ],
+      "certainty": "schematic-spacing-supported-configuration"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-19/capital",
+      "position": [
+        6.4,
+        7.07,
+        -11.05
+      ],
+      "size": [
+        1.458,
+        0.4,
+        1.458
+      ],
+      "certainty": "schematic-spacing-supported-configuration"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-19/abacus",
+      "position": [
+        6.4,
+        7.33,
+        -11.05
+      ],
+      "size": [
+        1.553,
+        0.18,
+        1.553
+      ],
+      "certainty": "schematic-spacing-supported-configuration"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-20/shaft",
+      "position": [
+        6.4,
+        4.07,
+        -4.75
+      ],
+      "size": [
+        1.35,
+        5.6,
+        1.35
+      ],
+      "certainty": "schematic-spacing-supported-configuration"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-20/capital",
+      "position": [
+        6.4,
+        7.07,
+        -4.75
+      ],
+      "size": [
+        1.458,
+        0.4,
+        1.458
+      ],
+      "certainty": "schematic-spacing-supported-configuration"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-20/abacus",
+      "position": [
+        6.4,
+        7.33,
+        -4.75
+      ],
+      "size": [
+        1.553,
+        0.18,
+        1.553
+      ],
+      "certainty": "schematic-spacing-supported-configuration"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-21/shaft",
+      "position": [
+        6.4,
+        4.07,
+        1.55
+      ],
+      "size": [
+        1.35,
+        5.6,
+        1.35
+      ],
+      "certainty": "schematic-spacing-supported-configuration"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-21/capital",
+      "position": [
+        6.4,
+        7.07,
+        1.55
+      ],
+      "size": [
+        1.458,
+        0.4,
+        1.458
+      ],
+      "certainty": "schematic-spacing-supported-configuration"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-21/abacus",
+      "position": [
+        6.4,
+        7.33,
+        1.55
+      ],
+      "size": [
+        1.553,
+        0.18,
+        1.553
+      ],
+      "certainty": "schematic-spacing-supported-configuration"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-14/shaft",
+      "position": [
+        -6.4,
+        8.5,
+        -17.35
+      ],
+      "size": [
+        1,
+        3.1,
+        1
+      ],
+      "certainty": "schematic-spacing-supported-configuration"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-14/capital",
+      "position": [
+        -6.4,
+        10.25,
+        -17.35
+      ],
+      "size": [
+        1.08,
+        0.4,
+        1.08
+      ],
+      "certainty": "schematic-spacing-supported-configuration"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-14/abacus",
+      "position": [
+        -6.4,
+        10.51,
+        -17.35
+      ],
+      "size": [
+        1.15,
+        0.18,
+        1.15
+      ],
+      "certainty": "schematic-spacing-supported-configuration"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-15/shaft",
+      "position": [
+        -6.4,
+        8.5,
+        -11.05
+      ],
+      "size": [
+        1,
+        3.1,
+        1
+      ],
+      "certainty": "schematic-spacing-supported-configuration"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-15/capital",
+      "position": [
+        -6.4,
+        10.25,
+        -11.05
+      ],
+      "size": [
+        1.08,
+        0.4,
+        1.08
+      ],
+      "certainty": "schematic-spacing-supported-configuration"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-15/abacus",
+      "position": [
+        -6.4,
+        10.51,
+        -11.05
+      ],
+      "size": [
+        1.15,
+        0.18,
+        1.15
+      ],
+      "certainty": "schematic-spacing-supported-configuration"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-16/shaft",
+      "position": [
+        -6.4,
+        8.5,
+        -4.75
+      ],
+      "size": [
+        1,
+        3.1,
+        1
+      ],
+      "certainty": "schematic-spacing-supported-configuration"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-16/capital",
+      "position": [
+        -6.4,
+        10.25,
+        -4.75
+      ],
+      "size": [
+        1.08,
+        0.4,
+        1.08
+      ],
+      "certainty": "schematic-spacing-supported-configuration"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-16/abacus",
+      "position": [
+        -6.4,
+        10.51,
+        -4.75
+      ],
+      "size": [
+        1.15,
+        0.18,
+        1.15
+      ],
+      "certainty": "schematic-spacing-supported-configuration"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-17/shaft",
+      "position": [
+        -6.4,
+        8.5,
+        1.55
+      ],
+      "size": [
+        1,
+        3.1,
+        1
+      ],
+      "certainty": "schematic-spacing-supported-configuration"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-17/capital",
+      "position": [
+        -6.4,
+        10.25,
+        1.55
+      ],
+      "size": [
+        1.08,
+        0.4,
+        1.08
+      ],
+      "certainty": "schematic-spacing-supported-configuration"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-17/abacus",
+      "position": [
+        -6.4,
+        10.51,
+        1.55
+      ],
+      "size": [
+        1.15,
+        0.18,
+        1.15
+      ],
+      "certainty": "schematic-spacing-supported-configuration"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-18/shaft",
+      "position": [
+        6.4,
+        8.5,
+        -17.35
+      ],
+      "size": [
+        1,
+        3.1,
+        1
+      ],
+      "certainty": "schematic-spacing-supported-configuration"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-18/capital",
+      "position": [
+        6.4,
+        10.25,
+        -17.35
+      ],
+      "size": [
+        1.08,
+        0.4,
+        1.08
+      ],
+      "certainty": "schematic-spacing-supported-configuration"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-18/abacus",
+      "position": [
+        6.4,
+        10.51,
+        -17.35
+      ],
+      "size": [
+        1.15,
+        0.18,
+        1.15
+      ],
+      "certainty": "schematic-spacing-supported-configuration"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-19/shaft",
+      "position": [
+        6.4,
+        8.5,
+        -11.05
+      ],
+      "size": [
+        1,
+        3.1,
+        1
+      ],
+      "certainty": "schematic-spacing-supported-configuration"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-19/capital",
+      "position": [
+        6.4,
+        10.25,
+        -11.05
+      ],
+      "size": [
+        1.08,
+        0.4,
+        1.08
+      ],
+      "certainty": "schematic-spacing-supported-configuration"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-19/abacus",
+      "position": [
+        6.4,
+        10.51,
+        -11.05
+      ],
+      "size": [
+        1.15,
+        0.18,
+        1.15
+      ],
+      "certainty": "schematic-spacing-supported-configuration"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-20/shaft",
+      "position": [
+        6.4,
+        8.5,
+        -4.75
+      ],
+      "size": [
+        1,
+        3.1,
+        1
+      ],
+      "certainty": "schematic-spacing-supported-configuration"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-20/capital",
+      "position": [
+        6.4,
+        10.25,
+        -4.75
+      ],
+      "size": [
+        1.08,
+        0.4,
+        1.08
+      ],
+      "certainty": "schematic-spacing-supported-configuration"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-20/abacus",
+      "position": [
+        6.4,
+        10.51,
+        -4.75
+      ],
+      "size": [
+        1.15,
+        0.18,
+        1.15
+      ],
+      "certainty": "schematic-spacing-supported-configuration"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-21/shaft",
+      "position": [
+        6.4,
+        8.5,
+        1.55
+      ],
+      "size": [
+        1,
+        3.1,
+        1
+      ],
+      "certainty": "schematic-spacing-supported-configuration"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-21/capital",
+      "position": [
+        6.4,
+        10.25,
+        1.55
+      ],
+      "size": [
+        1.08,
+        0.4,
+        1.08
+      ],
+      "certainty": "schematic-spacing-supported-configuration"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-21/abacus",
+      "position": [
+        6.4,
+        10.51,
+        1.55
+      ],
+      "size": [
+        1.15,
+        0.18,
+        1.15
+      ],
+      "certainty": "schematic-spacing-supported-configuration"
+    },
+    {
+      "id": "parthenon/east-room/lower/pier-north",
+      "position": [
+        -6.4,
+        4.07,
+        6.8
+      ],
+      "size": [
+        1.65,
+        5.6,
+        1.65
+      ],
+      "certainty": "published-configuration-approximate-dimensions"
+    },
+    {
+      "id": "parthenon/east-room/lower/pier-south",
+      "position": [
+        6.4,
+        4.07,
+        6.8
+      ],
+      "size": [
+        1.65,
+        5.6,
+        1.65
+      ],
+      "certainty": "published-configuration-approximate-dimensions"
     }
   ]
 }

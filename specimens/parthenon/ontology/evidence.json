@@ -23,5 +23,24 @@
     "solidPediments": 2,
     "reference": "Derived geometric joins for visitor continuity, not archaeologically measured masonry members",
     "reconstructionTier": "schematic"
+  },
+  "interiorArchitecture": {
+    "easternColonnade": {
+      "lowerLongSides": 9,
+      "eachLongSidePiers": 1,
+      "shortSideColumns": 3,
+      "lowerShafts": 21,
+      "pierCount": 2,
+      "upperTier": "interpreted mirrored arrangement, not verified member-by-member",
+      "sourceIds": [
+        "perseus-parthenon",
+        "acropolis-architecture"
+      ]
+    },
+    "westIonicColumns": 4,
+    "sourceIds": [
+      "perseus-parthenon",
+      "museum-parthenon"
+    ]
   }
 }

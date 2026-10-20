@@ -2432,7 +2432,257 @@
       "id": "parthenon/entablature/south/frieze-backing",
       "typeId": "frieze",
       "shape": "box"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-14/shaft",
+      "typeId": "column-shaft",
+      "shape": "shaft"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-14/capital",
+      "typeId": "echinus",
+      "shape": "echinus"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-14/abacus",
+      "typeId": "abacus",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-15/shaft",
+      "typeId": "column-shaft",
+      "shape": "shaft"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-15/capital",
+      "typeId": "echinus",
+      "shape": "echinus"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-15/abacus",
+      "typeId": "abacus",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-16/shaft",
+      "typeId": "column-shaft",
+      "shape": "shaft"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-16/capital",
+      "typeId": "echinus",
+      "shape": "echinus"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-16/abacus",
+      "typeId": "abacus",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-17/shaft",
+      "typeId": "column-shaft",
+      "shape": "shaft"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-17/capital",
+      "typeId": "echinus",
+      "shape": "echinus"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-17/abacus",
+      "typeId": "abacus",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-18/shaft",
+      "typeId": "column-shaft",
+      "shape": "shaft"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-18/capital",
+      "typeId": "echinus",
+      "shape": "echinus"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-18/abacus",
+      "typeId": "abacus",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-19/shaft",
+      "typeId": "column-shaft",
+      "shape": "shaft"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-19/capital",
+      "typeId": "echinus",
+      "shape": "echinus"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-19/abacus",
+      "typeId": "abacus",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-20/shaft",
+      "typeId": "column-shaft",
+      "shape": "shaft"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-20/capital",
+      "typeId": "echinus",
+      "shape": "echinus"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-20/abacus",
+      "typeId": "abacus",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-21/shaft",
+      "typeId": "column-shaft",
+      "shape": "shaft"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-21/capital",
+      "typeId": "echinus",
+      "shape": "echinus"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-21/abacus",
+      "typeId": "abacus",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-14/shaft",
+      "typeId": "column-shaft",
+      "shape": "shaft"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-14/capital",
+      "typeId": "echinus",
+      "shape": "echinus"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-14/abacus",
+      "typeId": "abacus",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-15/shaft",
+      "typeId": "column-shaft",
+      "shape": "shaft"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-15/capital",
+      "typeId": "echinus",
+      "shape": "echinus"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-15/abacus",
+      "typeId": "abacus",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-16/shaft",
+      "typeId": "column-shaft",
+      "shape": "shaft"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-16/capital",
+      "typeId": "echinus",
+      "shape": "echinus"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-16/abacus",
+      "typeId": "abacus",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-17/shaft",
+      "typeId": "column-shaft",
+      "shape": "shaft"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-17/capital",
+      "typeId": "echinus",
+      "shape": "echinus"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-17/abacus",
+      "typeId": "abacus",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-18/shaft",
+      "typeId": "column-shaft",
+      "shape": "shaft"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-18/capital",
+      "typeId": "echinus",
+      "shape": "echinus"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-18/abacus",
+      "typeId": "abacus",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-19/shaft",
+      "typeId": "column-shaft",
+      "shape": "shaft"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-19/capital",
+      "typeId": "echinus",
+      "shape": "echinus"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-19/abacus",
+      "typeId": "abacus",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-20/shaft",
+      "typeId": "column-shaft",
+      "shape": "shaft"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-20/capital",
+      "typeId": "echinus",
+      "shape": "echinus"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-20/abacus",
+      "typeId": "abacus",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-21/shaft",
+      "typeId": "column-shaft",
+      "shape": "shaft"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-21/capital",
+      "typeId": "echinus",
+      "shape": "echinus"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-21/abacus",
+      "typeId": "abacus",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/east-room/lower/pier-north",
+      "typeId": "pier",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/east-room/lower/pier-south",
+      "typeId": "pier",
+      "shape": "box"
     }
   ],
-  "expected": 486
+  "expected": 536
 }

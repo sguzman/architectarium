@@ -50,5 +50,13 @@
     "Walk from east into east chamber",
     "Return outside and enter west chamber separately"
   ],
-  "caveat": "Interior circulation is a modern educational simulation, not archaeological evidence of visitor access."
+  "caveat": "Interior circulation is a modern educational simulation, not archaeological evidence of visitor access.",
+  "internalColonnade": {
+    "east": "U-shaped, nine columns and one pier on each long side, three columns on the inner short side between the terminal piers, with two tiers; upper modeled alignment interpreted",
+    "west": "Four Ionic columns",
+    "sourceIds": [
+      "perseus-parthenon",
+      "acropolis-architecture"
+    ]
+  }
 }

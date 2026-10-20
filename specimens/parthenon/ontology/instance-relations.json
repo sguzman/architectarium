@@ -881,6 +881,166 @@
       "from": "parthenon/east-room/upper/column-13/abacus",
       "to": "parthenon/east-room/upper/column-13/capital",
       "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/east-room/lower/column-14/capital",
+      "to": "parthenon/east-room/lower/column-14/shaft",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/east-room/lower/column-14/abacus",
+      "to": "parthenon/east-room/lower/column-14/capital",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/east-room/lower/column-15/capital",
+      "to": "parthenon/east-room/lower/column-15/shaft",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/east-room/lower/column-15/abacus",
+      "to": "parthenon/east-room/lower/column-15/capital",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/east-room/lower/column-16/capital",
+      "to": "parthenon/east-room/lower/column-16/shaft",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/east-room/lower/column-16/abacus",
+      "to": "parthenon/east-room/lower/column-16/capital",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/east-room/lower/column-17/capital",
+      "to": "parthenon/east-room/lower/column-17/shaft",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/east-room/lower/column-17/abacus",
+      "to": "parthenon/east-room/lower/column-17/capital",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/east-room/lower/column-18/capital",
+      "to": "parthenon/east-room/lower/column-18/shaft",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/east-room/lower/column-18/abacus",
+      "to": "parthenon/east-room/lower/column-18/capital",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/east-room/lower/column-19/capital",
+      "to": "parthenon/east-room/lower/column-19/shaft",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/east-room/lower/column-19/abacus",
+      "to": "parthenon/east-room/lower/column-19/capital",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/east-room/lower/column-20/capital",
+      "to": "parthenon/east-room/lower/column-20/shaft",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/east-room/lower/column-20/abacus",
+      "to": "parthenon/east-room/lower/column-20/capital",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/east-room/lower/column-21/capital",
+      "to": "parthenon/east-room/lower/column-21/shaft",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/east-room/lower/column-21/abacus",
+      "to": "parthenon/east-room/lower/column-21/capital",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/east-room/upper/column-14/capital",
+      "to": "parthenon/east-room/upper/column-14/shaft",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/east-room/upper/column-14/abacus",
+      "to": "parthenon/east-room/upper/column-14/capital",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/east-room/upper/column-15/capital",
+      "to": "parthenon/east-room/upper/column-15/shaft",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/east-room/upper/column-15/abacus",
+      "to": "parthenon/east-room/upper/column-15/capital",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/east-room/upper/column-16/capital",
+      "to": "parthenon/east-room/upper/column-16/shaft",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/east-room/upper/column-16/abacus",
+      "to": "parthenon/east-room/upper/column-16/capital",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/east-room/upper/column-17/capital",
+      "to": "parthenon/east-room/upper/column-17/shaft",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/east-room/upper/column-17/abacus",
+      "to": "parthenon/east-room/upper/column-17/capital",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/east-room/upper/column-18/capital",
+      "to": "parthenon/east-room/upper/column-18/shaft",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/east-room/upper/column-18/abacus",
+      "to": "parthenon/east-room/upper/column-18/capital",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/east-room/upper/column-19/capital",
+      "to": "parthenon/east-room/upper/column-19/shaft",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/east-room/upper/column-19/abacus",
+      "to": "parthenon/east-room/upper/column-19/capital",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/east-room/upper/column-20/capital",
+      "to": "parthenon/east-room/upper/column-20/shaft",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/east-room/upper/column-20/abacus",
+      "to": "parthenon/east-room/upper/column-20/capital",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/east-room/upper/column-21/capital",
+      "to": "parthenon/east-room/upper/column-21/shaft",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/east-room/upper/column-21/abacus",
+      "to": "parthenon/east-room/upper/column-21/capital",
+      "predicate": "rests-on"
     }
   ],
   "policy": "Only recorded instance edges are asserted."

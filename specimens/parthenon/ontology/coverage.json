@@ -1,13 +1,16 @@
 {
   "version": 1,
   "specimenId": "parthenon",
-  "total": 486,
+  "total": 536,
   "validTypes": true,
   "uniqueIds": true,
   "countChecks": {
     "perimeter": 46,
     "porch": 12,
-    "metopes": 92
+    "metopes": 92,
+    "eastLowerColonnadeShafts": 21,
+    "eastUpperSchematicShafts": 21,
+    "eastTerminalPiers": 2
   },
   "omitted": [
     "Original statue",

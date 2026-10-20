@@ -1962,6 +1962,206 @@
     {
       "id": "parthenon/entablature/south/frieze-backing",
       "material": "marble"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-14/shaft",
+      "material": "marble"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-14/capital",
+      "material": "marble"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-14/abacus",
+      "material": "marble"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-15/shaft",
+      "material": "marble"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-15/capital",
+      "material": "marble"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-15/abacus",
+      "material": "marble"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-16/shaft",
+      "material": "marble"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-16/capital",
+      "material": "marble"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-16/abacus",
+      "material": "marble"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-17/shaft",
+      "material": "marble"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-17/capital",
+      "material": "marble"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-17/abacus",
+      "material": "marble"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-18/shaft",
+      "material": "marble"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-18/capital",
+      "material": "marble"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-18/abacus",
+      "material": "marble"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-19/shaft",
+      "material": "marble"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-19/capital",
+      "material": "marble"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-19/abacus",
+      "material": "marble"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-20/shaft",
+      "material": "marble"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-20/capital",
+      "material": "marble"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-20/abacus",
+      "material": "marble"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-21/shaft",
+      "material": "marble"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-21/capital",
+      "material": "marble"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-21/abacus",
+      "material": "marble"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-14/shaft",
+      "material": "marble"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-14/capital",
+      "material": "marble"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-14/abacus",
+      "material": "marble"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-15/shaft",
+      "material": "marble"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-15/capital",
+      "material": "marble"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-15/abacus",
+      "material": "marble"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-16/shaft",
+      "material": "marble"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-16/capital",
+      "material": "marble"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-16/abacus",
+      "material": "marble"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-17/shaft",
+      "material": "marble"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-17/capital",
+      "material": "marble"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-17/abacus",
+      "material": "marble"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-18/shaft",
+      "material": "marble"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-18/capital",
+      "material": "marble"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-18/abacus",
+      "material": "marble"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-19/shaft",
+      "material": "marble"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-19/capital",
+      "material": "marble"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-19/abacus",
+      "material": "marble"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-20/shaft",
+      "material": "marble"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-20/capital",
+      "material": "marble"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-20/abacus",
+      "material": "marble"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-21/shaft",
+      "material": "marble"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-21/capital",
+      "material": "marble"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-21/abacus",
+      "material": "marble"
+    },
+    {
+      "id": "parthenon/east-room/lower/pier-north",
+      "material": "marble"
+    },
+    {
+      "id": "parthenon/east-room/lower/pier-south",
+      "material": "marble"
     }
   ]
 }

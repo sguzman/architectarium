@@ -4170,7 +4170,7 @@
       "position": [
         -6.4,
         4.07,
-        -20
+        -20.5
       ],
       "size": [
         1.35,
@@ -4179,9 +4179,9 @@
       ],
       "zone": "east-room",
       "sourceIds": [
-        "acropolis-architecture"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "interpretive-axes-published-arrangement",
       "material": "marble"
     },
     {
@@ -4192,7 +4192,7 @@
       "position": [
         -6.4,
         7.07,
-        -20
+        -20.5
       ],
       "size": [
         1.458,
@@ -4201,9 +4201,9 @@
       ],
       "zone": "east-room",
       "sourceIds": [
-        "ysma-parthenon"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "interpretive-axes-published-arrangement",
       "material": "marble"
     },
     {
@@ -4214,7 +4214,7 @@
       "position": [
         -6.4,
         7.33,
-        -20
+        -20.5
       ],
       "size": [
         1.553,
@@ -4223,9 +4223,9 @@
       ],
       "zone": "east-room",
       "sourceIds": [
-        "ysma-parthenon"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "interpretive-axes-published-arrangement",
       "material": "marble"
     },
     {
@@ -4236,7 +4236,7 @@
       "position": [
         6.4,
         4.07,
-        -20
+        -20.5
       ],
       "size": [
         1.35,
@@ -4245,9 +4245,9 @@
       ],
       "zone": "east-room",
       "sourceIds": [
-        "acropolis-architecture"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "interpretive-axes-published-arrangement",
       "material": "marble"
     },
     {
@@ -4258,7 +4258,7 @@
       "position": [
         6.4,
         7.07,
-        -20
+        -20.5
       ],
       "size": [
         1.458,
@@ -4267,9 +4267,9 @@
       ],
       "zone": "east-room",
       "sourceIds": [
-        "ysma-parthenon"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "interpretive-axes-published-arrangement",
       "material": "marble"
     },
     {
@@ -4280,7 +4280,7 @@
       "position": [
         6.4,
         7.33,
-        -20
+        -20.5
       ],
       "size": [
         1.553,
@@ -4289,9 +4289,9 @@
       ],
       "zone": "east-room",
       "sourceIds": [
-        "ysma-parthenon"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "interpretive-axes-published-arrangement",
       "material": "marble"
     },
     {
@@ -4302,7 +4302,7 @@
       "position": [
         -6.4,
         4.07,
-        -14.7
+        -14.2
       ],
       "size": [
         1.35,
@@ -4311,9 +4311,9 @@
       ],
       "zone": "east-room",
       "sourceIds": [
-        "acropolis-architecture"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "interpretive-axes-published-arrangement",
       "material": "marble"
     },
     {
@@ -4324,7 +4324,7 @@
       "position": [
         -6.4,
         7.07,
-        -14.7
+        -14.2
       ],
       "size": [
         1.458,
@@ -4333,9 +4333,9 @@
       ],
       "zone": "east-room",
       "sourceIds": [
-        "ysma-parthenon"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "interpretive-axes-published-arrangement",
       "material": "marble"
     },
     {
@@ -4346,7 +4346,7 @@
       "position": [
         -6.4,
         7.33,
-        -14.7
+        -14.2
       ],
       "size": [
         1.553,
@@ -4355,9 +4355,9 @@
       ],
       "zone": "east-room",
       "sourceIds": [
-        "ysma-parthenon"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "interpretive-axes-published-arrangement",
       "material": "marble"
     },
     {
@@ -4368,7 +4368,7 @@
       "position": [
         6.4,
         4.07,
-        -14.7
+        -14.2
       ],
       "size": [
         1.35,
@@ -4377,9 +4377,9 @@
       ],
       "zone": "east-room",
       "sourceIds": [
-        "acropolis-architecture"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "interpretive-axes-published-arrangement",
       "material": "marble"
     },
     {
@@ -4390,7 +4390,7 @@
       "position": [
         6.4,
         7.07,
-        -14.7
+        -14.2
       ],
       "size": [
         1.458,
@@ -4399,9 +4399,9 @@
       ],
       "zone": "east-room",
       "sourceIds": [
-        "ysma-parthenon"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "interpretive-axes-published-arrangement",
       "material": "marble"
     },
     {
@@ -4412,7 +4412,7 @@
       "position": [
         6.4,
         7.33,
-        -14.7
+        -14.2
       ],
       "size": [
         1.553,
@@ -4421,9 +4421,9 @@
       ],
       "zone": "east-room",
       "sourceIds": [
-        "ysma-parthenon"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "interpretive-axes-published-arrangement",
       "material": "marble"
     },
     {
@@ -4434,7 +4434,7 @@
       "position": [
         -6.4,
         4.07,
-        -9.4
+        -7.9
       ],
       "size": [
         1.35,
@@ -4443,9 +4443,9 @@
       ],
       "zone": "east-room",
       "sourceIds": [
-        "acropolis-architecture"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "interpretive-axes-published-arrangement",
       "material": "marble"
     },
     {
@@ -4456,7 +4456,7 @@
       "position": [
         -6.4,
         7.07,
-        -9.4
+        -7.9
       ],
       "size": [
         1.458,
@@ -4465,9 +4465,9 @@
       ],
       "zone": "east-room",
       "sourceIds": [
-        "ysma-parthenon"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "interpretive-axes-published-arrangement",
       "material": "marble"
     },
     {
@@ -4478,7 +4478,7 @@
       "position": [
         -6.4,
         7.33,
-        -9.4
+        -7.9
       ],
       "size": [
         1.553,
@@ -4487,9 +4487,9 @@
       ],
       "zone": "east-room",
       "sourceIds": [
-        "ysma-parthenon"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "interpretive-axes-published-arrangement",
       "material": "marble"
     },
     {
@@ -4500,7 +4500,7 @@
       "position": [
         6.4,
         4.07,
-        -9.4
+        -7.9
       ],
       "size": [
         1.35,
@@ -4509,9 +4509,9 @@
       ],
       "zone": "east-room",
       "sourceIds": [
-        "acropolis-architecture"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "interpretive-axes-published-arrangement",
       "material": "marble"
     },
     {
@@ -4522,7 +4522,7 @@
       "position": [
         6.4,
         7.07,
-        -9.4
+        -7.9
       ],
       "size": [
         1.458,
@@ -4531,9 +4531,9 @@
       ],
       "zone": "east-room",
       "sourceIds": [
-        "ysma-parthenon"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "interpretive-axes-published-arrangement",
       "material": "marble"
     },
     {
@@ -4544,7 +4544,7 @@
       "position": [
         6.4,
         7.33,
-        -9.4
+        -7.9
       ],
       "size": [
         1.553,
@@ -4553,9 +4553,9 @@
       ],
       "zone": "east-room",
       "sourceIds": [
-        "ysma-parthenon"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "interpretive-axes-published-arrangement",
       "material": "marble"
     },
     {
@@ -4566,7 +4566,7 @@
       "position": [
         -6.4,
         4.07,
-        -4.1
+        -1.6
       ],
       "size": [
         1.35,
@@ -4575,9 +4575,9 @@
       ],
       "zone": "east-room",
       "sourceIds": [
-        "acropolis-architecture"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "interpretive-axes-published-arrangement",
       "material": "marble"
     },
     {
@@ -4588,7 +4588,7 @@
       "position": [
         -6.4,
         7.07,
-        -4.1
+        -1.6
       ],
       "size": [
         1.458,
@@ -4597,9 +4597,9 @@
       ],
       "zone": "east-room",
       "sourceIds": [
-        "ysma-parthenon"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "interpretive-axes-published-arrangement",
       "material": "marble"
     },
     {
@@ -4610,7 +4610,7 @@
       "position": [
         -6.4,
         7.33,
-        -4.1
+        -1.6
       ],
       "size": [
         1.553,
@@ -4619,9 +4619,9 @@
       ],
       "zone": "east-room",
       "sourceIds": [
-        "ysma-parthenon"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "interpretive-axes-published-arrangement",
       "material": "marble"
     },
     {
@@ -4632,7 +4632,7 @@
       "position": [
         6.4,
         4.07,
-        -4.1
+        -1.6
       ],
       "size": [
         1.35,
@@ -4641,9 +4641,9 @@
       ],
       "zone": "east-room",
       "sourceIds": [
-        "acropolis-architecture"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "interpretive-axes-published-arrangement",
       "material": "marble"
     },
     {
@@ -4654,7 +4654,7 @@
       "position": [
         6.4,
         7.07,
-        -4.1
+        -1.6
       ],
       "size": [
         1.458,
@@ -4663,9 +4663,9 @@
       ],
       "zone": "east-room",
       "sourceIds": [
-        "ysma-parthenon"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "interpretive-axes-published-arrangement",
       "material": "marble"
     },
     {
@@ -4676,7 +4676,7 @@
       "position": [
         6.4,
         7.33,
-        -4.1
+        -1.6
       ],
       "size": [
         1.553,
@@ -4685,9 +4685,9 @@
       ],
       "zone": "east-room",
       "sourceIds": [
-        "ysma-parthenon"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "interpretive-axes-published-arrangement",
       "material": "marble"
     },
     {
@@ -4698,7 +4698,7 @@
       "position": [
         -6.4,
         4.07,
-        1.2
+        4.7
       ],
       "size": [
         1.35,
@@ -4707,9 +4707,9 @@
       ],
       "zone": "east-room",
       "sourceIds": [
-        "acropolis-architecture"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "interpretive-axes-published-arrangement",
       "material": "marble"
     },
     {
@@ -4720,7 +4720,7 @@
       "position": [
         -6.4,
         7.07,
-        1.2
+        4.7
       ],
       "size": [
         1.458,
@@ -4729,9 +4729,9 @@
       ],
       "zone": "east-room",
       "sourceIds": [
-        "ysma-parthenon"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "interpretive-axes-published-arrangement",
       "material": "marble"
     },
     {
@@ -4742,7 +4742,7 @@
       "position": [
         -6.4,
         7.33,
-        1.2
+        4.7
       ],
       "size": [
         1.553,
@@ -4751,9 +4751,9 @@
       ],
       "zone": "east-room",
       "sourceIds": [
-        "ysma-parthenon"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "interpretive-axes-published-arrangement",
       "material": "marble"
     },
     {
@@ -4764,7 +4764,7 @@
       "position": [
         6.4,
         4.07,
-        1.2
+        4.7
       ],
       "size": [
         1.35,
@@ -4773,9 +4773,9 @@
       ],
       "zone": "east-room",
       "sourceIds": [
-        "acropolis-architecture"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "interpretive-axes-published-arrangement",
       "material": "marble"
     },
     {
@@ -4786,7 +4786,7 @@
       "position": [
         6.4,
         7.07,
-        1.2
+        4.7
       ],
       "size": [
         1.458,
@@ -4795,9 +4795,9 @@
       ],
       "zone": "east-room",
       "sourceIds": [
-        "ysma-parthenon"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "interpretive-axes-published-arrangement",
       "material": "marble"
     },
     {
@@ -4808,7 +4808,7 @@
       "position": [
         6.4,
         7.33,
-        1.2
+        4.7
       ],
       "size": [
         1.553,
@@ -4817,9 +4817,9 @@
       ],
       "zone": "east-room",
       "sourceIds": [
-        "ysma-parthenon"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "interpretive-axes-published-arrangement",
       "material": "marble"
     },
     {
@@ -4828,9 +4828,9 @@
       "label": "lower column 11 shaft",
       "shape": "shaft",
       "position": [
-        -4.5,
+        -3.2,
         4.07,
-        6.5
+        6.8
       ],
       "size": [
         1.35,
@@ -4839,9 +4839,9 @@
       ],
       "zone": "east-room",
       "sourceIds": [
-        "acropolis-architecture"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "interpretive-axes-published-arrangement",
       "material": "marble"
     },
     {
@@ -4850,9 +4850,9 @@
       "label": "lower column 11 capital",
       "shape": "echinus",
       "position": [
-        -4.5,
+        -3.2,
         7.07,
-        6.5
+        6.8
       ],
       "size": [
         1.458,
@@ -4861,9 +4861,9 @@
       ],
       "zone": "east-room",
       "sourceIds": [
-        "ysma-parthenon"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "interpretive-axes-published-arrangement",
       "material": "marble"
     },
     {
@@ -4872,9 +4872,9 @@
       "label": "lower column 11 abacus",
       "shape": "box",
       "position": [
-        -4.5,
+        -3.2,
         7.33,
-        6.5
+        6.8
       ],
       "size": [
         1.553,
@@ -4883,9 +4883,9 @@
       ],
       "zone": "east-room",
       "sourceIds": [
-        "ysma-parthenon"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "interpretive-axes-published-arrangement",
       "material": "marble"
     },
     {
@@ -4896,7 +4896,7 @@
       "position": [
         0,
         4.07,
-        6.5
+        6.8
       ],
       "size": [
         1.35,
@@ -4905,9 +4905,9 @@
       ],
       "zone": "east-room",
       "sourceIds": [
-        "acropolis-architecture"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "interpretive-axes-published-arrangement",
       "material": "marble"
     },
     {
@@ -4918,7 +4918,7 @@
       "position": [
         0,
         7.07,
-        6.5
+        6.8
       ],
       "size": [
         1.458,
@@ -4927,9 +4927,9 @@
       ],
       "zone": "east-room",
       "sourceIds": [
-        "ysma-parthenon"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "interpretive-axes-published-arrangement",
       "material": "marble"
     },
     {
@@ -4940,7 +4940,7 @@
       "position": [
         0,
         7.33,
-        6.5
+        6.8
       ],
       "size": [
         1.553,
@@ -4949,9 +4949,9 @@
       ],
       "zone": "east-room",
       "sourceIds": [
-        "ysma-parthenon"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "interpretive-axes-published-arrangement",
       "material": "marble"
     },
     {
@@ -4960,9 +4960,9 @@
       "label": "lower column 13 shaft",
       "shape": "shaft",
       "position": [
-        4.5,
+        3.2,
         4.07,
-        6.5
+        6.8
       ],
       "size": [
         1.35,
@@ -4971,9 +4971,9 @@
       ],
       "zone": "east-room",
       "sourceIds": [
-        "acropolis-architecture"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "interpretive-axes-published-arrangement",
       "material": "marble"
     },
     {
@@ -4982,9 +4982,9 @@
       "label": "lower column 13 capital",
       "shape": "echinus",
       "position": [
-        4.5,
+        3.2,
         7.07,
-        6.5
+        6.8
       ],
       "size": [
         1.458,
@@ -4993,9 +4993,9 @@
       ],
       "zone": "east-room",
       "sourceIds": [
-        "ysma-parthenon"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "interpretive-axes-published-arrangement",
       "material": "marble"
     },
     {
@@ -5004,9 +5004,9 @@
       "label": "lower column 13 abacus",
       "shape": "box",
       "position": [
-        4.5,
+        3.2,
         7.33,
-        6.5
+        6.8
       ],
       "size": [
         1.553,
@@ -5015,9 +5015,9 @@
       ],
       "zone": "east-room",
       "sourceIds": [
-        "ysma-parthenon"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "interpretive-axes-published-arrangement",
       "material": "marble"
     },
     {
@@ -5028,7 +5028,7 @@
       "position": [
         -6.4,
         8.5,
-        -20
+        -20.5
       ],
       "size": [
         1,
@@ -5037,9 +5037,9 @@
       ],
       "zone": "east-room",
       "sourceIds": [
-        "acropolis-architecture"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "interpretive-axes-published-arrangement",
       "material": "marble"
     },
     {
@@ -5050,7 +5050,7 @@
       "position": [
         -6.4,
         10.25,
-        -20
+        -20.5
       ],
       "size": [
         1.08,
@@ -5059,9 +5059,9 @@
       ],
       "zone": "east-room",
       "sourceIds": [
-        "ysma-parthenon"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "interpretive-axes-published-arrangement",
       "material": "marble"
     },
     {
@@ -5072,7 +5072,7 @@
       "position": [
         -6.4,
         10.51,
-        -20
+        -20.5
       ],
       "size": [
         1.15,
@@ -5081,9 +5081,9 @@
       ],
       "zone": "east-room",
       "sourceIds": [
-        "ysma-parthenon"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "interpretive-axes-published-arrangement",
       "material": "marble"
     },
     {
@@ -5094,7 +5094,7 @@
       "position": [
         6.4,
         8.5,
-        -20
+        -20.5
       ],
       "size": [
         1,
@@ -5103,9 +5103,9 @@
       ],
       "zone": "east-room",
       "sourceIds": [
-        "acropolis-architecture"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "interpretive-axes-published-arrangement",
       "material": "marble"
     },
     {
@@ -5116,7 +5116,7 @@
       "position": [
         6.4,
         10.25,
-        -20
+        -20.5
       ],
       "size": [
         1.08,
@@ -5125,9 +5125,9 @@
       ],
       "zone": "east-room",
       "sourceIds": [
-        "ysma-parthenon"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "interpretive-axes-published-arrangement",
       "material": "marble"
     },
     {
@@ -5138,7 +5138,7 @@
       "position": [
         6.4,
         10.51,
-        -20
+        -20.5
       ],
       "size": [
         1.15,
@@ -5147,9 +5147,9 @@
       ],
       "zone": "east-room",
       "sourceIds": [
-        "ysma-parthenon"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "interpretive-axes-published-arrangement",
       "material": "marble"
     },
     {
@@ -5160,7 +5160,7 @@
       "position": [
         -6.4,
         8.5,
-        -14.7
+        -14.2
       ],
       "size": [
         1,
@@ -5169,9 +5169,9 @@
       ],
       "zone": "east-room",
       "sourceIds": [
-        "acropolis-architecture"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "interpretive-axes-published-arrangement",
       "material": "marble"
     },
     {
@@ -5182,7 +5182,7 @@
       "position": [
         -6.4,
         10.25,
-        -14.7
+        -14.2
       ],
       "size": [
         1.08,
@@ -5191,9 +5191,9 @@
       ],
       "zone": "east-room",
       "sourceIds": [
-        "ysma-parthenon"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "interpretive-axes-published-arrangement",
       "material": "marble"
     },
     {
@@ -5204,7 +5204,7 @@
       "position": [
         -6.4,
         10.51,
-        -14.7
+        -14.2
       ],
       "size": [
         1.15,
@@ -5213,9 +5213,9 @@
       ],
       "zone": "east-room",
       "sourceIds": [
-        "ysma-parthenon"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "interpretive-axes-published-arrangement",
       "material": "marble"
     },
     {
@@ -5226,7 +5226,7 @@
       "position": [
         6.4,
         8.5,
-        -14.7
+        -14.2
       ],
       "size": [
         1,
@@ -5235,9 +5235,9 @@
       ],
       "zone": "east-room",
       "sourceIds": [
-        "acropolis-architecture"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "interpretive-axes-published-arrangement",
       "material": "marble"
     },
     {
@@ -5248,7 +5248,7 @@
       "position": [
         6.4,
         10.25,
-        -14.7
+        -14.2
       ],
       "size": [
         1.08,
@@ -5257,9 +5257,9 @@
       ],
       "zone": "east-room",
       "sourceIds": [
-        "ysma-parthenon"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "interpretive-axes-published-arrangement",
       "material": "marble"
     },
     {
@@ -5270,7 +5270,7 @@
       "position": [
         6.4,
         10.51,
-        -14.7
+        -14.2
       ],
       "size": [
         1.15,
@@ -5279,9 +5279,9 @@
       ],
       "zone": "east-room",
       "sourceIds": [
-        "ysma-parthenon"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "interpretive-axes-published-arrangement",
       "material": "marble"
     },
     {
@@ -5292,7 +5292,7 @@
       "position": [
         -6.4,
         8.5,
-        -9.4
+        -7.9
       ],
       "size": [
         1,
@@ -5301,9 +5301,9 @@
       ],
       "zone": "east-room",
       "sourceIds": [
-        "acropolis-architecture"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "interpretive-axes-published-arrangement",
       "material": "marble"
     },
     {
@@ -5314,7 +5314,7 @@
       "position": [
         -6.4,
         10.25,
-        -9.4
+        -7.9
       ],
       "size": [
         1.08,
@@ -5323,9 +5323,9 @@
       ],
       "zone": "east-room",
       "sourceIds": [
-        "ysma-parthenon"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "interpretive-axes-published-arrangement",
       "material": "marble"
     },
     {
@@ -5336,7 +5336,7 @@
       "position": [
         -6.4,
         10.51,
-        -9.4
+        -7.9
       ],
       "size": [
         1.15,
@@ -5345,9 +5345,9 @@
       ],
       "zone": "east-room",
       "sourceIds": [
-        "ysma-parthenon"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "interpretive-axes-published-arrangement",
       "material": "marble"
     },
     {
@@ -5358,7 +5358,7 @@
       "position": [
         6.4,
         8.5,
-        -9.4
+        -7.9
       ],
       "size": [
         1,
@@ -5367,9 +5367,9 @@
       ],
       "zone": "east-room",
       "sourceIds": [
-        "acropolis-architecture"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "interpretive-axes-published-arrangement",
       "material": "marble"
     },
     {
@@ -5380,7 +5380,7 @@
       "position": [
         6.4,
         10.25,
-        -9.4
+        -7.9
       ],
       "size": [
         1.08,
@@ -5389,9 +5389,9 @@
       ],
       "zone": "east-room",
       "sourceIds": [
-        "ysma-parthenon"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "interpretive-axes-published-arrangement",
       "material": "marble"
     },
     {
@@ -5402,7 +5402,7 @@
       "position": [
         6.4,
         10.51,
-        -9.4
+        -7.9
       ],
       "size": [
         1.15,
@@ -5411,9 +5411,9 @@
       ],
       "zone": "east-room",
       "sourceIds": [
-        "ysma-parthenon"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "interpretive-axes-published-arrangement",
       "material": "marble"
     },
     {
@@ -5424,7 +5424,7 @@
       "position": [
         -6.4,
         8.5,
-        -4.1
+        -1.6
       ],
       "size": [
         1,
@@ -5433,9 +5433,9 @@
       ],
       "zone": "east-room",
       "sourceIds": [
-        "acropolis-architecture"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "interpretive-axes-published-arrangement",
       "material": "marble"
     },
     {
@@ -5446,7 +5446,7 @@
       "position": [
         -6.4,
         10.25,
-        -4.1
+        -1.6
       ],
       "size": [
         1.08,
@@ -5455,9 +5455,9 @@
       ],
       "zone": "east-room",
       "sourceIds": [
-        "ysma-parthenon"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "interpretive-axes-published-arrangement",
       "material": "marble"
     },
     {
@@ -5468,7 +5468,7 @@
       "position": [
         -6.4,
         10.51,
-        -4.1
+        -1.6
       ],
       "size": [
         1.15,
@@ -5477,9 +5477,9 @@
       ],
       "zone": "east-room",
       "sourceIds": [
-        "ysma-parthenon"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "interpretive-axes-published-arrangement",
       "material": "marble"
     },
     {
@@ -5490,7 +5490,7 @@
       "position": [
         6.4,
         8.5,
-        -4.1
+        -1.6
       ],
       "size": [
         1,
@@ -5499,9 +5499,9 @@
       ],
       "zone": "east-room",
       "sourceIds": [
-        "acropolis-architecture"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "interpretive-axes-published-arrangement",
       "material": "marble"
     },
     {
@@ -5512,7 +5512,7 @@
       "position": [
         6.4,
         10.25,
-        -4.1
+        -1.6
       ],
       "size": [
         1.08,
@@ -5521,9 +5521,9 @@
       ],
       "zone": "east-room",
       "sourceIds": [
-        "ysma-parthenon"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "interpretive-axes-published-arrangement",
       "material": "marble"
     },
     {
@@ -5534,7 +5534,7 @@
       "position": [
         6.4,
         10.51,
-        -4.1
+        -1.6
       ],
       "size": [
         1.15,
@@ -5543,9 +5543,9 @@
       ],
       "zone": "east-room",
       "sourceIds": [
-        "ysma-parthenon"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "interpretive-axes-published-arrangement",
       "material": "marble"
     },
     {
@@ -5556,7 +5556,7 @@
       "position": [
         -6.4,
         8.5,
-        1.2
+        4.7
       ],
       "size": [
         1,
@@ -5565,9 +5565,9 @@
       ],
       "zone": "east-room",
       "sourceIds": [
-        "acropolis-architecture"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "interpretive-axes-published-arrangement",
       "material": "marble"
     },
     {
@@ -5578,7 +5578,7 @@
       "position": [
         -6.4,
         10.25,
-        1.2
+        4.7
       ],
       "size": [
         1.08,
@@ -5587,9 +5587,9 @@
       ],
       "zone": "east-room",
       "sourceIds": [
-        "ysma-parthenon"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "interpretive-axes-published-arrangement",
       "material": "marble"
     },
     {
@@ -5600,7 +5600,7 @@
       "position": [
         -6.4,
         10.51,
-        1.2
+        4.7
       ],
       "size": [
         1.15,
@@ -5609,9 +5609,9 @@
       ],
       "zone": "east-room",
       "sourceIds": [
-        "ysma-parthenon"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "interpretive-axes-published-arrangement",
       "material": "marble"
     },
     {
@@ -5622,7 +5622,7 @@
       "position": [
         6.4,
         8.5,
-        1.2
+        4.7
       ],
       "size": [
         1,
@@ -5631,9 +5631,9 @@
       ],
       "zone": "east-room",
       "sourceIds": [
-        "acropolis-architecture"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "interpretive-axes-published-arrangement",
       "material": "marble"
     },
     {
@@ -5644,7 +5644,7 @@
       "position": [
         6.4,
         10.25,
-        1.2
+        4.7
       ],
       "size": [
         1.08,
@@ -5653,9 +5653,9 @@
       ],
       "zone": "east-room",
       "sourceIds": [
-        "ysma-parthenon"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "interpretive-axes-published-arrangement",
       "material": "marble"
     },
     {
@@ -5666,7 +5666,7 @@
       "position": [
         6.4,
         10.51,
-        1.2
+        4.7
       ],
       "size": [
         1.15,
@@ -5675,9 +5675,9 @@
       ],
       "zone": "east-room",
       "sourceIds": [
-        "ysma-parthenon"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "interpretive-axes-published-arrangement",
       "material": "marble"
     },
     {
@@ -5686,9 +5686,9 @@
       "label": "upper column 11 shaft",
       "shape": "shaft",
       "position": [
-        -4.5,
+        -3.2,
         8.5,
-        6.5
+        6.8
       ],
       "size": [
         1,
@@ -5697,9 +5697,9 @@
       ],
       "zone": "east-room",
       "sourceIds": [
-        "acropolis-architecture"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "interpretive-axes-published-arrangement",
       "material": "marble"
     },
     {
@@ -5708,9 +5708,9 @@
       "label": "upper column 11 capital",
       "shape": "echinus",
       "position": [
-        -4.5,
+        -3.2,
         10.25,
-        6.5
+        6.8
       ],
       "size": [
         1.08,
@@ -5719,9 +5719,9 @@
       ],
       "zone": "east-room",
       "sourceIds": [
-        "ysma-parthenon"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "interpretive-axes-published-arrangement",
       "material": "marble"
     },
     {
@@ -5730,9 +5730,9 @@
       "label": "upper column 11 abacus",
       "shape": "box",
       "position": [
-        -4.5,
+        -3.2,
         10.51,
-        6.5
+        6.8
       ],
       "size": [
         1.15,
@@ -5741,9 +5741,9 @@
       ],
       "zone": "east-room",
       "sourceIds": [
-        "ysma-parthenon"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "interpretive-axes-published-arrangement",
       "material": "marble"
     },
     {
@@ -5754,7 +5754,7 @@
       "position": [
         0,
         8.5,
-        6.5
+        6.8
       ],
       "size": [
         1,
@@ -5763,9 +5763,9 @@
       ],
       "zone": "east-room",
       "sourceIds": [
-        "acropolis-architecture"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "interpretive-axes-published-arrangement",
       "material": "marble"
     },
     {
@@ -5776,7 +5776,7 @@
       "position": [
         0,
         10.25,
-        6.5
+        6.8
       ],
       "size": [
         1.08,
@@ -5785,9 +5785,9 @@
       ],
       "zone": "east-room",
       "sourceIds": [
-        "ysma-parthenon"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "interpretive-axes-published-arrangement",
       "material": "marble"
     },
     {
@@ -5798,7 +5798,7 @@
       "position": [
         0,
         10.51,
-        6.5
+        6.8
       ],
       "size": [
         1.15,
@@ -5807,9 +5807,9 @@
       ],
       "zone": "east-room",
       "sourceIds": [
-        "ysma-parthenon"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "interpretive-axes-published-arrangement",
       "material": "marble"
     },
     {
@@ -5818,9 +5818,9 @@
       "label": "upper column 13 shaft",
       "shape": "shaft",
       "position": [
-        4.5,
+        3.2,
         8.5,
-        6.5
+        6.8
       ],
       "size": [
         1,
@@ -5829,9 +5829,9 @@
       ],
       "zone": "east-room",
       "sourceIds": [
-        "acropolis-architecture"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "interpretive-axes-published-arrangement",
       "material": "marble"
     },
     {
@@ -5840,9 +5840,9 @@
       "label": "upper column 13 capital",
       "shape": "echinus",
       "position": [
-        4.5,
+        3.2,
         10.25,
-        6.5
+        6.8
       ],
       "size": [
         1.08,
@@ -5851,9 +5851,9 @@
       ],
       "zone": "east-room",
       "sourceIds": [
-        "ysma-parthenon"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "interpretive-axes-published-arrangement",
       "material": "marble"
     },
     {
@@ -5862,9 +5862,9 @@
       "label": "upper column 13 abacus",
       "shape": "box",
       "position": [
-        4.5,
+        3.2,
         10.51,
-        6.5
+        6.8
       ],
       "size": [
         1.15,
@@ -5873,9 +5873,9 @@
       ],
       "zone": "east-room",
       "sourceIds": [
-        "ysma-parthenon"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "interpretive-axes-published-arrangement",
       "material": "marble"
     },
     {
@@ -10694,6 +10694,1106 @@
         "acropolis-architecture"
       ],
       "certainty": "schematic-assembly",
+      "material": "marble"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-14/shaft",
+      "typeId": "column-shaft",
+      "label": "lower colonnade north extra column 14 shaft",
+      "shape": "shaft",
+      "position": [
+        -6.4,
+        4.07,
+        -17.35
+      ],
+      "size": [
+        1.35,
+        5.6,
+        1.35
+      ],
+      "zone": "east-room",
+      "sourceIds": [
+        "perseus-parthenon"
+      ],
+      "certainty": "schematic-spacing-supported-configuration",
+      "material": "marble"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-14/capital",
+      "typeId": "echinus",
+      "label": "lower colonnade north extra column 14 capital",
+      "shape": "echinus",
+      "position": [
+        -6.4,
+        7.07,
+        -17.35
+      ],
+      "size": [
+        1.458,
+        0.4,
+        1.458
+      ],
+      "zone": "east-room",
+      "sourceIds": [
+        "perseus-parthenon"
+      ],
+      "certainty": "schematic-spacing-supported-configuration",
+      "material": "marble"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-14/abacus",
+      "typeId": "abacus",
+      "label": "lower colonnade north extra column 14 abacus",
+      "shape": "box",
+      "position": [
+        -6.4,
+        7.33,
+        -17.35
+      ],
+      "size": [
+        1.553,
+        0.18,
+        1.553
+      ],
+      "zone": "east-room",
+      "sourceIds": [
+        "perseus-parthenon"
+      ],
+      "certainty": "schematic-spacing-supported-configuration",
+      "material": "marble"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-15/shaft",
+      "typeId": "column-shaft",
+      "label": "lower colonnade north extra column 15 shaft",
+      "shape": "shaft",
+      "position": [
+        -6.4,
+        4.07,
+        -11.05
+      ],
+      "size": [
+        1.35,
+        5.6,
+        1.35
+      ],
+      "zone": "east-room",
+      "sourceIds": [
+        "perseus-parthenon"
+      ],
+      "certainty": "schematic-spacing-supported-configuration",
+      "material": "marble"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-15/capital",
+      "typeId": "echinus",
+      "label": "lower colonnade north extra column 15 capital",
+      "shape": "echinus",
+      "position": [
+        -6.4,
+        7.07,
+        -11.05
+      ],
+      "size": [
+        1.458,
+        0.4,
+        1.458
+      ],
+      "zone": "east-room",
+      "sourceIds": [
+        "perseus-parthenon"
+      ],
+      "certainty": "schematic-spacing-supported-configuration",
+      "material": "marble"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-15/abacus",
+      "typeId": "abacus",
+      "label": "lower colonnade north extra column 15 abacus",
+      "shape": "box",
+      "position": [
+        -6.4,
+        7.33,
+        -11.05
+      ],
+      "size": [
+        1.553,
+        0.18,
+        1.553
+      ],
+      "zone": "east-room",
+      "sourceIds": [
+        "perseus-parthenon"
+      ],
+      "certainty": "schematic-spacing-supported-configuration",
+      "material": "marble"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-16/shaft",
+      "typeId": "column-shaft",
+      "label": "lower colonnade north extra column 16 shaft",
+      "shape": "shaft",
+      "position": [
+        -6.4,
+        4.07,
+        -4.75
+      ],
+      "size": [
+        1.35,
+        5.6,
+        1.35
+      ],
+      "zone": "east-room",
+      "sourceIds": [
+        "perseus-parthenon"
+      ],
+      "certainty": "schematic-spacing-supported-configuration",
+      "material": "marble"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-16/capital",
+      "typeId": "echinus",
+      "label": "lower colonnade north extra column 16 capital",
+      "shape": "echinus",
+      "position": [
+        -6.4,
+        7.07,
+        -4.75
+      ],
+      "size": [
+        1.458,
+        0.4,
+        1.458
+      ],
+      "zone": "east-room",
+      "sourceIds": [
+        "perseus-parthenon"
+      ],
+      "certainty": "schematic-spacing-supported-configuration",
+      "material": "marble"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-16/abacus",
+      "typeId": "abacus",
+      "label": "lower colonnade north extra column 16 abacus",
+      "shape": "box",
+      "position": [
+        -6.4,
+        7.33,
+        -4.75
+      ],
+      "size": [
+        1.553,
+        0.18,
+        1.553
+      ],
+      "zone": "east-room",
+      "sourceIds": [
+        "perseus-parthenon"
+      ],
+      "certainty": "schematic-spacing-supported-configuration",
+      "material": "marble"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-17/shaft",
+      "typeId": "column-shaft",
+      "label": "lower colonnade north extra column 17 shaft",
+      "shape": "shaft",
+      "position": [
+        -6.4,
+        4.07,
+        1.55
+      ],
+      "size": [
+        1.35,
+        5.6,
+        1.35
+      ],
+      "zone": "east-room",
+      "sourceIds": [
+        "perseus-parthenon"
+      ],
+      "certainty": "schematic-spacing-supported-configuration",
+      "material": "marble"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-17/capital",
+      "typeId": "echinus",
+      "label": "lower colonnade north extra column 17 capital",
+      "shape": "echinus",
+      "position": [
+        -6.4,
+        7.07,
+        1.55
+      ],
+      "size": [
+        1.458,
+        0.4,
+        1.458
+      ],
+      "zone": "east-room",
+      "sourceIds": [
+        "perseus-parthenon"
+      ],
+      "certainty": "schematic-spacing-supported-configuration",
+      "material": "marble"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-17/abacus",
+      "typeId": "abacus",
+      "label": "lower colonnade north extra column 17 abacus",
+      "shape": "box",
+      "position": [
+        -6.4,
+        7.33,
+        1.55
+      ],
+      "size": [
+        1.553,
+        0.18,
+        1.553
+      ],
+      "zone": "east-room",
+      "sourceIds": [
+        "perseus-parthenon"
+      ],
+      "certainty": "schematic-spacing-supported-configuration",
+      "material": "marble"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-18/shaft",
+      "typeId": "column-shaft",
+      "label": "lower colonnade south extra column 18 shaft",
+      "shape": "shaft",
+      "position": [
+        6.4,
+        4.07,
+        -17.35
+      ],
+      "size": [
+        1.35,
+        5.6,
+        1.35
+      ],
+      "zone": "east-room",
+      "sourceIds": [
+        "perseus-parthenon"
+      ],
+      "certainty": "schematic-spacing-supported-configuration",
+      "material": "marble"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-18/capital",
+      "typeId": "echinus",
+      "label": "lower colonnade south extra column 18 capital",
+      "shape": "echinus",
+      "position": [
+        6.4,
+        7.07,
+        -17.35
+      ],
+      "size": [
+        1.458,
+        0.4,
+        1.458
+      ],
+      "zone": "east-room",
+      "sourceIds": [
+        "perseus-parthenon"
+      ],
+      "certainty": "schematic-spacing-supported-configuration",
+      "material": "marble"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-18/abacus",
+      "typeId": "abacus",
+      "label": "lower colonnade south extra column 18 abacus",
+      "shape": "box",
+      "position": [
+        6.4,
+        7.33,
+        -17.35
+      ],
+      "size": [
+        1.553,
+        0.18,
+        1.553
+      ],
+      "zone": "east-room",
+      "sourceIds": [
+        "perseus-parthenon"
+      ],
+      "certainty": "schematic-spacing-supported-configuration",
+      "material": "marble"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-19/shaft",
+      "typeId": "column-shaft",
+      "label": "lower colonnade south extra column 19 shaft",
+      "shape": "shaft",
+      "position": [
+        6.4,
+        4.07,
+        -11.05
+      ],
+      "size": [
+        1.35,
+        5.6,
+        1.35
+      ],
+      "zone": "east-room",
+      "sourceIds": [
+        "perseus-parthenon"
+      ],
+      "certainty": "schematic-spacing-supported-configuration",
+      "material": "marble"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-19/capital",
+      "typeId": "echinus",
+      "label": "lower colonnade south extra column 19 capital",
+      "shape": "echinus",
+      "position": [
+        6.4,
+        7.07,
+        -11.05
+      ],
+      "size": [
+        1.458,
+        0.4,
+        1.458
+      ],
+      "zone": "east-room",
+      "sourceIds": [
+        "perseus-parthenon"
+      ],
+      "certainty": "schematic-spacing-supported-configuration",
+      "material": "marble"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-19/abacus",
+      "typeId": "abacus",
+      "label": "lower colonnade south extra column 19 abacus",
+      "shape": "box",
+      "position": [
+        6.4,
+        7.33,
+        -11.05
+      ],
+      "size": [
+        1.553,
+        0.18,
+        1.553
+      ],
+      "zone": "east-room",
+      "sourceIds": [
+        "perseus-parthenon"
+      ],
+      "certainty": "schematic-spacing-supported-configuration",
+      "material": "marble"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-20/shaft",
+      "typeId": "column-shaft",
+      "label": "lower colonnade south extra column 20 shaft",
+      "shape": "shaft",
+      "position": [
+        6.4,
+        4.07,
+        -4.75
+      ],
+      "size": [
+        1.35,
+        5.6,
+        1.35
+      ],
+      "zone": "east-room",
+      "sourceIds": [
+        "perseus-parthenon"
+      ],
+      "certainty": "schematic-spacing-supported-configuration",
+      "material": "marble"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-20/capital",
+      "typeId": "echinus",
+      "label": "lower colonnade south extra column 20 capital",
+      "shape": "echinus",
+      "position": [
+        6.4,
+        7.07,
+        -4.75
+      ],
+      "size": [
+        1.458,
+        0.4,
+        1.458
+      ],
+      "zone": "east-room",
+      "sourceIds": [
+        "perseus-parthenon"
+      ],
+      "certainty": "schematic-spacing-supported-configuration",
+      "material": "marble"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-20/abacus",
+      "typeId": "abacus",
+      "label": "lower colonnade south extra column 20 abacus",
+      "shape": "box",
+      "position": [
+        6.4,
+        7.33,
+        -4.75
+      ],
+      "size": [
+        1.553,
+        0.18,
+        1.553
+      ],
+      "zone": "east-room",
+      "sourceIds": [
+        "perseus-parthenon"
+      ],
+      "certainty": "schematic-spacing-supported-configuration",
+      "material": "marble"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-21/shaft",
+      "typeId": "column-shaft",
+      "label": "lower colonnade south extra column 21 shaft",
+      "shape": "shaft",
+      "position": [
+        6.4,
+        4.07,
+        1.55
+      ],
+      "size": [
+        1.35,
+        5.6,
+        1.35
+      ],
+      "zone": "east-room",
+      "sourceIds": [
+        "perseus-parthenon"
+      ],
+      "certainty": "schematic-spacing-supported-configuration",
+      "material": "marble"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-21/capital",
+      "typeId": "echinus",
+      "label": "lower colonnade south extra column 21 capital",
+      "shape": "echinus",
+      "position": [
+        6.4,
+        7.07,
+        1.55
+      ],
+      "size": [
+        1.458,
+        0.4,
+        1.458
+      ],
+      "zone": "east-room",
+      "sourceIds": [
+        "perseus-parthenon"
+      ],
+      "certainty": "schematic-spacing-supported-configuration",
+      "material": "marble"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-21/abacus",
+      "typeId": "abacus",
+      "label": "lower colonnade south extra column 21 abacus",
+      "shape": "box",
+      "position": [
+        6.4,
+        7.33,
+        1.55
+      ],
+      "size": [
+        1.553,
+        0.18,
+        1.553
+      ],
+      "zone": "east-room",
+      "sourceIds": [
+        "perseus-parthenon"
+      ],
+      "certainty": "schematic-spacing-supported-configuration",
+      "material": "marble"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-14/shaft",
+      "typeId": "column-shaft",
+      "label": "upper colonnade north extra column 14 shaft",
+      "shape": "shaft",
+      "position": [
+        -6.4,
+        8.5,
+        -17.35
+      ],
+      "size": [
+        1,
+        3.1,
+        1
+      ],
+      "zone": "east-room",
+      "sourceIds": [
+        "perseus-parthenon"
+      ],
+      "certainty": "schematic-spacing-supported-configuration",
+      "material": "marble"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-14/capital",
+      "typeId": "echinus",
+      "label": "upper colonnade north extra column 14 capital",
+      "shape": "echinus",
+      "position": [
+        -6.4,
+        10.25,
+        -17.35
+      ],
+      "size": [
+        1.08,
+        0.4,
+        1.08
+      ],
+      "zone": "east-room",
+      "sourceIds": [
+        "perseus-parthenon"
+      ],
+      "certainty": "schematic-spacing-supported-configuration",
+      "material": "marble"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-14/abacus",
+      "typeId": "abacus",
+      "label": "upper colonnade north extra column 14 abacus",
+      "shape": "box",
+      "position": [
+        -6.4,
+        10.51,
+        -17.35
+      ],
+      "size": [
+        1.15,
+        0.18,
+        1.15
+      ],
+      "zone": "east-room",
+      "sourceIds": [
+        "perseus-parthenon"
+      ],
+      "certainty": "schematic-spacing-supported-configuration",
+      "material": "marble"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-15/shaft",
+      "typeId": "column-shaft",
+      "label": "upper colonnade north extra column 15 shaft",
+      "shape": "shaft",
+      "position": [
+        -6.4,
+        8.5,
+        -11.05
+      ],
+      "size": [
+        1,
+        3.1,
+        1
+      ],
+      "zone": "east-room",
+      "sourceIds": [
+        "perseus-parthenon"
+      ],
+      "certainty": "schematic-spacing-supported-configuration",
+      "material": "marble"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-15/capital",
+      "typeId": "echinus",
+      "label": "upper colonnade north extra column 15 capital",
+      "shape": "echinus",
+      "position": [
+        -6.4,
+        10.25,
+        -11.05
+      ],
+      "size": [
+        1.08,
+        0.4,
+        1.08
+      ],
+      "zone": "east-room",
+      "sourceIds": [
+        "perseus-parthenon"
+      ],
+      "certainty": "schematic-spacing-supported-configuration",
+      "material": "marble"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-15/abacus",
+      "typeId": "abacus",
+      "label": "upper colonnade north extra column 15 abacus",
+      "shape": "box",
+      "position": [
+        -6.4,
+        10.51,
+        -11.05
+      ],
+      "size": [
+        1.15,
+        0.18,
+        1.15
+      ],
+      "zone": "east-room",
+      "sourceIds": [
+        "perseus-parthenon"
+      ],
+      "certainty": "schematic-spacing-supported-configuration",
+      "material": "marble"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-16/shaft",
+      "typeId": "column-shaft",
+      "label": "upper colonnade north extra column 16 shaft",
+      "shape": "shaft",
+      "position": [
+        -6.4,
+        8.5,
+        -4.75
+      ],
+      "size": [
+        1,
+        3.1,
+        1
+      ],
+      "zone": "east-room",
+      "sourceIds": [
+        "perseus-parthenon"
+      ],
+      "certainty": "schematic-spacing-supported-configuration",
+      "material": "marble"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-16/capital",
+      "typeId": "echinus",
+      "label": "upper colonnade north extra column 16 capital",
+      "shape": "echinus",
+      "position": [
+        -6.4,
+        10.25,
+        -4.75
+      ],
+      "size": [
+        1.08,
+        0.4,
+        1.08
+      ],
+      "zone": "east-room",
+      "sourceIds": [
+        "perseus-parthenon"
+      ],
+      "certainty": "schematic-spacing-supported-configuration",
+      "material": "marble"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-16/abacus",
+      "typeId": "abacus",
+      "label": "upper colonnade north extra column 16 abacus",
+      "shape": "box",
+      "position": [
+        -6.4,
+        10.51,
+        -4.75
+      ],
+      "size": [
+        1.15,
+        0.18,
+        1.15
+      ],
+      "zone": "east-room",
+      "sourceIds": [
+        "perseus-parthenon"
+      ],
+      "certainty": "schematic-spacing-supported-configuration",
+      "material": "marble"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-17/shaft",
+      "typeId": "column-shaft",
+      "label": "upper colonnade north extra column 17 shaft",
+      "shape": "shaft",
+      "position": [
+        -6.4,
+        8.5,
+        1.55
+      ],
+      "size": [
+        1,
+        3.1,
+        1
+      ],
+      "zone": "east-room",
+      "sourceIds": [
+        "perseus-parthenon"
+      ],
+      "certainty": "schematic-spacing-supported-configuration",
+      "material": "marble"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-17/capital",
+      "typeId": "echinus",
+      "label": "upper colonnade north extra column 17 capital",
+      "shape": "echinus",
+      "position": [
+        -6.4,
+        10.25,
+        1.55
+      ],
+      "size": [
+        1.08,
+        0.4,
+        1.08
+      ],
+      "zone": "east-room",
+      "sourceIds": [
+        "perseus-parthenon"
+      ],
+      "certainty": "schematic-spacing-supported-configuration",
+      "material": "marble"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-17/abacus",
+      "typeId": "abacus",
+      "label": "upper colonnade north extra column 17 abacus",
+      "shape": "box",
+      "position": [
+        -6.4,
+        10.51,
+        1.55
+      ],
+      "size": [
+        1.15,
+        0.18,
+        1.15
+      ],
+      "zone": "east-room",
+      "sourceIds": [
+        "perseus-parthenon"
+      ],
+      "certainty": "schematic-spacing-supported-configuration",
+      "material": "marble"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-18/shaft",
+      "typeId": "column-shaft",
+      "label": "upper colonnade south extra column 18 shaft",
+      "shape": "shaft",
+      "position": [
+        6.4,
+        8.5,
+        -17.35
+      ],
+      "size": [
+        1,
+        3.1,
+        1
+      ],
+      "zone": "east-room",
+      "sourceIds": [
+        "perseus-parthenon"
+      ],
+      "certainty": "schematic-spacing-supported-configuration",
+      "material": "marble"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-18/capital",
+      "typeId": "echinus",
+      "label": "upper colonnade south extra column 18 capital",
+      "shape": "echinus",
+      "position": [
+        6.4,
+        10.25,
+        -17.35
+      ],
+      "size": [
+        1.08,
+        0.4,
+        1.08
+      ],
+      "zone": "east-room",
+      "sourceIds": [
+        "perseus-parthenon"
+      ],
+      "certainty": "schematic-spacing-supported-configuration",
+      "material": "marble"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-18/abacus",
+      "typeId": "abacus",
+      "label": "upper colonnade south extra column 18 abacus",
+      "shape": "box",
+      "position": [
+        6.4,
+        10.51,
+        -17.35
+      ],
+      "size": [
+        1.15,
+        0.18,
+        1.15
+      ],
+      "zone": "east-room",
+      "sourceIds": [
+        "perseus-parthenon"
+      ],
+      "certainty": "schematic-spacing-supported-configuration",
+      "material": "marble"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-19/shaft",
+      "typeId": "column-shaft",
+      "label": "upper colonnade south extra column 19 shaft",
+      "shape": "shaft",
+      "position": [
+        6.4,
+        8.5,
+        -11.05
+      ],
+      "size": [
+        1,
+        3.1,
+        1
+      ],
+      "zone": "east-room",
+      "sourceIds": [
+        "perseus-parthenon"
+      ],
+      "certainty": "schematic-spacing-supported-configuration",
+      "material": "marble"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-19/capital",
+      "typeId": "echinus",
+      "label": "upper colonnade south extra column 19 capital",
+      "shape": "echinus",
+      "position": [
+        6.4,
+        10.25,
+        -11.05
+      ],
+      "size": [
+        1.08,
+        0.4,
+        1.08
+      ],
+      "zone": "east-room",
+      "sourceIds": [
+        "perseus-parthenon"
+      ],
+      "certainty": "schematic-spacing-supported-configuration",
+      "material": "marble"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-19/abacus",
+      "typeId": "abacus",
+      "label": "upper colonnade south extra column 19 abacus",
+      "shape": "box",
+      "position": [
+        6.4,
+        10.51,
+        -11.05
+      ],
+      "size": [
+        1.15,
+        0.18,
+        1.15
+      ],
+      "zone": "east-room",
+      "sourceIds": [
+        "perseus-parthenon"
+      ],
+      "certainty": "schematic-spacing-supported-configuration",
+      "material": "marble"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-20/shaft",
+      "typeId": "column-shaft",
+      "label": "upper colonnade south extra column 20 shaft",
+      "shape": "shaft",
+      "position": [
+        6.4,
+        8.5,
+        -4.75
+      ],
+      "size": [
+        1,
+        3.1,
+        1
+      ],
+      "zone": "east-room",
+      "sourceIds": [
+        "perseus-parthenon"
+      ],
+      "certainty": "schematic-spacing-supported-configuration",
+      "material": "marble"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-20/capital",
+      "typeId": "echinus",
+      "label": "upper colonnade south extra column 20 capital",
+      "shape": "echinus",
+      "position": [
+        6.4,
+        10.25,
+        -4.75
+      ],
+      "size": [
+        1.08,
+        0.4,
+        1.08
+      ],
+      "zone": "east-room",
+      "sourceIds": [
+        "perseus-parthenon"
+      ],
+      "certainty": "schematic-spacing-supported-configuration",
+      "material": "marble"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-20/abacus",
+      "typeId": "abacus",
+      "label": "upper colonnade south extra column 20 abacus",
+      "shape": "box",
+      "position": [
+        6.4,
+        10.51,
+        -4.75
+      ],
+      "size": [
+        1.15,
+        0.18,
+        1.15
+      ],
+      "zone": "east-room",
+      "sourceIds": [
+        "perseus-parthenon"
+      ],
+      "certainty": "schematic-spacing-supported-configuration",
+      "material": "marble"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-21/shaft",
+      "typeId": "column-shaft",
+      "label": "upper colonnade south extra column 21 shaft",
+      "shape": "shaft",
+      "position": [
+        6.4,
+        8.5,
+        1.55
+      ],
+      "size": [
+        1,
+        3.1,
+        1
+      ],
+      "zone": "east-room",
+      "sourceIds": [
+        "perseus-parthenon"
+      ],
+      "certainty": "schematic-spacing-supported-configuration",
+      "material": "marble"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-21/capital",
+      "typeId": "echinus",
+      "label": "upper colonnade south extra column 21 capital",
+      "shape": "echinus",
+      "position": [
+        6.4,
+        10.25,
+        1.55
+      ],
+      "size": [
+        1.08,
+        0.4,
+        1.08
+      ],
+      "zone": "east-room",
+      "sourceIds": [
+        "perseus-parthenon"
+      ],
+      "certainty": "schematic-spacing-supported-configuration",
+      "material": "marble"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-21/abacus",
+      "typeId": "abacus",
+      "label": "upper colonnade south extra column 21 abacus",
+      "shape": "box",
+      "position": [
+        6.4,
+        10.51,
+        1.55
+      ],
+      "size": [
+        1.15,
+        0.18,
+        1.15
+      ],
+      "zone": "east-room",
+      "sourceIds": [
+        "perseus-parthenon"
+      ],
+      "certainty": "schematic-spacing-supported-configuration",
+      "material": "marble"
+    },
+    {
+      "id": "parthenon/east-room/lower/pier-north",
+      "typeId": "pier",
+      "label": "Eastern U-colonnade north terminal pier",
+      "shape": "box",
+      "position": [
+        -6.4,
+        4.07,
+        6.8
+      ],
+      "size": [
+        1.65,
+        5.6,
+        1.65
+      ],
+      "zone": "east-room",
+      "sourceIds": [
+        "perseus-parthenon"
+      ],
+      "certainty": "published-configuration-approximate-dimensions",
+      "material": "marble"
+    },
+    {
+      "id": "parthenon/east-room/lower/pier-south",
+      "typeId": "pier",
+      "label": "Eastern U-colonnade south terminal pier",
+      "shape": "box",
+      "position": [
+        6.4,
+        4.07,
+        6.8
+      ],
+      "size": [
+        1.65,
+        5.6,
+        1.65
+      ],
+      "zone": "east-room",
+      "sourceIds": [
+        "perseus-parthenon"
+      ],
+      "certainty": "published-configuration-approximate-dimensions",
       "material": "marble"
     }
   ]

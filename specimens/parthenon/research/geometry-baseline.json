@@ -61,6 +61,17 @@
       "unit": "m",
       "sourceId": "perseus-parthenon",
       "tolerance": "published summary, grid schematic without individual structural tilt"
+    },
+    {
+      "feature": "eastern sanctuary Doric inner colonnade",
+      "target": {
+        "columnsPerLongSide": 9,
+        "terminalPierPerLongSide": 1,
+        "columnsAcrossWestReturn": 3
+      },
+      "unit": "count",
+      "sourceId": "perseus-parthenon",
+      "tolerance": "Published scholarly plan interpretation for lower level; upper tier reconstructed schematically, individual spacing and profile not surveyed"
     }
   ],
   "requirements": [
