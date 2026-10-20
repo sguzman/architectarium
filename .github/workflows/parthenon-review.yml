@@ -1,0 +1,46 @@
+name: Parthenon 3D specimen review
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'site/specimens/parthenon/**'
+      - 'specimens/parthenon/ontology/**'
+      - 'scripts/browser-parthenon.mjs'
+      - 'scripts/test-parthenon.mjs'
+      - '.github/workflows/parthenon-review.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    timeout-minutes: 16
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Validate architectural physical inventory
+        run: node scripts/test-parthenon.mjs
+      - name: Install Chromium
+        run: |
+          npm install --no-save playwright@1.64.1
+          npx playwright install --with-deps chromium
+      - name: Assemble private staging preview, not GitHub Pages
+        run: |
+          mkdir -p _preview/specimens/parthenon/data _preview/data
+          cp -a site/specimens/parthenon/. _preview/specimens/parthenon/
+          cp specimens/parthenon/ontology/instances.json _preview/specimens/parthenon/data/
+          cp ontology/components.json ontology/sources.json _preview/data/
+      - name: Test rendered exhibit
+        run: |
+          python3 -m http.server 4174 --directory _preview >/tmp/architectarium-parthenon-server.log 2>&1 &
+          node scripts/browser-parthenon.mjs
+      - name: Preserve review evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: parthenon-browser-review
+          path: qa-parthenon/
+          if-no-files-found: ignore
+          retention-days: 7

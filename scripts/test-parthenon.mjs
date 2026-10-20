@@ -1,0 +1,38 @@
+import assert from 'node:assert/strict';
+import {readFileSync} from 'node:fs';
+import {resolve} from 'node:path';
+const root=resolve(import.meta.dirname,'..');
+const read=p=>JSON.parse(readFileSync(resolve(root,p),'utf8'));
+const data=read('specimens/parthenon/ontology/instances.json'),parts=data.instances;
+const ontology=read('ontology/components.json'),sources=read('ontology/sources.json');
+const types=new Set(ontology.components.map(c=>c.id)),ids=new Set(parts.map(p=>p.id)),refs=new Set(sources.sources.map(s=>s.id));
+assert.equal(ids.size,parts.length,'Duplicate physical part ID');
+assert.ok(parts.length>=400,'Building has too few semantic objects for current reconstruction scope');
+for(const p of parts){
+ assert.ok(types.has(p.typeId),p.id+': invalid type');
+ assert.ok(/^(parthenon\/)[a-z0-9/-]+$/.test(p.id),p.id+': unstable physical ID');
+ assert.ok(Array.isArray(p.sourceIds)&&p.sourceIds.length>0&&p.sourceIds.every(s=>refs.has(s)),p.id+': unknown source');
+ assert.ok(['box','shaft','echinus','ionic','roof','pediment'].includes(p.shape),p.id+': unsupported mesh shape');
+ assert.ok(p.position.length===3&&p.position.every(Number.isFinite),p.id+': invalid location');
+ assert.ok(p.size.length===3&&p.size.every(v=>Number.isFinite(v)&&v>0),p.id+': invalid dimensions');
+ assert.ok(p.certainty&&p.label&&p.zone);
+}
+const count=fragment=>parts.filter(p=>p.id.includes(fragment)&&p.id.endsWith('/shaft')).length;
+assert.equal(count('/peristyle/'),46,'Exterior Doric perimeter must have 46 distinct shafts');
+assert.equal(count('/porch/'),12,'Outer pronaos and opisthonaos need 12 distinct shafts');
+assert.equal(count('/west-room/'),4,'West chamber should have four Ionic shafts');
+assert.ok(count('/east-room/')>=20,'East two-level colonnade not represented');
+assert.equal(parts.filter(p=>p.typeId==='metope').length,92,'Wrong metope count');
+assert.equal(parts.filter(p=>p.shape==='roof').length,2);
+assert.equal(parts.filter(p=>p.shape==='pediment').length,2);
+const stylobate=parts.find(p=>p.id==='parthenon/base/stylobate');
+assert.deepEqual([stylobate.size[0],stylobate.size[2]],[30.88,69.5]);
+for(const shaft of parts.filter(p=>p.id.includes('/peristyle/')&&p.id.endsWith('/shaft')))assert.equal(shaft.size[1],10.43,'Unexpected exterior column height');
+const rel=read('specimens/parthenon/ontology/instance-relations.json');
+for(const r of rel.relations)assert.ok(ids.has(r.from)&&ids.has(r.to),'Invalid physical relation');
+const meshMap=read('specimens/parthenon/ontology/mesh-map.json');
+assert.equal(meshMap.expected,parts.length);
+const model=readFileSync(resolve(root,'site/specimens/parthenon/model.js'),'utf8');
+const viewer=readFileSync(resolve(root,'site/specimens/parthenon/viewer.js'),'utf8');
+assert.match(model,/userData\.instanceId/);assert.match(viewer,/ray\.intersectObjects/);
+console.log('Parthenon inventory validated: '+parts.length+' physical instances, 46 exterior shafts, 12 porch shafts, 4 Ionic shafts and 92 metopes.');
