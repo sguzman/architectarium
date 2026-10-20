@@ -1,5 +1,11 @@
 import assert from 'node:assert/strict';
-import {readFileSync} from 'node:fs';
+import {readFileSync, existsSync} from 'node:fs';
+for (const doc of ['CONSTITUTION.md', 'AGENTS.md']) {
+  const url=new URL('../'+doc,import.meta.url);
+  assert.ok(existsSync(url), 'Missing public governance document: '+doc);
+  const contents=readFileSync(url,'utf8');
+  assert.match(contents, /private/i, 'Public boundary must be explicit in '+doc);
+}
 const load=p=>JSON.parse(readFileSync(new URL('../'+p,import.meta.url),'utf8'));
 const ontology=load('ontology/components.json');
 const sources=load('ontology/sources.json').sources;

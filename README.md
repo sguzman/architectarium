@@ -23,3 +23,9 @@ See [specimen protocol](docs/SPECIMEN_PROTOCOL.md) and [model standards](docs/MO
 Static site deploys from `site/` through `.github/workflows/pages.yml`. GitHub Pages must be configured once in **Settings → Pages → GitHub Actions**. The app loads Three.js from a pinned CDN, so its first visit requires network access. No server, tracking, authentication or paid infrastructure.
 
 MIT license applies to code and original data authored in this repository; third-party materials must retain their own rights and provenance.
+
+## Governance and public-information safety
+
+This repository is public. All contributions and generated gallery material are subject to the [Architectarium Constitution](CONSTITUTION.md) and [agent operating rules](AGENTS.md). The mandatory public-information boundary prohibits private conversation text, private tone, confidential research, secrets, and derived disclosures in any public artifact, including source, assets, commit messages, and history.
+
+Before publishing, review content and provenance and run `python3 scripts/publication_guard.py`, `python3 -m unittest discover -s scripts -p 'test_*.py'`, and `node scripts/validate.mjs`. Automated scanners catch only recognizable signatures and cannot certify prose or media assets.
