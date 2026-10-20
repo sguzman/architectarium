@@ -1,0 +1,438 @@
+{
+  "version": 1,
+  "specimenId": "parthenon",
+  "lane": "processing",
+  "tasks": [
+    {
+      "id": "PAR-SP-001",
+      "title": "Confirm specimen identity and project scope",
+      "description": "Deliver and verify this stage of the processing workflow.",
+      "status": "pending",
+      "priority": 1,
+      "dependsOn": [],
+      "acceptanceCriteria": [
+        "Document canonical identity, location, chronology and subject boundaries",
+        "Identify existing records and distinguish preliminary notes from verified specimen work"
+      ],
+      "outputs": [
+        "specimens/parthenon/research/intake.json"
+      ],
+      "evidence": [],
+      "review": {
+        "status": "not-reviewed",
+        "notes": ""
+      },
+      "blockedReason": null
+    },
+    {
+      "id": "PAR-SP-002",
+      "title": "Select historical state and interpretation policy",
+      "description": "Deliver and verify this stage of the processing workflow.",
+      "status": "pending",
+      "priority": 2,
+      "dependsOn": [
+        "PAR-SP-001"
+      ],
+      "acceptanceCriteria": [
+        "Declare represented period, extant fabric and restoration assumptions",
+        "List excluded phases and procedures for communicating conjecture"
+      ],
+      "outputs": [
+        "specimens/parthenon/research/interpretation.json"
+      ],
+      "evidence": [],
+      "review": {
+        "status": "not-reviewed",
+        "notes": ""
+      },
+      "blockedReason": null
+    },
+    {
+      "id": "PAR-SP-003",
+      "title": "Create authoritative source and rights inventory",
+      "description": "Deliver and verify this stage of the processing workflow.",
+      "status": "pending",
+      "priority": 3,
+      "dependsOn": [
+        "PAR-SP-001"
+      ],
+      "acceptanceCriteria": [
+        "Record each source, publisher, date, URL, topic and access limitations",
+        "Separate permission to cite evidence from rights to reuse source assets"
+      ],
+      "outputs": [
+        "specimens/parthenon/research/sources.json"
+      ],
+      "evidence": [],
+      "review": {
+        "status": "not-reviewed",
+        "notes": ""
+      },
+      "blockedReason": null
+    },
+    {
+      "id": "PAR-SP-004",
+      "title": "Cross-check architectural claims",
+      "description": "Deliver and verify this stage of the processing workflow.",
+      "status": "pending",
+      "priority": 4,
+      "dependsOn": [
+        "PAR-SP-003"
+      ],
+      "acceptanceCriteria": [
+        "Give each building-specific claim direct source references and confidence",
+        "Identify unresolved or conflicting claims without fabricating certainty"
+      ],
+      "outputs": [
+        "specimens/parthenon/research/claims.json"
+      ],
+      "evidence": [],
+      "review": {
+        "status": "not-reviewed",
+        "notes": ""
+      },
+      "blockedReason": null
+    },
+    {
+      "id": "PAR-SP-005",
+      "title": "Document chronological building phases",
+      "description": "Deliver and verify this stage of the processing workflow.",
+      "status": "pending",
+      "priority": 5,
+      "dependsOn": [
+        "PAR-SP-002",
+        "PAR-SP-004"
+      ],
+      "acceptanceCriteria": [
+        "Differentiate ancient, modified, damaged, restored and current condition",
+        "Link each represented phase and disputed hypothesis to evidence"
+      ],
+      "outputs": [
+        "specimens/parthenon/research/phases.json"
+      ],
+      "evidence": [],
+      "review": {
+        "status": "not-reviewed",
+        "notes": ""
+      },
+      "blockedReason": null
+    },
+    {
+      "id": "PAR-SP-006",
+      "title": "Inventory measured drawings and spatial references",
+      "description": "Deliver and verify this stage of the processing workflow.",
+      "status": "pending",
+      "priority": 6,
+      "dependsOn": [
+        "PAR-SP-003"
+      ],
+      "acceptanceCriteria": [
+        "Track plans, elevations, sections and spatial surveys with provenance and rights",
+        "Identify unavailable dimensions and records needed before modeling"
+      ],
+      "outputs": [
+        "specimens/parthenon/research/drawings.json"
+      ],
+      "evidence": [],
+      "review": {
+        "status": "not-reviewed",
+        "notes": ""
+      },
+      "blockedReason": null
+    },
+    {
+      "id": "PAR-SP-007",
+      "title": "Compile source-backed dimensional ledger",
+      "description": "Deliver and verify this stage of the processing workflow.",
+      "status": "pending",
+      "priority": 7,
+      "dependsOn": [
+        "PAR-SP-004",
+        "PAR-SP-006"
+      ],
+      "acceptanceCriteria": [
+        "Record units, datum, measurement precision and cited source per dimension",
+        "Mark estimated, disputed and unknown values explicitly"
+      ],
+      "outputs": [
+        "specimens/parthenon/research/dimensions.json"
+      ],
+      "evidence": [],
+      "review": {
+        "status": "not-reviewed",
+        "notes": ""
+      },
+      "blockedReason": null
+    },
+    {
+      "id": "PAR-SP-008",
+      "title": "Define uncertainty and reconstruction decisions",
+      "description": "Deliver and verify this stage of the processing workflow.",
+      "status": "pending",
+      "priority": 8,
+      "dependsOn": [
+        "PAR-SP-005",
+        "PAR-SP-007"
+      ],
+      "acceptanceCriteria": [
+        "Log each interpretive decision and alternatives with evidence",
+        "Explain visible distinctions between documented and hypothetical fabric"
+      ],
+      "outputs": [
+        "specimens/parthenon/research/uncertainty.json"
+      ],
+      "evidence": [],
+      "review": {
+        "status": "not-reviewed",
+        "notes": ""
+      },
+      "blockedReason": null
+    },
+    {
+      "id": "PAR-SP-009",
+      "title": "Map spatial program and circulation",
+      "description": "Deliver and verify this stage of the processing workflow.",
+      "status": "pending",
+      "priority": 9,
+      "dependsOn": [
+        "PAR-SP-005",
+        "PAR-SP-007"
+      ],
+      "acceptanceCriteria": [
+        "Inventory chambers, entrances, thresholds and accessible circulation routes",
+        "Separate historic access facts from modern visitor navigation choices"
+      ],
+      "outputs": [
+        "specimens/parthenon/research/spaces.json"
+      ],
+      "evidence": [],
+      "review": {
+        "status": "not-reviewed",
+        "notes": ""
+      },
+      "blockedReason": null
+    },
+    {
+      "id": "PAR-SP-010",
+      "title": "Establish coordinate reference and building orientation",
+      "description": "Deliver and verify this stage of the processing workflow.",
+      "status": "pending",
+      "priority": 10,
+      "dependsOn": [
+        "PAR-SP-006",
+        "PAR-SP-007"
+      ],
+      "acceptanceCriteria": [
+        "Define dimensions in metres, coordinate axes, datum and north orientation",
+        "Ground site placement and floor elevations in documented references"
+      ],
+      "outputs": [
+        "specimens/parthenon/research/coordinates.json"
+      ],
+      "evidence": [],
+      "review": {
+        "status": "not-reviewed",
+        "notes": ""
+      },
+      "blockedReason": null
+    },
+    {
+      "id": "PAR-SP-011",
+      "title": "Reconcile structural and architectural geometry evidence",
+      "description": "Deliver and verify this stage of the processing workflow.",
+      "status": "pending",
+      "priority": 11,
+      "dependsOn": [
+        "PAR-SP-007",
+        "PAR-SP-008",
+        "PAR-SP-010"
+      ],
+      "acceptanceCriteria": [
+        "Resolve platform, colonnade, entablature, roofing and interior constraints",
+        "Document precision bounds and alternatives for non-surveyed geometry"
+      ],
+      "outputs": [
+        "specimens/parthenon/research/geometry-baseline.json"
+      ],
+      "evidence": [],
+      "review": {
+        "status": "not-reviewed",
+        "notes": ""
+      },
+      "blockedReason": null
+    },
+    {
+      "id": "PAR-SP-012",
+      "title": "Research surface finishes and sculptural scope",
+      "description": "Deliver and verify this stage of the processing workflow.",
+      "status": "pending",
+      "priority": 12,
+      "dependsOn": [
+        "PAR-SP-003",
+        "PAR-SP-005"
+      ],
+      "acceptanceCriteria": [
+        "Document material treatment, surface color and artistic features where supported",
+        "Record rights and any deliberate omissions rather than inventing details"
+      ],
+      "outputs": [
+        "specimens/parthenon/research/finishes.json"
+      ],
+      "evidence": [],
+      "review": {
+        "status": "not-reviewed",
+        "notes": ""
+      },
+      "blockedReason": null
+    },
+    {
+      "id": "PAR-SP-013",
+      "title": "Maintain asset provenance and redistribution ledger",
+      "description": "Deliver and verify this stage of the processing workflow.",
+      "status": "pending",
+      "priority": 13,
+      "dependsOn": [
+        "PAR-SP-003"
+      ],
+      "acceptanceCriteria": [
+        "Record origin, creator, license, reuse permission and attribution for proposed assets",
+        "Reject or replace assets without verified redistribution permission"
+      ],
+      "outputs": [
+        "specimens/parthenon/research/assets.json"
+      ],
+      "evidence": [],
+      "review": {
+        "status": "not-reviewed",
+        "notes": ""
+      },
+      "blockedReason": null
+    },
+    {
+      "id": "PAR-SP-014",
+      "title": "Review research dossier for coverage and conflicts",
+      "description": "Deliver and verify this stage of the processing workflow.",
+      "status": "pending",
+      "priority": 14,
+      "dependsOn": [
+        "PAR-SP-004",
+        "PAR-SP-008",
+        "PAR-SP-009",
+        "PAR-SP-011",
+        "PAR-SP-012",
+        "PAR-SP-013"
+      ],
+      "acceptanceCriteria": [
+        "Audit claims, spatial assumptions, attribution and unresolved gaps against sources",
+        "Record review decision and remaining blocking issues"
+      ],
+      "outputs": [
+        "specimens/parthenon/research/research-review.json"
+      ],
+      "evidence": [],
+      "review": {
+        "status": "not-reviewed",
+        "notes": ""
+      },
+      "blockedReason": null
+    },
+    {
+      "id": "PAR-SP-015",
+      "title": "Approve evidence baseline for model development",
+      "description": "Deliver and verify this stage of the processing workflow.",
+      "status": "pending",
+      "priority": 15,
+      "dependsOn": [
+        "PAR-SP-014"
+      ],
+      "acceptanceCriteria": [
+        "Define permitted reconstruction tier and exact geometry/experience scope",
+        "Describe acceptance tests and how uncertain features are displayed"
+      ],
+      "outputs": [
+        "specimens/parthenon/research/model-brief.json"
+      ],
+      "evidence": [],
+      "review": {
+        "status": "not-reviewed",
+        "notes": ""
+      },
+      "blockedReason": null
+    },
+    {
+      "id": "PAR-SP-016",
+      "title": "Review integrated specimen evidence and public interpretation",
+      "description": "Deliver and verify this stage of the processing workflow.",
+      "status": "pending",
+      "priority": 16,
+      "dependsOn": [
+        "PAR-SP-015",
+        "PAR-ON-015",
+        "PAR-3D-022"
+      ],
+      "acceptanceCriteria": [
+        "Confirm viewer labels and selectable instances match evidence and ontology",
+        "Review limits of accuracy, accessible interpretation and missing components"
+      ],
+      "outputs": [
+        "specimens/parthenon/reviews/integration.json"
+      ],
+      "evidence": [],
+      "review": {
+        "status": "not-reviewed",
+        "notes": ""
+      },
+      "blockedReason": null
+    },
+    {
+      "id": "PAR-SP-017",
+      "title": "Complete rights, quality and provenance publication audits",
+      "description": "Deliver and verify this stage of the processing workflow.",
+      "status": "pending",
+      "priority": 17,
+      "dependsOn": [
+        "PAR-SP-013",
+        "PAR-SP-016",
+        "PAR-3D-024"
+      ],
+      "acceptanceCriteria": [
+        "Document licensing and public-information review for all redistributed deliverables",
+        "Verify geometry, visitor QA and rights gates using reproducible evidence"
+      ],
+      "outputs": [
+        "specimens/parthenon/reviews/publication.json"
+      ],
+      "evidence": [],
+      "review": {
+        "status": "not-reviewed",
+        "notes": ""
+      },
+      "blockedReason": null
+    },
+    {
+      "id": "PAR-SP-018",
+      "title": "Approve first public specimen release",
+      "description": "Deliver and verify this stage of the processing workflow.",
+      "status": "pending",
+      "priority": 18,
+      "dependsOn": [
+        "PAR-SP-017",
+        "PAR-ON-016",
+        "PAR-3D-025"
+      ],
+      "acceptanceCriteria": [
+        "Confirm all mandatory queued work is reviewed and verified",
+        "Record final publication decision, version, exhibit route and acknowledged limitations"
+      ],
+      "outputs": [
+        "specimens/parthenon/reviews/release.json"
+      ],
+      "evidence": [],
+      "review": {
+        "status": "not-reviewed",
+        "notes": ""
+      },
+      "blockedReason": null
+    }
+  ]
+}

@@ -1,0 +1,617 @@
+{
+  "version": 1,
+  "specimenId": "parthenon",
+  "lane": "presentation",
+  "tasks": [
+    {
+      "id": "PAR-3D-001",
+      "title": "Define visitor goals and representation tier",
+      "description": "Deliver and verify this stage of the presentation workflow.",
+      "status": "pending",
+      "priority": 1,
+      "dependsOn": [
+        "PAR-SP-015"
+      ],
+      "acceptanceCriteria": [
+        "Document intended exterior/interior access and historical interpretation scope",
+        "Define quality targets and transparent evidence labels"
+      ],
+      "outputs": [
+        "specimens/parthenon/presentation/experience-brief.json"
+      ],
+      "evidence": [],
+      "review": {
+        "status": "not-reviewed",
+        "notes": ""
+      },
+      "blockedReason": null
+    },
+    {
+      "id": "PAR-3D-002",
+      "title": "Establish geometry, asset and coordinate pipelines",
+      "description": "Deliver and verify this stage of the presentation workflow.",
+      "status": "pending",
+      "priority": 2,
+      "dependsOn": [
+        "PAR-3D-001",
+        "PAR-SP-010"
+      ],
+      "acceptanceCriteria": [
+        "Specify metres, axes, file formats, material provenance, semantic IDs and build tools",
+        "Define reproducible exports, asset budgets and collision conventions"
+      ],
+      "outputs": [
+        "specimens/parthenon/presentation/pipeline.json"
+      ],
+      "evidence": [],
+      "review": {
+        "status": "not-reviewed",
+        "notes": ""
+      },
+      "blockedReason": null
+    },
+    {
+      "id": "PAR-3D-003",
+      "title": "Construct terrain, site setting and placement",
+      "description": "Deliver and verify this stage of the presentation workflow.",
+      "status": "pending",
+      "priority": 3,
+      "dependsOn": [
+        "PAR-3D-002"
+      ],
+      "acceptanceCriteria": [
+        "Represent supported local terrain and temple position in known coordinates",
+        "Separate simplified contextual dressing from source-backed reconstruction"
+      ],
+      "outputs": [
+        "specimens/parthenon/presentation/site-review.json"
+      ],
+      "evidence": [],
+      "review": {
+        "status": "not-reviewed",
+        "notes": ""
+      },
+      "blockedReason": null
+    },
+    {
+      "id": "PAR-3D-004",
+      "title": "Construct platform, foundations and steps",
+      "description": "Deliver and verify this stage of the presentation workflow.",
+      "status": "pending",
+      "priority": 4,
+      "dependsOn": [
+        "PAR-3D-002",
+        "PAR-SP-011"
+      ],
+      "acceptanceCriteria": [
+        "Compare dimensions and levels to the evidence baseline",
+        "Preserve component identities and report deviations"
+      ],
+      "outputs": [
+        "specimens/parthenon/presentation/platform-review.json"
+      ],
+      "evidence": [],
+      "review": {
+        "status": "not-reviewed",
+        "notes": ""
+      },
+      "blockedReason": null
+    },
+    {
+      "id": "PAR-3D-005",
+      "title": "Model peristyle and column refinements",
+      "description": "Deliver and verify this stage of the presentation workflow.",
+      "status": "pending",
+      "priority": 5,
+      "dependsOn": [
+        "PAR-3D-004",
+        "PAR-ON-010"
+      ],
+      "acceptanceCriteria": [
+        "Build separately identifiable supports, shafts and capitals at documented positions",
+        "Verify count, rhythm, proportions and refinements within declared tolerances"
+      ],
+      "outputs": [
+        "specimens/parthenon/presentation/colonnade-review.json"
+      ],
+      "evidence": [],
+      "review": {
+        "status": "not-reviewed",
+        "notes": ""
+      },
+      "blockedReason": null
+    },
+    {
+      "id": "PAR-3D-006",
+      "title": "Model entablature, frieze and architectural ornament",
+      "description": "Deliver and verify this stage of the presentation workflow.",
+      "status": "pending",
+      "priority": 6,
+      "dependsOn": [
+        "PAR-3D-005",
+        "PAR-SP-011"
+      ],
+      "acceptanceCriteria": [
+        "Model appropriate architrave, frieze, cornice and supported ornamental divisions",
+        "Link visible elements to ontology IDs and disclose interpretive details"
+      ],
+      "outputs": [
+        "specimens/parthenon/presentation/entablature-review.json"
+      ],
+      "evidence": [],
+      "review": {
+        "status": "not-reviewed",
+        "notes": ""
+      },
+      "blockedReason": null
+    },
+    {
+      "id": "PAR-3D-007",
+      "title": "Model roof, pediments and supported silhouette",
+      "description": "Deliver and verify this stage of the presentation workflow.",
+      "status": "pending",
+      "priority": 7,
+      "dependsOn": [
+        "PAR-3D-006",
+        "PAR-SP-008"
+      ],
+      "acceptanceCriteria": [
+        "Reconcile roof form and pediments with phase-specific evidence",
+        "Support visibility toggles without falsely implying original completeness"
+      ],
+      "outputs": [
+        "specimens/parthenon/presentation/roof-review.json"
+      ],
+      "evidence": [],
+      "review": {
+        "status": "not-reviewed",
+        "notes": ""
+      },
+      "blockedReason": null
+    },
+    {
+      "id": "PAR-3D-008",
+      "title": "Construct chambers, entrances and interior fabric",
+      "description": "Deliver and verify this stage of the presentation workflow.",
+      "status": "pending",
+      "priority": 8,
+      "dependsOn": [
+        "PAR-3D-004",
+        "PAR-SP-009"
+      ],
+      "acceptanceCriteria": [
+        "Provide coherent modeled internal spaces and doorway circulation",
+        "Separate evidence-backed partitions from visitor convenience simplifications"
+      ],
+      "outputs": [
+        "specimens/parthenon/presentation/interior-review.json"
+      ],
+      "evidence": [],
+      "review": {
+        "status": "not-reviewed",
+        "notes": ""
+      },
+      "blockedReason": null
+    },
+    {
+      "id": "PAR-3D-009",
+      "title": "Represent sculptures, ornament and coloration only when supported",
+      "description": "Deliver and verify this stage of the presentation workflow.",
+      "status": "pending",
+      "priority": 9,
+      "dependsOn": [
+        "PAR-3D-006",
+        "PAR-SP-012"
+      ],
+      "acceptanceCriteria": [
+        "Document included and omitted artistic features with sources and permissions",
+        "Show uncertain finishes as optional interpretation with clear labels"
+      ],
+      "outputs": [
+        "specimens/parthenon/presentation/decoration-review.json"
+      ],
+      "evidence": [],
+      "review": {
+        "status": "not-reviewed",
+        "notes": ""
+      },
+      "blockedReason": null
+    },
+    {
+      "id": "PAR-3D-010",
+      "title": "Develop material and surface appearance",
+      "description": "Deliver and verify this stage of the presentation workflow.",
+      "status": "pending",
+      "priority": 10,
+      "dependsOn": [
+        "PAR-3D-005",
+        "PAR-SP-012",
+        "PAR-SP-013"
+      ],
+      "acceptanceCriteria": [
+        "Use rights-cleared materials with plausible roughness, joints and surface variation",
+        "Avoid surface details that suggest unsupported survey accuracy"
+      ],
+      "outputs": [
+        "specimens/parthenon/presentation/material-review.json"
+      ],
+      "evidence": [],
+      "review": {
+        "status": "not-reviewed",
+        "notes": ""
+      },
+      "blockedReason": null
+    },
+    {
+      "id": "PAR-3D-011",
+      "title": "Implement sun, sky and shadow study",
+      "description": "Deliver and verify this stage of the presentation workflow.",
+      "status": "pending",
+      "priority": 11,
+      "dependsOn": [
+        "PAR-3D-003",
+        "PAR-3D-007"
+      ],
+      "acceptanceCriteria": [
+        "Provide usable lighting controls and directional shadows",
+        "Keep light simulation distinct from claims about historically exact conditions"
+      ],
+      "outputs": [
+        "specimens/parthenon/presentation/lighting-review.json"
+      ],
+      "evidence": [],
+      "review": {
+        "status": "not-reviewed",
+        "notes": ""
+      },
+      "blockedReason": null
+    },
+    {
+      "id": "PAR-3D-012",
+      "title": "Develop environmental context and atmosphere",
+      "description": "Deliver and verify this stage of the presentation workflow.",
+      "status": "pending",
+      "priority": 12,
+      "dependsOn": [
+        "PAR-3D-003",
+        "PAR-3D-011"
+      ],
+      "acceptanceCriteria": [
+        "Add appropriate optional context without obscuring the building",
+        "Support disabling animated atmosphere and reduced-motion preferences"
+      ],
+      "outputs": [
+        "specimens/parthenon/presentation/environment-review.json"
+      ],
+      "evidence": [],
+      "review": {
+        "status": "not-reviewed",
+        "notes": ""
+      },
+      "blockedReason": null
+    },
+    {
+      "id": "PAR-3D-013",
+      "title": "Build semantic scene node hierarchy and picking",
+      "description": "Deliver and verify this stage of the presentation workflow.",
+      "status": "pending",
+      "priority": 13,
+      "dependsOn": [
+        "PAR-3D-005",
+        "PAR-3D-006",
+        "PAR-3D-008",
+        "PAR-ON-010"
+      ],
+      "acceptanceCriteria": [
+        "Bind each pickable item to stable physical instance and ontology type IDs",
+        "Test repeat instances, selection highlight and grouping consistency"
+      ],
+      "outputs": [
+        "specimens/parthenon/presentation/semantic-review.json"
+      ],
+      "evidence": [],
+      "review": {
+        "status": "not-reviewed",
+        "notes": ""
+      },
+      "blockedReason": null
+    },
+    {
+      "id": "PAR-3D-014",
+      "title": "Implement orbit navigation and camera reset",
+      "description": "Deliver and verify this stage of the presentation workflow.",
+      "status": "pending",
+      "priority": 14,
+      "dependsOn": [
+        "PAR-3D-003",
+        "PAR-3D-008"
+      ],
+      "acceptanceCriteria": [
+        "Provide reliable drag, zoom, target selection and reset behaviors",
+        "Verify camera bounds and viewport resize behavior"
+      ],
+      "outputs": [
+        "specimens/parthenon/presentation/orbit-review.json"
+      ],
+      "evidence": [],
+      "review": {
+        "status": "not-reviewed",
+        "notes": ""
+      },
+      "blockedReason": null
+    },
+    {
+      "id": "PAR-3D-015",
+      "title": "Implement walk navigation and collision",
+      "description": "Deliver and verify this stage of the presentation workflow.",
+      "status": "pending",
+      "priority": 15,
+      "dependsOn": [
+        "PAR-3D-008",
+        "PAR-3D-014"
+      ],
+      "acceptanceCriteria": [
+        "Support sensible spawn points, interiors, thresholds and collision-aware movement",
+        "Test mouse/keyboard control release, floor height and reentry behavior"
+      ],
+      "outputs": [
+        "specimens/parthenon/presentation/walk-review.json"
+      ],
+      "evidence": [],
+      "review": {
+        "status": "not-reviewed",
+        "notes": ""
+      },
+      "blockedReason": null
+    },
+    {
+      "id": "PAR-3D-016",
+      "title": "Implement cutaways, isolation and sectional visibility",
+      "description": "Deliver and verify this stage of the presentation workflow.",
+      "status": "pending",
+      "priority": 16,
+      "dependsOn": [
+        "PAR-3D-007",
+        "PAR-3D-008",
+        "PAR-3D-013"
+      ],
+      "acceptanceCriteria": [
+        "Allow examination of interior systems without losing context",
+        "Keep picking, collision and inspector behavior predictable when parts are hidden"
+      ],
+      "outputs": [
+        "specimens/parthenon/presentation/cutaway-review.json"
+      ],
+      "evidence": [],
+      "review": {
+        "status": "not-reviewed",
+        "notes": ""
+      },
+      "blockedReason": null
+    },
+    {
+      "id": "PAR-3D-017",
+      "title": "Integrate ontology inspector and related-component exploration",
+      "description": "Deliver and verify this stage of the presentation workflow.",
+      "status": "pending",
+      "priority": 17,
+      "dependsOn": [
+        "PAR-3D-013",
+        "PAR-ON-011"
+      ],
+      "acceptanceCriteria": [
+        "Selection shows authoritative definition, instance position, relations and evidence",
+        "Support searching by component name and navigating related instances"
+      ],
+      "outputs": [
+        "specimens/parthenon/presentation/inspector-review.json"
+      ],
+      "evidence": [],
+      "review": {
+        "status": "not-reviewed",
+        "notes": ""
+      },
+      "blockedReason": null
+    },
+    {
+      "id": "PAR-3D-018",
+      "title": "Implement exhibit fidelity labels and uncertainty legend",
+      "description": "Deliver and verify this stage of the presentation workflow.",
+      "status": "pending",
+      "priority": 18,
+      "dependsOn": [
+        "PAR-SP-008",
+        "PAR-3D-017"
+      ],
+      "acceptanceCriteria": [
+        "Identify schematic, evidence-based and survey-validated portions accurately",
+        "Distinguish original, current, restored and conjectural conditions in the viewer"
+      ],
+      "outputs": [
+        "specimens/parthenon/presentation/fidelity-review.json"
+      ],
+      "evidence": [],
+      "review": {
+        "status": "not-reviewed",
+        "notes": ""
+      },
+      "blockedReason": null
+    },
+    {
+      "id": "PAR-3D-019",
+      "title": "Optimize progressive scene loading and runtime performance",
+      "description": "Deliver and verify this stage of the presentation workflow.",
+      "status": "pending",
+      "priority": 19,
+      "dependsOn": [
+        "PAR-3D-010",
+        "PAR-3D-013",
+        "PAR-3D-015"
+      ],
+      "acceptanceCriteria": [
+        "Provide measurable startup/rendering budgets and limit excessive memory or draw calls",
+        "Load heavy geometry incrementally and avoid blocking the first useful frame"
+      ],
+      "outputs": [
+        "specimens/parthenon/presentation/performance-review.json"
+      ],
+      "evidence": [],
+      "review": {
+        "status": "not-reviewed",
+        "notes": ""
+      },
+      "blockedReason": null
+    },
+    {
+      "id": "PAR-3D-020",
+      "title": "Verify keyboard, pointer and accessible equivalents",
+      "description": "Deliver and verify this stage of the presentation workflow.",
+      "status": "pending",
+      "priority": 20,
+      "dependsOn": [
+        "PAR-3D-015",
+        "PAR-3D-016",
+        "PAR-3D-017"
+      ],
+      "acceptanceCriteria": [
+        "Test keyboard focus, non-pointer fallback, explanatory text and responsive layout",
+        "Ensure motion and optional effects honor accessibility preferences"
+      ],
+      "outputs": [
+        "specimens/parthenon/presentation/accessibility-review.json"
+      ],
+      "evidence": [],
+      "review": {
+        "status": "not-reviewed",
+        "notes": ""
+      },
+      "blockedReason": null
+    },
+    {
+      "id": "PAR-3D-021",
+      "title": "Perform exterior and interior visual QA",
+      "description": "Deliver and verify this stage of the presentation workflow.",
+      "status": "pending",
+      "priority": 21,
+      "dependsOn": [
+        "PAR-3D-009",
+        "PAR-3D-010",
+        "PAR-3D-011",
+        "PAR-3D-012",
+        "PAR-3D-016"
+      ],
+      "acceptanceCriteria": [
+        "Review scale, spatial continuity, visibility, materials and representative views",
+        "Record visual discrepancies, fixes and evidence limitations"
+      ],
+      "outputs": [
+        "specimens/parthenon/reviews/visual.json"
+      ],
+      "evidence": [],
+      "review": {
+        "status": "not-reviewed",
+        "notes": ""
+      },
+      "blockedReason": null
+    },
+    {
+      "id": "PAR-3D-022",
+      "title": "Perform automated and manual-mode interaction QA",
+      "description": "Deliver and verify this stage of the presentation workflow.",
+      "status": "pending",
+      "priority": 22,
+      "dependsOn": [
+        "PAR-3D-018",
+        "PAR-3D-019",
+        "PAR-3D-020",
+        "PAR-3D-021"
+      ],
+      "acceptanceCriteria": [
+        "Run desktop/mobile browser checks for navigation, picking and loading",
+        "Record verified interactions, failures and regression evidence"
+      ],
+      "outputs": [
+        "specimens/parthenon/reviews/visitor.json"
+      ],
+      "evidence": [],
+      "review": {
+        "status": "not-reviewed",
+        "notes": ""
+      },
+      "blockedReason": null
+    },
+    {
+      "id": "PAR-3D-023",
+      "title": "Reconcile final geometry against documentary constraints",
+      "description": "Deliver and verify this stage of the presentation workflow.",
+      "status": "pending",
+      "priority": 23,
+      "dependsOn": [
+        "PAR-3D-021",
+        "PAR-SP-011"
+      ],
+      "acceptanceCriteria": [
+        "Compare proportions, dimensions and positions to cited baseline evidence",
+        "Classify each variance by the permitted reconstruction tier"
+      ],
+      "outputs": [
+        "specimens/parthenon/reviews/geometry.json"
+      ],
+      "evidence": [],
+      "review": {
+        "status": "not-reviewed",
+        "notes": ""
+      },
+      "blockedReason": null
+    },
+    {
+      "id": "PAR-3D-024",
+      "title": "Review final reusable assets, licenses and build output",
+      "description": "Deliver and verify this stage of the presentation workflow.",
+      "status": "pending",
+      "priority": 24,
+      "dependsOn": [
+        "PAR-3D-022",
+        "PAR-SP-013"
+      ],
+      "acceptanceCriteria": [
+        "Verify redistribution rights, attribution and reproducible static exports",
+        "Scan public files and generated assets for unsuitable metadata or unexpected dependencies"
+      ],
+      "outputs": [
+        "specimens/parthenon/reviews/assets.json"
+      ],
+      "evidence": [],
+      "review": {
+        "status": "not-reviewed",
+        "notes": ""
+      },
+      "blockedReason": null
+    },
+    {
+      "id": "PAR-3D-025",
+      "title": "Prepare versioned standalone exhibit for publication",
+      "description": "Deliver and verify this stage of the presentation workflow.",
+      "status": "pending",
+      "priority": 25,
+      "dependsOn": [
+        "PAR-3D-023",
+        "PAR-3D-024",
+        "PAR-ON-016"
+      ],
+      "acceptanceCriteria": [
+        "Provide real exhibit page, working model and semantic data with accurate notices",
+        "Verify independent deployment from public inputs without placeholder gallery content"
+      ],
+      "outputs": [
+        "site/specimens/parthenon/index.html"
+      ],
+      "evidence": [],
+      "review": {
+        "status": "not-reviewed",
+        "notes": ""
+      },
+      "blockedReason": null
+    }
+  ]
+}

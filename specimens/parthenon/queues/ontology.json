@@ -1,0 +1,390 @@
+{
+  "version": 1,
+  "specimenId": "parthenon",
+  "lane": "ontology",
+  "tasks": [
+    {
+      "id": "PAR-ON-001",
+      "title": "Audit concept coverage for this building",
+      "description": "Deliver and verify this stage of the ontology workflow.",
+      "status": "pending",
+      "priority": 1,
+      "dependsOn": [
+        "PAR-SP-004"
+      ],
+      "acceptanceCriteria": [
+        "List supported component types and missing concepts without presuming their presence",
+        "Distinguish known vocabulary from building-specific evidence"
+      ],
+      "outputs": [
+        "specimens/parthenon/ontology/gaps.json"
+      ],
+      "evidence": [],
+      "review": {
+        "status": "not-reviewed",
+        "notes": ""
+      },
+      "blockedReason": null
+    },
+    {
+      "id": "PAR-ON-002",
+      "title": "Research missing architectural concept types",
+      "description": "Deliver and verify this stage of the ontology workflow.",
+      "status": "pending",
+      "priority": 2,
+      "dependsOn": [
+        "PAR-ON-001",
+        "PAR-SP-003"
+      ],
+      "acceptanceCriteria": [
+        "Add sourced definitions, aliases, purposes, positions, materials and recognition cues where needed",
+        "Avoid creating building-specific types when the term is more general"
+      ],
+      "outputs": [
+        "ontology/components.json"
+      ],
+      "evidence": [],
+      "review": {
+        "status": "not-reviewed",
+        "notes": ""
+      },
+      "blockedReason": null
+    },
+    {
+      "id": "PAR-ON-003",
+      "title": "Formalize component hierarchy and relation vocabulary",
+      "description": "Deliver and verify this stage of the ontology workflow.",
+      "status": "pending",
+      "priority": 3,
+      "dependsOn": [
+        "PAR-ON-001"
+      ],
+      "acceptanceCriteria": [
+        "Define part-of, supports, adjacent-to, decorated-with and accessed-through as appropriate",
+        "Document typed, directed, evidence-specific links rather than generic adjacency guesses"
+      ],
+      "outputs": [
+        "specimens/parthenon/ontology/relations.json"
+      ],
+      "evidence": [],
+      "review": {
+        "status": "not-reviewed",
+        "notes": ""
+      },
+      "blockedReason": null
+    },
+    {
+      "id": "PAR-ON-004",
+      "title": "Instantiate physical architectural elements",
+      "description": "Deliver and verify this stage of the ontology workflow.",
+      "status": "pending",
+      "priority": 4,
+      "dependsOn": [
+        "PAR-ON-002",
+        "PAR-SP-007"
+      ],
+      "acceptanceCriteria": [
+        "Assign stable specimen-specific IDs to evidenced parts and repeated instances",
+        "Map every identified instance to a canonical architectural component type"
+      ],
+      "outputs": [
+        "specimens/parthenon/ontology/instances.json"
+      ],
+      "evidence": [],
+      "review": {
+        "status": "not-reviewed",
+        "notes": ""
+      },
+      "blockedReason": null
+    },
+    {
+      "id": "PAR-ON-005",
+      "title": "Map structural and spatial part relationships",
+      "description": "Deliver and verify this stage of the ontology workflow.",
+      "status": "pending",
+      "priority": 5,
+      "dependsOn": [
+        "PAR-ON-003",
+        "PAR-ON-004"
+      ],
+      "acceptanceCriteria": [
+        "Create component-to-component and component-to-space links with typed predicates",
+        "Validate referenced IDs and mark interpretive relationships explicitly"
+      ],
+      "outputs": [
+        "specimens/parthenon/ontology/instance-relations.json"
+      ],
+      "evidence": [],
+      "review": {
+        "status": "not-reviewed",
+        "notes": ""
+      },
+      "blockedReason": null
+    },
+    {
+      "id": "PAR-ON-006",
+      "title": "Attach spatial transforms and structural positions",
+      "description": "Deliver and verify this stage of the ontology workflow.",
+      "status": "pending",
+      "priority": 6,
+      "dependsOn": [
+        "PAR-ON-004",
+        "PAR-SP-010"
+      ],
+      "acceptanceCriteria": [
+        "Store coordinates, units, orientation and level for each positioned instance",
+        "Trace transforms to measurements or label estimates and uncertainty"
+      ],
+      "outputs": [
+        "specimens/parthenon/ontology/spatial.json"
+      ],
+      "evidence": [],
+      "review": {
+        "status": "not-reviewed",
+        "notes": ""
+      },
+      "blockedReason": null
+    },
+    {
+      "id": "PAR-ON-007",
+      "title": "Annotate materials and fabrication roles",
+      "description": "Deliver and verify this stage of the ontology workflow.",
+      "status": "pending",
+      "priority": 7,
+      "dependsOn": [
+        "PAR-ON-004",
+        "PAR-SP-012"
+      ],
+      "acceptanceCriteria": [
+        "Describe supported material families, finishes and construction roles per instance",
+        "Clearly distinguish demonstrated ancient conditions from modern replacements"
+      ],
+      "outputs": [
+        "specimens/parthenon/ontology/materials.json"
+      ],
+      "evidence": [],
+      "review": {
+        "status": "not-reviewed",
+        "notes": ""
+      },
+      "blockedReason": null
+    },
+    {
+      "id": "PAR-ON-008",
+      "title": "Connect instances to historical phases",
+      "description": "Deliver and verify this stage of the ontology workflow.",
+      "status": "pending",
+      "priority": 8,
+      "dependsOn": [
+        "PAR-ON-004",
+        "PAR-SP-005"
+      ],
+      "acceptanceCriteria": [
+        "Record which building phases each instance belongs to",
+        "Identify restored, missing and conjectural instances where documented"
+      ],
+      "outputs": [
+        "specimens/parthenon/ontology/phases.json"
+      ],
+      "evidence": [],
+      "review": {
+        "status": "not-reviewed",
+        "notes": ""
+      },
+      "blockedReason": null
+    },
+    {
+      "id": "PAR-ON-009",
+      "title": "Record evidence and confidence per instance",
+      "description": "Deliver and verify this stage of the ontology workflow.",
+      "status": "pending",
+      "priority": 9,
+      "dependsOn": [
+        "PAR-ON-005",
+        "PAR-ON-006",
+        "PAR-ON-008"
+      ],
+      "acceptanceCriteria": [
+        "Trace significant attributes and instance claims to specific source identifiers",
+        "Mark uncertain, conflicting and unknown elements rather than inserting defaults"
+      ],
+      "outputs": [
+        "specimens/parthenon/ontology/evidence.json"
+      ],
+      "evidence": [],
+      "review": {
+        "status": "not-reviewed",
+        "notes": ""
+      },
+      "blockedReason": null
+    },
+    {
+      "id": "PAR-ON-010",
+      "title": "Define stable mesh-to-ontology mapping contract",
+      "description": "Deliver and verify this stage of the ontology workflow.",
+      "status": "pending",
+      "priority": 10,
+      "dependsOn": [
+        "PAR-ON-006",
+        "PAR-ON-009"
+      ],
+      "acceptanceCriteria": [
+        "Assign unique public mesh/instance IDs and canonical type references",
+        "Define picking and grouping rules for repeated geometry and unmodeled elements"
+      ],
+      "outputs": [
+        "specimens/parthenon/ontology/mesh-map.json"
+      ],
+      "evidence": [],
+      "review": {
+        "status": "not-reviewed",
+        "notes": ""
+      },
+      "blockedReason": null
+    },
+    {
+      "id": "PAR-ON-011",
+      "title": "Write visitor-facing component interpretations",
+      "description": "Deliver and verify this stage of the ontology workflow.",
+      "status": "pending",
+      "priority": 11,
+      "dependsOn": [
+        "PAR-ON-007",
+        "PAR-ON-009"
+      ],
+      "acceptanceCriteria": [
+        "Explain terminology, architectural function and recognized visible features",
+        "Provide cited, concise alternative text without asserting unsupported fidelity"
+      ],
+      "outputs": [
+        "specimens/parthenon/ontology/interpretation.json"
+      ],
+      "evidence": [],
+      "review": {
+        "status": "not-reviewed",
+        "notes": ""
+      },
+      "blockedReason": null
+    },
+    {
+      "id": "PAR-ON-012",
+      "title": "Check cross-building concept reusability",
+      "description": "Deliver and verify this stage of the ontology workflow.",
+      "status": "pending",
+      "priority": 12,
+      "dependsOn": [
+        "PAR-ON-002",
+        "PAR-ON-003"
+      ],
+      "acceptanceCriteria": [
+        "Keep general vocabulary independent of this one building",
+        "Preserve stable IDs and document compatibility impacts of any new relations"
+      ],
+      "outputs": [
+        "specimens/parthenon/ontology/generalization-review.json"
+      ],
+      "evidence": [],
+      "review": {
+        "status": "not-reviewed",
+        "notes": ""
+      },
+      "blockedReason": null
+    },
+    {
+      "id": "PAR-ON-013",
+      "title": "Validate ontology coverage and source traceability",
+      "description": "Deliver and verify this stage of the ontology workflow.",
+      "status": "pending",
+      "priority": 13,
+      "dependsOn": [
+        "PAR-ON-009",
+        "PAR-ON-010",
+        "PAR-ON-011",
+        "PAR-ON-012"
+      ],
+      "acceptanceCriteria": [
+        "Check every documented modeled instance has a valid type and traceable evidence",
+        "Report unmapped components, missing relations and uncertain spatial values"
+      ],
+      "outputs": [
+        "specimens/parthenon/ontology/coverage.json"
+      ],
+      "evidence": [],
+      "review": {
+        "status": "not-reviewed",
+        "notes": ""
+      },
+      "blockedReason": null
+    },
+    {
+      "id": "PAR-ON-014",
+      "title": "Verify machine-readable ontology contract",
+      "description": "Deliver and verify this stage of the ontology workflow.",
+      "status": "pending",
+      "priority": 14,
+      "dependsOn": [
+        "PAR-ON-013"
+      ],
+      "acceptanceCriteria": [
+        "Validate machine-readable records, references, uniqueness and typed relation consistency",
+        "Document schema version and round-trip integrity checks"
+      ],
+      "outputs": [
+        "specimens/parthenon/ontology/schema-review.json"
+      ],
+      "evidence": [],
+      "review": {
+        "status": "not-reviewed",
+        "notes": ""
+      },
+      "blockedReason": null
+    },
+    {
+      "id": "PAR-ON-015",
+      "title": "Test actual interactive instance selection and navigation",
+      "description": "Deliver and verify this stage of the ontology workflow.",
+      "status": "pending",
+      "priority": 15,
+      "dependsOn": [
+        "PAR-ON-014",
+        "PAR-3D-017"
+      ],
+      "acceptanceCriteria": [
+        "Verify picking maps the selected geometry to its precise instance and type",
+        "Test relationship navigation, repeat instances and accessible text alternatives"
+      ],
+      "outputs": [
+        "specimens/parthenon/reviews/ontology-interaction.json"
+      ],
+      "evidence": [],
+      "review": {
+        "status": "not-reviewed",
+        "notes": ""
+      },
+      "blockedReason": null
+    },
+    {
+      "id": "PAR-ON-016",
+      "title": "Approve specimen ontology release",
+      "description": "Deliver and verify this stage of the ontology workflow.",
+      "status": "pending",
+      "priority": 16,
+      "dependsOn": [
+        "PAR-ON-015"
+      ],
+      "acceptanceCriteria": [
+        "Confirm hierarchy, spatial data, provenance, semantic picking and public explanations",
+        "Document verified coverage and explicitly unresolved ontology gaps"
+      ],
+      "outputs": [
+        "specimens/parthenon/reviews/ontology.json"
+      ],
+      "evidence": [],
+      "review": {
+        "status": "not-reviewed",
+        "notes": ""
+      },
+      "blockedReason": null
+    }
+  ]
+}
