@@ -5,6 +5,18 @@ const ontology=load('ontology/components.json');
 const sources=load('ontology/sources.json').sources;
 const queue=load('specimens/queue.json').specimens;
 const part=load('specimens/parthenon/specimen.json');
+for(const candidate of queue){
+ const file=new URL('../specimens/'+candidate.id+'/specimen.json',import.meta.url);
+ const dossier=JSON.parse(readFileSync(file,'utf8'));
+ assert.equal(dossier.id,candidate.id,'Dossier identity mismatch');
+ for(const fact of dossier.facts||[])assert.ok(sourceIds.has(fact.sourceId),'Bad specimen fact source '+candidate.id);
+ for(const item of dossier.partInventory||[]){
+   assert.ok(conceptIds.has(item.typeId),'Unknown specimen component '+item.typeId);
+   assert.ok(sourceIds.has(item.sourceId),'Unknown instance source '+item.sourceId);
+ }
+ if(candidate.stage==='ontology-ready')assert.ok(dossier.partInventory?.length>=5,'Ontology-ready candidate needs mapped inventory '+candidate.id);
+}
+
 const sourceIds=new Set(sources.map(s=>s.id)),conceptIds=new Set(ontology.components.map(c=>c.id));
 const stages=new Set(['queued','research','ontology-ready','model-draft','review','published','blocked']);
 const distinct=(arr,label)=>assert.equal(new Set(arr).size,arr.length,'Duplicate '+label);
@@ -14,6 +26,10 @@ assert.ok(ontology.components.length>=35,'Ontology must remain substantive');
 assert.ok(queue.length>=5,'Queue must retain initial architectural range');
 for(const s of sources){assert.ok(s.title&&s.publisher);assert.match(s.url,/^https:\/\//);}
 for(const c of ontology.components){
+ assert.ok(c.visualRecognition?.length>15,'Recognition cue missing '+c.id);
+ assert.ok(c.typicalMaterialFamilies?.length>0,'Material family missing '+c.id);
+ for(const r of c.relations||[])assert.ok(conceptIds.has(r.target),'Bad typed relation '+c.id+' '+r.target);
+
  assert.match(c.id,/^[a-z][a-z0-9-]*$/);
  for(const key of ['name','category','definition','typicalLocation','function'])assert.ok(c[key]?.length>3,c.id+' missing '+key);
  assert.ok(Array.isArray(c.connectedTo)&&c.connectedTo.length>0,c.id+' lacks connected terms');

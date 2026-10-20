@@ -1,0 +1,67 @@
+{
+  "id": "fallingwater",
+  "title": "Fallingwater",
+  "location": "Mill Run, Pennsylvania, USA",
+  "sourceIds": [
+    "fallingwater-foundation"
+  ],
+  "modelStatus": "not-modeled",
+  "reconstruction": {
+    "kind": "research",
+    "confidence": "not-assessed",
+    "notes": "Respect building and landscape intellectual property; no sourced commercial meshes or unlicensed photographic textures."
+  },
+  "facts": [
+    {
+      "claim": "Cantilevered terraces extend out from the house toward the surrounding landscape.",
+      "sourceId": "fallingwater-foundation",
+      "confidence": "documented"
+    },
+    {
+      "claim": "Reinforced concrete trays are anchored into natural rock.",
+      "sourceId": "fallingwater-foundation",
+      "confidence": "documented"
+    },
+    {
+      "claim": "Continuous interior living spaces open toward glass walls and surrounding landscape.",
+      "sourceId": "fallingwater-foundation",
+      "confidence": "documented"
+    }
+  ],
+  "partInventory": [
+    {
+      "id": "fallingwater/cantilever",
+      "typeId": "cantilever",
+      "zone": "projecting terraces",
+      "confidence": "preliminary",
+      "sourceId": "fallingwater-foundation"
+    },
+    {
+      "id": "fallingwater/terrace",
+      "typeId": "terrace",
+      "zone": "external open levels",
+      "confidence": "preliminary",
+      "sourceId": "fallingwater-foundation"
+    },
+    {
+      "id": "fallingwater/parapet",
+      "typeId": "parapet",
+      "zone": "edges of terraces",
+      "confidence": "preliminary",
+      "sourceId": "fallingwater-foundation"
+    }
+  ],
+  "missing": [
+    "Contemporary restoration and structural repair phases",
+    "Measured floor plans and sections",
+    "Access/use restrictions and landscape preservation",
+    "Licensed masonry/wood/concrete material references"
+  ],
+  "assetLedger": [],
+  "geometryReview": {
+    "status": "not-started"
+  },
+  "visitorQA": {
+    "status": "not-started"
+  }
+}

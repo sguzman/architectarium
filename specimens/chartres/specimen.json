@@ -1,0 +1,102 @@
+{
+  "id": "chartres",
+  "title": "Chartres Cathedral",
+  "location": "Chartres, France",
+  "sourceIds": [
+    "chartres-official",
+    "chartres-cathedral-architecture",
+    "chartres-unesco"
+  ],
+  "modelStatus": "not-modeled",
+  "reconstruction": {
+    "kind": "research",
+    "confidence": "not-assessed",
+    "notes": "Initial ontology inventory; no surveyed geometry or historical restoration stage chosen."
+  },
+  "facts": [
+    {
+      "claim": "The Gothic nave and choir were reconstructed after 1194.",
+      "sourceId": "chartres-unesco",
+      "confidence": "documented"
+    },
+    {
+      "claim": "Its external flying buttresses are a central part of the structural system.",
+      "sourceId": "chartres-cathedral-architecture",
+      "confidence": "documented"
+    },
+    {
+      "claim": "The high windows articulate a tall wall system.",
+      "sourceId": "chartres-cathedral-architecture",
+      "confidence": "documented"
+    },
+    {
+      "claim": "The cathedral has a transept with sculptural entrance programs.",
+      "sourceId": "chartres-unesco",
+      "confidence": "documented"
+    }
+  ],
+  "partInventory": [
+    {
+      "id": "chartres/flying-buttress",
+      "typeId": "flying-buttress",
+      "zone": "outside nave",
+      "confidence": "preliminary",
+      "sourceId": "chartres-cathedral-architecture"
+    },
+    {
+      "id": "chartres/rib-vault",
+      "typeId": "rib-vault",
+      "zone": "vault over main bays",
+      "confidence": "preliminary",
+      "sourceId": "chartres-cathedral-architecture"
+    },
+    {
+      "id": "chartres/nave",
+      "typeId": "nave",
+      "zone": "main processional axis",
+      "confidence": "preliminary",
+      "sourceId": "chartres-cathedral-architecture"
+    },
+    {
+      "id": "chartres/transept",
+      "typeId": "transept",
+      "zone": "transverse arms",
+      "confidence": "preliminary",
+      "sourceId": "chartres-cathedral-architecture"
+    },
+    {
+      "id": "chartres/clerestory",
+      "typeId": "clerestory",
+      "zone": "upper window zone",
+      "confidence": "preliminary",
+      "sourceId": "chartres-cathedral-architecture"
+    },
+    {
+      "id": "chartres/pier",
+      "typeId": "pier",
+      "zone": "support bays",
+      "confidence": "preliminary",
+      "sourceId": "chartres-cathedral-architecture"
+    },
+    {
+      "id": "chartres/roof",
+      "typeId": "roof",
+      "zone": "over vaulted interior",
+      "confidence": "preliminary",
+      "sourceId": "chartres-cathedral-architecture"
+    }
+  ],
+  "missing": [
+    "Chronological plan and sectional survey",
+    "Aisle and vault bay node map",
+    "Buttress thrust-path references",
+    "Licensing for masonry and stained glass material studies"
+  ],
+  "assetLedger": [],
+  "geometryReview": {
+    "status": "not-started"
+  },
+  "visitorQA": {
+    "status": "not-started"
+  }
+}

@@ -48,6 +48,30 @@
       "url": "https://franklloydwright.org/site/fallingwater/",
       "scope": "Cantilevered terraces and relationship to site",
       "usage": "Linked research reference only; no copyrighted media copied"
+    },
+    {
+      "id": "chartres-cathedral-architecture",
+      "title": "The 13th century Cathedral",
+      "publisher": "Cathédrale de Chartres",
+      "url": "https://www.cathedrale-chartres.org/en/cathedrale/monument/architecture/the-13th-century-cathedral/",
+      "scope": "Flying buttress system, high windows, triforium and wall anatomy",
+      "usage": "Reference; imagery not reproduced"
+    },
+    {
+      "id": "chartres-unesco",
+      "title": "Chartres Cathedral",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/81/",
+      "scope": "Gothic structural and sculptural program, nave, transept and conservation state",
+      "usage": "Reference; imagery not reproduced"
+    },
+    {
+      "id": "istanbul-unesco",
+      "title": "Historic Areas of Istanbul",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/356",
+      "scope": "Hagia Sophia significance, sixth-century architecture and historical setting",
+      "usage": "Reference; imagery not reproduced"
     }
   ]
 }

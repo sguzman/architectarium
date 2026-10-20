@@ -40,9 +40,11 @@
       "title": "Chartres Cathedral",
       "location": "Chartres, France",
       "tradition": "gothic",
-      "stage": "queued",
+      "stage": "research",
       "sourceIds": [
-        "chartres-official"
+        "chartres-official",
+        "chartres-cathedral-architecture",
+        "chartres-unesco"
       ],
       "priority": 3,
       "model": {
@@ -50,16 +52,17 @@
         "accuracy": "not-modeled"
       },
       "rights": "Source documentation only; geometry must be original or explicitly licensed",
-      "nextStage": "collect-references-and-evidence"
+      "nextStage": "review-component-claims-and-plan-evidence"
     },
     {
       "id": "hagia-sophia",
       "title": "Hagia Sophia",
       "location": "Istanbul, Türkiye",
       "tradition": "byzantine",
-      "stage": "queued",
+      "stage": "research",
       "sourceIds": [
-        "hagia-unesco"
+        "hagia-unesco",
+        "istanbul-unesco"
       ],
       "priority": 4,
       "model": {
@@ -67,14 +70,14 @@
         "accuracy": "not-modeled"
       },
       "rights": "Source documentation only; geometry must be original or explicitly licensed",
-      "nextStage": "collect-references-and-evidence"
+      "nextStage": "verify-dome-phases-and-geometric-evidence"
     },
     {
       "id": "fallingwater",
       "title": "Fallingwater",
       "location": "Mill Run, Pennsylvania, USA",
       "tradition": "modern",
-      "stage": "queued",
+      "stage": "research",
       "sourceIds": [
         "fallingwater-foundation"
       ],
@@ -84,7 +87,7 @@
         "accuracy": "not-modeled"
       },
       "rights": "Source documentation only; geometry must be original or explicitly licensed",
-      "nextStage": "collect-references-and-evidence"
+      "nextStage": "document-structural-conservation-and-material-provenance"
     }
   ]
 }

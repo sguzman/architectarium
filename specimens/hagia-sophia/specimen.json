@@ -1,0 +1,82 @@
+{
+  "id": "hagia-sophia",
+  "title": "Hagia Sophia",
+  "location": "Istanbul, Türkiye",
+  "sourceIds": [
+    "hagia-unesco",
+    "istanbul-unesco"
+  ],
+  "modelStatus": "not-modeled",
+  "reconstruction": {
+    "kind": "research",
+    "confidence": "not-assessed",
+    "notes": "Distinguish sixth-century configuration, seismic repairs, Ottoman changes and present-day conditions before deciding modeled era."
+  },
+  "facts": [
+    {
+      "claim": "Hagia Sophia is a sixth-century architectural monument.",
+      "sourceId": "istanbul-unesco",
+      "confidence": "documented"
+    },
+    {
+      "claim": "Pendentives connect the central arches and pier-supported dome.",
+      "sourceId": "hagia-unesco",
+      "confidence": "documented"
+    },
+    {
+      "claim": "Semi-domes and lateral abutments help balance the dome's forces.",
+      "sourceId": "hagia-unesco",
+      "confidence": "documented"
+    }
+  ],
+  "partInventory": [
+    {
+      "id": "hagia-sophia/dome",
+      "typeId": "dome",
+      "zone": "central overhead shell",
+      "confidence": "preliminary",
+      "sourceId": "hagia-unesco"
+    },
+    {
+      "id": "hagia-sophia/pendentive",
+      "typeId": "pendentive",
+      "zone": "central dome transition",
+      "confidence": "preliminary",
+      "sourceId": "hagia-unesco"
+    },
+    {
+      "id": "hagia-sophia/pier",
+      "typeId": "pier",
+      "zone": "central support piers",
+      "confidence": "preliminary",
+      "sourceId": "hagia-unesco"
+    },
+    {
+      "id": "hagia-sophia/arch",
+      "typeId": "arch",
+      "zone": "beneath central dome",
+      "confidence": "preliminary",
+      "sourceId": "hagia-unesco"
+    },
+    {
+      "id": "hagia-sophia/semi-dome",
+      "typeId": "semi-dome",
+      "zone": "axial half domes",
+      "confidence": "preliminary",
+      "sourceId": "hagia-unesco"
+    }
+  ],
+  "missing": [
+    "Phase-specific dome sections and deformation evidence",
+    "Restoration chronology and materials",
+    "Ground plan and survey-controlled geometry",
+    "Interior passage restrictions and visitor routes"
+  ],
+  "assetLedger": [],
+  "geometryReview": {
+    "status": "not-started"
+  },
+  "visitorQA": {
+    "status": "not-started"
+  }
+}
