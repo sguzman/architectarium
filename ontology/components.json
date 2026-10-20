@@ -1,6 +1,6 @@
 {
-  "version": 1,
-  "description": "Architectural component TYPES, not particular building instances",
+  "version": 2,
+  "description": "Ontology of architectural component types with typed relations, material families, identification cues and sourced building examples. Types are not particular building instances.",
   "components": [
     {
       "id": "foundation",
@@ -20,8 +20,14 @@
         }
       ],
       "synonyms": [],
-      "geometryMapping": "optional",
-      "reviewStatus": "initial-reference"
+      "reviewStatus": "initial-reference",
+      "visualRecognition": "Normally hidden, evidenced by footing plans and load-bearing substrate",
+      "typicalMaterialFamilies": [
+        "stone",
+        "masonry"
+      ],
+      "relations": [],
+      "exampleEvidence": "The linked building source supplies contextual evidence; component-specific verification is a separate specimen gate."
     },
     {
       "id": "stereobate",
@@ -40,9 +46,23 @@
           "sourceId": "acropolis-parthenon"
         }
       ],
-      "synonyms": [],
-      "geometryMapping": "optional",
-      "reviewStatus": "initial-reference"
+      "synonyms": [
+        "stepped lower platform"
+      ],
+      "reviewStatus": "initial-reference",
+      "visualRecognition": "Tiered base courses below the level on which columns stand",
+      "typicalMaterialFamilies": [
+        "stone",
+        "masonry"
+      ],
+      "relations": [
+        {
+          "predicate": "supports",
+          "target": "stylobate",
+          "scope": "typical arrangement; depends on building"
+        }
+      ],
+      "exampleEvidence": "The linked building source supplies contextual evidence; component-specific verification is a separate specimen gate."
     },
     {
       "id": "stylobate",
@@ -61,9 +81,23 @@
           "sourceId": "acropolis-parthenon"
         }
       ],
-      "synonyms": [],
-      "geometryMapping": "optional",
-      "reviewStatus": "initial-reference"
+      "synonyms": [
+        "top platform step"
+      ],
+      "reviewStatus": "initial-reference",
+      "visualRecognition": "Continuous topmost step meeting the foot of each outer column",
+      "typicalMaterialFamilies": [
+        "stone",
+        "masonry"
+      ],
+      "relations": [
+        {
+          "predicate": "supports",
+          "target": "column-shaft",
+          "scope": "typical arrangement; depends on building"
+        }
+      ],
+      "exampleEvidence": "The linked building source supplies contextual evidence; component-specific verification is a separate specimen gate."
     },
     {
       "id": "peristyle",
@@ -83,8 +117,20 @@
         }
       ],
       "synonyms": [],
-      "geometryMapping": "optional",
-      "reviewStatus": "initial-reference"
+      "reviewStatus": "initial-reference",
+      "visualRecognition": "Continuous walking corridor bounded by repeated columns",
+      "typicalMaterialFamilies": [
+        "masonry",
+        "stone"
+      ],
+      "relations": [
+        {
+          "predicate": "formed-by",
+          "target": "colonnade",
+          "scope": "typical arrangement; depends on building"
+        }
+      ],
+      "exampleEvidence": "The linked building source supplies contextual evidence; component-specific verification is a separate specimen gate."
     },
     {
       "id": "colonnade",
@@ -104,8 +150,20 @@
         }
       ],
       "synonyms": [],
-      "geometryMapping": "optional",
-      "reviewStatus": "initial-reference"
+      "reviewStatus": "initial-reference",
+      "visualRecognition": "Rhythmic array of repeated vertical supports",
+      "typicalMaterialFamilies": [
+        "stone",
+        "marble"
+      ],
+      "relations": [
+        {
+          "predicate": "contains",
+          "target": "column-shaft",
+          "scope": "typical arrangement; depends on building"
+        }
+      ],
+      "exampleEvidence": "The linked building source supplies contextual evidence; component-specific verification is a separate specimen gate."
     },
     {
       "id": "column-shaft",
@@ -125,9 +183,23 @@
           "sourceId": "acropolis-parthenon"
         }
       ],
-      "synonyms": [],
-      "geometryMapping": "optional",
-      "reviewStatus": "initial-reference"
+      "synonyms": [
+        "shaft"
+      ],
+      "reviewStatus": "initial-reference",
+      "visualRecognition": "Tall tapered fluted or plain column body below a capital",
+      "typicalMaterialFamilies": [
+        "stone",
+        "masonry"
+      ],
+      "relations": [
+        {
+          "predicate": "supports",
+          "target": "echinus",
+          "scope": "typical arrangement; depends on building"
+        }
+      ],
+      "exampleEvidence": "The linked building source supplies contextual evidence; component-specific verification is a separate specimen gate."
     },
     {
       "id": "fluting",
@@ -146,8 +218,21 @@
         }
       ],
       "synonyms": [],
-      "geometryMapping": "optional",
-      "reviewStatus": "initial-reference"
+      "reviewStatus": "initial-reference",
+      "visualRecognition": "Repeated longitudinal concave grooves catching alternating light and shadow",
+      "typicalMaterialFamilies": [
+        "stone",
+        "marble",
+        "concrete"
+      ],
+      "relations": [
+        {
+          "predicate": "carved-into",
+          "target": "column-shaft",
+          "scope": "typical arrangement; depends on building"
+        }
+      ],
+      "exampleEvidence": "The linked building source supplies contextual evidence; component-specific verification is a separate specimen gate."
     },
     {
       "id": "entasis",
@@ -166,8 +251,19 @@
         }
       ],
       "synonyms": [],
-      "geometryMapping": "optional",
-      "reviewStatus": "initial-reference"
+      "reviewStatus": "initial-reference",
+      "visualRecognition": "Nearly imperceptible swelling in the otherwise tapered shaft profile",
+      "typicalMaterialFamilies": [
+        "stone"
+      ],
+      "relations": [
+        {
+          "predicate": "modifies-profile-of",
+          "target": "column-shaft",
+          "scope": "typical arrangement; depends on building"
+        }
+      ],
+      "exampleEvidence": "The linked building source supplies contextual evidence; component-specific verification is a separate specimen gate."
     },
     {
       "id": "echinus",
@@ -186,9 +282,23 @@
           "sourceId": "acropolis-parthenon"
         }
       ],
-      "synonyms": [],
-      "geometryMapping": "optional",
-      "reviewStatus": "initial-reference"
+      "synonyms": [
+        "Doric capital cushion"
+      ],
+      "reviewStatus": "initial-reference",
+      "visualRecognition": "Rounded outward-flaring Doric capital profile",
+      "typicalMaterialFamilies": [
+        "stone",
+        "marble"
+      ],
+      "relations": [
+        {
+          "predicate": "supports",
+          "target": "abacus",
+          "scope": "typical arrangement; depends on building"
+        }
+      ],
+      "exampleEvidence": "The linked building source supplies contextual evidence; component-specific verification is a separate specimen gate."
     },
     {
       "id": "abacus",
@@ -207,9 +317,23 @@
           "sourceId": "acropolis-parthenon"
         }
       ],
-      "synonyms": [],
-      "geometryMapping": "optional",
-      "reviewStatus": "initial-reference"
+      "synonyms": [
+        "capital abacus"
+      ],
+      "reviewStatus": "initial-reference",
+      "visualRecognition": "Square flat bearing slab at the top of a classical capital",
+      "typicalMaterialFamilies": [
+        "stone",
+        "marble"
+      ],
+      "relations": [
+        {
+          "predicate": "supports",
+          "target": "architrave",
+          "scope": "typical arrangement; depends on building"
+        }
+      ],
+      "exampleEvidence": "The linked building source supplies contextual evidence; component-specific verification is a separate specimen gate."
     },
     {
       "id": "architrave",
@@ -229,8 +353,20 @@
         }
       ],
       "synonyms": [],
-      "geometryMapping": "optional",
-      "reviewStatus": "initial-reference"
+      "reviewStatus": "initial-reference",
+      "visualRecognition": "First horizontal course spanning directly from column to column",
+      "typicalMaterialFamilies": [
+        "stone",
+        "marble"
+      ],
+      "relations": [
+        {
+          "predicate": "supports",
+          "target": "frieze",
+          "scope": "typical arrangement; depends on building"
+        }
+      ],
+      "exampleEvidence": "The linked building source supplies contextual evidence; component-specific verification is a separate specimen gate."
     },
     {
       "id": "entablature",
@@ -251,8 +387,30 @@
         }
       ],
       "synonyms": [],
-      "geometryMapping": "optional",
-      "reviewStatus": "initial-reference"
+      "reviewStatus": "initial-reference",
+      "visualRecognition": "Three-part crown above a classical colonnade",
+      "typicalMaterialFamilies": [
+        "stone",
+        "marble"
+      ],
+      "relations": [
+        {
+          "predicate": "comprises",
+          "target": "architrave",
+          "scope": "typical arrangement; depends on building"
+        },
+        {
+          "predicate": "comprises",
+          "target": "frieze",
+          "scope": "typical arrangement; depends on building"
+        },
+        {
+          "predicate": "comprises",
+          "target": "cornice",
+          "scope": "typical arrangement; depends on building"
+        }
+      ],
+      "exampleEvidence": "The linked building source supplies contextual evidence; component-specific verification is a separate specimen gate."
     },
     {
       "id": "frieze",
@@ -274,8 +432,25 @@
         }
       ],
       "synonyms": [],
-      "geometryMapping": "optional",
-      "reviewStatus": "initial-reference"
+      "reviewStatus": "initial-reference",
+      "visualRecognition": "Decorative or subdivided horizontal middle course of an entablature",
+      "typicalMaterialFamilies": [
+        "stone",
+        "marble"
+      ],
+      "relations": [
+        {
+          "predicate": "contains",
+          "target": "triglyph",
+          "scope": "typical arrangement; depends on building"
+        },
+        {
+          "predicate": "contains",
+          "target": "metope",
+          "scope": "typical arrangement; depends on building"
+        }
+      ],
+      "exampleEvidence": "The linked building source supplies contextual evidence; component-specific verification is a separate specimen gate."
     },
     {
       "id": "triglyph",
@@ -295,8 +470,21 @@
         }
       ],
       "synonyms": [],
-      "geometryMapping": "optional",
-      "reviewStatus": "initial-reference"
+      "reviewStatus": "initial-reference",
+      "visualRecognition": "Doric panel visually divided into three vertical bands",
+      "typicalMaterialFamilies": [
+        "stone",
+        "marble",
+        "plaster"
+      ],
+      "relations": [
+        {
+          "predicate": "alternates-with",
+          "target": "metope",
+          "scope": "typical arrangement; depends on building"
+        }
+      ],
+      "exampleEvidence": "The linked building source supplies contextual evidence; component-specific verification is a separate specimen gate."
     },
     {
       "id": "metope",
@@ -315,9 +503,18 @@
           "sourceId": "acropolis-parthenon"
         }
       ],
-      "synonyms": [],
-      "geometryMapping": "optional",
-      "reviewStatus": "initial-reference"
+      "synonyms": [
+        "metope panel"
+      ],
+      "reviewStatus": "initial-reference",
+      "visualRecognition": "Relatively square interval between neighboring triglyphs",
+      "typicalMaterialFamilies": [
+        "stone",
+        "marble",
+        "plaster"
+      ],
+      "relations": [],
+      "exampleEvidence": "The linked building source supplies contextual evidence; component-specific verification is a separate specimen gate."
     },
     {
       "id": "ionic-frieze",
@@ -336,9 +533,24 @@
           "sourceId": "acropolis-frieze"
         }
       ],
-      "synonyms": [],
-      "geometryMapping": "optional",
-      "reviewStatus": "initial-reference"
+      "synonyms": [
+        "continuous Ionic frieze"
+      ],
+      "reviewStatus": "initial-reference",
+      "visualRecognition": "Unbroken sculpted band, unlike an alternating Doric triglyph-and-metope sequence",
+      "typicalMaterialFamilies": [
+        "stone",
+        "marble",
+        "plaster"
+      ],
+      "relations": [
+        {
+          "predicate": "attached-to",
+          "target": "cella",
+          "scope": "typical arrangement; depends on building"
+        }
+      ],
+      "exampleEvidence": "The linked building source supplies contextual evidence; component-specific verification is a separate specimen gate."
     },
     {
       "id": "cornice",
@@ -358,8 +570,20 @@
         }
       ],
       "synonyms": [],
-      "geometryMapping": "optional",
-      "reviewStatus": "initial-reference"
+      "reviewStatus": "initial-reference",
+      "visualRecognition": "Overhanging crowning profile projecting past the wall face",
+      "typicalMaterialFamilies": [
+        "stone",
+        "marble"
+      ],
+      "relations": [
+        {
+          "predicate": "below",
+          "target": "pediment",
+          "scope": "typical arrangement; depends on building"
+        }
+      ],
+      "exampleEvidence": "The linked building source supplies contextual evidence; component-specific verification is a separate specimen gate."
     },
     {
       "id": "pediment",
@@ -379,9 +603,24 @@
           "sourceId": "acropolis-parthenon"
         }
       ],
-      "synonyms": [],
-      "geometryMapping": "optional",
-      "reviewStatus": "initial-reference"
+      "synonyms": [
+        "gable pediment"
+      ],
+      "reviewStatus": "initial-reference",
+      "visualRecognition": "Triangular gable framed by sloping and horizontal cornices",
+      "typicalMaterialFamilies": [
+        "stone",
+        "tile",
+        "masonry"
+      ],
+      "relations": [
+        {
+          "predicate": "frames",
+          "target": "tympanum",
+          "scope": "typical arrangement; depends on building"
+        }
+      ],
+      "exampleEvidence": "The linked building source supplies contextual evidence; component-specific verification is a separate specimen gate."
     },
     {
       "id": "tympanum",
@@ -399,9 +638,18 @@
           "sourceId": "acropolis-parthenon"
         }
       ],
-      "synonyms": [],
-      "geometryMapping": "optional",
-      "reviewStatus": "initial-reference"
+      "synonyms": [
+        "pedimental field"
+      ],
+      "reviewStatus": "initial-reference",
+      "visualRecognition": "Field enclosed within a pediment's frame",
+      "typicalMaterialFamilies": [
+        "stone",
+        "marble",
+        "plaster"
+      ],
+      "relations": [],
+      "exampleEvidence": "The linked building source supplies contextual evidence; component-specific verification is a separate specimen gate."
     },
     {
       "id": "cella",
@@ -421,9 +669,18 @@
           "sourceId": "acropolis-parthenon"
         }
       ],
-      "synonyms": [],
-      "geometryMapping": "optional",
-      "reviewStatus": "initial-reference"
+      "synonyms": [
+        "naos",
+        "sanctuary chamber"
+      ],
+      "reviewStatus": "initial-reference",
+      "visualRecognition": "Enclosed main interior chamber inside the perimeter colonnade",
+      "typicalMaterialFamilies": [
+        "masonry",
+        "stone"
+      ],
+      "relations": [],
+      "exampleEvidence": "The linked building source supplies contextual evidence; component-specific verification is a separate specimen gate."
     },
     {
       "id": "pronaos",
@@ -443,8 +700,20 @@
         }
       ],
       "synonyms": [],
-      "geometryMapping": "optional",
-      "reviewStatus": "initial-reference"
+      "reviewStatus": "initial-reference",
+      "visualRecognition": "Covered transitional porch immediately before the main chamber",
+      "typicalMaterialFamilies": [
+        "masonry",
+        "stone"
+      ],
+      "relations": [
+        {
+          "predicate": "precedes",
+          "target": "cella",
+          "scope": "typical arrangement; depends on building"
+        }
+      ],
+      "exampleEvidence": "The linked building source supplies contextual evidence; component-specific verification is a separate specimen gate."
     },
     {
       "id": "roof",
@@ -464,8 +733,21 @@
         }
       ],
       "synonyms": [],
-      "geometryMapping": "optional",
-      "reviewStatus": "initial-reference"
+      "reviewStatus": "initial-reference",
+      "visualRecognition": "Weather-shielding cover, distinct from the decorative pediment",
+      "typicalMaterialFamilies": [
+        "stone",
+        "brick",
+        "concrete"
+      ],
+      "relations": [
+        {
+          "predicate": "above",
+          "target": "cella",
+          "scope": "typical arrangement; depends on building"
+        }
+      ],
+      "exampleEvidence": "The linked building source supplies contextual evidence; component-specific verification is a separate specimen gate."
     },
     {
       "id": "portico",
@@ -485,8 +767,20 @@
         }
       ],
       "synonyms": [],
-      "geometryMapping": "optional",
-      "reviewStatus": "initial-reference"
+      "reviewStatus": "initial-reference",
+      "visualRecognition": "Columned covered entrance shelter",
+      "typicalMaterialFamilies": [
+        "masonry",
+        "stone"
+      ],
+      "relations": [
+        {
+          "predicate": "contains",
+          "target": "column-shaft",
+          "scope": "typical arrangement; depends on building"
+        }
+      ],
+      "exampleEvidence": "The linked building source supplies contextual evidence; component-specific verification is a separate specimen gate."
     },
     {
       "id": "rotunda",
@@ -506,9 +800,17 @@
           "sourceId": "pantheon-ministry"
         }
       ],
-      "synonyms": [],
-      "geometryMapping": "optional",
-      "reviewStatus": "initial-reference"
+      "synonyms": [
+        "circular hall"
+      ],
+      "reviewStatus": "initial-reference",
+      "visualRecognition": "Circular interior volume wrapped by a curved perimeter wall",
+      "typicalMaterialFamilies": [
+        "masonry",
+        "stone"
+      ],
+      "relations": [],
+      "exampleEvidence": "The linked building source supplies contextual evidence; component-specific verification is a separate specimen gate."
     },
     {
       "id": "drum",
@@ -527,9 +829,23 @@
           "sourceId": "pantheon-ministry"
         }
       ],
-      "synonyms": [],
-      "geometryMapping": "optional",
-      "reviewStatus": "initial-reference"
+      "synonyms": [
+        "dome drum"
+      ],
+      "reviewStatus": "initial-reference",
+      "visualRecognition": "Circular or many-sided vertical wall immediately beneath a dome",
+      "typicalMaterialFamilies": [
+        "stone",
+        "masonry"
+      ],
+      "relations": [
+        {
+          "predicate": "supports",
+          "target": "dome",
+          "scope": "typical arrangement; depends on building"
+        }
+      ],
+      "exampleEvidence": "The linked building source supplies contextual evidence; component-specific verification is a separate specimen gate."
     },
     {
       "id": "dome",
@@ -550,8 +866,26 @@
         }
       ],
       "synonyms": [],
-      "geometryMapping": "optional",
-      "reviewStatus": "initial-reference"
+      "reviewStatus": "initial-reference",
+      "visualRecognition": "Continuous curved overhead volume with a circular or polygonal base",
+      "typicalMaterialFamilies": [
+        "stone",
+        "tile",
+        "masonry"
+      ],
+      "relations": [
+        {
+          "predicate": "spans",
+          "target": "rotunda",
+          "scope": "typical arrangement; depends on building"
+        },
+        {
+          "predicate": "contains",
+          "target": "coffer",
+          "scope": "typical arrangement; depends on building"
+        }
+      ],
+      "exampleEvidence": "The linked building source supplies contextual evidence; component-specific verification is a separate specimen gate."
     },
     {
       "id": "coffer",
@@ -569,9 +903,19 @@
           "sourceId": "pantheon-ministry"
         }
       ],
-      "synonyms": [],
-      "geometryMapping": "optional",
-      "reviewStatus": "initial-reference"
+      "synonyms": [
+        "lacunar",
+        "recessed panel"
+      ],
+      "reviewStatus": "initial-reference",
+      "visualRecognition": "Recessed repeated panels in a ceiling or vault",
+      "typicalMaterialFamilies": [
+        "stone",
+        "marble",
+        "concrete"
+      ],
+      "relations": [],
+      "exampleEvidence": "The linked building source supplies contextual evidence; component-specific verification is a separate specimen gate."
     },
     {
       "id": "oculus",
@@ -590,9 +934,23 @@
           "sourceId": "pantheon-ministry"
         }
       ],
-      "synonyms": [],
-      "geometryMapping": "optional",
-      "reviewStatus": "initial-reference"
+      "synonyms": [
+        "circular roof opening"
+      ],
+      "reviewStatus": "initial-reference",
+      "visualRecognition": "Round opening admitting sky light",
+      "typicalMaterialFamilies": [
+        "stone",
+        "glass"
+      ],
+      "relations": [
+        {
+          "predicate": "opens-through",
+          "target": "dome",
+          "scope": "typical arrangement; depends on building"
+        }
+      ],
+      "exampleEvidence": "The linked building source supplies contextual evidence; component-specific verification is a separate specimen gate."
     },
     {
       "id": "corinthian-capital",
@@ -612,8 +970,20 @@
         }
       ],
       "synonyms": [],
-      "geometryMapping": "optional",
-      "reviewStatus": "initial-reference"
+      "reviewStatus": "initial-reference",
+      "visualRecognition": "Deep carved capital with layered vegetal leaf forms",
+      "typicalMaterialFamilies": [
+        "stone",
+        "marble"
+      ],
+      "relations": [
+        {
+          "predicate": "supports",
+          "target": "architrave",
+          "scope": "typical arrangement; depends on building"
+        }
+      ],
+      "exampleEvidence": "The linked building source supplies contextual evidence; component-specific verification is a separate specimen gate."
     },
     {
       "id": "pier",
@@ -634,8 +1004,14 @@
         }
       ],
       "synonyms": [],
-      "geometryMapping": "optional",
-      "reviewStatus": "initial-reference"
+      "reviewStatus": "initial-reference",
+      "visualRecognition": "Substantial solid vertical support larger than a slim column",
+      "typicalMaterialFamilies": [
+        "stone",
+        "masonry"
+      ],
+      "relations": [],
+      "exampleEvidence": "The linked building source supplies contextual evidence; component-specific verification is a separate specimen gate."
     },
     {
       "id": "arch",
@@ -655,8 +1031,20 @@
         }
       ],
       "synonyms": [],
-      "geometryMapping": "optional",
-      "reviewStatus": "initial-reference"
+      "reviewStatus": "initial-reference",
+      "visualRecognition": "Curved spanning member between bearing points",
+      "typicalMaterialFamilies": [
+        "stone",
+        "masonry"
+      ],
+      "relations": [
+        {
+          "predicate": "bears-on",
+          "target": "pier",
+          "scope": "typical arrangement; depends on building"
+        }
+      ],
+      "exampleEvidence": "The linked building source supplies contextual evidence; component-specific verification is a separate specimen gate."
     },
     {
       "id": "pendentive",
@@ -677,8 +1065,24 @@
         }
       ],
       "synonyms": [],
-      "geometryMapping": "optional",
-      "reviewStatus": "initial-reference"
+      "reviewStatus": "initial-reference",
+      "visualRecognition": "Four concave triangular transitions between corner arches and dome base",
+      "typicalMaterialFamilies": [
+        "masonry"
+      ],
+      "relations": [
+        {
+          "predicate": "transfers-load-to",
+          "target": "pier",
+          "scope": "typical arrangement; depends on building"
+        },
+        {
+          "predicate": "supports",
+          "target": "dome",
+          "scope": "typical arrangement; depends on building"
+        }
+      ],
+      "exampleEvidence": "The linked building source supplies contextual evidence; component-specific verification is a separate specimen gate."
     },
     {
       "id": "semi-dome",
@@ -698,8 +1102,21 @@
         }
       ],
       "synonyms": [],
-      "geometryMapping": "optional",
-      "reviewStatus": "initial-reference"
+      "reviewStatus": "initial-reference",
+      "visualRecognition": "Half-dome covering an end recess or supporting a larger composition",
+      "typicalMaterialFamilies": [
+        "stone",
+        "tile",
+        "masonry"
+      ],
+      "relations": [
+        {
+          "predicate": "adjoins",
+          "target": "dome",
+          "scope": "typical arrangement; depends on building"
+        }
+      ],
+      "exampleEvidence": "The linked building source supplies contextual evidence; component-specific verification is a separate specimen gate."
     },
     {
       "id": "apse",
@@ -718,9 +1135,23 @@
           "sourceId": "hagia-unesco"
         }
       ],
-      "synonyms": [],
-      "geometryMapping": "optional",
-      "reviewStatus": "initial-reference"
+      "synonyms": [
+        "apsidal termination"
+      ],
+      "reviewStatus": "initial-reference",
+      "visualRecognition": "Rounded or polygonal termination of a main internal axis",
+      "typicalMaterialFamilies": [
+        "masonry",
+        "stone"
+      ],
+      "relations": [
+        {
+          "predicate": "roofed-by",
+          "target": "semi-dome",
+          "scope": "typical arrangement; depends on building"
+        }
+      ],
+      "exampleEvidence": "The linked building source supplies contextual evidence; component-specific verification is a separate specimen gate."
     },
     {
       "id": "nave",
@@ -740,9 +1171,23 @@
           "sourceId": "chartres-official"
         }
       ],
-      "synonyms": [],
-      "geometryMapping": "optional",
-      "reviewStatus": "initial-reference"
+      "synonyms": [
+        "central vessel"
+      ],
+      "reviewStatus": "initial-reference",
+      "visualRecognition": "Long central congregation space often flanked by aisles",
+      "typicalMaterialFamilies": [
+        "masonry",
+        "stone"
+      ],
+      "relations": [
+        {
+          "predicate": "intersects",
+          "target": "transept",
+          "scope": "typical arrangement; depends on building"
+        }
+      ],
+      "exampleEvidence": "The linked building source supplies contextual evidence; component-specific verification is a separate specimen gate."
     },
     {
       "id": "transept",
@@ -762,8 +1207,14 @@
         }
       ],
       "synonyms": [],
-      "geometryMapping": "optional",
-      "reviewStatus": "initial-reference"
+      "reviewStatus": "initial-reference",
+      "visualRecognition": "Cross-axis volume intersecting a longitudinal church nave",
+      "typicalMaterialFamilies": [
+        "masonry",
+        "stone"
+      ],
+      "relations": [],
+      "exampleEvidence": "The linked building source supplies contextual evidence; component-specific verification is a separate specimen gate."
     },
     {
       "id": "rib-vault",
@@ -783,9 +1234,29 @@
           "sourceId": "chartres-official"
         }
       ],
-      "synonyms": [],
-      "geometryMapping": "optional",
-      "reviewStatus": "initial-reference"
+      "synonyms": [
+        "ribbed vault"
+      ],
+      "reviewStatus": "initial-reference",
+      "visualRecognition": "Projecting diagonal and transverse ribs frame vaulted infill",
+      "typicalMaterialFamilies": [
+        "stone",
+        "tile",
+        "masonry"
+      ],
+      "relations": [
+        {
+          "predicate": "spans",
+          "target": "nave",
+          "scope": "typical arrangement; depends on building"
+        },
+        {
+          "predicate": "bears-on",
+          "target": "pier",
+          "scope": "typical arrangement; depends on building"
+        }
+      ],
+      "exampleEvidence": "The linked building source supplies contextual evidence; component-specific verification is a separate specimen gate."
     },
     {
       "id": "flying-buttress",
@@ -804,9 +1275,23 @@
           "sourceId": "chartres-official"
         }
       ],
-      "synonyms": [],
-      "geometryMapping": "optional",
-      "reviewStatus": "initial-reference"
+      "synonyms": [
+        "external arched buttress"
+      ],
+      "reviewStatus": "initial-reference",
+      "visualRecognition": "Exterior flying arch connects tall upper wall to an independent pier",
+      "typicalMaterialFamilies": [
+        "stone",
+        "masonry"
+      ],
+      "relations": [
+        {
+          "predicate": "resists-thrust-from",
+          "target": "rib-vault",
+          "scope": "typical arrangement; depends on building"
+        }
+      ],
+      "exampleEvidence": "The linked building source supplies contextual evidence; component-specific verification is a separate specimen gate."
     },
     {
       "id": "clerestory",
@@ -825,9 +1310,23 @@
           "sourceId": "chartres-official"
         }
       ],
-      "synonyms": [],
-      "geometryMapping": "optional",
-      "reviewStatus": "initial-reference"
+      "synonyms": [
+        "upper-storey window wall"
+      ],
+      "reviewStatus": "initial-reference",
+      "visualRecognition": "Raised strip of windows bringing daylight into a deep central space",
+      "typicalMaterialFamilies": [
+        "stone",
+        "glass"
+      ],
+      "relations": [
+        {
+          "predicate": "above",
+          "target": "nave",
+          "scope": "typical arrangement; depends on building"
+        }
+      ],
+      "exampleEvidence": "The linked building source supplies contextual evidence; component-specific verification is a separate specimen gate."
     },
     {
       "id": "cantilever",
@@ -846,9 +1345,17 @@
           "sourceId": "fallingwater-foundation"
         }
       ],
-      "synonyms": [],
-      "geometryMapping": "optional",
-      "reviewStatus": "initial-reference"
+      "synonyms": [
+        "projecting beam or slab"
+      ],
+      "reviewStatus": "initial-reference",
+      "visualRecognition": "Projecting member with support concentrated behind its free edge",
+      "typicalMaterialFamilies": [
+        "stone",
+        "masonry"
+      ],
+      "relations": [],
+      "exampleEvidence": "The linked building source supplies contextual evidence; component-specific verification is a separate specimen gate."
     },
     {
       "id": "terrace",
@@ -868,8 +1375,20 @@
         }
       ],
       "synonyms": [],
-      "geometryMapping": "optional",
-      "reviewStatus": "initial-reference"
+      "reviewStatus": "initial-reference",
+      "visualRecognition": "Open-air horizontal living or circulation platform",
+      "typicalMaterialFamilies": [
+        "masonry",
+        "stone"
+      ],
+      "relations": [
+        {
+          "predicate": "supported-by",
+          "target": "cantilever",
+          "scope": "typical arrangement; depends on building"
+        }
+      ],
+      "exampleEvidence": "The linked building source supplies contextual evidence; component-specific verification is a separate specimen gate."
     },
     {
       "id": "parapet",
@@ -888,9 +1407,24 @@
           "sourceId": "fallingwater-foundation"
         }
       ],
-      "synonyms": [],
-      "geometryMapping": "optional",
-      "reviewStatus": "initial-reference"
+      "synonyms": [
+        "low edge wall"
+      ],
+      "reviewStatus": "initial-reference",
+      "visualRecognition": "Protective low wall or guard along exposed platform edges",
+      "typicalMaterialFamilies": [
+        "stone",
+        "brick",
+        "concrete"
+      ],
+      "relations": [
+        {
+          "predicate": "guards-edge-of",
+          "target": "terrace",
+          "scope": "typical arrangement; depends on building"
+        }
+      ],
+      "exampleEvidence": "The linked building source supplies contextual evidence; component-specific verification is a separate specimen gate."
     }
   ]
 }

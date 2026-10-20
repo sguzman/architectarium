@@ -1,0 +1,102 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Architectarium architectural component type",
+  "type": "object",
+  "required": [
+    "id",
+    "name",
+    "definition",
+    "category",
+    "function",
+    "typicalLocation",
+    "typicalMaterialFamilies",
+    "visualRecognition",
+    "connectedTo",
+    "relations",
+    "examples"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9-]*$"
+    },
+    "name": {
+      "type": "string",
+      "minLength": 2
+    },
+    "category": {
+      "type": "string"
+    },
+    "definition": {
+      "type": "string",
+      "minLength": 15
+    },
+    "function": {
+      "type": "string"
+    },
+    "typicalLocation": {
+      "type": "string"
+    },
+    "typicalMaterialFamilies": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "visualRecognition": {
+      "type": "string"
+    },
+    "synonyms": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "relations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "predicate",
+          "target"
+        ],
+        "properties": {
+          "predicate": {
+            "type": "string"
+          },
+          "target": {
+            "type": "string"
+          },
+          "scope": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "connectedTo": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "examples": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "building",
+          "sourceId"
+        ],
+        "properties": {
+          "building": {
+            "type": "string"
+          },
+          "sourceId": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}
