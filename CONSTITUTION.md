@@ -50,6 +50,16 @@ All public-facing language must be independently written in a **neutral, profess
 - Every building dossier must distinguish source-backed facts from approximate dimensions, conjecture, missing data, reconstructed phases, later modifications, and the present condition.
 - Specimen queue stages require documented evidence and validation. Do not label a queued, schematic, or unreviewed building as a completed accurate model.
 
+### Specimen-queue authorization boundaries
+
+Specimen intake, specimen-queue processing, and downstream execution are **three distinct operations**, each with a separate authorization boundary:
+
+1. **Queue insertion:** Add the named building as a candidate in `specimens/queue.json`. This action does not authorize research, ontology development, 3D modeling, task execution, or publication.
+2. **Process a specimen-queue entry:** Instantiate or organize the specimen's required durable processing, ontology, and 3D presentation task queues, including task IDs, prerequisites, acceptance criteria, and expected deliverables. This is **planning and decomposition only**. It must not execute tasks in those downstream queues, create substantive architectural research or model deliverables, advance their completion states, or publish an exhibit.
+3. **Execute downstream work:** Start research, ontology instantiation, 3D construction, review, or other downstream tasks **only after a separate explicit instruction authorizes that work**. Authorization may name a specific task, a specific downstream queue, or all remaining downstream work for one specimen. An instruction to complete all downstream work for a named specimen is sufficient to execute the authorized tasks without seeking approval for each individual task, subject to existing publication and verification gates.
+
+No permission to perform a later operation may be inferred from authorization for an earlier one. Neither a queued record nor an instantiated task list constitutes approval to begin the work it describes. When in doubt, perform only the explicitly authorized operation and leave subsequent work pending. Creation of a queue record alone must never be reported as completed architectural research or a finished 3D specimen.
+
 ## Article V — Gallery, reconstruction fidelity, and visitor experience
 
 - Aesthetic quality and rich exploration are important, but visual realism is not evidence of historical or geometric accuracy. Display reconstruction status and uncertainties honestly.

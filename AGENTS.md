@@ -18,11 +18,21 @@ Do not copy private research repositories, chat transcripts, local filesystem st
 
 - Keep everything necessary for the public ontology and gallery in this independent repository; do not rely on unpublished resources.
 - Maintain `ontology/` as the authoritative human- and machine-readable architectural vocabulary with stable IDs, definitions, relations, examples, provenance, and schema.
-- Maintain `specimens/` with a queue and evidence-backed individual building dossiers. Before processing a candidate, instantiate all three durable task queues described in `docs/SPECIMEN_WORK_CONTRACT.md`. Re-read repository queue state after interruption, record new work before execution, and close tasks only with linked verification evidence. Separate generic component **types** from physical building **instances**.
+- Maintain `specimens/` with a candidate queue, three durable downstream task queues per processed queue entry, and evidence-backed building dossiers. Instantiating task queues is an independent planning operation, not permission to perform their tasks. Re-read repository queue state after interruption, record discoveries during authorized execution, and close tasks only with linked verification evidence. Separate generic component **types** from physical building **instances**.
 - Maintain `site/` as the in-repository GitHub Pages application. Its picking, labels, inspector, data indexes, and geometry IDs must agree with the ontology and specimen records.
 - Follow `docs/SPECIMEN_PROTOCOL.md`, `docs/MODEL_STANDARDS.md`, and `docs/ASSET_PROVENANCE.md`.
 - Never claim schematic geometry is surveyed, phase-accurate, or conservation-grade. Clearly label approximation, unknowns, reconstruction era, and asset licenses.
 - Refer to other Tarium projects as integrations only if independently public and explicitly registered. Do not assume that this repository is enrolled; only the Tarium registry owner may authorize membership.
+
+## 2A. Queue operations and execution authority
+
+Treat these commands as different operations. Do **not** automatically advance from one to another:
+
+1. **Add a specimen to the queue:** Make only the requested intake entry. Leave the specimen unprocessed. Do not instantiate downstream work unless also explicitly requested.
+2. **Process an item in the specimen queue:** Create or organize tasks in the required `processing`, `ontology`, and `presentation` queues. Assign stable IDs, dependencies, acceptance criteria and deliverables. Leave all new tasks pending; do not research, model, complete tasks, or publish the specimen. An already-instantiated queue may be checked for completeness, but that check does not expand authorization.
+3. **Process downstream queues:** Require a subsequent explicit instruction covering the relevant task(s), queue(s), or named specimen. A direction to finish all downstream work for a specimen authorizes the full downstream workflow, including necessary task decomposition and verification, without task-by-task reauthorization. Continue to enforce evidence, rights, fidelity and publication safeguards.
+
+Do not interpret the words "queue" or "process" in isolation as permission to perform later stages. Read their explicit object: processing a **specimen-queue item** means *task instantiation*, whereas processing **downstream tasks** means execution. If the instruction is limited to queue management, confine all file changes to that scope. Never mark tasks done merely because they were generated.
 
 ## 3. Before writing, committing, or publishing
 
