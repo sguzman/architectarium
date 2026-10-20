@@ -33,7 +33,14 @@ try{
  await page.locator('#walk').click();
  await page.waitForFunction(()=>document.querySelector('#walk')?.getAttribute('aria-pressed')==='true',null,{timeout:8000});
  await page.keyboard.down('w');await page.waitForTimeout(180);await page.keyboard.up('w');
+ // The explicit exit control must work even if the browser intercepts Escape for pointer lock.
+ await page.locator('#walk').click();
+ await page.waitForFunction(()=>document.querySelector('#walk')?.getAttribute('aria-pressed')==='false',null,{timeout:8000});
+ await page.locator('#walk').click();
+ await page.waitForFunction(()=>document.querySelector('#walk')?.getAttribute('aria-pressed')==='true',null,{timeout:8000});
  await page.keyboard.press('Escape');
+ // Some headless engines consume Escape while releasing pointer lock.
+ if(await page.locator('#walk').getAttribute('aria-pressed')==='true')await page.locator('#walk').click();
  await page.waitForFunction(()=>document.querySelector('#walk')?.getAttribute('aria-pressed')==='false',null,{timeout:8000});
  await page.locator('.part-row').first().click();
  await page.screenshot({path:'qa-parthenon/desktop.png',fullPage:true});

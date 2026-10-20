@@ -49,12 +49,13 @@ try{
  orbit.addEventListener('change',draw);walk.addEventListener('change',draw);
  let sizeMode=null;function resize(){const w=stage.clientWidth,h=stage.clientHeight;if(!w||!h)return;const next=w<650?'compact':'wide';if(next!==sizeMode&&!walking){sizeMode=next;home.copy(next==='compact'?smallHome:wideHome);camera.position.copy(home);orbit.target.copy(center);orbit.update();}camera.aspect=w/h;camera.updateProjectionMatrix();renderer.setSize(w,h,false);draw();}
  new ResizeObserver(resize).observe(stage);resize();
- function resetCamera(){walking=false;orbit.enabled=true;stage.classList.remove('walking');keys.clear();camera.position.copy(home);orbit.target.copy(center);orbit.update();press('orbit',true);press('walk',false);$('modeLabel').textContent='ORBIT / DRAG TO ROTATE';draw();}
+ function resetCamera(){walking=false;orbit.enabled=true;stage.classList.remove('walking');keys.clear();camera.position.copy(home);orbit.target.copy(center);orbit.update();press('orbit',true);press('walk',false,'Exit walk','Walk inside');$('modeLabel').textContent='ORBIT / DRAG TO ROTATE';draw();}
  walk.addEventListener('lock',()=>{$('modeLabel').textContent='WASD / MOUSE · ESC TO EXIT';draw();});
  walk.addEventListener('unlock',resetCamera);
+ document.addEventListener('pointerlockchange',()=>{if(!document.pointerLockElement&&walking&&walk.isLocked===false)resetCamera();});
  document.addEventListener('pointerlockerror',()=>{if(walking){$('modeLabel').textContent='WASD / DRAG TO LOOK · ORBIT TO EXIT';draw();}});
  // Keyboard movement is available even when the browser denies pointer lock.
- $('walk').addEventListener('click',()=>{if(walking)return;walking=true;stage.classList.add('walking');press('orbit',false);press('walk',true);orbit.enabled=false;camera.position.set(0,2.86,-38);camera.lookAt(0,3,-15);canvas.focus();$('modeLabel').textContent='WASD / DRAG TO LOOK · ESC TO EXIT';draw();walk.lock();});
+ $('walk').addEventListener('click',()=>{if(walking){if(walk.isLocked)walk.unlock();resetCamera();return;}walking=true;stage.classList.add('walking');press('orbit',false);press('walk',true,'Exit walk','Walk inside');orbit.enabled=false;camera.position.set(0,2.86,-38);camera.lookAt(0,3,-15);canvas.focus();$('modeLabel').textContent='WASD / DRAG TO LOOK · ESC TO EXIT';draw();walk.lock();});
  $('orbit').addEventListener('click',()=>{if(walk.isLocked)walk.unlock();else resetCamera();});
  $('roof').addEventListener('click',()=>{hiddenRoof=!hiddenRoof;for(const mesh of model.roofs)mesh.visible=!hiddenRoof;press('roof',hiddenRoof,'Restore roof','Hide roof');draw();});
  $('cutaway').addEventListener('click',()=>{hiddenWalls=!hiddenWalls;for(const mesh of model.walls)mesh.visible=!hiddenWalls;press('cutaway',hiddenWalls,'Restore walls','Cutaway');if(hiddenWalls&&!hiddenRoof)$('roof').click();draw();});
@@ -101,7 +102,7 @@ try{
   ray.setFromCamera(uv,camera);const hits=ray.intersectObjects(model.pickables,false).find(h=>h.object.visible&&h.object.userData.instanceId);
   if(hits)select(hits.object.userData.instanceId);
  });
- document.addEventListener('keydown',e=>{if(!walking)return;if(e.code==='Escape'){if(walk.isLocked)walk.unlock();else resetCamera();return;}if(/^(Key[WASD]|Arrow(Up|Down|Left|Right)|ShiftLeft)$/.test(e.code)){e.preventDefault();keys.add(e.code);draw();}});
+ document.addEventListener('keydown',e=>{if(!walking)return;if(e.code==='Escape'){if(walk.isLocked)walk.unlock();resetCamera();return;}if(/^(Key[WASD]|Arrow(Up|Down|Left|Right)|ShiftLeft)$/.test(e.code)){e.preventDefault();keys.add(e.code);draw();}});
  document.addEventListener('keyup',e=>keys.delete(e.code));window.addEventListener('blur',()=>keys.clear());
  $('reset').addEventListener('click',()=>{if(walking)walk.unlock();else resetCamera();if(hiddenRoof)$('roof').click();if(hiddenWalls)$('cutaway').click();clearSelection();$('selectionStatus').textContent='SELECT A PART';$('detail').replaceChildren(elem('p','detail-note','Select a distinct architectural component to inspect its ontology.'));drawParts();});
  window.addEventListener('pagehide',()=>{cancelAnimationFrame(frame);orbit.dispose();walk.disconnect();model.dispose();renderer.dispose();},{once:true});
