@@ -2,6 +2,7 @@ import * as THREE from 'three';
 import {OrbitControls} from 'three/addons/controls/OrbitControls.js';
 import {PointerLockControls} from 'three/addons/controls/PointerLockControls.js';
 import {buildParthenon} from './model.js';
+import {attachSelectionOutline} from './selection-outline.js';
 const $=id=>document.getElementById(id);
 const load=async url=>{const r=await fetch(url);if(!r.ok)throw Error(url+' '+r.status);return r.json();};
 const elem=(tag,cls,value)=>{const e=document.createElement(tag);if(cls)e.className=cls;if(value!==undefined)e.textContent=String(value);return e;};
@@ -35,7 +36,7 @@ try{
  if(!model.root.parent)scene.add(model.root);
  $('count').textContent=model.modelCount+' individual selectable parts';
  window.__architectariumMetrics={parts:model.modelCount,firstBatchMilliseconds:firstBatchMillis,buildMilliseconds:Math.round(performance.now()-firstFrameStart),progressive:true};
- const ray=new THREE.Raycaster(),uv=new THREE.Vector2();let activeId=null,material=null,selected=null,walking=false,hiddenRoof=false,hiddenWalls=false,search='',zone='all',frame=0,last=0,dirty=true;
+ const ray=new THREE.Raycaster(),uv=new THREE.Vector2();let activeId=null,material=null,selected=null,outline=null,focusBeforeSelection=null,walking=false,hiddenRoof=false,hiddenWalls=false,search='',zone='all',frame=0,last=0,dirty=true;
  const keys=new Set(),zones=[...new Set(inventory.map(x=>x.zone))].sort();
  function press(id,on,onLabel,offLabel){const b=$(id);b.classList.toggle('active',on);b.setAttribute('aria-pressed',String(on));if(onLabel)b.textContent=on?onLabel:offLabel;}
  function draw(){dirty=true;if(!frame)frame=requestAnimationFrame(tick);}
@@ -115,12 +116,54 @@ try{
   try{localStorage.setItem(materialKey,mode);}catch{}
  });
  applyMaterialMode(materialPreference());
- function clearSelection(){if(selected){const highlight=selected.material;selected.material=material;if(highlight!==material)highlight.dispose();selected=null;material=null;}activeId=null;draw();}
+ function updateSelectionState(){
+  window.__architectariumSelection={
+   id:activeId,outlined:Boolean(outline),outlineParts:outline?.group.children.length||0,
+   orbitTarget:orbit.target.toArray(),cameraPosition:camera.position.toArray()
+  };
+ }
+ function clearSelection(restoreFocus=false,clearDetail=false){
+  if(outline){outline.detach();outline=null;}
+  if(selected){
+   const highlight=selected.material;selected.material=material;
+   if(highlight!==material)highlight.dispose();
+   selected=null;material=null;
+  }
+  activeId=null;
+  if(restoreFocus){
+   if(focusBeforeSelection&&orbit.enabled){
+    camera.position.copy(focusBeforeSelection.position);
+    orbit.target.copy(focusBeforeSelection.target);
+    orbit.update();
+   }
+   focusBeforeSelection=null;
+  }
+  if(clearDetail){
+   $('selectionStatus').textContent='SELECT A PART';
+   $('detail').replaceChildren(elem('p','detail-note','Select an architectural part to focus and outline it. Select it again to clear the focus.'));
+  }
+  drawParts();updateSelectionState();draw();
+ }
  function select(id,focus=true){
   const part=records.get(id),mesh=model.byId.get(id);if(!part||!mesh)return;
-  clearSelection();activeId=id;selected=mesh;material=mesh.material;
+  // A second model or index click on the same part deselects it.
+  if(focus&&activeId===id){clearSelection(true,true);return;}
+  if(focus&&orbit.enabled&&!focusBeforeSelection){
+   focusBeforeSelection={position:camera.position.clone(),target:orbit.target.clone()};
+  }
+  clearSelection();
+  activeId=id;selected=mesh;material=mesh.material;
   const glow=material.clone();glow.emissive=new THREE.Color('#aa7245');glow.emissiveIntensity=.5;mesh.material=glow;
-  if(focus&&orbit.enabled){const bounds=new THREE.Box3().setFromObject(mesh),p=bounds.getCenter(new THREE.Vector3());orbit.target.lerp(p,.28);}
+  mesh.userData.extents=part.size;
+  outline=attachSelectionOutline(mesh);
+  if(focus&&orbit.enabled){
+   // Translate camera and orbit target together: keep zoom and view direction,
+   // but center the actual selected mesh so subsequent zoom goes toward it.
+   const bounds=new THREE.Box3().setFromObject(mesh),target=bounds.getCenter(new THREE.Vector3());
+   camera.position.add(target.clone().sub(orbit.target));
+   orbit.target.copy(target);
+   orbit.update();
+  }
   $('selectionStatus').textContent=part.typeId.toUpperCase().replaceAll('-',' ');
   const type=types.get(part.typeId),panel=$('detail');panel.replaceChildren();
   panel.append(elem('div','tag',part.zone.toUpperCase()+' / '+part.certainty.toUpperCase()),elem('h2','',part.label),elem('p','',type.definition));
@@ -141,11 +184,11 @@ try{
   if(physical.childElementCount){panel.append(elem('div','tag','CONNECTED PHYSICAL PARTS'),physical);}
   const refs=elem('div','');for(const id of part.sourceIds){const s=sources.get(id);if(s)refs.append(href(s.url,s.publisher+' ↗'),elem('span','', ' '));}
   panel.append(elem('div','tag','ARCHITECTURAL REFERENCES'),refs,elem('p','detail-note','The chosen geometry is an interpretive component instance, not evidence of a measured surviving block.'));
-  drawParts();draw();
+  drawParts();updateSelectionState();draw();
  }
  const group=$('zones');function drawZones(){group.replaceChildren();for(const name of ['all',...zones]){const b=elem('button',zone===name?'active':'',name);b.type='button';b.setAttribute('aria-pressed',String(zone===name));b.addEventListener('click',()=>{zone=name;drawZones();drawParts();});group.append(b);}}
  function drawParts(){const root=$('parts');root.replaceChildren();const match=inventory.filter(p=>(zone==='all'||p.zone===zone)&&(!search||(p.label+' '+p.typeId+' '+p.id).toLowerCase().includes(search))).slice(0,180);
- for(const p of match){const b=elem('button','part-row'+(p.id===activeId?' active':''));b.type='button';b.append(elem('span','',p.label),elem('small','',p.typeId));b.addEventListener('click',()=>select(p.id));root.append(b);}
+ for(const p of match){const b=elem('button','part-row'+(p.id===activeId?' active':''));b.type='button';b.setAttribute('aria-pressed',String(p.id===activeId));b.title=p.id===activeId?'Select again to clear focus':'Focus and outline this part';b.append(elem('span','',p.label),elem('small','',p.typeId));b.addEventListener('click',()=>select(p.id));root.append(b);}
  if(!match.length)root.append(elem('p','detail-note','No matching parts.'));
  }
  $('search').addEventListener('input',e=>{search=e.target.value.trim().toLowerCase();drawParts();});drawZones();drawParts();
@@ -164,6 +207,6 @@ try{
  });
  document.addEventListener('keydown',e=>{if(!walking)return;if(e.code==='Escape'){if(walk.isLocked)walk.unlock();resetCamera();return;}if(/^(Key[WASD]|Arrow(Up|Down|Left|Right)|ShiftLeft)$/.test(e.code)){e.preventDefault();keys.add(e.code);draw();}});
  document.addEventListener('keyup',e=>keys.delete(e.code));window.addEventListener('blur',()=>keys.clear());
- $('reset').addEventListener('click',()=>{if(walk.isLocked)walk.unlock();resetCamera();if(hiddenRoof)$('roof').click();if(hiddenWalls)$('cutaway').click();clearSelection();$('selectionStatus').textContent='SELECT A PART';$('detail').replaceChildren(elem('p','detail-note','Select a distinct architectural component to inspect its ontology.'));drawParts();});
- window.addEventListener('pagehide',()=>{cancelAnimationFrame(frame);orbit.dispose();walk.disconnect();model.dispose();renderer.dispose();},{once:true});
+ $('reset').addEventListener('click',()=>{if(walk.isLocked)walk.unlock();resetCamera();if(hiddenRoof)$('roof').click();if(hiddenWalls)$('cutaway').click();clearSelection(true,true);});
+ window.addEventListener('pagehide',()=>{clearSelection();cancelAnimationFrame(frame);orbit.dispose();walk.disconnect();model.dispose();renderer.dispose();},{once:true});
 }catch(error){console.error('Parthenon viewer could not initialize',error);$('error').hidden=false;$('error').textContent='The model could not load: '+error.message;$('count').textContent='Viewer unavailable';}

@@ -75,6 +75,11 @@ const model=readFileSync(resolve(root,'site/specimens/parthenon/model.js'),'utf8
 const viewer=readFileSync(resolve(root,'site/specimens/parthenon/viewer.js'),'utf8');
 assert.match(model,/userData\.instanceId/);
 assert.match(model,/createRealisticMaterials/);
+const selectionOutline=readFileSync(resolve(root,'site/specimens/parthenon/selection-outline.js'),'utf8');
+assert.match(selectionOutline,/EdgesGeometry/,'Selection must draw architectural edges');
+assert.match(selectionOutline,/BackSide/,'Selection must draw a silhouette, not only a box');
+assert.match(viewer,/activeId===id/,'Second click must clear selection');
+assert.match(viewer,/focusBeforeSelection/,'Orbit and camera must restore after deselection');
 assert.match(model,/particleCount=900/,'The optional atmosphere must have visible dust sprites');
 assert.match(model,/new THREE.ExtrudeGeometry/,'Pediment must be solid, not a single flat triangle');
 assert.match(model,/slab with top|weathering slab/i,'Roof must be a closed solid, not a single open quad');

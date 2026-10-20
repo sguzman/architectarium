@@ -29,6 +29,30 @@ try{
  assert.ok(await page.locator('.interpretation-key').isVisible(),'Visitor fidelity classification must remain visible');
  assert.ok(await page.locator('#viewer').evaluate(el=>!!(el.getContext('webgl2')||el.getContext('webgl'))));
  assert.match(await page.locator('.fidelity').innerText(),/SCHEMATIC/);
+ // Select via the list. The outline must be a real 3D highlight, not only a label.
+ await page.locator('#search').fill('west-room/ionic/column-01/capital');
+ const targetRow=page.locator('.part-row').first();
+ const initialOrbit=await page.evaluate(()=>window.__architectariumSelection.orbitTarget);
+ const initialCamera=await page.evaluate(()=>window.__architectariumSelection.cameraPosition);
+ await targetRow.click();
+ const focused=await page.evaluate(()=>window.__architectariumSelection);
+ assert.equal(focused.id,'parthenon/west-room/ionic/column-01/capital');
+ assert.equal(focused.outlined,true);
+ assert.equal(focused.outlineParts,2,'Selected part needs edge and silhouette renderers');
+ assert.notDeepEqual(focused.orbitTarget,initialOrbit,'Orbit focus should track selected geometry');
+ assert.equal(await targetRow.getAttribute('aria-pressed'),'true');
+ await page.screenshot({path:'qa-parthenon/selection-outlined.png',animations:'disabled'});
+ await targetRow.click();
+ const cleared=await page.evaluate(()=>window.__architectariumSelection);
+ assert.equal(cleared.id,null,'Selecting the same row again must unfocus it');
+ assert.equal(cleared.outlined,false,'Outline should detach after deselection');
+ assert.deepEqual(cleared.orbitTarget,initialOrbit,'Unfocus must restore original zoom target');
+ assert.deepEqual(cleared.cameraPosition,initialCamera,'Unfocus must restore original camera view');
+ assert.equal(await targetRow.getAttribute('aria-pressed'),'false');
+ assert.equal(await page.locator('#selectionStatus').innerText(),'SELECT A PART');
+ // Reselect, then switch materials; the same physical part should remain outlined.
+ await targetRow.click();
+ assert.equal((await page.evaluate(()=>window.__architectariumSelection)).outlined,true);
  await page.locator('#search').fill('ionic capital');
  // Use the full physical ID search to inspect a child with physical dependencies.
  await page.locator('#search').fill('west-room/ionic/column-01/capital');
@@ -44,6 +68,7 @@ try{
  assert.match(await page.locator('#detail').innerText(),/Evidence status/);
  assert.equal(await page.locator('#materials').getAttribute('aria-pressed'),'false');
  assert.equal(await page.evaluate(()=>window.__architectariumMetrics.materialMode),'study');
+ assert.equal(await page.evaluate(()=>window.__architectariumSelection.outlined),true,'Material mode must preserve outlined part');
  await page.screenshot({path:'qa-parthenon/material-study.png'});
  await page.locator('#materials').click();
  await page.waitForFunction(()=>window.__architectariumMetrics.materialMode==='realistic');
