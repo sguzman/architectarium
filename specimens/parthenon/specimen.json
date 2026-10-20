@@ -2452,6 +2452,26 @@
       "id": "parthenon/roof/south",
       "typeId": "roof",
       "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/entablature/east/frieze-backing",
+      "typeId": "frieze",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/entablature/west/frieze-backing",
+      "typeId": "frieze",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/entablature/north/frieze-backing",
+      "typeId": "frieze",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/entablature/south/frieze-backing",
+      "typeId": "frieze",
+      "sourceId": "acropolis-architecture"
     }
   ],
   "geometryReview": {

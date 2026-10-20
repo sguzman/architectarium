@@ -54,13 +54,37 @@ export async function buildParthenon(inventory,onBatch=()=>{}){
   if(record.shape==='echinus')return new THREE.LatheGeometry([new THREE.Vector2(w*.35,0),new THREE.Vector2(w*.41,h*.3),new THREE.Vector2(w*.49,h*.9),new THREE.Vector2(w*.50,h)],40);
   if(record.shape==='ionic')return new THREE.CylinderGeometry(w*.43,w*.43,h,40);
   if(record.shape==='pediment'){
-   const g=new THREE.BufferGeometry();g.setAttribute('position',new THREE.Float32BufferAttribute([-w/2,0,0,w/2,0,0,0,h,0],3));
-   g.setIndex([0,1,2]);g.computeVertexNormals();return g;
+   // Closed gable prism; the historic sculptural field is intentionally blank.
+   const triangle=new THREE.Shape();
+   triangle.moveTo(-w/2,0);triangle.lineTo(w/2,0);triangle.lineTo(0,h);triangle.closePath();
+   const g=new THREE.ExtrudeGeometry(triangle,{depth:d,steps:1,bevelEnabled:false});
+   g.translate(0,0,-d/2);
+   return g;
   }
   if(record.shape==='roof'){
-   const sign=record.id.endsWith('/north')?-1:1;
-   const g=new THREE.BufferGeometry();g.setAttribute('position',new THREE.Float32BufferAttribute([0,h/2,-d/2,sign*w,-h/2,-d/2,sign*w,-h/2,d/2,0,h/2,d/2],3));
-   g.setIndex([0,1,2,0,2,3]);g.computeVertexNormals();return g;
+   // A weathering slab with top, soffit, eave fascia and sealed gable ends.
+   // Its 0.42 m illustrative thickness intersects the cornice; the two halves
+   // meet exactly at the ridge, while the end gables intersect the roof caps.
+   const sign=record.id.endsWith('/north')?-1:1,thickness=.42;
+   const verts=[
+    [0,h/2,-d/2],[sign*w,-h/2,-d/2],[sign*w,-h/2,d/2],[0,h/2,d/2],
+    [0,h/2-thickness,-d/2],[sign*w,-h/2-thickness,-d/2],
+    [sign*w,-h/2-thickness,d/2],[0,h/2-thickness,d/2]
+   ],faces=[
+    [0,1,2,3],[7,6,5,4],[0,4,5,1],[3,2,6,7],[1,5,6,2],[0,3,7,4]
+   ];
+   const positions=[],normals=[],uvs=[];
+   const g=new THREE.BufferGeometry();
+   for(const [a,b,c,e] of faces){
+    for(const idx of [a,b,c,a,c,e]){
+     const v=verts[idx];
+     positions.push(...v);
+     uvs.push(Math.abs(v[0])/Math.max(1,w)*3,(v[2]/Math.max(1,d)+.5)*9);
+    }
+   }
+   g.setAttribute('position',new THREE.Float32BufferAttribute(positions,3));
+   g.setAttribute('uv',new THREE.Float32BufferAttribute(uvs,2));
+   g.computeVertexNormals();return g;
   }
   throw Error('Unsupported geometry '+record.shape);
  }

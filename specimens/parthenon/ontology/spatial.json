@@ -3746,12 +3746,12 @@
       "id": "parthenon/cella/north-wall",
       "position": [
         -9.1,
-        5.5,
+        8.475,
         0
       ],
       "size": [
         0.78,
-        8.8,
+        14.75,
         50.2
       ],
       "certainty": "schematic"
@@ -3760,12 +3760,12 @@
       "id": "parthenon/cella/south-wall",
       "position": [
         9.1,
-        5.5,
+        8.475,
         0
       ],
       "size": [
         0.78,
-        8.8,
+        14.75,
         50.2
       ],
       "certainty": "schematic"
@@ -3774,12 +3774,12 @@
       "id": "parthenon/cella/east-jamb-north",
       "position": [
         -5.9,
-        5.5,
+        8.475,
         -25.1
       ],
       "size": [
         6,
-        8.8,
+        14.75,
         0.8
       ],
       "certainty": "schematic"
@@ -3788,12 +3788,12 @@
       "id": "parthenon/cella/east-jamb-south",
       "position": [
         5.9,
-        5.5,
+        8.475,
         -25.1
       ],
       "size": [
         6,
-        8.8,
+        14.75,
         0.8
       ],
       "certainty": "schematic"
@@ -3816,12 +3816,12 @@
       "id": "parthenon/cella/west-jamb-north",
       "position": [
         -5.9,
-        5.5,
+        8.475,
         25.1
       ],
       "size": [
         6,
-        8.8,
+        14.75,
         0.8
       ],
       "certainty": "schematic"
@@ -3830,12 +3830,12 @@
       "id": "parthenon/cella/west-jamb-south",
       "position": [
         5.9,
-        5.5,
+        8.475,
         25.1
       ],
       "size": [
         6,
-        8.8,
+        14.75,
         0.8
       ],
       "certainty": "schematic"
@@ -3858,12 +3858,12 @@
       "id": "parthenon/cella/divider",
       "position": [
         0,
-        5.5,
+        8.475,
         10.7
       ],
       "size": [
         17.45,
-        8.8,
+        14.75,
         0.8
       ],
       "certainty": "schematic"
@@ -3928,13 +3928,13 @@
       "id": "parthenon/pediment/east",
       "position": [
         0,
-        14.62,
-        -33.45
+        14.72,
+        -34.05
       ],
       "size": [
-        31.2,
+        31,
         3.35,
-        0.15
+        0.38
       ],
       "certainty": "schematic"
     },
@@ -3970,13 +3970,13 @@
       "id": "parthenon/pediment/west",
       "position": [
         0,
-        14.62,
-        33.45
+        14.72,
+        34.05
       ],
       "size": [
-        31.2,
+        31,
         3.35,
-        0.15
+        0.38
       ],
       "certainty": "schematic"
     },
@@ -6751,6 +6751,62 @@
         68.5
       ],
       "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/entablature/east/frieze-backing",
+      "position": [
+        0,
+        13.39,
+        -33.2
+      ],
+      "size": [
+        31,
+        1.84,
+        1.6
+      ],
+      "certainty": "schematic-assembly"
+    },
+    {
+      "id": "parthenon/entablature/west/frieze-backing",
+      "position": [
+        0,
+        13.39,
+        33.2
+      ],
+      "size": [
+        31,
+        1.84,
+        1.6
+      ],
+      "certainty": "schematic-assembly"
+    },
+    {
+      "id": "parthenon/entablature/north/frieze-backing",
+      "position": [
+        -14,
+        13.39,
+        0
+      ],
+      "size": [
+        1.6,
+        1.84,
+        67.5
+      ],
+      "certainty": "schematic-assembly"
+    },
+    {
+      "id": "parthenon/entablature/south/frieze-backing",
+      "position": [
+        14,
+        13.39,
+        0
+      ],
+      "size": [
+        1.6,
+        1.84,
+        67.5
+      ],
+      "certainty": "schematic-assembly"
     }
   ]
 }

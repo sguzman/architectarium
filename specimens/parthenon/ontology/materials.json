@@ -1946,6 +1946,22 @@
     {
       "id": "parthenon/roof/south",
       "material": "roof"
+    },
+    {
+      "id": "parthenon/entablature/east/frieze-backing",
+      "material": "marble"
+    },
+    {
+      "id": "parthenon/entablature/west/frieze-backing",
+      "material": "marble"
+    },
+    {
+      "id": "parthenon/entablature/north/frieze-backing",
+      "material": "marble"
+    },
+    {
+      "id": "parthenon/entablature/south/frieze-backing",
+      "material": "marble"
     }
   ]
 }

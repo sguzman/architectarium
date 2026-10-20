@@ -2412,7 +2412,27 @@
       "id": "parthenon/roof/south",
       "typeId": "roof",
       "shape": "roof"
+    },
+    {
+      "id": "parthenon/entablature/east/frieze-backing",
+      "typeId": "frieze",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/entablature/west/frieze-backing",
+      "typeId": "frieze",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/entablature/north/frieze-backing",
+      "typeId": "frieze",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/entablature/south/frieze-backing",
+      "typeId": "frieze",
+      "shape": "box"
     }
   ],
-  "expected": 482
+  "expected": 486
 }

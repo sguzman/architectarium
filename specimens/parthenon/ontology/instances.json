@@ -5885,12 +5885,12 @@
       "shape": "box",
       "position": [
         -9.1,
-        5.5,
+        8.475,
         0
       ],
       "size": [
         0.78,
-        8.8,
+        14.75,
         50.2
       ],
       "zone": "cella",
@@ -5907,12 +5907,12 @@
       "shape": "box",
       "position": [
         9.1,
-        5.5,
+        8.475,
         0
       ],
       "size": [
         0.78,
-        8.8,
+        14.75,
         50.2
       ],
       "zone": "cella",
@@ -5929,12 +5929,12 @@
       "shape": "box",
       "position": [
         -5.9,
-        5.5,
+        8.475,
         -25.1
       ],
       "size": [
         6,
-        8.8,
+        14.75,
         0.8
       ],
       "zone": "cella",
@@ -5951,12 +5951,12 @@
       "shape": "box",
       "position": [
         5.9,
-        5.5,
+        8.475,
         -25.1
       ],
       "size": [
         6,
-        8.8,
+        14.75,
         0.8
       ],
       "zone": "cella",
@@ -5995,12 +5995,12 @@
       "shape": "box",
       "position": [
         -5.9,
-        5.5,
+        8.475,
         25.1
       ],
       "size": [
         6,
-        8.8,
+        14.75,
         0.8
       ],
       "zone": "cella",
@@ -6017,12 +6017,12 @@
       "shape": "box",
       "position": [
         5.9,
-        5.5,
+        8.475,
         25.1
       ],
       "size": [
         6,
-        8.8,
+        14.75,
         0.8
       ],
       "zone": "cella",
@@ -6061,12 +6061,12 @@
       "shape": "box",
       "position": [
         0,
-        5.5,
+        8.475,
         10.7
       ],
       "size": [
         17.45,
-        8.8,
+        14.75,
         0.8
       ],
       "zone": "cella",
@@ -6171,13 +6171,13 @@
       "shape": "pediment",
       "position": [
         0,
-        14.62,
-        -33.45
+        14.72,
+        -34.05
       ],
       "size": [
-        31.2,
+        31,
         3.35,
-        0.15
+        0.38
       ],
       "zone": "exterior",
       "sourceIds": [
@@ -6237,13 +6237,13 @@
       "shape": "pediment",
       "position": [
         0,
-        14.62,
-        33.45
+        14.72,
+        34.05
       ],
       "size": [
-        31.2,
+        31,
         3.35,
-        0.15
+        0.38
       ],
       "zone": "exterior",
       "sourceIds": [
@@ -10607,6 +10607,94 @@
       ],
       "certainty": "schematic",
       "material": "roof"
+    },
+    {
+      "id": "parthenon/entablature/east/frieze-backing",
+      "typeId": "frieze",
+      "label": "East Doric frieze backing",
+      "shape": "box",
+      "position": [
+        0,
+        13.39,
+        -33.2
+      ],
+      "size": [
+        31,
+        1.84,
+        1.6
+      ],
+      "zone": "entablature",
+      "sourceIds": [
+        "acropolis-architecture"
+      ],
+      "certainty": "schematic-assembly",
+      "material": "marble"
+    },
+    {
+      "id": "parthenon/entablature/west/frieze-backing",
+      "typeId": "frieze",
+      "label": "West Doric frieze backing",
+      "shape": "box",
+      "position": [
+        0,
+        13.39,
+        33.2
+      ],
+      "size": [
+        31,
+        1.84,
+        1.6
+      ],
+      "zone": "entablature",
+      "sourceIds": [
+        "acropolis-architecture"
+      ],
+      "certainty": "schematic-assembly",
+      "material": "marble"
+    },
+    {
+      "id": "parthenon/entablature/north/frieze-backing",
+      "typeId": "frieze",
+      "label": "North Doric frieze backing",
+      "shape": "box",
+      "position": [
+        -14,
+        13.39,
+        0
+      ],
+      "size": [
+        1.6,
+        1.84,
+        67.5
+      ],
+      "zone": "entablature",
+      "sourceIds": [
+        "acropolis-architecture"
+      ],
+      "certainty": "schematic-assembly",
+      "material": "marble"
+    },
+    {
+      "id": "parthenon/entablature/south/frieze-backing",
+      "typeId": "frieze",
+      "label": "South Doric frieze backing",
+      "shape": "box",
+      "position": [
+        14,
+        13.39,
+        0
+      ],
+      "size": [
+        1.6,
+        1.84,
+        67.5
+      ],
+      "zone": "entablature",
+      "sourceIds": [
+        "acropolis-architecture"
+      ],
+      "certainty": "schematic-assembly",
+      "material": "marble"
     }
   ]
 }
