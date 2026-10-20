@@ -1,28 +1,60 @@
 <!doctype html>
-<html lang="en"><head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="theme-color" content="#111a1d">
-<meta name="description" content="Architectarium: a 3D architectural atlas and component ontology.">
-<title>Architectarium — The built world, understood</title>
-<link rel="stylesheet" href="./styles.css">
-<script type="importmap">{"imports":{"three":"https://cdn.jsdelivr.net/npm/three@0.180.0/build/three.module.js","three/addons/":"https://cdn.jsdelivr.net/npm/three@0.180.0/examples/jsm/"}}</script>
-<script type="module" src="./app.js"></script></head>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#111a1d">
+  <meta name="description" content="Architectarium: an independent atlas of architectural vocabulary and carefully documented 3D specimens.">
+  <title>Architectarium — The Built World, Understood</title>
+  <link rel="stylesheet" href="./styles.css">
+  <script type="module" src="./app.js"></script>
+</head>
 <body>
-<header class="mast"><a class="wordmark" href="./" aria-label="Architectarium homepage"><span class="mark">A</span><span>ARCHITECTARIUM<small>THE BUILT WORLD, UNDERSTOOD</small></span></a><nav><a href="#collection">Collection</a><a href="#anatomy">Anatomy</a><a href="https://github.com/sguzman/architectarium" target="_blank" rel="noopener noreferrer">Source ↗</a></nav></header>
-<section class="intro"><div><div class="eyebrow">AN OPEN ATLAS OF ARCHITECTURE <span class="line"></span> VOLUME I</div><h1>Step inside<br><em>the idea of a building.</em></h1><p>A place to wander through celebrated architecture, examine its anatomy, and connect every detail to the language of built form.</p></div><div class="folio"><span>01 / 05</span><span>THE PARTHENON<br>ATHENS, GREECE</span><strong>447–438 BCE</strong></div></section>
-<main class="workspace">
-<aside class="collection" id="collection"><div class="panel-heading"><span>01 / THE COLLECTION</span><strong id="specimenCount">SPECIMENS</strong></div><div class="panel-copy">Famous buildings, studied as individual architectural systems.</div><div id="specimenList" class="specimen-list" aria-live="polite"></div><div class="aside-note">Only the Parthenon is modeled in this first release. Other records are research queue entries, not published reconstructions.</div></aside>
-<section class="stage" aria-label="Interactive architectural viewer">
-<div class="stage-header"><div class="stage-title"><span class="stage-number">SPECIMEN / 001</span><h2>Parthenon <small>Acropolis · Athens</small></h2></div><div class="quality">SCHEMATIC STUDY <span class="statusdot"></span></div></div>
-<div class="viewport" id="viewport"><canvas id="view" aria-label="Interactive three-dimensional Parthenon"></canvas><div class="scene-hud"><span id="sceneState">Loading architectural study…</span><span id="navigationState">ORBIT / DRAG TO ROTATE</span></div><div id="crosshair" aria-hidden="true">+</div><div class="viewport-error" id="error" role="status" hidden></div></div>
-<div class="toolbar">
-<div class="toolbar-row"><button id="orbitMode" class="active" aria-pressed="true" type="button">◌ Orbit</button><button id="walkMode" type="button" aria-pressed="false">↗ Walk inside</button><button id="roofToggle" type="button" aria-pressed="false">Hide roof</button><button id="wallsToggle" type="button" aria-pressed="false">Cutaway</button><button id="dustToggle" type="button" aria-pressed="false">Atmosphere</button><button id="reset" type="button">↺ Reset</button></div>
-<div class="light-row"><label for="daylight">LIGHT STUDY <span id="hourLabel">16:00</span></label><input id="daylight" type="range" min="7" max="19" step=".5" value="16"><span class="help">Orbit: drag to rotate, scroll to zoom. Walk: click to enter, WASD to move, mouse to look, Esc to leave. Select a part by clicking or with the center reticle.</span></div></div>
-<div class="viewer-footer"><span>RECONSTRUCTION STATUS · Illustrative geometry; not a survey or historically verified restoration.</span><a href="https://parthenonfrieze.gr/en/the-parthenon/" rel="noopener noreferrer" target="_blank">BUILDING REFERENCE ↗</a></div>
-</section>
-<aside class="anatomy" id="anatomy"><div class="panel-heading"><span>02 / ARCHITECTURAL ANATOMY</span><strong id="termCount"></strong></div><label class="searchlabel" for="search">FIND A COMPONENT</label><input id="search" type="search" placeholder="Column, metope, oculus…" autocomplete="off">
-<div class="term-list" id="terms" role="list" aria-label="Architectural concepts"></div><div class="inspector" id="inspector" aria-live="polite"><div class="placeholder"><span>SELECT A COMPONENT</span><strong>Every detail has a name.</strong><p>Click part of the 3D model, or explore the architectural index.</p></div></div>
-</aside></main>
-<section class="statement" id="method"><span class="eyebrow">RESEARCH / RECONSTRUCTION / EXPERIENCE</span><h2>More than a model.<br><em>A connected vocabulary of architecture.</em></h2><p>Components are documented with their function, usual position, structural neighbors, examples in real buildings and source references. Geometry is reviewed separately so architectural knowledge is never mistaken for surveyed precision.</p><div class="statement-links"><a href="https://github.com/sguzman/architectarium/blob/main/docs/SPECIMEN_PROTOCOL.md">How specimens are processed ↗</a><a href="https://github.com/sguzman/architectarium/tree/main/ontology">Browse the ontology ↗</a></div></section>
-<footer><span>© 2026 ARCHITECTARIUM / OPEN ARCHITECTURAL STUDIES</span><span>CODE & ORIGINAL DATA: MIT · <a href="https://github.com/sguzman/architectarium">GITHUB ↗</a></span></footer>
+  <header class="mast">
+    <a class="wordmark" href="./" aria-label="Architectarium home"><span class="mark" aria-hidden="true">A</span><span>ARCHITECTARIUM<small>THE BUILT WORLD, UNDERSTOOD</small></span></a>
+    <nav aria-label="Main navigation"><a href="#anatomy">Anatomy</a><a href="#gallery">Gallery</a><a href="#method">Method</a><a href="https://github.com/sguzman/architectarium" rel="noopener noreferrer" target="_blank">Source ↗</a></nav>
+  </header>
+  <section class="intro">
+    <div class="intro-copy">
+      <div class="eyebrow">ARCHITECTURE / KNOWLEDGE / FORM <span class="line"></span> AN OPEN ATLAS</div>
+      <h1>Every building<br>has <em>a language.</em></h1>
+      <p>Discover the elements that shape architecture: what they are called, what they do, where they belong, and how they work together.</p>
+      <a class="explore" href="#anatomy">EXPLORE THE ARCHITECTURAL INDEX <span aria-hidden="true">↘</span></a>
+    </div>
+    <div class="hero-stats" aria-label="Current collection size">
+      <div><strong id="conceptCount">—</strong><span>DOCUMENTED TERMS</span></div>
+      <div><strong id="familyCount">—</strong><span>COMPONENT FAMILIES</span></div>
+      <div><strong id="publishedCount">—</strong><span>PUBLISHED SPECIMENS</span></div>
+    </div>
+  </section>
+  <main>
+    <section class="anatomy-section" id="anatomy">
+      <header class="section-head"><div><span class="eyebrow">01 / THE ONTOLOGY</span><h2>Anatomy of architecture</h2><p>An interconnected vocabulary of structural systems, spaces, ornament, and form.</p></div><span class="section-mark" aria-hidden="true">I</span></header>
+      <div class="workspace">
+        <aside class="index" aria-label="Architectural term browser">
+          <label for="search" class="index-label">FIND AN ARCHITECTURAL COMPONENT</label>
+          <input id="search" type="search" placeholder="Search terms, forms, functions…" autocomplete="off" spellcheck="false">
+          <span class="index-label filter-title">BROWSE BY FAMILY</span>
+          <div id="categories" class="categories" role="group" aria-label="Component families"></div>
+          <div class="index-row"><span>ARCHITECTURAL TERMS</span><span id="termCount">—</span></div>
+          <div id="terms" class="term-list" aria-label="Architectural terms"></div>
+        </aside>
+        <article class="inspector" id="inspector" aria-live="polite" aria-label="Selected architectural term">
+          <div class="inspector-welcome"><div class="eyebrow">THE BUILDING BLOCKS OF FORM</div><h3>Structure has a vocabulary.</h3><p>Select any architectural term to examine its purpose, identifying features, typical location, materials, and relationships with other components.</p><div class="ornament" aria-hidden="true"><span></span><span></span><span></span><span></span></div></div>
+        </article>
+      </div>
+      <div class="ontology-footnote">Definitions and examples are part of a developing research index, not claims that a particular building specimen has passed geometric review. <a href="https://github.com/sguzman/architectarium/tree/main/ontology" target="_blank" rel="noopener noreferrer">View structured ontology ↗</a></div>
+    </section>
+    <section class="gallery-section" id="gallery">
+      <header class="section-head"><div><span class="eyebrow">02 / THE 3D COLLECTION</span><h2>Architecture, explored</h2><p>Only completed and verified architectural specimens appear in this gallery.</p></div><span class="section-mark" aria-hidden="true">II</span></header>
+      <div id="galleryContent" class="gallery-content" aria-live="polite"><div class="gallery-empty"><div class="gallery-icon" aria-hidden="true">∅</div><h3>No specimens published</h3><p>The collection is empty until a building has completed architectural research, modeling, and visitor review.</p></div></div>
+    </section>
+    <section class="method-section" id="method">
+      <span class="eyebrow">03 / RESEARCH & RECONSTRUCTION</span>
+      <h2>Evidence first.<br><em>Immersion follows.</em></h2>
+      <p>Architectarium separates source-backed architectural knowledge from 3D reconstruction. Each future published building will include semantic part selection, documented uncertainty, and an explorable environment. Research drafts are not automatically exhibition pieces.</p>
+      <div class="method-links"><a href="https://github.com/sguzman/architectarium/blob/main/docs/SPECIMEN_PROTOCOL.md" target="_blank" rel="noopener noreferrer">Specimen methodology ↗</a><a href="https://github.com/sguzman/architectarium/blob/main/docs/MODEL_STANDARDS.md" target="_blank" rel="noopener noreferrer">Model accuracy standards ↗</a></div>
+    </section>
+  </main>
+  <footer><span>ARCHITECTARIUM / OPEN ARCHITECTURAL RESEARCH</span><span>CODE & ORIGINAL DATA: MIT · <a href="https://github.com/sguzman/architectarium" rel="noopener noreferrer" target="_blank">GITHUB ↗</a></span></footer>
 </body></html>
