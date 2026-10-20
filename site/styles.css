@@ -12,3 +12,38 @@
 @media(max-width:960px){.intro{flex-direction:column;align-items:start}.hero-stats{flex-direction:row;border-left:0;border-top:1px solid var(--line);padding:22px 0 0;width:100%;justify-content:space-between}.workspace{grid-template-columns:1fr}.index{border-right:0;border-bottom:1px solid var(--line)}.term-list{max-height:280px}.inspector-welcome{min-height:300px}}
 @media(max-width:610px){.mast{align-items:start;flex-wrap:wrap;padding:18px 22px}.mast nav{gap:17px;flex-wrap:wrap}.intro{padding:50px 22px}.intro h1{font-size:50px}.hero-stats{gap:12px}.hero-stats strong{font-size:28px}.hero-stats span{font-size:8px}.anatomy-section,.gallery-section{padding:36px 17px 55px}.index{padding:19px}.inspector{padding:24px}.term-data{grid-template-columns:1fr}.section-mark{font-size:44px}.method-section{padding:60px 23px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{animation:none!important;transition:none!important}}
+
+
+/* Visitor appearance controls, shared with the specimen viewer. */
+.theme-switch{display:flex;align-items:center;gap:9px;white-space:nowrap;margin-left:auto;font-size:10px;letter-spacing:.10em}
+.theme-switch label{color:var(--muted);font-weight:700}
+.theme-switch select{font:inherit;color:var(--ink);background:var(--panel);border:1px solid #506060;padding:8px 10px;border-radius:3px;min-width:103px;cursor:pointer}
+@media(max-width:610px){.theme-switch{margin-left:0}}
+html[data-resolved-theme="light"]{color-scheme:light;--deep:#f7f7f2;--darker:#eeeee8;--panel:#fffefa;--ink:#273a36;--muted:#53685e;--accent:#81562c;--line:rgba(55,76,70,.22)}
+html[data-resolved-theme="light"] .mast nav{color:#485e54}
+html[data-resolved-theme="light"] .intro{background:radial-gradient(ellipse at 82% 12%,#e4eae3 0%,transparent 57%)}
+html[data-resolved-theme="light"] .intro h1 em,html[data-resolved-theme="light"] .method-section h2 em{color:#8a5d29}
+html[data-resolved-theme="light"] .intro p,html[data-resolved-theme="light"] .method-section p{color:#50665d}
+html[data-resolved-theme="light"] .explore,html[data-resolved-theme="light"] .hero-stats strong,html[data-resolved-theme="light"] .index-label,html[data-resolved-theme="light"] .ontology-footnote a,html[data-resolved-theme="light"] .reference a{color:#81562c}
+html[data-resolved-theme="light"] .hero-stats span,html[data-resolved-theme="light"] .index-row,html[data-resolved-theme="light"] .term small,html[data-resolved-theme="light"] .term-meta,html[data-resolved-theme="light"] .research-note,html[data-resolved-theme="light"] .ontology-footnote,html[data-resolved-theme="light"] footer{color:#5b6e64}
+html[data-resolved-theme="light"] .section-mark{color:#ccd5cb}
+html[data-resolved-theme="light"] .workspace{background:#fffefa}
+html[data-resolved-theme="light"] #search{background:#f3f5ee;border-color:#9eb0a6;color:var(--ink)}
+html[data-resolved-theme="light"] #search::placeholder{color:#66796e}
+html[data-resolved-theme="light"] .category{border-color:#afc0b5;color:#485e54}
+html[data-resolved-theme="light"] .category:hover,html[data-resolved-theme="light"] .category.selected{background:#ebe1d0;border-color:#8d663c;color:#674926}
+html[data-resolved-theme="light"] .term{border-bottom-color:rgba(55,76,70,.12)}
+html[data-resolved-theme="light"] .term:hover,html[data-resolved-theme="light"] .term.selected{background:#eaf0e8}
+html[data-resolved-theme="light"] .inspector{background:radial-gradient(ellipse at 86% 2%,#e9ede6,transparent 58%)}
+html[data-resolved-theme="light"] .inspector-welcome p,html[data-resolved-theme="light"] .term-definition,html[data-resolved-theme="light"] .data-field p,html[data-resolved-theme="light"] .detail-section p{color:#455c51}
+html[data-resolved-theme="light"] .ornament span{background:linear-gradient(90deg,#cfb58d,#b19b79,#e3cfaf)}
+html[data-resolved-theme="light"] .ornament span::before{background:#c4a779}
+html[data-resolved-theme="light"] .ornament span::after{background:#a8916f}
+html[data-resolved-theme="light"] .related button{background:#e9eee8;border-color:#b4c4b8;color:#754e25}
+html[data-resolved-theme="light"] .reference{background:#f0f2ec;border-left-color:#a1784f}
+html[data-resolved-theme="light"] .gallery-section{background:#f0f1eb}
+html[data-resolved-theme="light"] .gallery-content{background:linear-gradient(125deg,#f8f9f5,#ecf0e9 50%,#e4eae3)}
+html[data-resolved-theme="light"] .gallery-empty p,html[data-resolved-theme="light"] .gallery-item p{color:#526a5e}
+html[data-resolved-theme="light"] .gallery-icon{border-color:#9daa98;color:#80592e}
+html[data-resolved-theme="light"] .gallery-item{background:#fffefa;border-color:#aebeb3}
+html[data-resolved-theme="light"] .theme-switch select{background:#ffffff;border-color:#9bada4;color:#273a36}
