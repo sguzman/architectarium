@@ -13,6 +13,8 @@ try{
  assert.match(await page.locator('#count').innerText(),/482 individual selectable parts/);
  assert.equal(await page.evaluate(()=>window.__architectariumMetrics?.progressive),true,'Model must have a progressive build');
  assert.ok((await page.evaluate(()=>window.__architectariumMetrics?.buildMilliseconds))>0,'Missing build metric');
+ assert.ok((await page.evaluate(()=>window.__architectariumMetrics?.firstBatchMilliseconds))>=0,'Missing first-batch performance metric');
+ assert.ok(await page.locator('.interpretation-key').isVisible(),'Visitor fidelity classification must remain visible');
  assert.ok(await page.locator('#viewer').evaluate(el=>!!(el.getContext('webgl2')||el.getContext('webgl'))));
  assert.match(await page.locator('.fidelity').innerText(),/SCHEMATIC/);
  await page.locator('#search').fill('ionic capital');

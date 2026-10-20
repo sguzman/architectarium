@@ -23,6 +23,18 @@ export async function buildParthenon(inventory,onBatch=()=>{}){
  for(const material of [palette.marble,palette.light,palette.shadow]){material.map=texture;material.bumpMap=texture;material.bumpScale=.035;}
  const ground=new THREE.Mesh(new THREE.PlaneGeometry(300,300),palette.ground);
  ground.rotation.x=-Math.PI/2;ground.position.y=-.03;ground.receiveShadow=true;root.add(ground);
+ // Low-detail landscape only. These rocks are editorial site context, not surveyed Acropolis topography.
+ const stoneScatter=new THREE.MeshStandardMaterial({color:0x8d8877,roughness:1});
+ let scatterSeed=81021;const rnd=()=>((scatterSeed=(Math.imul(scatterSeed,1664525)+1013904223)>>>0)/4294967296);
+ const rockGeo=new THREE.DodecahedronGeometry(1,1);
+ const landscape=[];
+ for(let i=0;i<92;i++){
+  const x=(rnd()-.5)*152,z=(rnd()-.5)*171;if(Math.abs(x)<23&&Math.abs(z)<43)continue;
+  const rock=new THREE.Mesh(rockGeo,stoneScatter),size=.4+rnd()*1.3;
+  rock.position.set(x,size*.1-.3,z);rock.rotation.set(rnd()*.5,rnd()*Math.PI,rnd()*.5);
+  rock.scale.set(size*1.55,size*.44,size*1.4);rock.castShadow=i%5===0;rock.receiveShadow=true;
+  landscape.push(rock);root.add(rock);
+ }
  const geometryCache=new Map();
  function shaftGeometry(width,height){
   const key=width+':'+height;if(geometryCache.has(key))return geometryCache.get(key);
@@ -81,5 +93,5 @@ export async function buildParthenon(inventory,onBatch=()=>{}){
  const dust=new THREE.Points(dustGeometry,new THREE.PointsMaterial({color:0xffe7c9,size:.11,transparent:true,opacity:.42,depthWrite:false}));
  dust.visible=false;root.add(dust);
  return {root,pickables,byId,roofs,walls,colliders,dust,materials:palette,texture,modelCount:byId.size,
-  dispose(){const seen=new Set();for(const p of pickables){p.traverse(node=>{if(node.geometry&&!seen.has(node.geometry)){node.geometry.dispose();seen.add(node.geometry);}});}ground.geometry.dispose();dust.geometry.dispose();dust.material.dispose();texture.dispose();for(const m of Object.values(palette))m.dispose();}};
+  dispose(){const seen=new Set();for(const p of pickables){p.traverse(node=>{if(node.geometry&&!seen.has(node.geometry)){node.geometry.dispose();seen.add(node.geometry);}});}ground.geometry.dispose();rockGeo.dispose();stoneScatter.dispose();dust.geometry.dispose();dust.material.dispose();texture.dispose();for(const m of Object.values(palette))m.dispose();}};
 }

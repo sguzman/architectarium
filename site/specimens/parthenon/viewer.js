@@ -23,9 +23,10 @@ try{
  const light=new THREE.DirectionalLight(0xffe2bd,3.1);light.castShadow=true;light.shadow.mapSize.set(2048,2048);light.shadow.bias=-.00014;
  Object.assign(light.shadow.camera,{left:-52,right:52,top:75,bottom:-75,near:1,far:180});scene.add(light);
  const fill=new THREE.DirectionalLight(0xb4cfe0,.8);fill.position.set(-40,35,20);scene.add(fill);
- const firstFrameStart=performance.now();
+ const firstFrameStart=performance.now();let firstBatchMillis=null;
  const model=await buildParthenon(inventory,(root,completed)=>{
   if(!root.parent)scene.add(root);
+  if(firstBatchMillis===null)firstBatchMillis=Math.round(performance.now()-firstFrameStart);
   const w=stage.clientWidth,h=stage.clientHeight;
   if(w>0&&h>0){camera.aspect=w/h;camera.updateProjectionMatrix();renderer.setSize(w,h,false);}
   $('count').textContent='Building scene: '+completed+' / '+inventory.length;
@@ -33,7 +34,7 @@ try{
  });
  if(!model.root.parent)scene.add(model.root);
  $('count').textContent=model.modelCount+' individual selectable parts';
- window.__architectariumMetrics={parts:model.modelCount,buildMilliseconds:Math.round(performance.now()-firstFrameStart),progressive:true};
+ window.__architectariumMetrics={parts:model.modelCount,firstBatchMilliseconds:firstBatchMillis,buildMilliseconds:Math.round(performance.now()-firstFrameStart),progressive:true};
  const ray=new THREE.Raycaster(),uv=new THREE.Vector2();let activeId=null,material=null,selected=null,walking=false,hiddenRoof=false,hiddenWalls=false,search='',zone='all',frame=0,last=0,dirty=true;
  const keys=new Set(),zones=[...new Set(inventory.map(x=>x.zone))].sort();
  function press(id,on,onLabel,offLabel){const b=$(id);b.classList.toggle('active',on);b.setAttribute('aria-pressed',String(on));if(onLabel)b.textContent=on?onLabel:offLabel;}
