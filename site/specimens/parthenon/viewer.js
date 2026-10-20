@@ -71,7 +71,27 @@ try{
  $('cutaway').addEventListener('click',()=>{hiddenWalls=!hiddenWalls;for(const mesh of model.walls)mesh.visible=!hiddenWalls;press('cutaway',hiddenWalls,'Restore walls','Cutaway');if(hiddenWalls&&!hiddenRoof)$('roof').click();draw();});
  function setSun(h){const t=(h-7)/12*Math.PI,a=(h-12)/12*Math.PI;light.position.set(Math.sin(a)*85,Math.max(7,Math.sin(t)*105),-Math.cos(a)*75);light.intensity=.8+2.7*Math.max(.1,Math.sin(t));$('hour').textContent=String(Math.floor(h)).padStart(2,'0')+':'+(h%1?'30':'00');draw();}
  $('sun').addEventListener('input',e=>setSun(Number(e.target.value)));setSun(15);
- $('atmos').addEventListener('click',()=>{const enabled=!model.dust.visible;model.dust.visible=enabled;scene.fog=enabled?new THREE.FogExp2(0xabb7b4,.0048):new THREE.FogExp2(0xabb7b4,.0034);press('atmos',enabled,'Clear atmosphere','Atmosphere');draw();});
+ // Atmospheric rendering is opt-in illustration, not reconstructed ancient weather.
+ function setAtmosphere(enabled){
+  model.dust.visible=enabled;
+  scene.fog=new THREE.FogExp2(enabled?0xd0c5b1:0xabb7b4,enabled?.011:.0034);
+  scene.background=new THREE.Color(enabled?0xc9c2b1:0xa7b6b5);
+  fill.intensity=enabled?1.05:.8;
+  const button=$('atmos');
+  button.classList.toggle('active',enabled);
+  button.setAttribute('aria-pressed',String(enabled));
+  button.textContent=enabled?'Atmosphere: On':'Atmosphere: Off';
+  $('atmosStatus').textContent=enabled?'Warm haze and sunlit dust':'Clear air';
+  window.__architectariumAtmosphere={
+   enabled,fogDensity:scene.fog.density,
+   particleCount:model.dust.geometry.getAttribute('position').count,
+   dustVisible:model.dust.visible,
+   skyColor:'#'+scene.background.getHexString()
+  };
+  draw();
+ }
+ $('atmos').addEventListener('click',()=>setAtmosphere(!model.dust.visible));
+ setAtmosphere(false);
  const materialKey='architectarium.material-mode';
  function materialPreference(){try{return localStorage.getItem(materialKey)==='realistic'?'realistic':'study';}catch{return 'study';}}
  function applyMaterialMode(mode){
