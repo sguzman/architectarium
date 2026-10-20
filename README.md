@@ -4,7 +4,7 @@ A public, self-contained architectural research collection and interactive build
 
 - **Ontology**: `ontology/components.json` links architectural elements to functions, building positions, adjacent components, terminology and examples.
 - **Evidence**: `ontology/sources.json` records public references; every example cites a source. Sources are links, not a license to copy imagery or geometry.
-- **Specimens**: `specimens/queue.json` tracks candidates. Individual specimens have their own records, models, uncertainty and acceptance status.
+- **Specimens**: `specimens/queue.json` tracks candidates. Before any specimen processing, create three durable, dependency-linked queues for research, ontology and 3D presentation; see [work contract](docs/SPECIMEN_WORK_CONTRACT.md) and [Parthenon task queues](specimens/WORK_QUEUES.md).
 - **Gallery**: `site/` holds the Github Pages experience, with an ontology browser and a publication-gated specimen collection.
 - **Tests**: `node scripts/validate.mjs` for ontology integrity and `node scripts/test-gallery.mjs` for publication gating.
 

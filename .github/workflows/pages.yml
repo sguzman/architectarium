@@ -23,6 +23,7 @@ jobs:
           python3 scripts/publication_guard.py
           python3 -m unittest discover -s scripts -p 'test_*.py'
           node scripts/validate.mjs
+          node scripts/test-specimen-work.mjs
           node scripts/test-gallery.mjs
           node --check site/model.js
           node --check site/app.js

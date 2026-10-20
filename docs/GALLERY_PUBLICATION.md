@@ -8,7 +8,7 @@ A building enters the public gallery **only after the specimen is complete and r
 - The publication builder at `scripts/build-site.mjs` has an explicit allowlist for top-level site files and exports only the validated gallery manifest and public ontology data.
 
 To publish an individual building:
-1. Complete the evidence dossier, semantic parts, geometry, navigation and model-specific review.
+1. Complete and verify **all** mandatory tasks in the specimen's processing, ontology and presentation queues, including the evidence dossier, semantic parts, geometry, navigation and model-specific review.
 2. Record `geometryReview.status`, `visitorQA.status`, and `rightsReview.status` as `passed` only when validated.
 3. Set the corresponding queue state to `published`.
 4. Supply a fully working `site/specimens/<id>/index.html` and its public, licensed dependencies.

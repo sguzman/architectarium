@@ -18,7 +18,7 @@ Do not copy private research repositories, chat transcripts, local filesystem st
 
 - Keep everything necessary for the public ontology and gallery in this independent repository; do not rely on unpublished resources.
 - Maintain `ontology/` as the authoritative human- and machine-readable architectural vocabulary with stable IDs, definitions, relations, examples, provenance, and schema.
-- Maintain `specimens/` with a queue and evidence-backed individual building dossiers. Separate generic component **types** from physical building **instances**.
+- Maintain `specimens/` with a queue and evidence-backed individual building dossiers. Before processing a candidate, instantiate all three durable task queues described in `docs/SPECIMEN_WORK_CONTRACT.md`. Re-read repository queue state after interruption, record new work before execution, and close tasks only with linked verification evidence. Separate generic component **types** from physical building **instances**.
 - Maintain `site/` as the in-repository GitHub Pages application. Its picking, labels, inspector, data indexes, and geometry IDs must agree with the ontology and specimen records.
 - Follow `docs/SPECIMEN_PROTOCOL.md`, `docs/MODEL_STANDARDS.md`, and `docs/ASSET_PROVENANCE.md`.
 - Never claim schematic geometry is surveyed, phase-accurate, or conservation-grade. Clearly label approximation, unknowns, reconstruction era, and asset licenses.

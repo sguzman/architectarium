@@ -1,3 +1,4 @@
+import {inspectSpecimen} from './specimen-work.mjs';
 import assert from 'node:assert/strict';
 import {cpSync,existsSync,mkdirSync,readFileSync,rmSync,writeFileSync} from 'node:fs';
 import {dirname,resolve} from 'node:path';
@@ -24,6 +25,8 @@ export function validatePublished(catalog,queue,rootDir=root){
     const state=specimens.get(item.id);
     assert.ok(state,'Catalog includes an untracked specimen '+item.id);
     assert.equal(state.stage,'published',item.id+' is not publication approved');
+    const work=inspectSpecimen(item.id,{rootDir});
+    assert.equal(work.totals.done,work.totals.total,'Specimen work queues contain unfinished tasks: '+item.id);
     assert.ok(state.model.kind!=='pending'&&state.model.accuracy!=='not-modeled','Missing model '+item.id);
     const dossierPath=resolve(rootDir,'specimens',item.id,'specimen.json');
     assert.ok(existsSync(dossierPath),'Missing source dossier '+item.id);

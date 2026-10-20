@@ -1,0 +1,149 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Architectarium specimen work queue",
+  "type": "object",
+  "required": [
+    "version",
+    "specimenId",
+    "lane",
+    "tasks"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "version": {
+      "const": 1
+    },
+    "specimenId": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9-]*$"
+    },
+    "lane": {
+      "enum": [
+        "processing",
+        "ontology",
+        "presentation"
+      ]
+    },
+    "tasks": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/task"
+      }
+    }
+  },
+  "$defs": {
+    "task": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "title",
+        "description",
+        "status",
+        "priority",
+        "dependsOn",
+        "acceptanceCriteria",
+        "outputs",
+        "evidence",
+        "review",
+        "blockedReason"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[A-Z][A-Z0-9]*-(SP|ON|3D)-[0-9]{3}$"
+        },
+        "title": {
+          "type": "string",
+          "minLength": 10
+        },
+        "description": {
+          "type": "string",
+          "minLength": 15
+        },
+        "status": {
+          "enum": [
+            "pending",
+            "in-progress",
+            "blocked",
+            "done"
+          ]
+        },
+        "priority": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "dependsOn": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string"
+          }
+        },
+        "acceptanceCriteria": {
+          "type": "array",
+          "minItems": 2,
+          "items": {
+            "type": "string",
+            "minLength": 20
+          }
+        },
+        "outputs": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "type": "string"
+          }
+        },
+        "evidence": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "path",
+              "note"
+            ],
+            "properties": {
+              "path": {
+                "type": "string"
+              },
+              "note": {
+                "type": "string",
+                "minLength": 12
+              }
+            }
+          }
+        },
+        "review": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "status",
+            "notes"
+          ],
+          "properties": {
+            "status": {
+              "enum": [
+                "not-reviewed",
+                "passed",
+                "failed"
+              ]
+            },
+            "notes": {
+              "type": "string"
+            }
+          }
+        },
+        "blockedReason": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    }
+  }
+}

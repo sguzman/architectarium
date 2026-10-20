@@ -1,3 +1,4 @@
+import {inspectSpecimen} from './specimen-work.mjs';
 import assert from 'node:assert/strict';
 import {readFileSync, existsSync} from 'node:fs';
 for (const doc of ['CONSTITUTION.md', 'AGENTS.md']) {
@@ -44,6 +45,10 @@ for(const c of ontology.components){
  for(const e of c.examples)assert.ok(e.building&&sourceIds.has(e.sourceId),c.id+' ungrounded example');
 }
 for(const q of queue){
+ if(q.id==='parthenon'||q.stage!=='queued'){
+   const work=inspectSpecimen(q.id);
+   assert.ok(work.totals.total>=20,'Work breakdown must exist before specimen processing');
+ }
  assert.ok(stages.has(q.stage),'Unknown stage '+q.stage);
  assert.match(q.id,/^[a-z][a-z0-9-]*$/);
  assert.ok(q.location&&q.title&&q.model&&q.rights&&q.nextStage);
