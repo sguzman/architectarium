@@ -1,6 +1,6 @@
 import * as THREE from 'three';
 export async function buildParthenon(inventory,onBatch=()=>{}){
- const root=new THREE.Group(),pickables=[],byId=new Map(),roofs=[],walls=[],colliders=[];
+ const root=new THREE.Group(),pickables=[],byId=new Map(),roofs=[],walls=[],colliders=[],shaftColliders=[];
  const palette={
   marble:new THREE.MeshStandardMaterial({color:0xdfceb2,roughness:.83,metalness:0}),
   light:new THREE.MeshStandardMaterial({color:0xe9d9b9,roughness:.80}),
@@ -82,6 +82,7 @@ export async function buildParthenon(inventory,onBatch=()=>{}){
   }
   if(record.shape==='roof'||record.shape==='pediment')roofs.push(mesh);
   if(record.id.includes('/cella/')&&record.shape==='box'){walls.push(mesh);colliders.push(new THREE.Box3().setFromObject(mesh));}
+  if(record.shape==='shaft')shaftColliders.push(new THREE.Box3().setFromObject(mesh));
   appended++;
   if(appended%160===0||appended===inventory.length){onBatch(root,appended);await new Promise(resolve=>requestAnimationFrame(resolve));}
  }
@@ -92,6 +93,6 @@ export async function buildParthenon(inventory,onBatch=()=>{}){
  const dustGeometry=new THREE.BufferGeometry();dustGeometry.setAttribute('position',new THREE.BufferAttribute(particles,3));
  const dust=new THREE.Points(dustGeometry,new THREE.PointsMaterial({color:0xffe7c9,size:.11,transparent:true,opacity:.42,depthWrite:false}));
  dust.visible=false;root.add(dust);
- return {root,pickables,byId,roofs,walls,colliders,dust,materials:palette,texture,modelCount:byId.size,
+ return {root,pickables,byId,roofs,walls,colliders,shaftColliders,dust,materials:palette,texture,modelCount:byId.size,
   dispose(){const seen=new Set();for(const p of pickables){p.traverse(node=>{if(node.geometry&&!seen.has(node.geometry)){node.geometry.dispose();seen.add(node.geometry);}});}ground.geometry.dispose();rockGeo.dispose();stoneScatter.dispose();dust.geometry.dispose();dust.material.dispose();texture.dispose();for(const m of Object.values(palette))m.dispose();}};
 }

@@ -49,8 +49,8 @@ try{
    if(keys.has('KeyA')||keys.has('ArrowLeft'))walk.moveRight(-speed);
    if(keys.has('KeyD')||keys.has('ArrowRight'))walk.moveRight(speed);
    const p=camera.position;
-   const colliding=model.colliders.some(w=>w.distanceToPoint(p)<.62);
-   if(Math.abs(p.x)>85||Math.abs(p.z)>90||(!hiddenWalls&&colliding))p.copy(old);
+   const colliding=model.shaftColliders.some(w=>w.distanceToPoint(p)<.62)||(!hiddenWalls&&model.colliders.some(w=>w.distanceToPoint(p)<.62));
+   if(Math.abs(p.x)>85||Math.abs(p.z)>90||colliding)p.copy(old);
    p.y=Math.abs(p.x)<14&&Math.abs(p.z)<35?2.86:1.76;dirty=true;
   }
   if(dirty){renderer.render(scene,camera);dirty=false;}
@@ -121,6 +121,6 @@ try{
  });
  document.addEventListener('keydown',e=>{if(!walking)return;if(e.code==='Escape'){if(walk.isLocked)walk.unlock();resetCamera();return;}if(/^(Key[WASD]|Arrow(Up|Down|Left|Right)|ShiftLeft)$/.test(e.code)){e.preventDefault();keys.add(e.code);draw();}});
  document.addEventListener('keyup',e=>keys.delete(e.code));window.addEventListener('blur',()=>keys.clear());
- $('reset').addEventListener('click',()=>{if(walking)walk.unlock();else resetCamera();if(hiddenRoof)$('roof').click();if(hiddenWalls)$('cutaway').click();clearSelection();$('selectionStatus').textContent='SELECT A PART';$('detail').replaceChildren(elem('p','detail-note','Select a distinct architectural component to inspect its ontology.'));drawParts();});
+ $('reset').addEventListener('click',()=>{if(walk.isLocked)walk.unlock();resetCamera();if(hiddenRoof)$('roof').click();if(hiddenWalls)$('cutaway').click();clearSelection();$('selectionStatus').textContent='SELECT A PART';$('detail').replaceChildren(elem('p','detail-note','Select a distinct architectural component to inspect its ontology.'));drawParts();});
  window.addEventListener('pagehide',()=>{cancelAnimationFrame(frame);orbit.dispose();walk.disconnect();model.dispose();renderer.dispose();},{once:true});
 }catch(error){console.error('Parthenon viewer could not initialize',error);$('error').hidden=false;$('error').textContent='The model could not load: '+error.message;$('count').textContent='Viewer unavailable';}
