@@ -5,8 +5,8 @@
     {
       "id": "u01",
       "subject": "Exterior column spacing",
-      "approach": "Positions evenly distributed within a simplified rectangular perimeter with a partial corner treatment",
-      "basis": "Aggregate width, length, counts",
+      "approach": "Perimeter axes use cited published bay and corner contraction spacings; individual inclinations and surveyed tolerances remain unmeasured.",
+      "basis": "Published architectural aggregate spacing from Perseus Digital Library / published specialist work.",
       "level": "interpretive",
       "implication": "Not a surveyed interaxial grid"
     },
@@ -37,15 +37,15 @@
     {
       "id": "u05",
       "subject": "Eastern U-shaped two-storey and western Ionic systems",
-      "approach": "Provide spatially illustrative columns, not a validated reconstruction of their exact positions or profiles",
-      "basis": "Official plans and functional descriptions",
+      "approach": "Represent nine lower shafts on each eastern long U-arm, three on the return, and two terminal piers, plus a simplified two-tier upper model; original exact member positions remain speculative.",
+      "basis": "Museum describes two-tier U-shaped internal Doric support; Tufts/Perseus records nine long-side columns and a pier per side, plus three across the short return.",
       "level": "interpretive",
       "implication": "Visually marked schematic"
     },
     {
       "id": "u06",
       "subject": "Historical weather, lighting and terrain",
-      "approach": "Generic directional light, quiet background and optional contextual setting",
+      "approach": "Generic directional sunlight, simple procedural ground, and an optional noticeable warm fog/dust simulation; all expressly nonhistorical.",
       "basis": "Visitor comfort rather than reconstructed fifth-century weather",
       "level": "visitor-feature",
       "implication": "Clearly labeled simulation"

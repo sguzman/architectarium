@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "specimenId": "parthenon",
+  "scope": "Optional visitor atmosphere simulation",
+  "status": "passed",
+  "priorDefect": "Small fraction of a percent change in fog density and subpixel particles produced little visible change.",
+  "updated": {
+    "modes": [
+      "Clear air (default)",
+      "Warm haze and illuminated dust (optional)"
+    ],
+    "fogDensity": {
+      "clear": 0.0034,
+      "haze": 0.011
+    },
+    "particles": 900,
+    "sprite": "Original soft radial alpha sprite, drawn once; no external image required.",
+    "visibleFeedback": "Button label and ARIA-pressed state, explanatory status text and visually changed sky/haze.",
+    "sceneSeparation": "No architectural physical instance data, semantic picking or original materials are changed by toggling atmosphere."
+  },
+  "verification": {
+    "browserSuite": "scripts/browser-parthenon.mjs",
+    "run": "https://github.com/sguzman/architectarium/actions/runs/39513989601",
+    "asserts": [
+      "Haze density is more than 2.5 times clear-air density",
+      "Particles are present and visible only in enabled mode",
+      "Two rendered scene screenshots differ in pixels",
+      "Returning to clear air restores the declared default state"
+    ],
+    "screenshots": [
+      "qa-parthenon/atmosphere-off.png",
+      "qa-parthenon/atmosphere-on.png"
+    ]
+  },
+  "disclaimer": "Illustrative atmospheric look, not a reconstruction of ancient weather, archaeological atmosphere, or historical solar conditions."
+}

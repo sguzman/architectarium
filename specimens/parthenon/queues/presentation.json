@@ -914,6 +914,74 @@
         "notes": "The source-linked model now supports opt-in original multichannel detailed stone maps; review confirms mode switching, scene integrity and visitor labeling."
       },
       "blockedReason": null
+    },
+    {
+      "id": "PAR-3D-028",
+      "title": "Cross-check source-backed temple layout and historical materials",
+      "description": "Verify the published schematic reconstruction against stated architectural and visitor experience requirements.",
+      "status": "done",
+      "priority": 28,
+      "dependsOn": [
+        "PAR-3D-023",
+        "PAR-ON-016",
+        "PAR-3D-026"
+      ],
+      "acceptanceCriteria": [
+        "Reconcile peristyle, porch, eastern internal U-support and western Ionic counts against independent museum and scholarly architectural references.",
+        "Record authentic marble and roof-construction facts separately from synthetic textures, archaeological uncertainties and omitted decorative systems."
+      ],
+      "outputs": [
+        "specimens/parthenon/reviews/layout-materials.json"
+      ],
+      "evidence": [
+        {
+          "path": "specimens/parthenon/reviews/layout-materials.json",
+          "note": "Tracked source-audit record or executable verification of completed maintenance."
+        },
+        {
+          "path": "scripts/test-parthenon.mjs",
+          "note": "Tracked source-audit record or executable verification of completed maintenance."
+        }
+      ],
+      "review": {
+        "status": "passed",
+        "notes": "Institutional architectural source checks, corrected 9-column long arms and terminal piers, and explicit material/ceiling qualifications verified in repository and test results."
+      },
+      "blockedReason": null
+    },
+    {
+      "id": "PAR-3D-029",
+      "title": "Make atmospheric toggle perceptible and test rendered state changes",
+      "description": "Verify the published schematic reconstruction against stated architectural and visitor experience requirements.",
+      "status": "done",
+      "priority": 29,
+      "dependsOn": [
+        "PAR-3D-012",
+        "PAR-3D-020",
+        "PAR-3D-028"
+      ],
+      "acceptanceCriteria": [
+        "Make the optional atmosphere visibly change sky/fog and illuminated dust with an accessible on/off state while keeping historical interpretation limitations clear.",
+        "Verify both configurations in rendered Chromium, compare actual scene pixels, and ensure the clear-air default restores without reloading."
+      ],
+      "outputs": [
+        "specimens/parthenon/reviews/atmosphere.json"
+      ],
+      "evidence": [
+        {
+          "path": "specimens/parthenon/reviews/atmosphere.json",
+          "note": "Tracked source-audit record or executable verification of completed maintenance."
+        },
+        {
+          "path": "scripts/browser-parthenon.mjs",
+          "note": "Tracked source-audit record or executable verification of completed maintenance."
+        }
+      ],
+      "review": {
+        "status": "passed",
+        "notes": "Headless Chromium recorded two different rendered scenes, verified stronger haze, particles, button state, clear-air reset and mobile visitor regression."
+      },
+      "blockedReason": null
     }
   ]
 }

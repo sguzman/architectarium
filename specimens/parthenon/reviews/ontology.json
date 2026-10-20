@@ -2,7 +2,7 @@
   "version": 1,
   "specimenId": "parthenon",
   "taskId": "PAR-ON-016",
-  "summary": "The Parthenon has a sourced machine-readable inventory of 482 physical scene parts linked to reusable component types, local transforms, relationships and modeled evidence confidence.",
+  "summary": "The Parthenon has a sourced machine-readable inventory of 536 physical scene parts linked to reusable component types, local transforms, relationships and modeled evidence confidence.",
   "checks": [
     "Unique machine-readable instance IDs preserved",
     "Physical-to-type mappings resolve",

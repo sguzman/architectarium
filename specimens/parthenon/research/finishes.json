@@ -33,5 +33,17 @@
     }
   ],
   "prohibitedAssumption": "Photorealistic texture and polished architectural finish do not establish actual surviving surface treatment.",
-  "licensePolicy": "Only algorithmically generated colors/noise and independently authored geometric primitives are distributed."
+  "licensePolicy": "Only algorithmically generated colors/noise and independently authored geometric primitives are distributed.",
+  "modelAudit": {
+    "sourceChecked": true,
+    "review": "specimens/parthenon/reviews/layout-materials.json",
+    "sourceMaterial": "White Pentelic marble architecture, marble roof tile cover on wooden framing, marble coffered porch and peristyle ceilings.",
+    "visibleTreatment": "Original deterministic procedural stone textures and simplified roof geometry.",
+    "omitted": [
+      "Coffers in peristyle and porch ceilings",
+      "Individually surveyed roof tiles and structural timberwork",
+      "Historic architectural polychromy and figural relief reproduction"
+    ],
+    "certainty": "verified material categories; visual colors, veins and surface details are interpretive"
+  }
 }

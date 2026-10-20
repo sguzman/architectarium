@@ -10,10 +10,10 @@ const queues=Object.fromEntries(LANES.map(lane=>[lane,load('specimens/parthenon/
 const copy=()=>structuredClone(queues);
 const validate=parts=>validateWorkData({specimenId:'parthenon',specimen,queues:parts,rootDir:root});
 const status=inspectSpecimen('parthenon');
-assert.equal(status.totals.total,61);
+assert.equal(status.totals.total,63);
 assert.equal(status.lanes.processing.total,18);
 assert.equal(status.lanes.ontology.total,16);
-assert.equal(status.lanes.presentation.total,27);
+assert.equal(status.lanes.presentation.total,29);
 assert.equal(status.totals.ready,status.next.length);
 assert.ok(status.totals.done>=29,'Previously verified research and ontology work must persist');
 {

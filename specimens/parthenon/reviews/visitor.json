@@ -13,7 +13,7 @@
     }
   ],
   "coverage": [
-    "Three.js WebGL scene initialized with 482 selectable parts",
+    "Three.js WebGL scene initialized with 536 selectable parts",
     "Semantic type and physical relation navigation",
     "Texture/modeled geometry source integrity checks",
     "Roof and walls toggles, sunlight slider and atmosphere",

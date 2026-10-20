@@ -1,0 +1,127 @@
+{
+  "version": 1,
+  "specimenId": "parthenon",
+  "reviewTier": "source-verified layout and material specification, schematic spatial transforms",
+  "sources": [
+    {
+      "id": "acropolis-architecture",
+      "authority": "Parthenon Frieze Repository / Acropolis Museum",
+      "url": "https://repository.parthenonfrieze.gr/frieze/aboutParthenon.jsp"
+    },
+    {
+      "id": "museum-parthenon",
+      "authority": "Acropolis Museum",
+      "url": "https://www.theacropolismuseum.gr/en/exhibit-halls/parthenon-gallery"
+    },
+    {
+      "id": "perseus-parthenon",
+      "authority": "Perseus Digital Library / Tufts University",
+      "url": "https://www.perseus.tufts.edu/hopper/artifact?name=Athens%2C+Parthenon&object=Building"
+    }
+  ],
+  "verifiedArchitecturalLayout": [
+    {
+      "property": "Outer Doric peristyle",
+      "value": "Eight columns per short face, seventeen along each long face, with shared corners: forty-six distinct perimeter shafts.",
+      "sourceIds": [
+        "acropolis-architecture"
+      ],
+      "modelStatus": "matched count"
+    },
+    {
+      "property": "Porch colonnades",
+      "value": "Six further Doric columns on each end, twelve additional columns.",
+      "sourceIds": [
+        "acropolis-architecture"
+      ],
+      "modelStatus": "matched count"
+    },
+    {
+      "property": "Internal partition",
+      "value": "Two physically separate east and west cella chambers, no through-passage; the eastern chamber is larger.",
+      "sourceIds": [
+        "museum-parthenon",
+        "acropolis-architecture"
+      ],
+      "modelStatus": "two chamber structure represented"
+    },
+    {
+      "property": "Eastern internal support",
+      "value": "Two-level U-shaped Doric colonnade; published interpretation describes nine shafts and a pier along each long side, three shafts between the two piers on the short return.",
+      "sourceIds": [
+        "perseus-parthenon",
+        "acropolis-architecture"
+      ],
+      "modelStatus": "lower-member count, two piers and plan topology represented; upper level alignment remains schematic"
+    },
+    {
+      "property": "Western internal support",
+      "value": "Four Ionic columns in the smaller west room.",
+      "sourceIds": [
+        "acropolis-architecture",
+        "museum-parthenon"
+      ],
+      "modelStatus": "count matched, individual member coordinates schematic"
+    },
+    {
+      "property": "Outer dimensions",
+      "value": "Published 30.88 by 69.50 m stylobate aggregate, exterior shafts roughly 10.43 to 10.50 m high.",
+      "sourceIds": [
+        "perseus-parthenon",
+        "acropolis-architecture"
+      ],
+      "modelStatus": "published aggregate dimensions, not georeferenced survey"
+    }
+  ],
+  "materials": [
+    {
+      "scope": "Core architecture",
+      "sourceIds": [
+        "museum-parthenon",
+        "acropolis-architecture"
+      ],
+      "verifiedMaterial": "White Pentelic marble",
+      "modelSurface": "Warm pale procedurally textured stone; rendered variations illustrative, not sampled historic stone"
+    },
+    {
+      "scope": "Ancient main roof",
+      "sourceIds": [
+        "museum-parthenon",
+        "acropolis-architecture"
+      ],
+      "verifiedMaterial": "Timber roof framework covered with marble tiles",
+      "modelSurface": "Simplified closed pitched volume and procedural marble-like roofing; truss/tile joinery not reproduced"
+    },
+    {
+      "scope": "Peristyle and porch ceilings",
+      "sourceIds": [
+        "acropolis-architecture"
+      ],
+      "verifiedMaterial": "Marble coffered ceilings",
+      "modelSurface": "Not modeled course-by-course; original coffered treatment omitted"
+    },
+    {
+      "scope": "Figured decoration",
+      "sourceIds": [
+        "acropolis-architecture",
+        "museum-parthenon"
+      ],
+      "verifiedMaterial": "Sculpted metopes, pedimental figures and carved Ionic frieze with ancient decorative coloring",
+      "modelSurface": "Architectural positions represented without original figured relief or unverified pigment pattern"
+    }
+  ],
+  "limits": [
+    "No measured individual column inclinations, full entasis survey, curvature tolerances or site-control coordinates.",
+    "Published inner U layout has scholarly alternatives; schematic local column spacing and piers do not certify a recovered stone-by-stone arrangement.",
+    "The upper-tier member arrangement is modeled interpretively from the known two-tier form and is not established individually by the cited sources.",
+    "Materials: Realistic uses original synthesized stone color, normal-scale bump and roughness rather than licensed photographs, photogrammetry or sampled authentic surfaces.",
+    "Current and ancient building phases must not be conflated; this model represents a simplified classical-era architectural volume."
+  ],
+  "decision": "Accepted as a more closely source-aligned schematic layout and material teaching study. Do not classify as an exact or survey-validated reconstruction.",
+  "reviewedFiles": [
+    "specimens/parthenon/ontology/instances.json",
+    "specimens/parthenon/research/geometry-baseline.json",
+    "specimens/parthenon/research/finishes.json",
+    "scripts/test-parthenon.mjs"
+  ]
+}

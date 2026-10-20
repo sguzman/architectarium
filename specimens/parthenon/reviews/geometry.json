@@ -43,12 +43,23 @@
     {
       "part": "east and west cella rooms",
       "status": "two separate modeled chambers with schematic dimensions"
+    },
+    {
+      "part": "eastern cella lower U-shaped Doric support",
+      "sideColumnsEach": 9,
+      "terminalPiers": 2,
+      "returnColumns": 3,
+      "status": "Published scholarly architectural arrangement represented with approximate local coordinates",
+      "sourceIds": [
+        "perseus-parthenon",
+        "acropolis-architecture"
+      ]
     }
   ],
   "unverified": [
     "Exact column inclinations and optical corrections",
     "Survey-grade site orientation and member profiles",
-    "East interior column/pier placement",
+    "Exact east-room individual column and pier coordinates (published arrangement counts are modeled)",
     "Masonry course and statuary reconstruction"
   ],
   "tier": "schematic",

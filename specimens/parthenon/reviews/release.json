@@ -5,8 +5,8 @@
   "classification": "schematic-source-linked architectural study",
   "decision": "approve-publication",
   "criteria": [
-    "All 59 downstream processing, ontology, visitor presentation and release tasks have documented review evidence.",
-    "The 482-part scene and 43-type shared architectural ontology use stable machine-readable identifiers.",
+    "All 63 downstream processing, ontology, visitor presentation and release tasks have documented review evidence.",
+    "The 536-part scene and 43-type shared architectural ontology use stable machine-readable identifiers.",
     "Architectural facts and dimensional aggregates have traceable public sources and limitations.",
     "Scene navigation, browser rendering, component picking, relationship links, cutaway and lighting have automated desktop/mobile QA.",
     "The model uses original procedural geometry; no museum photographs, surveyed scans, figural sculpture or proprietary assets are redistributed.",
@@ -33,5 +33,10 @@
     "staticTests": "scripts/test-parthenon.mjs",
     "galleryTests": "scripts/test-gallery.mjs",
     "publicGuard": "scripts/publication_guard.py"
-  }
+  },
+  "maintenanceReviews": [
+    "specimens/parthenon/reviews/layout-materials.json",
+    "specimens/parthenon/reviews/atmosphere.json"
+  ],
+  "currentModelInventory": 536
 }
