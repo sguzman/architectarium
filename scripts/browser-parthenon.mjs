@@ -57,7 +57,7 @@ try{
  // Use the full physical ID search to inspect a child with physical dependencies.
  await page.locator('#search').fill('west-room/ionic/column-01/capital');
  assert.ok((await page.locator('.part-row').count())>0,'Missing Ionic capital instance');
- await page.locator('.part-row').first().click();
+ // Already selected above: a second click now intentionally deselects.
  assert.ok((await page.locator('#detail .instance-related button').count())>0,'Instance-to-instance relationships must navigate');
  await page.locator('#detail .instance-related button').first().click();
  assert.match(await page.locator('#detail h2').innerText(),/shaft/i);
