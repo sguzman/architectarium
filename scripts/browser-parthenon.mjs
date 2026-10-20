@@ -23,6 +23,9 @@ try{
  await page.locator('#cutaway').click();
  assert.equal(await page.locator('#cutaway').getAttribute('aria-pressed'),'true');
  await page.locator('#sun').fill('10');
+ await page.locator('#atmos').click();
+ assert.equal(await page.locator('#atmos').getAttribute('aria-pressed'),'true');
+ await page.locator('#atmos').click();
  assert.match(await page.locator('#hour').innerText(),/10:00/);
  await page.locator('#reset').click();
  assert.equal(await page.locator('#roof').getAttribute('aria-pressed'),'false');

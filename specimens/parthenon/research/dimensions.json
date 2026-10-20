@@ -105,11 +105,54 @@
       "sourceIds": [
         "ysma-parthenon"
       ]
+    },
+    {
+      "id": "front-ordinary-interaxial",
+      "part": "peristyle",
+      "value": 4.29,
+      "unit": "m",
+      "certainty": "published-summary",
+      "sourceIds": [
+        "perseus-parthenon"
+      ],
+      "note": "Regular spacing, approximate published figure"
+    },
+    {
+      "id": "front-corner-interaxial",
+      "part": "peristyle",
+      "value": 3.68,
+      "unit": "m",
+      "certainty": "published-summary",
+      "sourceIds": [
+        "perseus-parthenon"
+      ],
+      "note": "Corner contraction"
+    },
+    {
+      "id": "flank-ordinary-interaxial",
+      "part": "peristyle",
+      "value": 4.29,
+      "unit": "m",
+      "certainty": "published-summary",
+      "sourceIds": [
+        "perseus-parthenon"
+      ]
+    },
+    {
+      "id": "flank-corner-interaxial",
+      "part": "peristyle",
+      "value": 3.69,
+      "unit": "m",
+      "certainty": "published-summary",
+      "sourceIds": [
+        "perseus-parthenon"
+      ]
     }
   ],
   "notes": [
     "Base dimensions are aggregate and do not establish each axis coordinate; stylobate curves, per-column inclinations and offsets require specialized survey.",
     "Interior lengths and elevations are not treated as measured in this release.",
-    "External study used 8.65 m columns; do not reuse draft height as archaeological data."
+    "External study used 8.65 m columns; do not reuse draft height as archaeological data.",
+    "The exterior peristyle local axes now use published aggregate center-to-center spacing and shorter corner bays. The result is not a survey of column inclinations or entasis."
   ]
 }

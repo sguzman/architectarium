@@ -49,6 +49,18 @@
       "feature": "cella continuous Ionic frieze",
       "sourceId": "acropolis-frieze",
       "tolerance": "schematic band only; relief and exact individual block geometry absent"
+    },
+    {
+      "feature": "peristyle column axis spacing",
+      "target": {
+        "frontRegular": 4.29,
+        "frontCorner": 3.68,
+        "flankRegular": 4.29,
+        "flankCorner": 3.69
+      },
+      "unit": "m",
+      "sourceId": "perseus-parthenon",
+      "tolerance": "published summary, grid schematic without individual structural tilt"
     }
   ],
   "requirements": [

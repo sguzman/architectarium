@@ -76,9 +76,9 @@
       "label": "east column 1 shaft",
       "shape": "shaft",
       "position": [
-        -13.48,
+        -14.405,
         6.315,
-        -32.5
+        -33.72
       ],
       "size": [
         1.91,
@@ -87,9 +87,9 @@
       ],
       "zone": "peristyle",
       "sourceIds": [
-        "acropolis-architecture"
+        "perseus-parthenon"
       ],
-      "certainty": "published-height-aggregate",
+      "certainty": "published-aggregate-spacing",
       "material": "marble"
     },
     {
@@ -98,9 +98,9 @@
       "label": "east column 1 capital",
       "shape": "echinus",
       "position": [
-        -13.48,
+        -14.405,
         11.73,
-        -32.5
+        -33.72
       ],
       "size": [
         2.063,
@@ -109,9 +109,9 @@
       ],
       "zone": "peristyle",
       "sourceIds": [
-        "ysma-parthenon"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "published-aggregate-spacing",
       "material": "marble"
     },
     {
@@ -120,9 +120,9 @@
       "label": "east column 1 abacus",
       "shape": "box",
       "position": [
-        -13.48,
+        -14.405,
         11.99,
-        -32.5
+        -33.72
       ],
       "size": [
         2.197,
@@ -131,9 +131,9 @@
       ],
       "zone": "peristyle",
       "sourceIds": [
-        "ysma-parthenon"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "published-aggregate-spacing",
       "material": "marble"
     },
     {
@@ -142,9 +142,9 @@
       "label": "west column 1 shaft",
       "shape": "shaft",
       "position": [
-        -13.48,
+        -14.405,
         6.315,
-        32.5
+        33.72
       ],
       "size": [
         1.91,
@@ -153,9 +153,9 @@
       ],
       "zone": "peristyle",
       "sourceIds": [
-        "acropolis-architecture"
+        "perseus-parthenon"
       ],
-      "certainty": "published-height-aggregate",
+      "certainty": "published-aggregate-spacing",
       "material": "marble"
     },
     {
@@ -164,9 +164,9 @@
       "label": "west column 1 capital",
       "shape": "echinus",
       "position": [
-        -13.48,
+        -14.405,
         11.73,
-        32.5
+        33.72
       ],
       "size": [
         2.063,
@@ -175,9 +175,9 @@
       ],
       "zone": "peristyle",
       "sourceIds": [
-        "ysma-parthenon"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "published-aggregate-spacing",
       "material": "marble"
     },
     {
@@ -186,9 +186,9 @@
       "label": "west column 1 abacus",
       "shape": "box",
       "position": [
-        -13.48,
+        -14.405,
         11.99,
-        32.5
+        33.72
       ],
       "size": [
         2.197,
@@ -197,9 +197,9 @@
       ],
       "zone": "peristyle",
       "sourceIds": [
-        "ysma-parthenon"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "published-aggregate-spacing",
       "material": "marble"
     },
     {
@@ -208,9 +208,9 @@
       "label": "east column 2 shaft",
       "shape": "shaft",
       "position": [
-        -9.629,
+        -10.725,
         6.315,
-        -32.5
+        -33.72
       ],
       "size": [
         1.91,
@@ -219,9 +219,9 @@
       ],
       "zone": "peristyle",
       "sourceIds": [
-        "acropolis-architecture"
+        "perseus-parthenon"
       ],
-      "certainty": "published-height-aggregate",
+      "certainty": "published-aggregate-spacing",
       "material": "marble"
     },
     {
@@ -230,9 +230,9 @@
       "label": "east column 2 capital",
       "shape": "echinus",
       "position": [
-        -9.629,
+        -10.725,
         11.73,
-        -32.5
+        -33.72
       ],
       "size": [
         2.063,
@@ -241,9 +241,9 @@
       ],
       "zone": "peristyle",
       "sourceIds": [
-        "ysma-parthenon"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "published-aggregate-spacing",
       "material": "marble"
     },
     {
@@ -252,9 +252,9 @@
       "label": "east column 2 abacus",
       "shape": "box",
       "position": [
-        -9.629,
+        -10.725,
         11.99,
-        -32.5
+        -33.72
       ],
       "size": [
         2.197,
@@ -263,9 +263,9 @@
       ],
       "zone": "peristyle",
       "sourceIds": [
-        "ysma-parthenon"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "published-aggregate-spacing",
       "material": "marble"
     },
     {
@@ -274,9 +274,9 @@
       "label": "west column 2 shaft",
       "shape": "shaft",
       "position": [
-        -9.629,
+        -10.725,
         6.315,
-        32.5
+        33.72
       ],
       "size": [
         1.91,
@@ -285,9 +285,9 @@
       ],
       "zone": "peristyle",
       "sourceIds": [
-        "acropolis-architecture"
+        "perseus-parthenon"
       ],
-      "certainty": "published-height-aggregate",
+      "certainty": "published-aggregate-spacing",
       "material": "marble"
     },
     {
@@ -296,9 +296,9 @@
       "label": "west column 2 capital",
       "shape": "echinus",
       "position": [
-        -9.629,
+        -10.725,
         11.73,
-        32.5
+        33.72
       ],
       "size": [
         2.063,
@@ -307,9 +307,9 @@
       ],
       "zone": "peristyle",
       "sourceIds": [
-        "ysma-parthenon"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "published-aggregate-spacing",
       "material": "marble"
     },
     {
@@ -318,9 +318,9 @@
       "label": "west column 2 abacus",
       "shape": "box",
       "position": [
-        -9.629,
+        -10.725,
         11.99,
-        32.5
+        33.72
       ],
       "size": [
         2.197,
@@ -329,9 +329,9 @@
       ],
       "zone": "peristyle",
       "sourceIds": [
-        "ysma-parthenon"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "published-aggregate-spacing",
       "material": "marble"
     },
     {
@@ -340,9 +340,9 @@
       "label": "east column 3 shaft",
       "shape": "shaft",
       "position": [
-        -5.777,
+        -6.435,
         6.315,
-        -32.5
+        -33.72
       ],
       "size": [
         1.91,
@@ -351,9 +351,9 @@
       ],
       "zone": "peristyle",
       "sourceIds": [
-        "acropolis-architecture"
+        "perseus-parthenon"
       ],
-      "certainty": "published-height-aggregate",
+      "certainty": "published-aggregate-spacing",
       "material": "marble"
     },
     {
@@ -362,9 +362,9 @@
       "label": "east column 3 capital",
       "shape": "echinus",
       "position": [
-        -5.777,
+        -6.435,
         11.73,
-        -32.5
+        -33.72
       ],
       "size": [
         2.063,
@@ -373,9 +373,9 @@
       ],
       "zone": "peristyle",
       "sourceIds": [
-        "ysma-parthenon"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "published-aggregate-spacing",
       "material": "marble"
     },
     {
@@ -384,9 +384,9 @@
       "label": "east column 3 abacus",
       "shape": "box",
       "position": [
-        -5.777,
+        -6.435,
         11.99,
-        -32.5
+        -33.72
       ],
       "size": [
         2.197,
@@ -395,9 +395,9 @@
       ],
       "zone": "peristyle",
       "sourceIds": [
-        "ysma-parthenon"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "published-aggregate-spacing",
       "material": "marble"
     },
     {
@@ -406,9 +406,9 @@
       "label": "west column 3 shaft",
       "shape": "shaft",
       "position": [
-        -5.777,
+        -6.435,
         6.315,
-        32.5
+        33.72
       ],
       "size": [
         1.91,
@@ -417,9 +417,9 @@
       ],
       "zone": "peristyle",
       "sourceIds": [
-        "acropolis-architecture"
+        "perseus-parthenon"
       ],
-      "certainty": "published-height-aggregate",
+      "certainty": "published-aggregate-spacing",
       "material": "marble"
     },
     {
@@ -428,9 +428,9 @@
       "label": "west column 3 capital",
       "shape": "echinus",
       "position": [
-        -5.777,
+        -6.435,
         11.73,
-        32.5
+        33.72
       ],
       "size": [
         2.063,
@@ -439,9 +439,9 @@
       ],
       "zone": "peristyle",
       "sourceIds": [
-        "ysma-parthenon"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "published-aggregate-spacing",
       "material": "marble"
     },
     {
@@ -450,9 +450,9 @@
       "label": "west column 3 abacus",
       "shape": "box",
       "position": [
-        -5.777,
+        -6.435,
         11.99,
-        32.5
+        33.72
       ],
       "size": [
         2.197,
@@ -461,9 +461,9 @@
       ],
       "zone": "peristyle",
       "sourceIds": [
-        "ysma-parthenon"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "published-aggregate-spacing",
       "material": "marble"
     },
     {
@@ -472,9 +472,9 @@
       "label": "east column 4 shaft",
       "shape": "shaft",
       "position": [
-        -1.926,
+        -2.145,
         6.315,
-        -32.5
+        -33.72
       ],
       "size": [
         1.91,
@@ -483,9 +483,9 @@
       ],
       "zone": "peristyle",
       "sourceIds": [
-        "acropolis-architecture"
+        "perseus-parthenon"
       ],
-      "certainty": "published-height-aggregate",
+      "certainty": "published-aggregate-spacing",
       "material": "marble"
     },
     {
@@ -494,9 +494,9 @@
       "label": "east column 4 capital",
       "shape": "echinus",
       "position": [
-        -1.926,
+        -2.145,
         11.73,
-        -32.5
+        -33.72
       ],
       "size": [
         2.063,
@@ -505,9 +505,9 @@
       ],
       "zone": "peristyle",
       "sourceIds": [
-        "ysma-parthenon"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "published-aggregate-spacing",
       "material": "marble"
     },
     {
@@ -516,9 +516,9 @@
       "label": "east column 4 abacus",
       "shape": "box",
       "position": [
-        -1.926,
+        -2.145,
         11.99,
-        -32.5
+        -33.72
       ],
       "size": [
         2.197,
@@ -527,9 +527,9 @@
       ],
       "zone": "peristyle",
       "sourceIds": [
-        "ysma-parthenon"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "published-aggregate-spacing",
       "material": "marble"
     },
     {
@@ -538,9 +538,9 @@
       "label": "west column 4 shaft",
       "shape": "shaft",
       "position": [
-        -1.926,
+        -2.145,
         6.315,
-        32.5
+        33.72
       ],
       "size": [
         1.91,
@@ -549,9 +549,9 @@
       ],
       "zone": "peristyle",
       "sourceIds": [
-        "acropolis-architecture"
+        "perseus-parthenon"
       ],
-      "certainty": "published-height-aggregate",
+      "certainty": "published-aggregate-spacing",
       "material": "marble"
     },
     {
@@ -560,9 +560,9 @@
       "label": "west column 4 capital",
       "shape": "echinus",
       "position": [
-        -1.926,
+        -2.145,
         11.73,
-        32.5
+        33.72
       ],
       "size": [
         2.063,
@@ -571,9 +571,9 @@
       ],
       "zone": "peristyle",
       "sourceIds": [
-        "ysma-parthenon"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "published-aggregate-spacing",
       "material": "marble"
     },
     {
@@ -582,9 +582,9 @@
       "label": "west column 4 abacus",
       "shape": "box",
       "position": [
-        -1.926,
+        -2.145,
         11.99,
-        32.5
+        33.72
       ],
       "size": [
         2.197,
@@ -593,9 +593,9 @@
       ],
       "zone": "peristyle",
       "sourceIds": [
-        "ysma-parthenon"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "published-aggregate-spacing",
       "material": "marble"
     },
     {
@@ -604,9 +604,9 @@
       "label": "east column 5 shaft",
       "shape": "shaft",
       "position": [
-        1.926,
+        2.145,
         6.315,
-        -32.5
+        -33.72
       ],
       "size": [
         1.91,
@@ -615,9 +615,9 @@
       ],
       "zone": "peristyle",
       "sourceIds": [
-        "acropolis-architecture"
+        "perseus-parthenon"
       ],
-      "certainty": "published-height-aggregate",
+      "certainty": "published-aggregate-spacing",
       "material": "marble"
     },
     {
@@ -626,9 +626,9 @@
       "label": "east column 5 capital",
       "shape": "echinus",
       "position": [
-        1.926,
+        2.145,
         11.73,
-        -32.5
+        -33.72
       ],
       "size": [
         2.063,
@@ -637,9 +637,9 @@
       ],
       "zone": "peristyle",
       "sourceIds": [
-        "ysma-parthenon"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "published-aggregate-spacing",
       "material": "marble"
     },
     {
@@ -648,9 +648,9 @@
       "label": "east column 5 abacus",
       "shape": "box",
       "position": [
-        1.926,
+        2.145,
         11.99,
-        -32.5
+        -33.72
       ],
       "size": [
         2.197,
@@ -659,9 +659,9 @@
       ],
       "zone": "peristyle",
       "sourceIds": [
-        "ysma-parthenon"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "published-aggregate-spacing",
       "material": "marble"
     },
     {
@@ -670,9 +670,9 @@
       "label": "west column 5 shaft",
       "shape": "shaft",
       "position": [
-        1.926,
+        2.145,
         6.315,
-        32.5
+        33.72
       ],
       "size": [
         1.91,
@@ -681,9 +681,9 @@
       ],
       "zone": "peristyle",
       "sourceIds": [
-        "acropolis-architecture"
+        "perseus-parthenon"
       ],
-      "certainty": "published-height-aggregate",
+      "certainty": "published-aggregate-spacing",
       "material": "marble"
     },
     {
@@ -692,9 +692,9 @@
       "label": "west column 5 capital",
       "shape": "echinus",
       "position": [
-        1.926,
+        2.145,
         11.73,
-        32.5
+        33.72
       ],
       "size": [
         2.063,
@@ -703,9 +703,9 @@
       ],
       "zone": "peristyle",
       "sourceIds": [
-        "ysma-parthenon"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "published-aggregate-spacing",
       "material": "marble"
     },
     {
@@ -714,9 +714,9 @@
       "label": "west column 5 abacus",
       "shape": "box",
       "position": [
-        1.926,
+        2.145,
         11.99,
-        32.5
+        33.72
       ],
       "size": [
         2.197,
@@ -725,9 +725,9 @@
       ],
       "zone": "peristyle",
       "sourceIds": [
-        "ysma-parthenon"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "published-aggregate-spacing",
       "material": "marble"
     },
     {
@@ -736,9 +736,9 @@
       "label": "east column 6 shaft",
       "shape": "shaft",
       "position": [
-        5.777,
+        6.435,
         6.315,
-        -32.5
+        -33.72
       ],
       "size": [
         1.91,
@@ -747,9 +747,9 @@
       ],
       "zone": "peristyle",
       "sourceIds": [
-        "acropolis-architecture"
+        "perseus-parthenon"
       ],
-      "certainty": "published-height-aggregate",
+      "certainty": "published-aggregate-spacing",
       "material": "marble"
     },
     {
@@ -758,9 +758,9 @@
       "label": "east column 6 capital",
       "shape": "echinus",
       "position": [
-        5.777,
+        6.435,
         11.73,
-        -32.5
+        -33.72
       ],
       "size": [
         2.063,
@@ -769,9 +769,9 @@
       ],
       "zone": "peristyle",
       "sourceIds": [
-        "ysma-parthenon"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "published-aggregate-spacing",
       "material": "marble"
     },
     {
@@ -780,9 +780,9 @@
       "label": "east column 6 abacus",
       "shape": "box",
       "position": [
-        5.777,
+        6.435,
         11.99,
-        -32.5
+        -33.72
       ],
       "size": [
         2.197,
@@ -791,9 +791,9 @@
       ],
       "zone": "peristyle",
       "sourceIds": [
-        "ysma-parthenon"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "published-aggregate-spacing",
       "material": "marble"
     },
     {
@@ -802,9 +802,9 @@
       "label": "west column 6 shaft",
       "shape": "shaft",
       "position": [
-        5.777,
+        6.435,
         6.315,
-        32.5
+        33.72
       ],
       "size": [
         1.91,
@@ -813,9 +813,9 @@
       ],
       "zone": "peristyle",
       "sourceIds": [
-        "acropolis-architecture"
+        "perseus-parthenon"
       ],
-      "certainty": "published-height-aggregate",
+      "certainty": "published-aggregate-spacing",
       "material": "marble"
     },
     {
@@ -824,9 +824,9 @@
       "label": "west column 6 capital",
       "shape": "echinus",
       "position": [
-        5.777,
+        6.435,
         11.73,
-        32.5
+        33.72
       ],
       "size": [
         2.063,
@@ -835,9 +835,9 @@
       ],
       "zone": "peristyle",
       "sourceIds": [
-        "ysma-parthenon"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "published-aggregate-spacing",
       "material": "marble"
     },
     {
@@ -846,9 +846,9 @@
       "label": "west column 6 abacus",
       "shape": "box",
       "position": [
-        5.777,
+        6.435,
         11.99,
-        32.5
+        33.72
       ],
       "size": [
         2.197,
@@ -857,9 +857,9 @@
       ],
       "zone": "peristyle",
       "sourceIds": [
-        "ysma-parthenon"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "published-aggregate-spacing",
       "material": "marble"
     },
     {
@@ -868,9 +868,9 @@
       "label": "east column 7 shaft",
       "shape": "shaft",
       "position": [
-        9.629,
+        10.725,
         6.315,
-        -32.5
+        -33.72
       ],
       "size": [
         1.91,
@@ -879,9 +879,9 @@
       ],
       "zone": "peristyle",
       "sourceIds": [
-        "acropolis-architecture"
+        "perseus-parthenon"
       ],
-      "certainty": "published-height-aggregate",
+      "certainty": "published-aggregate-spacing",
       "material": "marble"
     },
     {
@@ -890,9 +890,9 @@
       "label": "east column 7 capital",
       "shape": "echinus",
       "position": [
-        9.629,
+        10.725,
         11.73,
-        -32.5
+        -33.72
       ],
       "size": [
         2.063,
@@ -901,9 +901,9 @@
       ],
       "zone": "peristyle",
       "sourceIds": [
-        "ysma-parthenon"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "published-aggregate-spacing",
       "material": "marble"
     },
     {
@@ -912,9 +912,9 @@
       "label": "east column 7 abacus",
       "shape": "box",
       "position": [
-        9.629,
+        10.725,
         11.99,
-        -32.5
+        -33.72
       ],
       "size": [
         2.197,
@@ -923,9 +923,9 @@
       ],
       "zone": "peristyle",
       "sourceIds": [
-        "ysma-parthenon"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "published-aggregate-spacing",
       "material": "marble"
     },
     {
@@ -934,9 +934,9 @@
       "label": "west column 7 shaft",
       "shape": "shaft",
       "position": [
-        9.629,
+        10.725,
         6.315,
-        32.5
+        33.72
       ],
       "size": [
         1.91,
@@ -945,9 +945,9 @@
       ],
       "zone": "peristyle",
       "sourceIds": [
-        "acropolis-architecture"
+        "perseus-parthenon"
       ],
-      "certainty": "published-height-aggregate",
+      "certainty": "published-aggregate-spacing",
       "material": "marble"
     },
     {
@@ -956,9 +956,9 @@
       "label": "west column 7 capital",
       "shape": "echinus",
       "position": [
-        9.629,
+        10.725,
         11.73,
-        32.5
+        33.72
       ],
       "size": [
         2.063,
@@ -967,9 +967,9 @@
       ],
       "zone": "peristyle",
       "sourceIds": [
-        "ysma-parthenon"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "published-aggregate-spacing",
       "material": "marble"
     },
     {
@@ -978,9 +978,9 @@
       "label": "west column 7 abacus",
       "shape": "box",
       "position": [
-        9.629,
+        10.725,
         11.99,
-        32.5
+        33.72
       ],
       "size": [
         2.197,
@@ -989,9 +989,9 @@
       ],
       "zone": "peristyle",
       "sourceIds": [
-        "ysma-parthenon"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "published-aggregate-spacing",
       "material": "marble"
     },
     {
@@ -1000,9 +1000,9 @@
       "label": "east column 8 shaft",
       "shape": "shaft",
       "position": [
-        13.48,
+        14.405,
         6.315,
-        -32.5
+        -33.72
       ],
       "size": [
         1.91,
@@ -1011,9 +1011,9 @@
       ],
       "zone": "peristyle",
       "sourceIds": [
-        "acropolis-architecture"
+        "perseus-parthenon"
       ],
-      "certainty": "published-height-aggregate",
+      "certainty": "published-aggregate-spacing",
       "material": "marble"
     },
     {
@@ -1022,9 +1022,9 @@
       "label": "east column 8 capital",
       "shape": "echinus",
       "position": [
-        13.48,
+        14.405,
         11.73,
-        -32.5
+        -33.72
       ],
       "size": [
         2.063,
@@ -1033,9 +1033,9 @@
       ],
       "zone": "peristyle",
       "sourceIds": [
-        "ysma-parthenon"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "published-aggregate-spacing",
       "material": "marble"
     },
     {
@@ -1044,9 +1044,9 @@
       "label": "east column 8 abacus",
       "shape": "box",
       "position": [
-        13.48,
+        14.405,
         11.99,
-        -32.5
+        -33.72
       ],
       "size": [
         2.197,
@@ -1055,9 +1055,9 @@
       ],
       "zone": "peristyle",
       "sourceIds": [
-        "ysma-parthenon"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "published-aggregate-spacing",
       "material": "marble"
     },
     {
@@ -1066,9 +1066,9 @@
       "label": "west column 8 shaft",
       "shape": "shaft",
       "position": [
-        13.48,
+        14.405,
         6.315,
-        32.5
+        33.72
       ],
       "size": [
         1.91,
@@ -1077,9 +1077,9 @@
       ],
       "zone": "peristyle",
       "sourceIds": [
-        "acropolis-architecture"
+        "perseus-parthenon"
       ],
-      "certainty": "published-height-aggregate",
+      "certainty": "published-aggregate-spacing",
       "material": "marble"
     },
     {
@@ -1088,9 +1088,9 @@
       "label": "west column 8 capital",
       "shape": "echinus",
       "position": [
-        13.48,
+        14.405,
         11.73,
-        32.5
+        33.72
       ],
       "size": [
         2.063,
@@ -1099,9 +1099,9 @@
       ],
       "zone": "peristyle",
       "sourceIds": [
-        "ysma-parthenon"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "published-aggregate-spacing",
       "material": "marble"
     },
     {
@@ -1110,9 +1110,9 @@
       "label": "west column 8 abacus",
       "shape": "box",
       "position": [
-        13.48,
+        14.405,
         11.99,
-        32.5
+        33.72
       ],
       "size": [
         2.197,
@@ -1121,9 +1121,9 @@
       ],
       "zone": "peristyle",
       "sourceIds": [
-        "ysma-parthenon"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "published-aggregate-spacing",
       "material": "marble"
     },
     {
@@ -1132,9 +1132,9 @@
       "label": "north column 2 shaft",
       "shape": "shaft",
       "position": [
-        -13.48,
+        -14.405,
         6.315,
-        -28.437
+        -25.74
       ],
       "size": [
         1.91,
@@ -1143,9 +1143,9 @@
       ],
       "zone": "peristyle",
       "sourceIds": [
-        "acropolis-architecture"
+        "perseus-parthenon"
       ],
-      "certainty": "published-height-aggregate",
+      "certainty": "published-aggregate-spacing",
       "material": "marble"
     },
     {
@@ -1154,9 +1154,9 @@
       "label": "north column 2 capital",
       "shape": "echinus",
       "position": [
-        -13.48,
+        -14.405,
         11.73,
-        -28.437
+        -25.74
       ],
       "size": [
         2.063,
@@ -1165,9 +1165,9 @@
       ],
       "zone": "peristyle",
       "sourceIds": [
-        "ysma-parthenon"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "published-aggregate-spacing",
       "material": "marble"
     },
     {
@@ -1176,9 +1176,9 @@
       "label": "north column 2 abacus",
       "shape": "box",
       "position": [
-        -13.48,
+        -14.405,
         11.99,
-        -28.437
+        -25.74
       ],
       "size": [
         2.197,
@@ -1187,9 +1187,9 @@
       ],
       "zone": "peristyle",
       "sourceIds": [
-        "ysma-parthenon"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "published-aggregate-spacing",
       "material": "marble"
     },
     {
@@ -1198,9 +1198,9 @@
       "label": "south column 2 shaft",
       "shape": "shaft",
       "position": [
-        13.48,
+        14.405,
         6.315,
-        -28.437
+        -25.74
       ],
       "size": [
         1.91,
@@ -1209,9 +1209,9 @@
       ],
       "zone": "peristyle",
       "sourceIds": [
-        "acropolis-architecture"
+        "perseus-parthenon"
       ],
-      "certainty": "published-height-aggregate",
+      "certainty": "published-aggregate-spacing",
       "material": "marble"
     },
     {
@@ -1220,9 +1220,9 @@
       "label": "south column 2 capital",
       "shape": "echinus",
       "position": [
-        13.48,
+        14.405,
         11.73,
-        -28.437
+        -25.74
       ],
       "size": [
         2.063,
@@ -1231,9 +1231,9 @@
       ],
       "zone": "peristyle",
       "sourceIds": [
-        "ysma-parthenon"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "published-aggregate-spacing",
       "material": "marble"
     },
     {
@@ -1242,9 +1242,9 @@
       "label": "south column 2 abacus",
       "shape": "box",
       "position": [
-        13.48,
+        14.405,
         11.99,
-        -28.437
+        -25.74
       ],
       "size": [
         2.197,
@@ -1253,9 +1253,9 @@
       ],
       "zone": "peristyle",
       "sourceIds": [
-        "ysma-parthenon"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "published-aggregate-spacing",
       "material": "marble"
     },
     {
@@ -1264,9 +1264,9 @@
       "label": "north column 3 shaft",
       "shape": "shaft",
       "position": [
-        -13.48,
+        -14.405,
         6.315,
-        -24.375
+        -21.45
       ],
       "size": [
         1.91,
@@ -1275,9 +1275,9 @@
       ],
       "zone": "peristyle",
       "sourceIds": [
-        "acropolis-architecture"
+        "perseus-parthenon"
       ],
-      "certainty": "published-height-aggregate",
+      "certainty": "published-aggregate-spacing",
       "material": "marble"
     },
     {
@@ -1286,9 +1286,9 @@
       "label": "north column 3 capital",
       "shape": "echinus",
       "position": [
-        -13.48,
+        -14.405,
         11.73,
-        -24.375
+        -21.45
       ],
       "size": [
         2.063,
@@ -1297,9 +1297,9 @@
       ],
       "zone": "peristyle",
       "sourceIds": [
-        "ysma-parthenon"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "published-aggregate-spacing",
       "material": "marble"
     },
     {
@@ -1308,9 +1308,9 @@
       "label": "north column 3 abacus",
       "shape": "box",
       "position": [
-        -13.48,
+        -14.405,
         11.99,
-        -24.375
+        -21.45
       ],
       "size": [
         2.197,
@@ -1319,9 +1319,9 @@
       ],
       "zone": "peristyle",
       "sourceIds": [
-        "ysma-parthenon"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "published-aggregate-spacing",
       "material": "marble"
     },
     {
@@ -1330,9 +1330,9 @@
       "label": "south column 3 shaft",
       "shape": "shaft",
       "position": [
-        13.48,
+        14.405,
         6.315,
-        -24.375
+        -21.45
       ],
       "size": [
         1.91,
@@ -1341,9 +1341,9 @@
       ],
       "zone": "peristyle",
       "sourceIds": [
-        "acropolis-architecture"
+        "perseus-parthenon"
       ],
-      "certainty": "published-height-aggregate",
+      "certainty": "published-aggregate-spacing",
       "material": "marble"
     },
     {
@@ -1352,9 +1352,9 @@
       "label": "south column 3 capital",
       "shape": "echinus",
       "position": [
-        13.48,
+        14.405,
         11.73,
-        -24.375
+        -21.45
       ],
       "size": [
         2.063,
@@ -1363,9 +1363,9 @@
       ],
       "zone": "peristyle",
       "sourceIds": [
-        "ysma-parthenon"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "published-aggregate-spacing",
       "material": "marble"
     },
     {
@@ -1374,9 +1374,9 @@
       "label": "south column 3 abacus",
       "shape": "box",
       "position": [
-        13.48,
+        14.405,
         11.99,
-        -24.375
+        -21.45
       ],
       "size": [
         2.197,
@@ -1385,9 +1385,9 @@
       ],
       "zone": "peristyle",
       "sourceIds": [
-        "ysma-parthenon"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "published-aggregate-spacing",
       "material": "marble"
     },
     {
@@ -1396,9 +1396,9 @@
       "label": "north column 4 shaft",
       "shape": "shaft",
       "position": [
-        -13.48,
+        -14.405,
         6.315,
-        -20.312
+        -17.16
       ],
       "size": [
         1.91,
@@ -1407,9 +1407,9 @@
       ],
       "zone": "peristyle",
       "sourceIds": [
-        "acropolis-architecture"
+        "perseus-parthenon"
       ],
-      "certainty": "published-height-aggregate",
+      "certainty": "published-aggregate-spacing",
       "material": "marble"
     },
     {
@@ -1418,9 +1418,9 @@
       "label": "north column 4 capital",
       "shape": "echinus",
       "position": [
-        -13.48,
+        -14.405,
         11.73,
-        -20.312
+        -17.16
       ],
       "size": [
         2.063,
@@ -1429,9 +1429,9 @@
       ],
       "zone": "peristyle",
       "sourceIds": [
-        "ysma-parthenon"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "published-aggregate-spacing",
       "material": "marble"
     },
     {
@@ -1440,9 +1440,9 @@
       "label": "north column 4 abacus",
       "shape": "box",
       "position": [
-        -13.48,
+        -14.405,
         11.99,
-        -20.312
+        -17.16
       ],
       "size": [
         2.197,
@@ -1451,9 +1451,9 @@
       ],
       "zone": "peristyle",
       "sourceIds": [
-        "ysma-parthenon"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "published-aggregate-spacing",
       "material": "marble"
     },
     {
@@ -1462,9 +1462,9 @@
       "label": "south column 4 shaft",
       "shape": "shaft",
       "position": [
-        13.48,
+        14.405,
         6.315,
-        -20.312
+        -17.16
       ],
       "size": [
         1.91,
@@ -1473,9 +1473,9 @@
       ],
       "zone": "peristyle",
       "sourceIds": [
-        "acropolis-architecture"
+        "perseus-parthenon"
       ],
-      "certainty": "published-height-aggregate",
+      "certainty": "published-aggregate-spacing",
       "material": "marble"
     },
     {
@@ -1484,9 +1484,9 @@
       "label": "south column 4 capital",
       "shape": "echinus",
       "position": [
-        13.48,
+        14.405,
         11.73,
-        -20.312
+        -17.16
       ],
       "size": [
         2.063,
@@ -1495,9 +1495,9 @@
       ],
       "zone": "peristyle",
       "sourceIds": [
-        "ysma-parthenon"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "published-aggregate-spacing",
       "material": "marble"
     },
     {
@@ -1506,9 +1506,9 @@
       "label": "south column 4 abacus",
       "shape": "box",
       "position": [
-        13.48,
+        14.405,
         11.99,
-        -20.312
+        -17.16
       ],
       "size": [
         2.197,
@@ -1517,9 +1517,9 @@
       ],
       "zone": "peristyle",
       "sourceIds": [
-        "ysma-parthenon"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "published-aggregate-spacing",
       "material": "marble"
     },
     {
@@ -1528,9 +1528,9 @@
       "label": "north column 5 shaft",
       "shape": "shaft",
       "position": [
-        -13.48,
+        -14.405,
         6.315,
-        -16.25
+        -12.87
       ],
       "size": [
         1.91,
@@ -1539,9 +1539,9 @@
       ],
       "zone": "peristyle",
       "sourceIds": [
-        "acropolis-architecture"
+        "perseus-parthenon"
       ],
-      "certainty": "published-height-aggregate",
+      "certainty": "published-aggregate-spacing",
       "material": "marble"
     },
     {
@@ -1550,9 +1550,9 @@
       "label": "north column 5 capital",
       "shape": "echinus",
       "position": [
-        -13.48,
+        -14.405,
         11.73,
-        -16.25
+        -12.87
       ],
       "size": [
         2.063,
@@ -1561,9 +1561,9 @@
       ],
       "zone": "peristyle",
       "sourceIds": [
-        "ysma-parthenon"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "published-aggregate-spacing",
       "material": "marble"
     },
     {
@@ -1572,9 +1572,9 @@
       "label": "north column 5 abacus",
       "shape": "box",
       "position": [
-        -13.48,
+        -14.405,
         11.99,
-        -16.25
+        -12.87
       ],
       "size": [
         2.197,
@@ -1583,9 +1583,9 @@
       ],
       "zone": "peristyle",
       "sourceIds": [
-        "ysma-parthenon"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "published-aggregate-spacing",
       "material": "marble"
     },
     {
@@ -1594,9 +1594,9 @@
       "label": "south column 5 shaft",
       "shape": "shaft",
       "position": [
-        13.48,
+        14.405,
         6.315,
-        -16.25
+        -12.87
       ],
       "size": [
         1.91,
@@ -1605,9 +1605,9 @@
       ],
       "zone": "peristyle",
       "sourceIds": [
-        "acropolis-architecture"
+        "perseus-parthenon"
       ],
-      "certainty": "published-height-aggregate",
+      "certainty": "published-aggregate-spacing",
       "material": "marble"
     },
     {
@@ -1616,9 +1616,9 @@
       "label": "south column 5 capital",
       "shape": "echinus",
       "position": [
-        13.48,
+        14.405,
         11.73,
-        -16.25
+        -12.87
       ],
       "size": [
         2.063,
@@ -1627,9 +1627,9 @@
       ],
       "zone": "peristyle",
       "sourceIds": [
-        "ysma-parthenon"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "published-aggregate-spacing",
       "material": "marble"
     },
     {
@@ -1638,9 +1638,9 @@
       "label": "south column 5 abacus",
       "shape": "box",
       "position": [
-        13.48,
+        14.405,
         11.99,
-        -16.25
+        -12.87
       ],
       "size": [
         2.197,
@@ -1649,9 +1649,9 @@
       ],
       "zone": "peristyle",
       "sourceIds": [
-        "ysma-parthenon"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "published-aggregate-spacing",
       "material": "marble"
     },
     {
@@ -1660,9 +1660,9 @@
       "label": "north column 6 shaft",
       "shape": "shaft",
       "position": [
-        -13.48,
+        -14.405,
         6.315,
-        -12.187
+        -8.58
       ],
       "size": [
         1.91,
@@ -1671,9 +1671,9 @@
       ],
       "zone": "peristyle",
       "sourceIds": [
-        "acropolis-architecture"
+        "perseus-parthenon"
       ],
-      "certainty": "published-height-aggregate",
+      "certainty": "published-aggregate-spacing",
       "material": "marble"
     },
     {
@@ -1682,9 +1682,9 @@
       "label": "north column 6 capital",
       "shape": "echinus",
       "position": [
-        -13.48,
+        -14.405,
         11.73,
-        -12.187
+        -8.58
       ],
       "size": [
         2.063,
@@ -1693,9 +1693,9 @@
       ],
       "zone": "peristyle",
       "sourceIds": [
-        "ysma-parthenon"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "published-aggregate-spacing",
       "material": "marble"
     },
     {
@@ -1704,9 +1704,9 @@
       "label": "north column 6 abacus",
       "shape": "box",
       "position": [
-        -13.48,
+        -14.405,
         11.99,
-        -12.187
+        -8.58
       ],
       "size": [
         2.197,
@@ -1715,9 +1715,9 @@
       ],
       "zone": "peristyle",
       "sourceIds": [
-        "ysma-parthenon"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "published-aggregate-spacing",
       "material": "marble"
     },
     {
@@ -1726,9 +1726,9 @@
       "label": "south column 6 shaft",
       "shape": "shaft",
       "position": [
-        13.48,
+        14.405,
         6.315,
-        -12.187
+        -8.58
       ],
       "size": [
         1.91,
@@ -1737,9 +1737,9 @@
       ],
       "zone": "peristyle",
       "sourceIds": [
-        "acropolis-architecture"
+        "perseus-parthenon"
       ],
-      "certainty": "published-height-aggregate",
+      "certainty": "published-aggregate-spacing",
       "material": "marble"
     },
     {
@@ -1748,9 +1748,9 @@
       "label": "south column 6 capital",
       "shape": "echinus",
       "position": [
-        13.48,
+        14.405,
         11.73,
-        -12.187
+        -8.58
       ],
       "size": [
         2.063,
@@ -1759,9 +1759,9 @@
       ],
       "zone": "peristyle",
       "sourceIds": [
-        "ysma-parthenon"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "published-aggregate-spacing",
       "material": "marble"
     },
     {
@@ -1770,9 +1770,9 @@
       "label": "south column 6 abacus",
       "shape": "box",
       "position": [
-        13.48,
+        14.405,
         11.99,
-        -12.187
+        -8.58
       ],
       "size": [
         2.197,
@@ -1781,9 +1781,9 @@
       ],
       "zone": "peristyle",
       "sourceIds": [
-        "ysma-parthenon"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "published-aggregate-spacing",
       "material": "marble"
     },
     {
@@ -1792,9 +1792,9 @@
       "label": "north column 7 shaft",
       "shape": "shaft",
       "position": [
-        -13.48,
+        -14.405,
         6.315,
-        -8.125
+        -4.29
       ],
       "size": [
         1.91,
@@ -1803,9 +1803,9 @@
       ],
       "zone": "peristyle",
       "sourceIds": [
-        "acropolis-architecture"
+        "perseus-parthenon"
       ],
-      "certainty": "published-height-aggregate",
+      "certainty": "published-aggregate-spacing",
       "material": "marble"
     },
     {
@@ -1814,9 +1814,9 @@
       "label": "north column 7 capital",
       "shape": "echinus",
       "position": [
-        -13.48,
+        -14.405,
         11.73,
-        -8.125
+        -4.29
       ],
       "size": [
         2.063,
@@ -1825,9 +1825,9 @@
       ],
       "zone": "peristyle",
       "sourceIds": [
-        "ysma-parthenon"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "published-aggregate-spacing",
       "material": "marble"
     },
     {
@@ -1836,9 +1836,9 @@
       "label": "north column 7 abacus",
       "shape": "box",
       "position": [
-        -13.48,
+        -14.405,
         11.99,
-        -8.125
+        -4.29
       ],
       "size": [
         2.197,
@@ -1847,9 +1847,9 @@
       ],
       "zone": "peristyle",
       "sourceIds": [
-        "ysma-parthenon"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "published-aggregate-spacing",
       "material": "marble"
     },
     {
@@ -1858,9 +1858,9 @@
       "label": "south column 7 shaft",
       "shape": "shaft",
       "position": [
-        13.48,
+        14.405,
         6.315,
-        -8.125
+        -4.29
       ],
       "size": [
         1.91,
@@ -1869,9 +1869,9 @@
       ],
       "zone": "peristyle",
       "sourceIds": [
-        "acropolis-architecture"
+        "perseus-parthenon"
       ],
-      "certainty": "published-height-aggregate",
+      "certainty": "published-aggregate-spacing",
       "material": "marble"
     },
     {
@@ -1880,9 +1880,9 @@
       "label": "south column 7 capital",
       "shape": "echinus",
       "position": [
-        13.48,
+        14.405,
         11.73,
-        -8.125
+        -4.29
       ],
       "size": [
         2.063,
@@ -1891,9 +1891,9 @@
       ],
       "zone": "peristyle",
       "sourceIds": [
-        "ysma-parthenon"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "published-aggregate-spacing",
       "material": "marble"
     },
     {
@@ -1902,9 +1902,9 @@
       "label": "south column 7 abacus",
       "shape": "box",
       "position": [
-        13.48,
+        14.405,
         11.99,
-        -8.125
+        -4.29
       ],
       "size": [
         2.197,
@@ -1913,9 +1913,9 @@
       ],
       "zone": "peristyle",
       "sourceIds": [
-        "ysma-parthenon"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "published-aggregate-spacing",
       "material": "marble"
     },
     {
@@ -1924,9 +1924,9 @@
       "label": "north column 8 shaft",
       "shape": "shaft",
       "position": [
-        -13.48,
+        -14.405,
         6.315,
-        -4.062
+        0
       ],
       "size": [
         1.91,
@@ -1935,9 +1935,9 @@
       ],
       "zone": "peristyle",
       "sourceIds": [
-        "acropolis-architecture"
+        "perseus-parthenon"
       ],
-      "certainty": "published-height-aggregate",
+      "certainty": "published-aggregate-spacing",
       "material": "marble"
     },
     {
@@ -1946,9 +1946,9 @@
       "label": "north column 8 capital",
       "shape": "echinus",
       "position": [
-        -13.48,
+        -14.405,
         11.73,
-        -4.062
+        0
       ],
       "size": [
         2.063,
@@ -1957,9 +1957,9 @@
       ],
       "zone": "peristyle",
       "sourceIds": [
-        "ysma-parthenon"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "published-aggregate-spacing",
       "material": "marble"
     },
     {
@@ -1968,9 +1968,9 @@
       "label": "north column 8 abacus",
       "shape": "box",
       "position": [
-        -13.48,
+        -14.405,
         11.99,
-        -4.062
+        0
       ],
       "size": [
         2.197,
@@ -1979,9 +1979,9 @@
       ],
       "zone": "peristyle",
       "sourceIds": [
-        "ysma-parthenon"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "published-aggregate-spacing",
       "material": "marble"
     },
     {
@@ -1990,9 +1990,9 @@
       "label": "south column 8 shaft",
       "shape": "shaft",
       "position": [
-        13.48,
+        14.405,
         6.315,
-        -4.062
+        0
       ],
       "size": [
         1.91,
@@ -2001,9 +2001,9 @@
       ],
       "zone": "peristyle",
       "sourceIds": [
-        "acropolis-architecture"
+        "perseus-parthenon"
       ],
-      "certainty": "published-height-aggregate",
+      "certainty": "published-aggregate-spacing",
       "material": "marble"
     },
     {
@@ -2012,9 +2012,9 @@
       "label": "south column 8 capital",
       "shape": "echinus",
       "position": [
-        13.48,
+        14.405,
         11.73,
-        -4.062
+        0
       ],
       "size": [
         2.063,
@@ -2023,9 +2023,9 @@
       ],
       "zone": "peristyle",
       "sourceIds": [
-        "ysma-parthenon"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "published-aggregate-spacing",
       "material": "marble"
     },
     {
@@ -2034,9 +2034,9 @@
       "label": "south column 8 abacus",
       "shape": "box",
       "position": [
-        13.48,
+        14.405,
         11.99,
-        -4.062
+        0
       ],
       "size": [
         2.197,
@@ -2045,9 +2045,9 @@
       ],
       "zone": "peristyle",
       "sourceIds": [
-        "ysma-parthenon"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "published-aggregate-spacing",
       "material": "marble"
     },
     {
@@ -2056,9 +2056,9 @@
       "label": "north column 9 shaft",
       "shape": "shaft",
       "position": [
-        -13.48,
+        -14.405,
         6.315,
-        0
+        4.29
       ],
       "size": [
         1.91,
@@ -2067,9 +2067,9 @@
       ],
       "zone": "peristyle",
       "sourceIds": [
-        "acropolis-architecture"
+        "perseus-parthenon"
       ],
-      "certainty": "published-height-aggregate",
+      "certainty": "published-aggregate-spacing",
       "material": "marble"
     },
     {
@@ -2078,9 +2078,9 @@
       "label": "north column 9 capital",
       "shape": "echinus",
       "position": [
-        -13.48,
+        -14.405,
         11.73,
-        0
+        4.29
       ],
       "size": [
         2.063,
@@ -2089,9 +2089,9 @@
       ],
       "zone": "peristyle",
       "sourceIds": [
-        "ysma-parthenon"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "published-aggregate-spacing",
       "material": "marble"
     },
     {
@@ -2100,9 +2100,9 @@
       "label": "north column 9 abacus",
       "shape": "box",
       "position": [
-        -13.48,
+        -14.405,
         11.99,
-        0
+        4.29
       ],
       "size": [
         2.197,
@@ -2111,9 +2111,9 @@
       ],
       "zone": "peristyle",
       "sourceIds": [
-        "ysma-parthenon"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "published-aggregate-spacing",
       "material": "marble"
     },
     {
@@ -2122,9 +2122,9 @@
       "label": "south column 9 shaft",
       "shape": "shaft",
       "position": [
-        13.48,
+        14.405,
         6.315,
-        0
+        4.29
       ],
       "size": [
         1.91,
@@ -2133,9 +2133,9 @@
       ],
       "zone": "peristyle",
       "sourceIds": [
-        "acropolis-architecture"
+        "perseus-parthenon"
       ],
-      "certainty": "published-height-aggregate",
+      "certainty": "published-aggregate-spacing",
       "material": "marble"
     },
     {
@@ -2144,9 +2144,9 @@
       "label": "south column 9 capital",
       "shape": "echinus",
       "position": [
-        13.48,
+        14.405,
         11.73,
-        0
+        4.29
       ],
       "size": [
         2.063,
@@ -2155,9 +2155,9 @@
       ],
       "zone": "peristyle",
       "sourceIds": [
-        "ysma-parthenon"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "published-aggregate-spacing",
       "material": "marble"
     },
     {
@@ -2166,9 +2166,9 @@
       "label": "south column 9 abacus",
       "shape": "box",
       "position": [
-        13.48,
+        14.405,
         11.99,
-        0
+        4.29
       ],
       "size": [
         2.197,
@@ -2177,9 +2177,9 @@
       ],
       "zone": "peristyle",
       "sourceIds": [
-        "ysma-parthenon"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "published-aggregate-spacing",
       "material": "marble"
     },
     {
@@ -2188,9 +2188,9 @@
       "label": "north column 10 shaft",
       "shape": "shaft",
       "position": [
-        -13.48,
+        -14.405,
         6.315,
-        4.063
+        8.58
       ],
       "size": [
         1.91,
@@ -2199,9 +2199,9 @@
       ],
       "zone": "peristyle",
       "sourceIds": [
-        "acropolis-architecture"
+        "perseus-parthenon"
       ],
-      "certainty": "published-height-aggregate",
+      "certainty": "published-aggregate-spacing",
       "material": "marble"
     },
     {
@@ -2210,9 +2210,9 @@
       "label": "north column 10 capital",
       "shape": "echinus",
       "position": [
-        -13.48,
+        -14.405,
         11.73,
-        4.063
+        8.58
       ],
       "size": [
         2.063,
@@ -2221,9 +2221,9 @@
       ],
       "zone": "peristyle",
       "sourceIds": [
-        "ysma-parthenon"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "published-aggregate-spacing",
       "material": "marble"
     },
     {
@@ -2232,9 +2232,9 @@
       "label": "north column 10 abacus",
       "shape": "box",
       "position": [
-        -13.48,
+        -14.405,
         11.99,
-        4.063
+        8.58
       ],
       "size": [
         2.197,
@@ -2243,9 +2243,9 @@
       ],
       "zone": "peristyle",
       "sourceIds": [
-        "ysma-parthenon"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "published-aggregate-spacing",
       "material": "marble"
     },
     {
@@ -2254,9 +2254,9 @@
       "label": "south column 10 shaft",
       "shape": "shaft",
       "position": [
-        13.48,
+        14.405,
         6.315,
-        4.063
+        8.58
       ],
       "size": [
         1.91,
@@ -2265,9 +2265,9 @@
       ],
       "zone": "peristyle",
       "sourceIds": [
-        "acropolis-architecture"
+        "perseus-parthenon"
       ],
-      "certainty": "published-height-aggregate",
+      "certainty": "published-aggregate-spacing",
       "material": "marble"
     },
     {
@@ -2276,9 +2276,9 @@
       "label": "south column 10 capital",
       "shape": "echinus",
       "position": [
-        13.48,
+        14.405,
         11.73,
-        4.063
+        8.58
       ],
       "size": [
         2.063,
@@ -2287,9 +2287,9 @@
       ],
       "zone": "peristyle",
       "sourceIds": [
-        "ysma-parthenon"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "published-aggregate-spacing",
       "material": "marble"
     },
     {
@@ -2298,9 +2298,9 @@
       "label": "south column 10 abacus",
       "shape": "box",
       "position": [
-        13.48,
+        14.405,
         11.99,
-        4.063
+        8.58
       ],
       "size": [
         2.197,
@@ -2309,9 +2309,9 @@
       ],
       "zone": "peristyle",
       "sourceIds": [
-        "ysma-parthenon"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "published-aggregate-spacing",
       "material": "marble"
     },
     {
@@ -2320,9 +2320,9 @@
       "label": "north column 11 shaft",
       "shape": "shaft",
       "position": [
-        -13.48,
+        -14.405,
         6.315,
-        8.125
+        12.87
       ],
       "size": [
         1.91,
@@ -2331,9 +2331,9 @@
       ],
       "zone": "peristyle",
       "sourceIds": [
-        "acropolis-architecture"
+        "perseus-parthenon"
       ],
-      "certainty": "published-height-aggregate",
+      "certainty": "published-aggregate-spacing",
       "material": "marble"
     },
     {
@@ -2342,9 +2342,9 @@
       "label": "north column 11 capital",
       "shape": "echinus",
       "position": [
-        -13.48,
+        -14.405,
         11.73,
-        8.125
+        12.87
       ],
       "size": [
         2.063,
@@ -2353,9 +2353,9 @@
       ],
       "zone": "peristyle",
       "sourceIds": [
-        "ysma-parthenon"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "published-aggregate-spacing",
       "material": "marble"
     },
     {
@@ -2364,9 +2364,9 @@
       "label": "north column 11 abacus",
       "shape": "box",
       "position": [
-        -13.48,
+        -14.405,
         11.99,
-        8.125
+        12.87
       ],
       "size": [
         2.197,
@@ -2375,9 +2375,9 @@
       ],
       "zone": "peristyle",
       "sourceIds": [
-        "ysma-parthenon"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "published-aggregate-spacing",
       "material": "marble"
     },
     {
@@ -2386,9 +2386,9 @@
       "label": "south column 11 shaft",
       "shape": "shaft",
       "position": [
-        13.48,
+        14.405,
         6.315,
-        8.125
+        12.87
       ],
       "size": [
         1.91,
@@ -2397,9 +2397,9 @@
       ],
       "zone": "peristyle",
       "sourceIds": [
-        "acropolis-architecture"
+        "perseus-parthenon"
       ],
-      "certainty": "published-height-aggregate",
+      "certainty": "published-aggregate-spacing",
       "material": "marble"
     },
     {
@@ -2408,9 +2408,9 @@
       "label": "south column 11 capital",
       "shape": "echinus",
       "position": [
-        13.48,
+        14.405,
         11.73,
-        8.125
+        12.87
       ],
       "size": [
         2.063,
@@ -2419,9 +2419,9 @@
       ],
       "zone": "peristyle",
       "sourceIds": [
-        "ysma-parthenon"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "published-aggregate-spacing",
       "material": "marble"
     },
     {
@@ -2430,9 +2430,9 @@
       "label": "south column 11 abacus",
       "shape": "box",
       "position": [
-        13.48,
+        14.405,
         11.99,
-        8.125
+        12.87
       ],
       "size": [
         2.197,
@@ -2441,9 +2441,9 @@
       ],
       "zone": "peristyle",
       "sourceIds": [
-        "ysma-parthenon"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "published-aggregate-spacing",
       "material": "marble"
     },
     {
@@ -2452,9 +2452,9 @@
       "label": "north column 12 shaft",
       "shape": "shaft",
       "position": [
-        -13.48,
+        -14.405,
         6.315,
-        12.188
+        17.16
       ],
       "size": [
         1.91,
@@ -2463,9 +2463,9 @@
       ],
       "zone": "peristyle",
       "sourceIds": [
-        "acropolis-architecture"
+        "perseus-parthenon"
       ],
-      "certainty": "published-height-aggregate",
+      "certainty": "published-aggregate-spacing",
       "material": "marble"
     },
     {
@@ -2474,9 +2474,9 @@
       "label": "north column 12 capital",
       "shape": "echinus",
       "position": [
-        -13.48,
+        -14.405,
         11.73,
-        12.188
+        17.16
       ],
       "size": [
         2.063,
@@ -2485,9 +2485,9 @@
       ],
       "zone": "peristyle",
       "sourceIds": [
-        "ysma-parthenon"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "published-aggregate-spacing",
       "material": "marble"
     },
     {
@@ -2496,9 +2496,9 @@
       "label": "north column 12 abacus",
       "shape": "box",
       "position": [
-        -13.48,
+        -14.405,
         11.99,
-        12.188
+        17.16
       ],
       "size": [
         2.197,
@@ -2507,9 +2507,9 @@
       ],
       "zone": "peristyle",
       "sourceIds": [
-        "ysma-parthenon"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "published-aggregate-spacing",
       "material": "marble"
     },
     {
@@ -2518,9 +2518,9 @@
       "label": "south column 12 shaft",
       "shape": "shaft",
       "position": [
-        13.48,
+        14.405,
         6.315,
-        12.188
+        17.16
       ],
       "size": [
         1.91,
@@ -2529,9 +2529,9 @@
       ],
       "zone": "peristyle",
       "sourceIds": [
-        "acropolis-architecture"
+        "perseus-parthenon"
       ],
-      "certainty": "published-height-aggregate",
+      "certainty": "published-aggregate-spacing",
       "material": "marble"
     },
     {
@@ -2540,9 +2540,9 @@
       "label": "south column 12 capital",
       "shape": "echinus",
       "position": [
-        13.48,
+        14.405,
         11.73,
-        12.188
+        17.16
       ],
       "size": [
         2.063,
@@ -2551,9 +2551,9 @@
       ],
       "zone": "peristyle",
       "sourceIds": [
-        "ysma-parthenon"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "published-aggregate-spacing",
       "material": "marble"
     },
     {
@@ -2562,9 +2562,9 @@
       "label": "south column 12 abacus",
       "shape": "box",
       "position": [
-        13.48,
+        14.405,
         11.99,
-        12.188
+        17.16
       ],
       "size": [
         2.197,
@@ -2573,9 +2573,9 @@
       ],
       "zone": "peristyle",
       "sourceIds": [
-        "ysma-parthenon"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "published-aggregate-spacing",
       "material": "marble"
     },
     {
@@ -2584,9 +2584,9 @@
       "label": "north column 13 shaft",
       "shape": "shaft",
       "position": [
-        -13.48,
+        -14.405,
         6.315,
-        16.25
+        21.45
       ],
       "size": [
         1.91,
@@ -2595,9 +2595,9 @@
       ],
       "zone": "peristyle",
       "sourceIds": [
-        "acropolis-architecture"
+        "perseus-parthenon"
       ],
-      "certainty": "published-height-aggregate",
+      "certainty": "published-aggregate-spacing",
       "material": "marble"
     },
     {
@@ -2606,9 +2606,9 @@
       "label": "north column 13 capital",
       "shape": "echinus",
       "position": [
-        -13.48,
+        -14.405,
         11.73,
-        16.25
+        21.45
       ],
       "size": [
         2.063,
@@ -2617,9 +2617,9 @@
       ],
       "zone": "peristyle",
       "sourceIds": [
-        "ysma-parthenon"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "published-aggregate-spacing",
       "material": "marble"
     },
     {
@@ -2628,9 +2628,9 @@
       "label": "north column 13 abacus",
       "shape": "box",
       "position": [
-        -13.48,
+        -14.405,
         11.99,
-        16.25
+        21.45
       ],
       "size": [
         2.197,
@@ -2639,9 +2639,9 @@
       ],
       "zone": "peristyle",
       "sourceIds": [
-        "ysma-parthenon"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "published-aggregate-spacing",
       "material": "marble"
     },
     {
@@ -2650,9 +2650,9 @@
       "label": "south column 13 shaft",
       "shape": "shaft",
       "position": [
-        13.48,
+        14.405,
         6.315,
-        16.25
+        21.45
       ],
       "size": [
         1.91,
@@ -2661,9 +2661,9 @@
       ],
       "zone": "peristyle",
       "sourceIds": [
-        "acropolis-architecture"
+        "perseus-parthenon"
       ],
-      "certainty": "published-height-aggregate",
+      "certainty": "published-aggregate-spacing",
       "material": "marble"
     },
     {
@@ -2672,9 +2672,9 @@
       "label": "south column 13 capital",
       "shape": "echinus",
       "position": [
-        13.48,
+        14.405,
         11.73,
-        16.25
+        21.45
       ],
       "size": [
         2.063,
@@ -2683,9 +2683,9 @@
       ],
       "zone": "peristyle",
       "sourceIds": [
-        "ysma-parthenon"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "published-aggregate-spacing",
       "material": "marble"
     },
     {
@@ -2694,9 +2694,9 @@
       "label": "south column 13 abacus",
       "shape": "box",
       "position": [
-        13.48,
+        14.405,
         11.99,
-        16.25
+        21.45
       ],
       "size": [
         2.197,
@@ -2705,9 +2705,9 @@
       ],
       "zone": "peristyle",
       "sourceIds": [
-        "ysma-parthenon"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "published-aggregate-spacing",
       "material": "marble"
     },
     {
@@ -2716,9 +2716,9 @@
       "label": "north column 14 shaft",
       "shape": "shaft",
       "position": [
-        -13.48,
+        -14.405,
         6.315,
-        20.313
+        25.74
       ],
       "size": [
         1.91,
@@ -2727,9 +2727,9 @@
       ],
       "zone": "peristyle",
       "sourceIds": [
-        "acropolis-architecture"
+        "perseus-parthenon"
       ],
-      "certainty": "published-height-aggregate",
+      "certainty": "published-aggregate-spacing",
       "material": "marble"
     },
     {
@@ -2738,9 +2738,9 @@
       "label": "north column 14 capital",
       "shape": "echinus",
       "position": [
-        -13.48,
+        -14.405,
         11.73,
-        20.313
+        25.74
       ],
       "size": [
         2.063,
@@ -2749,9 +2749,9 @@
       ],
       "zone": "peristyle",
       "sourceIds": [
-        "ysma-parthenon"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "published-aggregate-spacing",
       "material": "marble"
     },
     {
@@ -2760,9 +2760,9 @@
       "label": "north column 14 abacus",
       "shape": "box",
       "position": [
-        -13.48,
+        -14.405,
         11.99,
-        20.313
+        25.74
       ],
       "size": [
         2.197,
@@ -2771,9 +2771,9 @@
       ],
       "zone": "peristyle",
       "sourceIds": [
-        "ysma-parthenon"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "published-aggregate-spacing",
       "material": "marble"
     },
     {
@@ -2782,9 +2782,9 @@
       "label": "south column 14 shaft",
       "shape": "shaft",
       "position": [
-        13.48,
+        14.405,
         6.315,
-        20.313
+        25.74
       ],
       "size": [
         1.91,
@@ -2793,9 +2793,9 @@
       ],
       "zone": "peristyle",
       "sourceIds": [
-        "acropolis-architecture"
+        "perseus-parthenon"
       ],
-      "certainty": "published-height-aggregate",
+      "certainty": "published-aggregate-spacing",
       "material": "marble"
     },
     {
@@ -2804,9 +2804,9 @@
       "label": "south column 14 capital",
       "shape": "echinus",
       "position": [
-        13.48,
+        14.405,
         11.73,
-        20.313
+        25.74
       ],
       "size": [
         2.063,
@@ -2815,9 +2815,9 @@
       ],
       "zone": "peristyle",
       "sourceIds": [
-        "ysma-parthenon"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "published-aggregate-spacing",
       "material": "marble"
     },
     {
@@ -2826,9 +2826,9 @@
       "label": "south column 14 abacus",
       "shape": "box",
       "position": [
-        13.48,
+        14.405,
         11.99,
-        20.313
+        25.74
       ],
       "size": [
         2.197,
@@ -2837,9 +2837,9 @@
       ],
       "zone": "peristyle",
       "sourceIds": [
-        "ysma-parthenon"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "published-aggregate-spacing",
       "material": "marble"
     },
     {
@@ -2848,9 +2848,9 @@
       "label": "north column 15 shaft",
       "shape": "shaft",
       "position": [
-        -13.48,
+        -14.405,
         6.315,
-        24.375
+        30.03
       ],
       "size": [
         1.91,
@@ -2859,9 +2859,9 @@
       ],
       "zone": "peristyle",
       "sourceIds": [
-        "acropolis-architecture"
+        "perseus-parthenon"
       ],
-      "certainty": "published-height-aggregate",
+      "certainty": "published-aggregate-spacing",
       "material": "marble"
     },
     {
@@ -2870,9 +2870,9 @@
       "label": "north column 15 capital",
       "shape": "echinus",
       "position": [
-        -13.48,
+        -14.405,
         11.73,
-        24.375
+        30.03
       ],
       "size": [
         2.063,
@@ -2881,9 +2881,9 @@
       ],
       "zone": "peristyle",
       "sourceIds": [
-        "ysma-parthenon"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "published-aggregate-spacing",
       "material": "marble"
     },
     {
@@ -2892,9 +2892,9 @@
       "label": "north column 15 abacus",
       "shape": "box",
       "position": [
-        -13.48,
+        -14.405,
         11.99,
-        24.375
+        30.03
       ],
       "size": [
         2.197,
@@ -2903,9 +2903,9 @@
       ],
       "zone": "peristyle",
       "sourceIds": [
-        "ysma-parthenon"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "published-aggregate-spacing",
       "material": "marble"
     },
     {
@@ -2914,9 +2914,9 @@
       "label": "south column 15 shaft",
       "shape": "shaft",
       "position": [
-        13.48,
+        14.405,
         6.315,
-        24.375
+        30.03
       ],
       "size": [
         1.91,
@@ -2925,9 +2925,9 @@
       ],
       "zone": "peristyle",
       "sourceIds": [
-        "acropolis-architecture"
+        "perseus-parthenon"
       ],
-      "certainty": "published-height-aggregate",
+      "certainty": "published-aggregate-spacing",
       "material": "marble"
     },
     {
@@ -2936,9 +2936,9 @@
       "label": "south column 15 capital",
       "shape": "echinus",
       "position": [
-        13.48,
+        14.405,
         11.73,
-        24.375
+        30.03
       ],
       "size": [
         2.063,
@@ -2947,9 +2947,9 @@
       ],
       "zone": "peristyle",
       "sourceIds": [
-        "ysma-parthenon"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "published-aggregate-spacing",
       "material": "marble"
     },
     {
@@ -2958,9 +2958,9 @@
       "label": "south column 15 abacus",
       "shape": "box",
       "position": [
-        13.48,
+        14.405,
         11.99,
-        24.375
+        30.03
       ],
       "size": [
         2.197,
@@ -2969,9 +2969,9 @@
       ],
       "zone": "peristyle",
       "sourceIds": [
-        "ysma-parthenon"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "published-aggregate-spacing",
       "material": "marble"
     },
     {
@@ -2980,9 +2980,9 @@
       "label": "north column 16 shaft",
       "shape": "shaft",
       "position": [
-        -13.48,
+        -14.405,
         6.315,
-        28.438
+        34.32
       ],
       "size": [
         1.91,
@@ -2991,9 +2991,9 @@
       ],
       "zone": "peristyle",
       "sourceIds": [
-        "acropolis-architecture"
+        "perseus-parthenon"
       ],
-      "certainty": "published-height-aggregate",
+      "certainty": "published-aggregate-spacing",
       "material": "marble"
     },
     {
@@ -3002,9 +3002,9 @@
       "label": "north column 16 capital",
       "shape": "echinus",
       "position": [
-        -13.48,
+        -14.405,
         11.73,
-        28.438
+        34.32
       ],
       "size": [
         2.063,
@@ -3013,9 +3013,9 @@
       ],
       "zone": "peristyle",
       "sourceIds": [
-        "ysma-parthenon"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "published-aggregate-spacing",
       "material": "marble"
     },
     {
@@ -3024,9 +3024,9 @@
       "label": "north column 16 abacus",
       "shape": "box",
       "position": [
-        -13.48,
+        -14.405,
         11.99,
-        28.438
+        34.32
       ],
       "size": [
         2.197,
@@ -3035,9 +3035,9 @@
       ],
       "zone": "peristyle",
       "sourceIds": [
-        "ysma-parthenon"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "published-aggregate-spacing",
       "material": "marble"
     },
     {
@@ -3046,9 +3046,9 @@
       "label": "south column 16 shaft",
       "shape": "shaft",
       "position": [
-        13.48,
+        14.405,
         6.315,
-        28.438
+        34.32
       ],
       "size": [
         1.91,
@@ -3057,9 +3057,9 @@
       ],
       "zone": "peristyle",
       "sourceIds": [
-        "acropolis-architecture"
+        "perseus-parthenon"
       ],
-      "certainty": "published-height-aggregate",
+      "certainty": "published-aggregate-spacing",
       "material": "marble"
     },
     {
@@ -3068,9 +3068,9 @@
       "label": "south column 16 capital",
       "shape": "echinus",
       "position": [
-        13.48,
+        14.405,
         11.73,
-        28.438
+        34.32
       ],
       "size": [
         2.063,
@@ -3079,9 +3079,9 @@
       ],
       "zone": "peristyle",
       "sourceIds": [
-        "ysma-parthenon"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "published-aggregate-spacing",
       "material": "marble"
     },
     {
@@ -3090,9 +3090,9 @@
       "label": "south column 16 abacus",
       "shape": "box",
       "position": [
-        13.48,
+        14.405,
         11.99,
-        28.438
+        34.32
       ],
       "size": [
         2.197,
@@ -3101,9 +3101,9 @@
       ],
       "zone": "peristyle",
       "sourceIds": [
-        "ysma-parthenon"
+        "perseus-parthenon"
       ],
-      "certainty": "schematic",
+      "certainty": "published-aggregate-spacing",
       "material": "marble"
     },
     {
@@ -6128,10 +6128,10 @@
       "position": [
         0,
         12.08,
-        -32.65
+        -33.93
       ],
       "size": [
-        29.5,
+        30.95,
         0.85,
         1.8
       ],
@@ -6194,10 +6194,10 @@
       "position": [
         0,
         12.08,
-        32.65
+        33.93
       ],
       "size": [
-        29.5,
+        30.95,
         0.85,
         1.8
       ],
@@ -6258,14 +6258,14 @@
       "label": "Longitudinal architrave",
       "shape": "box",
       "position": [
-        -13.68,
+        -14.6,
         12.08,
         0
       ],
       "size": [
         1.8,
         0.85,
-        66.6
+        68.2
       ],
       "zone": "exterior",
       "sourceIds": [
@@ -6280,14 +6280,14 @@
       "label": "Longitudinal cornice",
       "shape": "box",
       "position": [
-        -13.68,
+        -14.6,
         14.48,
         0
       ],
       "size": [
         2.5,
         0.42,
-        68.6
+        69.2
       ],
       "zone": "exterior",
       "sourceIds": [
@@ -6302,14 +6302,14 @@
       "label": "Longitudinal architrave",
       "shape": "box",
       "position": [
-        13.68,
+        14.6,
         12.08,
         0
       ],
       "size": [
         1.8,
         0.85,
-        66.6
+        68.2
       ],
       "zone": "exterior",
       "sourceIds": [
@@ -6324,14 +6324,14 @@
       "label": "Longitudinal cornice",
       "shape": "box",
       "position": [
-        13.68,
+        14.6,
         14.48,
         0
       ],
       "size": [
         2.5,
         0.42,
-        68.6
+        69.2
       ],
       "zone": "exterior",
       "sourceIds": [
@@ -6348,7 +6348,7 @@
       "position": [
         -13.464,
         13.29,
-        -32.76
+        -34.02
       ],
       "size": [
         1.512,
@@ -6370,7 +6370,7 @@
       "position": [
         -11.393,
         13.29,
-        -32.76
+        -34.02
       ],
       "size": [
         1.512,
@@ -6392,7 +6392,7 @@
       "position": [
         -9.321,
         13.29,
-        -32.76
+        -34.02
       ],
       "size": [
         1.512,
@@ -6414,7 +6414,7 @@
       "position": [
         -7.25,
         13.29,
-        -32.76
+        -34.02
       ],
       "size": [
         1.512,
@@ -6436,7 +6436,7 @@
       "position": [
         -5.179,
         13.29,
-        -32.76
+        -34.02
       ],
       "size": [
         1.512,
@@ -6458,7 +6458,7 @@
       "position": [
         -3.107,
         13.29,
-        -32.76
+        -34.02
       ],
       "size": [
         1.512,
@@ -6480,7 +6480,7 @@
       "position": [
         -1.036,
         13.29,
-        -32.76
+        -34.02
       ],
       "size": [
         1.512,
@@ -6502,7 +6502,7 @@
       "position": [
         1.036,
         13.29,
-        -32.76
+        -34.02
       ],
       "size": [
         1.512,
@@ -6524,7 +6524,7 @@
       "position": [
         3.107,
         13.29,
-        -32.76
+        -34.02
       ],
       "size": [
         1.512,
@@ -6546,7 +6546,7 @@
       "position": [
         5.179,
         13.29,
-        -32.76
+        -34.02
       ],
       "size": [
         1.512,
@@ -6568,7 +6568,7 @@
       "position": [
         7.25,
         13.29,
-        -32.76
+        -34.02
       ],
       "size": [
         1.512,
@@ -6590,7 +6590,7 @@
       "position": [
         9.321,
         13.29,
-        -32.76
+        -34.02
       ],
       "size": [
         1.512,
@@ -6612,7 +6612,7 @@
       "position": [
         11.393,
         13.29,
-        -32.76
+        -34.02
       ],
       "size": [
         1.512,
@@ -6634,7 +6634,7 @@
       "position": [
         13.464,
         13.29,
-        -32.76
+        -34.02
       ],
       "size": [
         1.512,
@@ -6656,7 +6656,7 @@
       "position": [
         -14.5,
         13.29,
-        -32.76
+        -34.02
       ],
       "size": [
         0.456,
@@ -6678,7 +6678,7 @@
       "position": [
         -12.429,
         13.29,
-        -32.76
+        -34.02
       ],
       "size": [
         0.456,
@@ -6700,7 +6700,7 @@
       "position": [
         -10.357,
         13.29,
-        -32.76
+        -34.02
       ],
       "size": [
         0.456,
@@ -6722,7 +6722,7 @@
       "position": [
         -8.286,
         13.29,
-        -32.76
+        -34.02
       ],
       "size": [
         0.456,
@@ -6744,7 +6744,7 @@
       "position": [
         -6.214,
         13.29,
-        -32.76
+        -34.02
       ],
       "size": [
         0.456,
@@ -6766,7 +6766,7 @@
       "position": [
         -4.143,
         13.29,
-        -32.76
+        -34.02
       ],
       "size": [
         0.456,
@@ -6788,7 +6788,7 @@
       "position": [
         -2.071,
         13.29,
-        -32.76
+        -34.02
       ],
       "size": [
         0.456,
@@ -6810,7 +6810,7 @@
       "position": [
         0,
         13.29,
-        -32.76
+        -34.02
       ],
       "size": [
         0.456,
@@ -6832,7 +6832,7 @@
       "position": [
         2.071,
         13.29,
-        -32.76
+        -34.02
       ],
       "size": [
         0.456,
@@ -6854,7 +6854,7 @@
       "position": [
         4.143,
         13.29,
-        -32.76
+        -34.02
       ],
       "size": [
         0.456,
@@ -6876,7 +6876,7 @@
       "position": [
         6.214,
         13.29,
-        -32.76
+        -34.02
       ],
       "size": [
         0.456,
@@ -6898,7 +6898,7 @@
       "position": [
         8.286,
         13.29,
-        -32.76
+        -34.02
       ],
       "size": [
         0.456,
@@ -6920,7 +6920,7 @@
       "position": [
         10.357,
         13.29,
-        -32.76
+        -34.02
       ],
       "size": [
         0.456,
@@ -6942,7 +6942,7 @@
       "position": [
         12.429,
         13.29,
-        -32.76
+        -34.02
       ],
       "size": [
         0.456,
@@ -6964,7 +6964,7 @@
       "position": [
         14.5,
         13.29,
-        -32.76
+        -34.02
       ],
       "size": [
         0.456,
@@ -6986,7 +6986,7 @@
       "position": [
         -13.464,
         13.29,
-        32.76
+        34.02
       ],
       "size": [
         1.512,
@@ -7008,7 +7008,7 @@
       "position": [
         -11.393,
         13.29,
-        32.76
+        34.02
       ],
       "size": [
         1.512,
@@ -7030,7 +7030,7 @@
       "position": [
         -9.321,
         13.29,
-        32.76
+        34.02
       ],
       "size": [
         1.512,
@@ -7052,7 +7052,7 @@
       "position": [
         -7.25,
         13.29,
-        32.76
+        34.02
       ],
       "size": [
         1.512,
@@ -7074,7 +7074,7 @@
       "position": [
         -5.179,
         13.29,
-        32.76
+        34.02
       ],
       "size": [
         1.512,
@@ -7096,7 +7096,7 @@
       "position": [
         -3.107,
         13.29,
-        32.76
+        34.02
       ],
       "size": [
         1.512,
@@ -7118,7 +7118,7 @@
       "position": [
         -1.036,
         13.29,
-        32.76
+        34.02
       ],
       "size": [
         1.512,
@@ -7140,7 +7140,7 @@
       "position": [
         1.036,
         13.29,
-        32.76
+        34.02
       ],
       "size": [
         1.512,
@@ -7162,7 +7162,7 @@
       "position": [
         3.107,
         13.29,
-        32.76
+        34.02
       ],
       "size": [
         1.512,
@@ -7184,7 +7184,7 @@
       "position": [
         5.179,
         13.29,
-        32.76
+        34.02
       ],
       "size": [
         1.512,
@@ -7206,7 +7206,7 @@
       "position": [
         7.25,
         13.29,
-        32.76
+        34.02
       ],
       "size": [
         1.512,
@@ -7228,7 +7228,7 @@
       "position": [
         9.321,
         13.29,
-        32.76
+        34.02
       ],
       "size": [
         1.512,
@@ -7250,7 +7250,7 @@
       "position": [
         11.393,
         13.29,
-        32.76
+        34.02
       ],
       "size": [
         1.512,
@@ -7272,7 +7272,7 @@
       "position": [
         13.464,
         13.29,
-        32.76
+        34.02
       ],
       "size": [
         1.512,
@@ -7294,7 +7294,7 @@
       "position": [
         -14.5,
         13.29,
-        32.76
+        34.02
       ],
       "size": [
         0.456,
@@ -7316,7 +7316,7 @@
       "position": [
         -12.429,
         13.29,
-        32.76
+        34.02
       ],
       "size": [
         0.456,
@@ -7338,7 +7338,7 @@
       "position": [
         -10.357,
         13.29,
-        32.76
+        34.02
       ],
       "size": [
         0.456,
@@ -7360,7 +7360,7 @@
       "position": [
         -8.286,
         13.29,
-        32.76
+        34.02
       ],
       "size": [
         0.456,
@@ -7382,7 +7382,7 @@
       "position": [
         -6.214,
         13.29,
-        32.76
+        34.02
       ],
       "size": [
         0.456,
@@ -7404,7 +7404,7 @@
       "position": [
         -4.143,
         13.29,
-        32.76
+        34.02
       ],
       "size": [
         0.456,
@@ -7426,7 +7426,7 @@
       "position": [
         -2.071,
         13.29,
-        32.76
+        34.02
       ],
       "size": [
         0.456,
@@ -7448,7 +7448,7 @@
       "position": [
         0,
         13.29,
-        32.76
+        34.02
       ],
       "size": [
         0.456,
@@ -7470,7 +7470,7 @@
       "position": [
         2.071,
         13.29,
-        32.76
+        34.02
       ],
       "size": [
         0.456,
@@ -7492,7 +7492,7 @@
       "position": [
         4.143,
         13.29,
-        32.76
+        34.02
       ],
       "size": [
         0.456,
@@ -7514,7 +7514,7 @@
       "position": [
         6.214,
         13.29,
-        32.76
+        34.02
       ],
       "size": [
         0.456,
@@ -7536,7 +7536,7 @@
       "position": [
         8.286,
         13.29,
-        32.76
+        34.02
       ],
       "size": [
         0.456,
@@ -7558,7 +7558,7 @@
       "position": [
         10.357,
         13.29,
-        32.76
+        34.02
       ],
       "size": [
         0.456,
@@ -7580,7 +7580,7 @@
       "position": [
         12.429,
         13.29,
-        32.76
+        34.02
       ],
       "size": [
         0.456,
@@ -7602,7 +7602,7 @@
       "position": [
         14.5,
         13.29,
-        32.76
+        34.02
       ],
       "size": [
         0.456,
@@ -7622,7 +7622,7 @@
       "label": "north metope 1",
       "shape": "box",
       "position": [
-        -13.88,
+        -14.78,
         13.29,
         -31.823
       ],
@@ -7644,7 +7644,7 @@
       "label": "north metope 2",
       "shape": "box",
       "position": [
-        -13.88,
+        -14.78,
         13.29,
         -29.77
       ],
@@ -7666,7 +7666,7 @@
       "label": "north metope 3",
       "shape": "box",
       "position": [
-        -13.88,
+        -14.78,
         13.29,
         -27.717
       ],
@@ -7688,7 +7688,7 @@
       "label": "north metope 4",
       "shape": "box",
       "position": [
-        -13.88,
+        -14.78,
         13.29,
         -25.664
       ],
@@ -7710,7 +7710,7 @@
       "label": "north metope 5",
       "shape": "box",
       "position": [
-        -13.88,
+        -14.78,
         13.29,
         -23.611
       ],
@@ -7732,7 +7732,7 @@
       "label": "north metope 6",
       "shape": "box",
       "position": [
-        -13.88,
+        -14.78,
         13.29,
         -21.558
       ],
@@ -7754,7 +7754,7 @@
       "label": "north metope 7",
       "shape": "box",
       "position": [
-        -13.88,
+        -14.78,
         13.29,
         -19.505
       ],
@@ -7776,7 +7776,7 @@
       "label": "north metope 8",
       "shape": "box",
       "position": [
-        -13.88,
+        -14.78,
         13.29,
         -17.452
       ],
@@ -7798,7 +7798,7 @@
       "label": "north metope 9",
       "shape": "box",
       "position": [
-        -13.88,
+        -14.78,
         13.29,
         -15.398
       ],
@@ -7820,7 +7820,7 @@
       "label": "north metope 10",
       "shape": "box",
       "position": [
-        -13.88,
+        -14.78,
         13.29,
         -13.345
       ],
@@ -7842,7 +7842,7 @@
       "label": "north metope 11",
       "shape": "box",
       "position": [
-        -13.88,
+        -14.78,
         13.29,
         -11.292
       ],
@@ -7864,7 +7864,7 @@
       "label": "north metope 12",
       "shape": "box",
       "position": [
-        -13.88,
+        -14.78,
         13.29,
         -9.239
       ],
@@ -7886,7 +7886,7 @@
       "label": "north metope 13",
       "shape": "box",
       "position": [
-        -13.88,
+        -14.78,
         13.29,
         -7.186
       ],
@@ -7908,7 +7908,7 @@
       "label": "north metope 14",
       "shape": "box",
       "position": [
-        -13.88,
+        -14.78,
         13.29,
         -5.133
       ],
@@ -7930,7 +7930,7 @@
       "label": "north metope 15",
       "shape": "box",
       "position": [
-        -13.88,
+        -14.78,
         13.29,
         -3.08
       ],
@@ -7952,7 +7952,7 @@
       "label": "north metope 16",
       "shape": "box",
       "position": [
-        -13.88,
+        -14.78,
         13.29,
         -1.027
       ],
@@ -7974,7 +7974,7 @@
       "label": "north metope 17",
       "shape": "box",
       "position": [
-        -13.88,
+        -14.78,
         13.29,
         1.027
       ],
@@ -7996,7 +7996,7 @@
       "label": "north metope 18",
       "shape": "box",
       "position": [
-        -13.88,
+        -14.78,
         13.29,
         3.08
       ],
@@ -8018,7 +8018,7 @@
       "label": "north metope 19",
       "shape": "box",
       "position": [
-        -13.88,
+        -14.78,
         13.29,
         5.133
       ],
@@ -8040,7 +8040,7 @@
       "label": "north metope 20",
       "shape": "box",
       "position": [
-        -13.88,
+        -14.78,
         13.29,
         7.186
       ],
@@ -8062,7 +8062,7 @@
       "label": "north metope 21",
       "shape": "box",
       "position": [
-        -13.88,
+        -14.78,
         13.29,
         9.239
       ],
@@ -8084,7 +8084,7 @@
       "label": "north metope 22",
       "shape": "box",
       "position": [
-        -13.88,
+        -14.78,
         13.29,
         11.292
       ],
@@ -8106,7 +8106,7 @@
       "label": "north metope 23",
       "shape": "box",
       "position": [
-        -13.88,
+        -14.78,
         13.29,
         13.345
       ],
@@ -8128,7 +8128,7 @@
       "label": "north metope 24",
       "shape": "box",
       "position": [
-        -13.88,
+        -14.78,
         13.29,
         15.398
       ],
@@ -8150,7 +8150,7 @@
       "label": "north metope 25",
       "shape": "box",
       "position": [
-        -13.88,
+        -14.78,
         13.29,
         17.452
       ],
@@ -8172,7 +8172,7 @@
       "label": "north metope 26",
       "shape": "box",
       "position": [
-        -13.88,
+        -14.78,
         13.29,
         19.505
       ],
@@ -8194,7 +8194,7 @@
       "label": "north metope 27",
       "shape": "box",
       "position": [
-        -13.88,
+        -14.78,
         13.29,
         21.558
       ],
@@ -8216,7 +8216,7 @@
       "label": "north metope 28",
       "shape": "box",
       "position": [
-        -13.88,
+        -14.78,
         13.29,
         23.611
       ],
@@ -8238,7 +8238,7 @@
       "label": "north metope 29",
       "shape": "box",
       "position": [
-        -13.88,
+        -14.78,
         13.29,
         25.664
       ],
@@ -8260,7 +8260,7 @@
       "label": "north metope 30",
       "shape": "box",
       "position": [
-        -13.88,
+        -14.78,
         13.29,
         27.717
       ],
@@ -8282,7 +8282,7 @@
       "label": "north metope 31",
       "shape": "box",
       "position": [
-        -13.88,
+        -14.78,
         13.29,
         29.77
       ],
@@ -8304,7 +8304,7 @@
       "label": "north metope 32",
       "shape": "box",
       "position": [
-        -13.88,
+        -14.78,
         13.29,
         31.823
       ],
@@ -8326,7 +8326,7 @@
       "label": "north triglyph 1",
       "shape": "box",
       "position": [
-        -13.88,
+        -14.78,
         13.29,
         -32.85
       ],
@@ -8348,7 +8348,7 @@
       "label": "north triglyph 2",
       "shape": "box",
       "position": [
-        -13.88,
+        -14.78,
         13.29,
         -30.797
       ],
@@ -8370,7 +8370,7 @@
       "label": "north triglyph 3",
       "shape": "box",
       "position": [
-        -13.88,
+        -14.78,
         13.29,
         -28.744
       ],
@@ -8392,7 +8392,7 @@
       "label": "north triglyph 4",
       "shape": "box",
       "position": [
-        -13.88,
+        -14.78,
         13.29,
         -26.691
       ],
@@ -8414,7 +8414,7 @@
       "label": "north triglyph 5",
       "shape": "box",
       "position": [
-        -13.88,
+        -14.78,
         13.29,
         -24.638
       ],
@@ -8436,7 +8436,7 @@
       "label": "north triglyph 6",
       "shape": "box",
       "position": [
-        -13.88,
+        -14.78,
         13.29,
         -22.584
       ],
@@ -8458,7 +8458,7 @@
       "label": "north triglyph 7",
       "shape": "box",
       "position": [
-        -13.88,
+        -14.78,
         13.29,
         -20.531
       ],
@@ -8480,7 +8480,7 @@
       "label": "north triglyph 8",
       "shape": "box",
       "position": [
-        -13.88,
+        -14.78,
         13.29,
         -18.478
       ],
@@ -8502,7 +8502,7 @@
       "label": "north triglyph 9",
       "shape": "box",
       "position": [
-        -13.88,
+        -14.78,
         13.29,
         -16.425
       ],
@@ -8524,7 +8524,7 @@
       "label": "north triglyph 10",
       "shape": "box",
       "position": [
-        -13.88,
+        -14.78,
         13.29,
         -14.372
       ],
@@ -8546,7 +8546,7 @@
       "label": "north triglyph 11",
       "shape": "box",
       "position": [
-        -13.88,
+        -14.78,
         13.29,
         -12.319
       ],
@@ -8568,7 +8568,7 @@
       "label": "north triglyph 12",
       "shape": "box",
       "position": [
-        -13.88,
+        -14.78,
         13.29,
         -10.266
       ],
@@ -8590,7 +8590,7 @@
       "label": "north triglyph 13",
       "shape": "box",
       "position": [
-        -13.88,
+        -14.78,
         13.29,
         -8.212
       ],
@@ -8612,7 +8612,7 @@
       "label": "north triglyph 14",
       "shape": "box",
       "position": [
-        -13.88,
+        -14.78,
         13.29,
         -6.159
       ],
@@ -8634,7 +8634,7 @@
       "label": "north triglyph 15",
       "shape": "box",
       "position": [
-        -13.88,
+        -14.78,
         13.29,
         -4.106
       ],
@@ -8656,7 +8656,7 @@
       "label": "north triglyph 16",
       "shape": "box",
       "position": [
-        -13.88,
+        -14.78,
         13.29,
         -2.053
       ],
@@ -8678,7 +8678,7 @@
       "label": "north triglyph 17",
       "shape": "box",
       "position": [
-        -13.88,
+        -14.78,
         13.29,
         0
       ],
@@ -8700,7 +8700,7 @@
       "label": "north triglyph 18",
       "shape": "box",
       "position": [
-        -13.88,
+        -14.78,
         13.29,
         2.053
       ],
@@ -8722,7 +8722,7 @@
       "label": "north triglyph 19",
       "shape": "box",
       "position": [
-        -13.88,
+        -14.78,
         13.29,
         4.106
       ],
@@ -8744,7 +8744,7 @@
       "label": "north triglyph 20",
       "shape": "box",
       "position": [
-        -13.88,
+        -14.78,
         13.29,
         6.159
       ],
@@ -8766,7 +8766,7 @@
       "label": "north triglyph 21",
       "shape": "box",
       "position": [
-        -13.88,
+        -14.78,
         13.29,
         8.212
       ],
@@ -8788,7 +8788,7 @@
       "label": "north triglyph 22",
       "shape": "box",
       "position": [
-        -13.88,
+        -14.78,
         13.29,
         10.266
       ],
@@ -8810,7 +8810,7 @@
       "label": "north triglyph 23",
       "shape": "box",
       "position": [
-        -13.88,
+        -14.78,
         13.29,
         12.319
       ],
@@ -8832,7 +8832,7 @@
       "label": "north triglyph 24",
       "shape": "box",
       "position": [
-        -13.88,
+        -14.78,
         13.29,
         14.372
       ],
@@ -8854,7 +8854,7 @@
       "label": "north triglyph 25",
       "shape": "box",
       "position": [
-        -13.88,
+        -14.78,
         13.29,
         16.425
       ],
@@ -8876,7 +8876,7 @@
       "label": "north triglyph 26",
       "shape": "box",
       "position": [
-        -13.88,
+        -14.78,
         13.29,
         18.478
       ],
@@ -8898,7 +8898,7 @@
       "label": "north triglyph 27",
       "shape": "box",
       "position": [
-        -13.88,
+        -14.78,
         13.29,
         20.531
       ],
@@ -8920,7 +8920,7 @@
       "label": "north triglyph 28",
       "shape": "box",
       "position": [
-        -13.88,
+        -14.78,
         13.29,
         22.584
       ],
@@ -8942,7 +8942,7 @@
       "label": "north triglyph 29",
       "shape": "box",
       "position": [
-        -13.88,
+        -14.78,
         13.29,
         24.638
       ],
@@ -8964,7 +8964,7 @@
       "label": "north triglyph 30",
       "shape": "box",
       "position": [
-        -13.88,
+        -14.78,
         13.29,
         26.691
       ],
@@ -8986,7 +8986,7 @@
       "label": "north triglyph 31",
       "shape": "box",
       "position": [
-        -13.88,
+        -14.78,
         13.29,
         28.744
       ],
@@ -9008,7 +9008,7 @@
       "label": "north triglyph 32",
       "shape": "box",
       "position": [
-        -13.88,
+        -14.78,
         13.29,
         30.797
       ],
@@ -9030,7 +9030,7 @@
       "label": "north triglyph 33",
       "shape": "box",
       "position": [
-        -13.88,
+        -14.78,
         13.29,
         32.85
       ],
@@ -9052,7 +9052,7 @@
       "label": "south metope 1",
       "shape": "box",
       "position": [
-        13.88,
+        14.78,
         13.29,
         -31.823
       ],
@@ -9074,7 +9074,7 @@
       "label": "south metope 2",
       "shape": "box",
       "position": [
-        13.88,
+        14.78,
         13.29,
         -29.77
       ],
@@ -9096,7 +9096,7 @@
       "label": "south metope 3",
       "shape": "box",
       "position": [
-        13.88,
+        14.78,
         13.29,
         -27.717
       ],
@@ -9118,7 +9118,7 @@
       "label": "south metope 4",
       "shape": "box",
       "position": [
-        13.88,
+        14.78,
         13.29,
         -25.664
       ],
@@ -9140,7 +9140,7 @@
       "label": "south metope 5",
       "shape": "box",
       "position": [
-        13.88,
+        14.78,
         13.29,
         -23.611
       ],
@@ -9162,7 +9162,7 @@
       "label": "south metope 6",
       "shape": "box",
       "position": [
-        13.88,
+        14.78,
         13.29,
         -21.558
       ],
@@ -9184,7 +9184,7 @@
       "label": "south metope 7",
       "shape": "box",
       "position": [
-        13.88,
+        14.78,
         13.29,
         -19.505
       ],
@@ -9206,7 +9206,7 @@
       "label": "south metope 8",
       "shape": "box",
       "position": [
-        13.88,
+        14.78,
         13.29,
         -17.452
       ],
@@ -9228,7 +9228,7 @@
       "label": "south metope 9",
       "shape": "box",
       "position": [
-        13.88,
+        14.78,
         13.29,
         -15.398
       ],
@@ -9250,7 +9250,7 @@
       "label": "south metope 10",
       "shape": "box",
       "position": [
-        13.88,
+        14.78,
         13.29,
         -13.345
       ],
@@ -9272,7 +9272,7 @@
       "label": "south metope 11",
       "shape": "box",
       "position": [
-        13.88,
+        14.78,
         13.29,
         -11.292
       ],
@@ -9294,7 +9294,7 @@
       "label": "south metope 12",
       "shape": "box",
       "position": [
-        13.88,
+        14.78,
         13.29,
         -9.239
       ],
@@ -9316,7 +9316,7 @@
       "label": "south metope 13",
       "shape": "box",
       "position": [
-        13.88,
+        14.78,
         13.29,
         -7.186
       ],
@@ -9338,7 +9338,7 @@
       "label": "south metope 14",
       "shape": "box",
       "position": [
-        13.88,
+        14.78,
         13.29,
         -5.133
       ],
@@ -9360,7 +9360,7 @@
       "label": "south metope 15",
       "shape": "box",
       "position": [
-        13.88,
+        14.78,
         13.29,
         -3.08
       ],
@@ -9382,7 +9382,7 @@
       "label": "south metope 16",
       "shape": "box",
       "position": [
-        13.88,
+        14.78,
         13.29,
         -1.027
       ],
@@ -9404,7 +9404,7 @@
       "label": "south metope 17",
       "shape": "box",
       "position": [
-        13.88,
+        14.78,
         13.29,
         1.027
       ],
@@ -9426,7 +9426,7 @@
       "label": "south metope 18",
       "shape": "box",
       "position": [
-        13.88,
+        14.78,
         13.29,
         3.08
       ],
@@ -9448,7 +9448,7 @@
       "label": "south metope 19",
       "shape": "box",
       "position": [
-        13.88,
+        14.78,
         13.29,
         5.133
       ],
@@ -9470,7 +9470,7 @@
       "label": "south metope 20",
       "shape": "box",
       "position": [
-        13.88,
+        14.78,
         13.29,
         7.186
       ],
@@ -9492,7 +9492,7 @@
       "label": "south metope 21",
       "shape": "box",
       "position": [
-        13.88,
+        14.78,
         13.29,
         9.239
       ],
@@ -9514,7 +9514,7 @@
       "label": "south metope 22",
       "shape": "box",
       "position": [
-        13.88,
+        14.78,
         13.29,
         11.292
       ],
@@ -9536,7 +9536,7 @@
       "label": "south metope 23",
       "shape": "box",
       "position": [
-        13.88,
+        14.78,
         13.29,
         13.345
       ],
@@ -9558,7 +9558,7 @@
       "label": "south metope 24",
       "shape": "box",
       "position": [
-        13.88,
+        14.78,
         13.29,
         15.398
       ],
@@ -9580,7 +9580,7 @@
       "label": "south metope 25",
       "shape": "box",
       "position": [
-        13.88,
+        14.78,
         13.29,
         17.452
       ],
@@ -9602,7 +9602,7 @@
       "label": "south metope 26",
       "shape": "box",
       "position": [
-        13.88,
+        14.78,
         13.29,
         19.505
       ],
@@ -9624,7 +9624,7 @@
       "label": "south metope 27",
       "shape": "box",
       "position": [
-        13.88,
+        14.78,
         13.29,
         21.558
       ],
@@ -9646,7 +9646,7 @@
       "label": "south metope 28",
       "shape": "box",
       "position": [
-        13.88,
+        14.78,
         13.29,
         23.611
       ],
@@ -9668,7 +9668,7 @@
       "label": "south metope 29",
       "shape": "box",
       "position": [
-        13.88,
+        14.78,
         13.29,
         25.664
       ],
@@ -9690,7 +9690,7 @@
       "label": "south metope 30",
       "shape": "box",
       "position": [
-        13.88,
+        14.78,
         13.29,
         27.717
       ],
@@ -9712,7 +9712,7 @@
       "label": "south metope 31",
       "shape": "box",
       "position": [
-        13.88,
+        14.78,
         13.29,
         29.77
       ],
@@ -9734,7 +9734,7 @@
       "label": "south metope 32",
       "shape": "box",
       "position": [
-        13.88,
+        14.78,
         13.29,
         31.823
       ],
@@ -9756,7 +9756,7 @@
       "label": "south triglyph 1",
       "shape": "box",
       "position": [
-        13.88,
+        14.78,
         13.29,
         -32.85
       ],
@@ -9778,7 +9778,7 @@
       "label": "south triglyph 2",
       "shape": "box",
       "position": [
-        13.88,
+        14.78,
         13.29,
         -30.797
       ],
@@ -9800,7 +9800,7 @@
       "label": "south triglyph 3",
       "shape": "box",
       "position": [
-        13.88,
+        14.78,
         13.29,
         -28.744
       ],
@@ -9822,7 +9822,7 @@
       "label": "south triglyph 4",
       "shape": "box",
       "position": [
-        13.88,
+        14.78,
         13.29,
         -26.691
       ],
@@ -9844,7 +9844,7 @@
       "label": "south triglyph 5",
       "shape": "box",
       "position": [
-        13.88,
+        14.78,
         13.29,
         -24.638
       ],
@@ -9866,7 +9866,7 @@
       "label": "south triglyph 6",
       "shape": "box",
       "position": [
-        13.88,
+        14.78,
         13.29,
         -22.584
       ],
@@ -9888,7 +9888,7 @@
       "label": "south triglyph 7",
       "shape": "box",
       "position": [
-        13.88,
+        14.78,
         13.29,
         -20.531
       ],
@@ -9910,7 +9910,7 @@
       "label": "south triglyph 8",
       "shape": "box",
       "position": [
-        13.88,
+        14.78,
         13.29,
         -18.478
       ],
@@ -9932,7 +9932,7 @@
       "label": "south triglyph 9",
       "shape": "box",
       "position": [
-        13.88,
+        14.78,
         13.29,
         -16.425
       ],
@@ -9954,7 +9954,7 @@
       "label": "south triglyph 10",
       "shape": "box",
       "position": [
-        13.88,
+        14.78,
         13.29,
         -14.372
       ],
@@ -9976,7 +9976,7 @@
       "label": "south triglyph 11",
       "shape": "box",
       "position": [
-        13.88,
+        14.78,
         13.29,
         -12.319
       ],
@@ -9998,7 +9998,7 @@
       "label": "south triglyph 12",
       "shape": "box",
       "position": [
-        13.88,
+        14.78,
         13.29,
         -10.266
       ],
@@ -10020,7 +10020,7 @@
       "label": "south triglyph 13",
       "shape": "box",
       "position": [
-        13.88,
+        14.78,
         13.29,
         -8.212
       ],
@@ -10042,7 +10042,7 @@
       "label": "south triglyph 14",
       "shape": "box",
       "position": [
-        13.88,
+        14.78,
         13.29,
         -6.159
       ],
@@ -10064,7 +10064,7 @@
       "label": "south triglyph 15",
       "shape": "box",
       "position": [
-        13.88,
+        14.78,
         13.29,
         -4.106
       ],
@@ -10086,7 +10086,7 @@
       "label": "south triglyph 16",
       "shape": "box",
       "position": [
-        13.88,
+        14.78,
         13.29,
         -2.053
       ],
@@ -10108,7 +10108,7 @@
       "label": "south triglyph 17",
       "shape": "box",
       "position": [
-        13.88,
+        14.78,
         13.29,
         0
       ],
@@ -10130,7 +10130,7 @@
       "label": "south triglyph 18",
       "shape": "box",
       "position": [
-        13.88,
+        14.78,
         13.29,
         2.053
       ],
@@ -10152,7 +10152,7 @@
       "label": "south triglyph 19",
       "shape": "box",
       "position": [
-        13.88,
+        14.78,
         13.29,
         4.106
       ],
@@ -10174,7 +10174,7 @@
       "label": "south triglyph 20",
       "shape": "box",
       "position": [
-        13.88,
+        14.78,
         13.29,
         6.159
       ],
@@ -10196,7 +10196,7 @@
       "label": "south triglyph 21",
       "shape": "box",
       "position": [
-        13.88,
+        14.78,
         13.29,
         8.212
       ],
@@ -10218,7 +10218,7 @@
       "label": "south triglyph 22",
       "shape": "box",
       "position": [
-        13.88,
+        14.78,
         13.29,
         10.266
       ],
@@ -10240,7 +10240,7 @@
       "label": "south triglyph 23",
       "shape": "box",
       "position": [
-        13.88,
+        14.78,
         13.29,
         12.319
       ],
@@ -10262,7 +10262,7 @@
       "label": "south triglyph 24",
       "shape": "box",
       "position": [
-        13.88,
+        14.78,
         13.29,
         14.372
       ],
@@ -10284,7 +10284,7 @@
       "label": "south triglyph 25",
       "shape": "box",
       "position": [
-        13.88,
+        14.78,
         13.29,
         16.425
       ],
@@ -10306,7 +10306,7 @@
       "label": "south triglyph 26",
       "shape": "box",
       "position": [
-        13.88,
+        14.78,
         13.29,
         18.478
       ],
@@ -10328,7 +10328,7 @@
       "label": "south triglyph 27",
       "shape": "box",
       "position": [
-        13.88,
+        14.78,
         13.29,
         20.531
       ],
@@ -10350,7 +10350,7 @@
       "label": "south triglyph 28",
       "shape": "box",
       "position": [
-        13.88,
+        14.78,
         13.29,
         22.584
       ],
@@ -10372,7 +10372,7 @@
       "label": "south triglyph 29",
       "shape": "box",
       "position": [
-        13.88,
+        14.78,
         13.29,
         24.638
       ],
@@ -10394,7 +10394,7 @@
       "label": "south triglyph 30",
       "shape": "box",
       "position": [
-        13.88,
+        14.78,
         13.29,
         26.691
       ],
@@ -10416,7 +10416,7 @@
       "label": "south triglyph 31",
       "shape": "box",
       "position": [
-        13.88,
+        14.78,
         13.29,
         28.744
       ],
@@ -10438,7 +10438,7 @@
       "label": "south triglyph 32",
       "shape": "box",
       "position": [
-        13.88,
+        14.78,
         13.29,
         30.797
       ],
@@ -10460,7 +10460,7 @@
       "label": "south triglyph 33",
       "shape": "box",
       "position": [
-        13.88,
+        14.78,
         13.29,
         32.85
       ],

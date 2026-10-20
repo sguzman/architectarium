@@ -62,6 +62,13 @@ export function buildParthenon(inventory){
   if(record.shape==='roof'||record.shape==='pediment')roofs.push(mesh);
   if(record.id.includes('/cella/')&&record.shape==='box'){walls.push(mesh);colliders.push(new THREE.Box3().setFromObject(mesh));}
  }
- return {root,pickables,byId,roofs,walls,colliders,materials:palette,texture,modelCount:byId.size,
-  dispose(){const seen=new Set();for(const p of pickables){if(!seen.has(p.geometry)){p.geometry.dispose();seen.add(p.geometry);}}ground.geometry.dispose();texture.dispose();for(const m of Object.values(palette))m.dispose();}};
+ // Static atmospheric points; no continuous rendering or animation is required.
+ const particles=new Float32Array(200*3);let state=109;
+ const random=()=>((state=(Math.imul(state,1664525)+1013904223)>>>0)/4294967296);
+ for(let i=0;i<200;i++){particles[i*3]=(random()-.5)*36;particles[i*3+1]=2+random()*15;particles[i*3+2]=(random()-.5)*66;}
+ const dustGeometry=new THREE.BufferGeometry();dustGeometry.setAttribute('position',new THREE.BufferAttribute(particles,3));
+ const dust=new THREE.Points(dustGeometry,new THREE.PointsMaterial({color:0xffe7c9,size:.11,transparent:true,opacity:.42,depthWrite:false}));
+ dust.visible=false;root.add(dust);
+ return {root,pickables,byId,roofs,walls,colliders,dust,materials:palette,texture,modelCount:byId.size,
+  dispose(){const seen=new Set();for(const p of pickables){if(!seen.has(p.geometry)){p.geometry.dispose();seen.add(p.geometry);}}ground.geometry.dispose();dust.geometry.dispose();dust.material.dispose();texture.dispose();for(const m of Object.values(palette))m.dispose();}};
 }
