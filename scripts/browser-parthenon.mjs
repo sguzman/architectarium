@@ -27,6 +27,12 @@ try{
  await page.locator('#reset').click();
  assert.equal(await page.locator('#roof').getAttribute('aria-pressed'),'false');
  assert.equal(await page.locator('#cutaway').getAttribute('aria-pressed'),'false');
+ await page.locator('#walk').click();
+ await page.waitForFunction(()=>document.querySelector('#walk')?.getAttribute('aria-pressed')==='true',null,{timeout:8000});
+ await page.keyboard.down('w');await page.waitForTimeout(180);await page.keyboard.up('w');
+ await page.keyboard.press('Escape');
+ await page.waitForFunction(()=>document.querySelector('#walk')?.getAttribute('aria-pressed')==='false',null,{timeout:8000});
+ await page.locator('.part-row').first().click();
  await page.screenshot({path:'qa-parthenon/desktop.png',fullPage:true});
  assert.ok(statSync('qa-parthenon/desktop.png').size>25000,'Desktop scene screenshot is small');
  await page.setViewportSize({width:390,height:844});

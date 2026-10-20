@@ -6,6 +6,7 @@ export function buildParthenon(inventory){
   light:new THREE.MeshStandardMaterial({color:0xe9d9b9,roughness:.80}),
   roof:new THREE.MeshStandardMaterial({color:0xc1b19b,roughness:.87,side:THREE.DoubleSide}),
   shadow:new THREE.MeshStandardMaterial({color:0xbca88e,roughness:.9}),
+  pediment:new THREE.MeshStandardMaterial({color:0xe8d5ae,roughness:.87,side:THREE.DoubleSide}),
   ground:new THREE.MeshStandardMaterial({color:0x8d8d75,roughness:1})
  };
  // All surface variation is procedural, independently authored, and reproducible.
@@ -52,7 +53,7 @@ export function buildParthenon(inventory){
   throw Error('Unsupported geometry '+record.shape);
  }
  for(const record of inventory){
-  const mat=palette[record.material]||palette.marble,mesh=new THREE.Mesh(geometry(record),mat);
+  const mat=record.shape==='pediment'?palette.pediment:(palette[record.material]||palette.marble),mesh=new THREE.Mesh(geometry(record),mat);
   mesh.position.set(...record.position);
   mesh.userData.instanceId=record.id;mesh.userData.typeId=record.typeId;mesh.userData.label=record.label;
   mesh.castShadow=true;mesh.receiveShadow=true;

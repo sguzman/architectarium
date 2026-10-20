@@ -15,7 +15,7 @@ try{
  renderer.setPixelRatio(Math.min(devicePixelRatio||1,1.5));renderer.shadowMap.enabled=true;renderer.shadowMap.type=THREE.PCFSoftShadowMap;
  renderer.toneMapping=THREE.ACESFilmicToneMapping;renderer.toneMappingExposure=1.07;
  const scene=new THREE.Scene();scene.background=new THREE.Color(0xa7b6b5);scene.fog=new THREE.FogExp2(0xabb7b4,.0034);
- const camera=new THREE.PerspectiveCamera(53,1,.10,500);const home=new THREE.Vector3(55,32,-83),center=new THREE.Vector3(0,8,0);
+ const camera=new THREE.PerspectiveCamera(53,1,.10,500);const home=new THREE.Vector3(41,26,-64),smallHome=new THREE.Vector3(55,32,-83),wideHome=home.clone(),center=new THREE.Vector3(0,8,0);
  camera.position.copy(home);
  const orbit=new OrbitControls(camera,canvas);orbit.target.copy(center);orbit.enableDamping=true;orbit.dampingFactor=.075;orbit.minDistance=3;orbit.maxDistance=180;orbit.maxPolarAngle=Math.PI*.495;orbit.update();
  const walk=new PointerLockControls(camera,canvas);
@@ -47,7 +47,7 @@ try{
   if(walking&&keys.size)draw();
  }
  orbit.addEventListener('change',draw);walk.addEventListener('change',draw);
- function resize(){const w=stage.clientWidth,h=stage.clientHeight;if(!w||!h)return;camera.aspect=w/h;camera.updateProjectionMatrix();renderer.setSize(w,h,false);draw();}
+ let sizeMode=null;function resize(){const w=stage.clientWidth,h=stage.clientHeight;if(!w||!h)return;const next=w<650?'compact':'wide';if(next!==sizeMode&&!walking){sizeMode=next;home.copy(next==='compact'?smallHome:wideHome);camera.position.copy(home);orbit.target.copy(center);orbit.update();}camera.aspect=w/h;camera.updateProjectionMatrix();renderer.setSize(w,h,false);draw();}
  new ResizeObserver(resize).observe(stage);resize();
  function resetCamera(){walking=false;orbit.enabled=true;stage.classList.remove('walking');keys.clear();camera.position.copy(home);orbit.target.copy(center);orbit.update();press('orbit',true);press('walk',false);$('modeLabel').textContent='ORBIT / DRAG TO ROTATE';draw();}
  walk.addEventListener('lock',()=>{walking=true;stage.classList.add('walking');press('orbit',false);press('walk',true);$('modeLabel').textContent='WASD / MOUSE · ESC TO EXIT';draw();});
@@ -59,7 +59,7 @@ try{
  $('cutaway').addEventListener('click',()=>{hiddenWalls=!hiddenWalls;for(const mesh of model.walls)mesh.visible=!hiddenWalls;press('cutaway',hiddenWalls,'Restore walls','Cutaway');if(hiddenWalls&&!hiddenRoof)$('roof').click();draw();});
  function setSun(h){const t=(h-7)/12*Math.PI,a=(h-12)/12*Math.PI;light.position.set(Math.sin(a)*85,Math.max(7,Math.sin(t)*105),-Math.cos(a)*75);light.intensity=.8+2.7*Math.max(.1,Math.sin(t));$('hour').textContent=String(Math.floor(h)).padStart(2,'0')+':'+(h%1?'30':'00');draw();}
  $('sun').addEventListener('input',e=>setSun(Number(e.target.value)));setSun(15);
- function clearSelection(){if(selected){selected.material=material;selected=null;material=null;}activeId=null;draw();}
+ function clearSelection(){if(selected){const highlight=selected.material;selected.material=material;if(highlight!==material)highlight.dispose();selected=null;material=null;}activeId=null;draw();}
  function select(id){
   const part=records.get(id),mesh=model.byId.get(id);if(!part||!mesh)return;
   clearSelection();activeId=id;selected=mesh;material=mesh.material;
