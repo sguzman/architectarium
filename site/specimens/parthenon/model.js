@@ -1,6 +1,8 @@
 import * as THREE from 'three';
+import {createRealisticMaterials} from './materials.js';
 export async function buildParthenon(inventory,onBatch=()=>{}){
  const root=new THREE.Group(),pickables=[],byId=new Map(),roofs=[],walls=[],colliders=[],shaftColliders=[];
+ let realisticPack=null,activeMaterialMode='study';
  const palette={
   marble:new THREE.MeshStandardMaterial({color:0xdfceb2,roughness:.83,metalness:0}),
   light:new THREE.MeshStandardMaterial({color:0xe9d9b9,roughness:.80}),
@@ -93,6 +95,7 @@ export async function buildParthenon(inventory,onBatch=()=>{}){
   const mat=record.shape==='pediment'?palette.pediment:(palette[record.material]||palette.marble),mesh=new THREE.Mesh(geometry(record),mat);
   mesh.position.set(...record.position);
   mesh.userData.instanceId=record.id;mesh.userData.typeId=record.typeId;mesh.userData.label=record.label;
+  mesh.userData.surface=record.shape==='pediment'?'pediment':(record.material||'marble');
   mesh.castShadow=true;mesh.receiveShadow=true;
   // Static semantic picking; each physical instance retains its own unique ID.
   root.add(mesh);pickables.push(mesh);byId.set(record.id,mesh);
@@ -117,6 +120,17 @@ export async function buildParthenon(inventory,onBatch=()=>{}){
  const dustGeometry=new THREE.BufferGeometry();dustGeometry.setAttribute('position',new THREE.BufferAttribute(particles,3));
  const dust=new THREE.Points(dustGeometry,new THREE.PointsMaterial({color:0xffe7c9,size:.11,transparent:true,opacity:.42,depthWrite:false}));
  dust.visible=false;root.add(dust);
+ function setMaterialMode(mode){
+  if(mode!=='study'&&mode!=='realistic')return;
+  if(mode==='realistic'&&!realisticPack)realisticPack=createRealisticMaterials();
+  const selectedPalette=mode==='realistic'?realisticPack.materials:palette;
+  for(const mesh of pickables){
+   mesh.material=selectedPalette[mesh.userData.surface]||selectedPalette.marble;
+   for(const child of mesh.children)if(child.isMesh)child.material=selectedPalette.light;
+  }
+  activeMaterialMode=mode;
+ }
  return {root,pickables,byId,roofs,walls,colliders,shaftColliders,dust,materials:palette,texture,modelCount:byId.size,
-  dispose(){const seen=new Set();for(const p of pickables){p.traverse(node=>{if(node.geometry&&!seen.has(node.geometry)){node.geometry.dispose();seen.add(node.geometry);}});}ground.geometry.dispose();rockGeo.dispose();stoneScatter.dispose();dust.geometry.dispose();dust.material.dispose();texture.dispose();for(const m of Object.values(palette))m.dispose();}};
+  setMaterialMode,getMaterialMode:()=>activeMaterialMode,getRealisticTextureCount:()=>realisticPack?.textureCount??0,
+  dispose(){const seen=new Set();for(const p of pickables){p.traverse(node=>{if(node.geometry&&!seen.has(node.geometry)){node.geometry.dispose();seen.add(node.geometry);}});}ground.geometry.dispose();rockGeo.dispose();stoneScatter.dispose();dust.geometry.dispose();dust.material.dispose();texture.dispose();realisticPack?.dispose();for(const m of Object.values(palette))m.dispose();}};
 }

@@ -72,6 +72,29 @@ try{
  function setSun(h){const t=(h-7)/12*Math.PI,a=(h-12)/12*Math.PI;light.position.set(Math.sin(a)*85,Math.max(7,Math.sin(t)*105),-Math.cos(a)*75);light.intensity=.8+2.7*Math.max(.1,Math.sin(t));$('hour').textContent=String(Math.floor(h)).padStart(2,'0')+':'+(h%1?'30':'00');draw();}
  $('sun').addEventListener('input',e=>setSun(Number(e.target.value)));setSun(15);
  $('atmos').addEventListener('click',()=>{const enabled=!model.dust.visible;model.dust.visible=enabled;scene.fog=enabled?new THREE.FogExp2(0xabb7b4,.0048):new THREE.FogExp2(0xabb7b4,.0034);press('atmos',enabled,'Clear atmosphere','Atmosphere');draw();});
+ const materialKey='architectarium.parthenon.material-mode';
+ function materialPreference(){try{return localStorage.getItem(materialKey)==='realistic'?'realistic':'study';}catch{return 'study';}}
+ function applyMaterialMode(mode){
+  const previousId=activeId;
+  clearSelection();
+  model.setMaterialMode(mode);
+  const realistic=mode==='realistic',button=$('materials');
+  button.setAttribute('aria-pressed',String(realistic));
+  button.classList.toggle('active',realistic);
+  button.textContent='Materials: '+(realistic?'Realistic':'Study');
+  if(previousId)select(previousId);
+  if(window.__architectariumMetrics){
+   window.__architectariumMetrics.materialMode=mode;
+   window.__architectariumMetrics.realisticTextureCount=model.getRealisticTextureCount();
+  }
+  draw();
+ }
+ $('materials').addEventListener('click',()=>{
+  const mode=model.getMaterialMode()==='study'?'realistic':'study';
+  applyMaterialMode(mode);
+  try{localStorage.setItem(materialKey,mode);}catch{}
+ });
+ applyMaterialMode(materialPreference());
  function clearSelection(){if(selected){const highlight=selected.material;selected.material=material;if(highlight!==material)highlight.dispose();selected=null;material=null;}activeId=null;draw();}
  function select(id){
   const part=records.get(id),mesh=model.byId.get(id);if(!part||!mesh)return;

@@ -22,7 +22,7 @@ try{
  await page.locator('#siteTheme').selectOption('system');
  await page.waitForFunction(()=>document.querySelector('#count')?.textContent?.includes('individual selectable parts'),null,{timeout:65000});
  assert.equal(await page.locator('#error').isHidden(),true);
- assert.match(await page.locator('#count').innerText(),/482 individual selectable parts/);
+ assert.match(await page.locator('#count').innerText(),/486 individual selectable parts/);
  assert.equal(await page.evaluate(()=>window.__architectariumMetrics?.progressive),true,'Model must have a progressive build');
  assert.ok((await page.evaluate(()=>window.__architectariumMetrics?.buildMilliseconds))>0,'Missing build metric');
  assert.ok((await page.evaluate(()=>window.__architectariumMetrics?.firstBatchMilliseconds))>=0,'Missing first-batch performance metric');
@@ -42,6 +42,16 @@ try{
  await page.locator('.part-row').first().click();
  assert.match(await page.locator('#detail h2').innerText(),/metope/i);
  assert.match(await page.locator('#detail').innerText(),/Evidence status/);
+ assert.equal(await page.locator('#materials').getAttribute('aria-pressed'),'false');
+ assert.equal(await page.evaluate(()=>window.__architectariumMetrics.materialMode),'study');
+ await page.screenshot({path:'qa-parthenon/material-study.png'});
+ await page.locator('#materials').click();
+ await page.waitForFunction(()=>window.__architectariumMetrics.materialMode==='realistic');
+ assert.equal(await page.locator('#materials').getAttribute('aria-pressed'),'true');
+ assert.ok(await page.evaluate(()=>window.__architectariumMetrics.realisticTextureCount)>=4,'Detailed textures missing');
+ await page.screenshot({path:'qa-parthenon/material-realistic.png'});
+ await page.locator('#materials').click();
+ assert.equal(await page.evaluate(()=>window.__architectariumMetrics.materialMode),'study');
  await page.locator('#roof').click();
  assert.equal(await page.locator('#roof').getAttribute('aria-pressed'),'true');
  await page.locator('#cutaway').click();
