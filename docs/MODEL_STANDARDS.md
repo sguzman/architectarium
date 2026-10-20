@@ -8,3 +8,7 @@
 - Realistic lighting/materials support interpretation but do not substitute for accuracy. Dust/mist must be optional, physically restrained, and deactivated by reduced-motion preference.
 - Walk mode needs floor/threshold awareness, collision, height limits, spawn position, and keyboard or touch alternative. Schematic iteration may use bounded approximate collision and must say so.
 - No copied commercial game/building meshes, aerial photography, scans, or unlicensed textures.
+
+## Material viewing modes and geometry integrity
+
+Visitor material appearance is optional and independent from the reconstruction tier. A higher-detail visual shader or texture does not increase geometric or historical confidence. Preserve the same physical-instance identifiers and collision surfaces between simple and detailed material modes. Any more realistic rendering must state whether its color, veining, surface relief, roughness, and seams are interpretive, survey-based, or reproduced from licensed evidence. A completed visual reconstruction must also pass explicit geometric continuity checks for major load-path interfaces, gable and roof closures, and frieze-to-entablature joins; a successful screenshot alone is not proof of watertight structure.

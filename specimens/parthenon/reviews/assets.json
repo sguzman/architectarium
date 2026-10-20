@@ -35,5 +35,14 @@
     "External CDN dependency and font availability are not fully offline",
     "Source citations do not confer permission to reproduce their art or plans"
   ],
-  "decision": "approved for redistribution of original procedural assets with external library attribution"
+  "decision": "approved for redistribution of original procedural assets with external library attribution",
+  "maintenance": {
+    "scope": "Original local procedural material textures, no imported photography or scanned geometry",
+    "files": [
+      "site/specimens/parthenon/materials.js",
+      "site/specimens/parthenon/model.js"
+    ],
+    "newMediaRights": "All newly generated maps are original algorithmic pixels; 3D rendering uses already declared Three.js MIT code.",
+    "historicLimit": "Not actual recovered pigment or conservation-grade material capture."
+  }
 }

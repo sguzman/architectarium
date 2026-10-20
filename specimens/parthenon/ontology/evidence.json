@@ -16,5 +16,12 @@
     "Eastern interior spacing schematic",
     "Column optical refinements schematic",
     "No original sculptural replicas"
-  ]
+  ],
+  "assembly": {
+    "friezeBackingBands": 4,
+    "roofSlabs": 2,
+    "solidPediments": 2,
+    "reference": "Derived geometric joins for visitor continuity, not archaeologically measured masonry members",
+    "reconstructionTier": "schematic"
+  }
 }

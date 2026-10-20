@@ -26,5 +26,11 @@
       "distribution": "ESM via jsDelivr pinned CDN"
     }
   ],
-  "rightsRisk": "Rights to reproduce institutional sculpture, photographs or plans not obtained. Exclude all such third-party media."
+  "rightsRisk": "Rights to reproduce institutional sculpture, photographs or plans not obtained. Exclude all such third-party media.",
+  "materialModes": {
+    "study": "Existing simple deterministic procedural stone grain",
+    "realistic": "New deterministic generated stone color, bump, roughness and marble-tile-like visual maps; no external asset files",
+    "heritageStatus": "Synthetic artistic interpretation, not historically validated pigments or exact surface condition",
+    "thirdPartyAssetsIncluded": false
+  }
 }

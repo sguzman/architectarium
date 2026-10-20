@@ -52,5 +52,16 @@
     "Masonry course and statuary reconstruction"
   ],
   "tier": "schematic",
-  "decision": "verified against aggregate architectural constraints, explicitly not a surveyed restoration"
+  "decision": "verified against aggregate architectural constraints, explicitly not a surveyed restoration",
+  "assemblyContinuity": {
+    "scope": "schematic design joints",
+    "checks": [
+      "Doric backing meets underlying architrave and overlying cornice on all four elevations",
+      "Solid roof soffits overlap the longitudinal cornice rather than leaving open sheets",
+      "Both solid end gables overlap roof assembly along ridge and eave",
+      "Cella wall tops reach the sloped roof soffit within schematic envelope"
+    ],
+    "acceptance": "Numerical bounds assertions in scripts/test-parthenon.mjs",
+    "historicalLimitation": "Modeled joining surfaces do not constitute measured historic stone profiles."
+  }
 }
