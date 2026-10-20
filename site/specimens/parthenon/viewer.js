@@ -207,6 +207,6 @@ try{
  });
  document.addEventListener('keydown',e=>{if(!walking)return;if(e.code==='Escape'){if(walk.isLocked)walk.unlock();resetCamera();return;}if(/^(Key[WASD]|Arrow(Up|Down|Left|Right)|ShiftLeft)$/.test(e.code)){e.preventDefault();keys.add(e.code);draw();}});
  document.addEventListener('keyup',e=>keys.delete(e.code));window.addEventListener('blur',()=>keys.clear());
- $('reset').addEventListener('click',()=>{if(walk.isLocked)walk.unlock();resetCamera();if(hiddenRoof)$('roof').click();if(hiddenWalls)$('cutaway').click();clearSelection(true,true);});
+ $('reset').addEventListener('click',()=>{if(walk.isLocked)walk.unlock();resetCamera();if(hiddenRoof)$('roof').click();if(hiddenWalls)$('cutaway').click();clearSelection(false,true);focusBeforeSelection=null;});
  window.addEventListener('pagehide',()=>{clearSelection();cancelAnimationFrame(frame);orbit.dispose();walk.disconnect();model.dispose();renderer.dispose();},{once:true});
 }catch(error){console.error('Parthenon viewer could not initialize',error);$('error').hidden=false;$('error').textContent='The model could not load: '+error.message;$('count').textContent='Viewer unavailable';}
