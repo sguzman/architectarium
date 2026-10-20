@@ -24,9 +24,12 @@ jobs:
           python3 -m unittest discover -s scripts -p 'test_*.py'
           node scripts/validate.mjs
           node scripts/test-specimen-work.mjs
+          node scripts/test-parthenon.mjs
           node scripts/test-gallery.mjs
           node --check site/model.js
           node --check site/app.js
+          node --check site/specimens/parthenon/model.js
+          node --check site/specimens/parthenon/viewer.js
   publish:
     needs: verify
     runs-on: ubuntu-latest
