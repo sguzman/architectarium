@@ -5,6 +5,7 @@ const ontology=load('ontology/components.json');
 const sources=load('ontology/sources.json').sources;
 const queue=load('specimens/queue.json').specimens;
 const part=load('specimens/parthenon/specimen.json');
+const sourceIds=new Set(sources.map(s=>s.id)),conceptIds=new Set(ontology.components.map(c=>c.id));
 for(const candidate of queue){
  const file=new URL('../specimens/'+candidate.id+'/specimen.json',import.meta.url);
  const dossier=JSON.parse(readFileSync(file,'utf8'));
@@ -17,7 +18,6 @@ for(const candidate of queue){
  if(candidate.stage==='ontology-ready')assert.ok(dossier.partInventory?.length>=5,'Ontology-ready candidate needs mapped inventory '+candidate.id);
 }
 
-const sourceIds=new Set(sources.map(s=>s.id)),conceptIds=new Set(ontology.components.map(c=>c.id));
 const stages=new Set(['queued','research','ontology-ready','model-draft','review','published','blocked']);
 const distinct=(arr,label)=>assert.equal(new Set(arr).size,arr.length,'Duplicate '+label);
 distinct([...conceptIds],'concepts');distinct([...sourceIds],'sources');
