@@ -18,6 +18,10 @@ Queue → source audit → ontology mapping → spatial research → licensed/or
 
 See [specimen protocol](docs/SPECIMEN_PROTOCOL.md) and [model standards](docs/MODEL_STANDARDS.md).
 
+## Color theme
+
+The ontology and specimen pages offer **System / Light / Dark**. The default **System** follows the browser's live `prefers-color-scheme` preference. Manual overrides persist locally across pages. On Linux the browser must receive the preference via desktop settings or XDG portals; websites cannot directly read local theme-scheduling services.
+
 ## Publishing
 
 A guarded static build deploys vetted content from `site/` through `.github/workflows/pages.yml` using `scripts/build-site.mjs`. GitHub Pages must be configured once in **Settings → Pages → GitHub Actions**. The app loads Three.js from a pinned CDN, so its first visit requires network access. No server, tracking, authentication or paid infrastructure.

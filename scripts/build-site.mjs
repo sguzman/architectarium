@@ -46,7 +46,7 @@ export function build(){
   const entries=validatePublished(catalog,queue);
   rmSync(OUT,{recursive:true,force:true});
   mkdirSync(resolve(OUT,'data'),{recursive:true});
-  for(const file of ['index.html','styles.css','app.js']){
+  for(const file of ['index.html','styles.css','app.js','theme.js']){
     cpSync(resolve(SITE,file),resolve(OUT,file));
   }
   for(const [source,dest] of [
