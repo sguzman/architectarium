@@ -109,17 +109,33 @@ export async function buildParthenon(inventory,onBatch=()=>{}){
   }
   if(record.shape==='roof'||record.shape==='pediment')roofs.push(mesh);
   if(record.id.includes('/cella/')&&record.shape==='box'){walls.push(mesh);colliders.push(new THREE.Box3().setFromObject(mesh));}
-  if(record.shape==='shaft')shaftColliders.push(new THREE.Box3().setFromObject(mesh));
+  if(record.shape==='shaft'||record.typeId==='pier')shaftColliders.push(new THREE.Box3().setFromObject(mesh));
   appended++;
   if(appended%160===0||appended===inventory.length){onBatch(root,appended);await new Promise(resolve=>requestAnimationFrame(resolve));}
  }
- // Static atmospheric points; no continuous rendering or animation is required.
- const particles=new Float32Array(200*3);let state=109;
+ // Optional, static sunlit dust. Off by default and not a historical weather claim.
+ const particleCount=900,particles=new Float32Array(particleCount*3);let state=109;
  const random=()=>((state=(Math.imul(state,1664525)+1013904223)>>>0)/4294967296);
- for(let i=0;i<200;i++){particles[i*3]=(random()-.5)*36;particles[i*3+1]=2+random()*15;particles[i*3+2]=(random()-.5)*66;}
- const dustGeometry=new THREE.BufferGeometry();dustGeometry.setAttribute('position',new THREE.BufferAttribute(particles,3));
- const dust=new THREE.Points(dustGeometry,new THREE.PointsMaterial({color:0xffe7c9,size:.11,transparent:true,opacity:.42,depthWrite:false}));
- dust.visible=false;root.add(dust);
+ for(let i=0;i<particleCount;i++){
+  particles[i*3]=(random()-.5)*70;
+  particles[i*3+1]=1.5+random()*24;
+  particles[i*3+2]=(random()-.5)*102;
+ }
+ const spriteCanvas=document.createElement('canvas');spriteCanvas.width=spriteCanvas.height=64;
+ const spriteContext=spriteCanvas.getContext('2d');
+ const soft=spriteContext.createRadialGradient(32,32,1,32,32,31);
+ soft.addColorStop(0,'rgba(255,255,255,.78)');
+ soft.addColorStop(.35,'rgba(255,255,255,.37)');
+ soft.addColorStop(1,'rgba(255,255,255,0)');
+ spriteContext.fillStyle=soft;spriteContext.fillRect(0,0,64,64);
+ const dustTexture=new THREE.CanvasTexture(spriteCanvas);
+ const dustGeometry=new THREE.BufferGeometry();
+ dustGeometry.setAttribute('position',new THREE.BufferAttribute(particles,3));
+ const dust=new THREE.Points(dustGeometry,new THREE.PointsMaterial({
+  color:0xffedce,map:dustTexture,size:3.8,sizeAttenuation:false,
+  transparent:true,opacity:.55,depthWrite:false
+ }));
+ dust.visible=false;dust.frustumCulled=false;root.add(dust);
  function setMaterialMode(mode){
   if(mode!=='study'&&mode!=='realistic')return;
   if(mode==='realistic'&&!realisticPack)realisticPack=createRealisticMaterials();
@@ -132,5 +148,5 @@ export async function buildParthenon(inventory,onBatch=()=>{}){
  }
  return {root,pickables,byId,roofs,walls,colliders,shaftColliders,dust,materials:palette,texture,modelCount:byId.size,
   setMaterialMode,getMaterialMode:()=>activeMaterialMode,getRealisticTextureCount:()=>realisticPack?.textureCount??0,
-  dispose(){const seen=new Set();for(const p of pickables){p.traverse(node=>{if(node.geometry&&!seen.has(node.geometry)){node.geometry.dispose();seen.add(node.geometry);}});}ground.geometry.dispose();rockGeo.dispose();stoneScatter.dispose();dust.geometry.dispose();dust.material.dispose();texture.dispose();realisticPack?.dispose();for(const m of Object.values(palette))m.dispose();}};
+  dispose(){const seen=new Set();for(const p of pickables){p.traverse(node=>{if(node.geometry&&!seen.has(node.geometry)){node.geometry.dispose();seen.add(node.geometry);}});}ground.geometry.dispose();rockGeo.dispose();stoneScatter.dispose();dust.geometry.dispose();dust.material.dispose();dustTexture.dispose();texture.dispose();realisticPack?.dispose();for(const m of Object.values(palette))m.dispose();}};
 }
