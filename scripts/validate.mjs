@@ -57,8 +57,8 @@ for(const q of queue.filter(x=>x.stage==='model-draft'))assert.ok(q.model.kind!=
 const html=readFileSync(new URL('../site/index.html',import.meta.url),'utf8');
 const app=readFileSync(new URL('../site/app.js',import.meta.url),'utf8');
 const model=readFileSync(new URL('../site/model.js',import.meta.url),'utf8');
-assert.match(html,/SCHEMATIC STUDY/);assert.match(html,/\.\/app\.js/);
-assert.match(app,/\.\/data\/components\.json/);
+assert.match(html,/No specimens published/);assert.match(html,/\.\/app\.js/);
+assert.match(app,/\.\/data\/components\.json/);assert.match(app,/\.\/data\/gallery\.json/);
 assert.match(model,/buildParthenon/);
 for(const id of part.meshBindings)assert.ok(model.includes("'"+id+"'"),'3D model missing binding '+id);
 console.log('Validated '+ontology.components.length+' architectural types, '+sources.length+' sources, '+queue.length+' specimens and all model bindings.');

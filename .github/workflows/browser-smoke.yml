@@ -5,6 +5,9 @@ on:
     paths:
       - 'site/**'
       - 'scripts/browser-smoke.mjs'
+      - 'scripts/build-site.mjs'
+      - 'gallery/**'
+      - 'ontology/**'
       - '.github/workflows/browser-smoke.yml'
   workflow_dispatch:
 permissions:
@@ -24,10 +27,7 @@ jobs:
           npx playwright install --with-deps chromium
       - name: Assemble site
         run: |
-          mkdir -p _site/data
-          cp -a site/. _site/
-          cp ontology/components.json ontology/sources.json specimens/queue.json _site/data/
-          touch _site/.nojekyll
+          node scripts/build-site.mjs
       - name: Exercise desktop and mobile gallery
         run: |
           python3 -m http.server 4173 --directory _site >/tmp/architectarium-test-server.log 2>&1 &

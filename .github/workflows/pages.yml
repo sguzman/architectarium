@@ -23,6 +23,7 @@ jobs:
           python3 scripts/publication_guard.py
           python3 -m unittest discover -s scripts -p 'test_*.py'
           node scripts/validate.mjs
+          node scripts/test-gallery.mjs
           node --check site/model.js
           node --check site/app.js
   publish:
@@ -36,10 +37,7 @@ jobs:
       - uses: actions/configure-pages@v5
       - name: Assemble static release
         run: |
-          mkdir -p _site/data
-          cp -a site/. _site/
-          cp ontology/components.json ontology/sources.json specimens/queue.json _site/data/
-          touch _site/.nojekyll
+          node scripts/build-site.mjs
           test -s _site/index.html
           test -s _site/data/components.json
       - uses: actions/upload-pages-artifact@v3

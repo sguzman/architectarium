@@ -12,3 +12,5 @@
 Queue states: `queued`, `research`, `ontology-ready`, `model-draft`, `review`, `published`, `blocked`. A specimen may return to an earlier state on new evidence.
 
 **Done for a researched specimen** means cited architectural statements, a structured part inventory, spatial evidence ledger, license checks and no false geometric precision. **Done for a gallery specimen** additionally means a navigable, accessible, visually tested site with semantic picking and honest reconstruction labeling.
+
+**Website visibility is stricter than research visibility.** Only specimens admitted to `gallery/catalog.json` after evidence, rights, geometry and visitor review become public exhibit cards or hosted models. A research-stage queue item is never an exhibit or teaser. See [gallery publication boundary](GALLERY_PUBLICATION.md).
