@@ -82,7 +82,7 @@ try{
   button.setAttribute('aria-pressed',String(realistic));
   button.classList.toggle('active',realistic);
   button.textContent='Materials: '+(realistic?'Realistic':'Study');
-  if(previousId)select(previousId);
+  if(previousId)select(previousId,false);
   if(window.__architectariumMetrics){
    window.__architectariumMetrics.materialMode=mode;
    window.__architectariumMetrics.realisticTextureCount=model.getRealisticTextureCount();
@@ -96,11 +96,11 @@ try{
  });
  applyMaterialMode(materialPreference());
  function clearSelection(){if(selected){const highlight=selected.material;selected.material=material;if(highlight!==material)highlight.dispose();selected=null;material=null;}activeId=null;draw();}
- function select(id){
+ function select(id,focus=true){
   const part=records.get(id),mesh=model.byId.get(id);if(!part||!mesh)return;
   clearSelection();activeId=id;selected=mesh;material=mesh.material;
   const glow=material.clone();glow.emissive=new THREE.Color('#aa7245');glow.emissiveIntensity=.5;mesh.material=glow;
-  if(orbit.enabled){const bounds=new THREE.Box3().setFromObject(mesh),p=bounds.getCenter(new THREE.Vector3());orbit.target.lerp(p,.28);}
+  if(focus&&orbit.enabled){const bounds=new THREE.Box3().setFromObject(mesh),p=bounds.getCenter(new THREE.Vector3());orbit.target.lerp(p,.28);}
   $('selectionStatus').textContent=part.typeId.toUpperCase().replaceAll('-',' ');
   const type=types.get(part.typeId),panel=$('detail');panel.replaceChildren();
   panel.append(elem('div','tag',part.zone.toUpperCase()+' / '+part.certainty.toUpperCase()),elem('h2','',part.label),elem('p','',type.definition));
