@@ -1,0 +1,48 @@
+name: Verify and publish Architectarium
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: github-pages
+  cancel-in-progress: true
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Validate data and public site
+        run: |
+          node scripts/validate.mjs
+          node --check site/model.js
+          node --check site/app.js
+  publish:
+    needs: verify
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/configure-pages@v5
+      - name: Assemble static release
+        run: |
+          mkdir -p _site/data
+          cp -a site/. _site/
+          cp ontology/components.json ontology/sources.json specimens/queue.json _site/data/
+          touch _site/.nojekyll
+          test -s _site/index.html
+          test -s _site/data/components.json
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
