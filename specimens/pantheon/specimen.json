@@ -1,0 +1,118 @@
+{
+  "id": "pantheon",
+  "title": "Pantheon",
+  "location": "Rome, Italy",
+  "chronology": "Hadrianic building, early second century CE",
+  "sourceIds": [
+    "pantheon-ministry"
+  ],
+  "modelStatus": "not-modeled",
+  "reconstruction": {
+    "kind": "pending-spatial-plan",
+    "confidence": "not-assessed",
+    "notes": "No model may be labeled accurate until measured section/plan evidence and licensed assets are reviewed. Historical changes and later restorations must be differentiated."
+  },
+  "facts": [
+    {
+      "id": "p-f01",
+      "claim": "Present monument is a Hadrianic rebuilding of an earlier temple.",
+      "sourceId": "pantheon-ministry",
+      "confidence": "documented"
+    },
+    {
+      "id": "p-f02",
+      "claim": "The central rotunda is about 43.30 metres across internally.",
+      "sourceId": "pantheon-ministry",
+      "confidence": "documented",
+      "unit": "m",
+      "value": 43.3,
+      "dimension": "rotunda internal diameter"
+    },
+    {
+      "id": "p-f03",
+      "claim": "The pronaos has sixteen Corinthian granite columns.",
+      "sourceId": "pantheon-ministry",
+      "confidence": "documented"
+    },
+    {
+      "id": "p-f04",
+      "claim": "The dome has an oculus around nine metres in diameter.",
+      "sourceId": "pantheon-ministry",
+      "confidence": "documented",
+      "unit": "m",
+      "value": 9,
+      "dimension": "oculus approximate diameter"
+    },
+    {
+      "id": "p-f05",
+      "claim": "The dome has coffers, and rain through its oculus is discharged through floor drains.",
+      "sourceId": "pantheon-ministry",
+      "confidence": "documented"
+    }
+  ],
+  "partInventory": [
+    {
+      "id": "pantheon/portico",
+      "typeId": "portico",
+      "zone": "front entrance",
+      "confidence": "documented",
+      "sourceId": "pantheon-ministry"
+    },
+    {
+      "id": "pantheon/corinthian-column-capitals",
+      "typeId": "corinthian-capital",
+      "zone": "front portico",
+      "confidence": "documented",
+      "sourceId": "pantheon-ministry"
+    },
+    {
+      "id": "pantheon/rotunda",
+      "typeId": "rotunda",
+      "zone": "central hall",
+      "confidence": "documented",
+      "sourceId": "pantheon-ministry"
+    },
+    {
+      "id": "pantheon/drum",
+      "typeId": "drum",
+      "zone": "rotunda perimeter",
+      "confidence": "interpretive",
+      "sourceId": "pantheon-ministry"
+    },
+    {
+      "id": "pantheon/dome",
+      "typeId": "dome",
+      "zone": "over rotunda",
+      "confidence": "documented",
+      "sourceId": "pantheon-ministry"
+    },
+    {
+      "id": "pantheon/coffers",
+      "typeId": "coffer",
+      "zone": "dome intrados",
+      "confidence": "documented",
+      "sourceId": "pantheon-ministry"
+    },
+    {
+      "id": "pantheon/oculus",
+      "typeId": "oculus",
+      "zone": "crown of dome",
+      "confidence": "documented",
+      "sourceId": "pantheon-ministry"
+    }
+  ],
+  "missing": [
+    "Scale-controlled measured longitudinal and transverse sections",
+    "Survey-based plan and alteration phases",
+    "Interior material and surface rights review",
+    "Mesh/node semantic map",
+    "Walkable collision/navigation volumes"
+  ],
+  "assetLedger": [],
+  "geometryReview": {
+    "status": "not-started"
+  },
+  "visitorQA": {
+    "status": "not-started"
+  }
+}

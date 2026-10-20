@@ -1,0 +1,70 @@
+{
+  "id": "parthenon",
+  "version": 1,
+  "localAxes": {
+    "units": "approximate metres",
+    "x": "transverse across short facade",
+    "y": "vertical",
+    "z": "longitudinal",
+    "note": "Model coordinates are interpretive; no georeferenced or surveyed northing/easting is asserted."
+  },
+  "facts": [
+    {
+      "id": "par-f01",
+      "claim": "The structure is a peripteral Doric temple incorporating Ionic architectural features.",
+      "sourceId": "acropolis-parthenon",
+      "status": "supported"
+    },
+    {
+      "id": "par-f02",
+      "claim": "Outer peristyle has eight columns at the ends and seventeen down each long side.",
+      "sourceId": "acropolis-parthenon",
+      "status": "supported"
+    },
+    {
+      "id": "par-f03",
+      "claim": "The Ionic frieze ran around the upper outer walls of the cella.",
+      "sourceId": "acropolis-frieze",
+      "status": "supported"
+    },
+    {
+      "id": "par-f04",
+      "claim": "The Ionic frieze comprised 115 blocks and had a total length of approximately 160 metres.",
+      "sourceId": "acropolis-frieze",
+      "status": "supported"
+    },
+    {
+      "id": "par-f05",
+      "claim": "The building campaign began in 447 BCE and the temple structure was completed in 438 BCE.",
+      "sourceId": "acropolis-parthenon",
+      "status": "supported"
+    }
+  ],
+  "geometryClaims": [
+    {
+      "part": "stylobate",
+      "value": [
+        31,
+        69.4
+      ],
+      "units": "approximate metres",
+      "evidence": "illustrative-author-estimate",
+      "verified": false
+    },
+    {
+      "part": "column-shaft",
+      "value": 8.65,
+      "units": "approximate metres",
+      "evidence": "illustrative-author-estimate",
+      "verified": false
+    }
+  ],
+  "researchGaps": [
+    "Survey plan and sectional tolerances",
+    "Column axis and entasis verification",
+    "Cella wall layout and historical phases",
+    "Complete pedimental program and polychromy",
+    "Licensed material scans or independently authored PBR textures",
+    "Interior/restricted circulation model distinct from historical access"
+  ]
+}
