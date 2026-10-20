@@ -1,0 +1,42 @@
+name: Rendered browser smoke
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'site/**'
+      - 'scripts/browser-smoke.mjs'
+      - '.github/workflows/browser-smoke.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  chromium-smoke:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install test browser
+        run: |
+          npm install --no-save playwright@1.64.1
+          npx playwright install --with-deps chromium
+      - name: Assemble site
+        run: |
+          mkdir -p _site/data
+          cp -a site/. _site/
+          cp ontology/components.json ontology/sources.json specimens/queue.json _site/data/
+          touch _site/.nojekyll
+      - name: Exercise desktop and mobile gallery
+        run: |
+          python3 -m http.server 4173 --directory _site >/tmp/architectarium-test-server.log 2>&1 &
+          node scripts/browser-smoke.mjs
+      - name: Upload visual QA evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: architectarium-browser-captures
+          path: qa-shots/
+          if-no-files-found: ignore
+          retention-days: 7
