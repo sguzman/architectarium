@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "specimenId": "parthenon",
+  "tier": "schematic with published aggregate constraints",
+  "constraints": [
+    {
+      "feature": "stylobate extents",
+      "target": [
+        30.88,
+        69.5
+      ],
+      "unit": "m",
+      "sourceId": "perseus-parthenon",
+      "tolerance": "within model coordinates 0.1 m for rectangular approximation"
+    },
+    {
+      "feature": "perimeter Doric shafts",
+      "count": 46,
+      "heightTarget": 10.43,
+      "unit": "m",
+      "sourceId": "perseus-parthenon",
+      "tolerance": "counts exact; profiles and axes schematic"
+    },
+    {
+      "feature": "porch Doric shafts",
+      "count": 12,
+      "sourceId": "acropolis-architecture",
+      "tolerance": "counts exact; individual spacing schematic"
+    },
+    {
+      "feature": "western Ionic supports",
+      "count": 4,
+      "sourceId": "ysma-parthenon",
+      "tolerance": "counts exact; positions schematic"
+    },
+    {
+      "feature": "metope architectural panels",
+      "count": 92,
+      "sourceId": "acropolis-architecture",
+      "tolerance": "counts exact; carved relief omitted"
+    },
+    {
+      "feature": "double cella chambers",
+      "count": 2,
+      "sourceId": "museum-parthenon",
+      "tolerance": "division present, sizes schematic"
+    },
+    {
+      "feature": "cella continuous Ionic frieze",
+      "sourceId": "acropolis-frieze",
+      "tolerance": "schematic band only; relief and exact individual block geometry absent"
+    }
+  ],
+  "requirements": [
+    "Components must have durable semantic instance IDs",
+    "Unmeasured individual transforms are labeled approximate",
+    "No false detailed survey, conservation or sculptural claims"
+  ]
+}

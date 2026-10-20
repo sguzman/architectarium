@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "specimenId": "parthenon",
+  "units": "metres",
+  "axes": {
+    "x": "cross-temple, negative x mapped north and positive x south for current schematic viewer",
+    "y": "vertical above modeled ground",
+    "z": "longitudinal, negative z east façade and positive z west façade"
+  },
+  "origin": "geometric middle of stylobate plan",
+  "surveyNorthReference": false,
+  "datum": "local schematic datum (ground = y0)",
+  "aggregates": {
+    "width": 30.88,
+    "length": 69.5,
+    "columnHeight": 10.43
+  },
+  "localFrameNote": "No geodetic tie, surveyed orientation, or preservation-state positioning implied.",
+  "levelGuide": {
+    "base": 0,
+    "stylobate": "schematic raised base",
+    "columnFoot": "on stylobate upper course"
+  },
+  "references": [
+    {
+      "sourceId": "perseus-parthenon",
+      "sourcePath": "ontology/sources.json"
+    },
+    {
+      "sourceId": "ysma-geometric",
+      "sourcePath": "ontology/sources.json"
+    }
+  ]
+}

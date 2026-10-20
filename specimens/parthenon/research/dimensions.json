@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 1,
+  "specimenId": "parthenon",
+  "units": "metres",
+  "referenceFrame": "Approximate outer stylobate rectangle; model X left-right, Y vertical, Z longitudinal with east at negative Z; not site georeferenced",
+  "dimensions": [
+    {
+      "id": "stylobate-width",
+      "part": "stylobate",
+      "value": 30.88,
+      "unit": "m",
+      "certainty": "published-summary",
+      "sourceIds": [
+        "perseus-parthenon"
+      ]
+    },
+    {
+      "id": "stylobate-length",
+      "part": "stylobate",
+      "value": 69.5,
+      "unit": "m",
+      "certainty": "published-summary",
+      "sourceIds": [
+        "perseus-parthenon"
+      ]
+    },
+    {
+      "id": "exterior-column-height",
+      "part": "column-shaft-and-capital",
+      "value": 10.43,
+      "unit": "m",
+      "certainty": "published-summary",
+      "sourceIds": [
+        "perseus-parthenon"
+      ],
+      "note": "Museum source rounds to 10.50 m; adopt 10.43 m as modeling aggregate."
+    },
+    {
+      "id": "exterior-column-base-diameter",
+      "part": "column-shaft",
+      "value": 1.91,
+      "unit": "m",
+      "certainty": "published-summary",
+      "sourceIds": [
+        "acropolis-architecture",
+        "perseus-parthenon"
+      ]
+    },
+    {
+      "id": "entablature-height",
+      "part": "entablature",
+      "value": 3.3,
+      "unit": "m",
+      "certainty": "published-summary",
+      "sourceIds": [
+        "perseus-parthenon"
+      ]
+    },
+    {
+      "id": "perimeter-columns-short",
+      "part": "column-shaft",
+      "value": 8,
+      "unit": "count",
+      "certainty": "verified-configuration",
+      "sourceIds": [
+        "ysma-parthenon"
+      ]
+    },
+    {
+      "id": "perimeter-columns-long",
+      "part": "column-shaft",
+      "value": 17,
+      "unit": "count",
+      "certainty": "verified-configuration",
+      "sourceIds": [
+        "ysma-parthenon"
+      ]
+    },
+    {
+      "id": "perimeter-columns-distinct",
+      "part": "column-shaft",
+      "value": 46,
+      "unit": "count",
+      "certainty": "derived-configuration",
+      "sourceIds": [
+        "acropolis-architecture"
+      ]
+    },
+    {
+      "id": "porch-columns-total",
+      "part": "column-shaft",
+      "value": 12,
+      "unit": "count",
+      "certainty": "verified-configuration",
+      "sourceIds": [
+        "acropolis-architecture"
+      ]
+    },
+    {
+      "id": "western-room-ionic-columns",
+      "part": "column-shaft",
+      "value": 4,
+      "unit": "count",
+      "certainty": "verified-configuration",
+      "sourceIds": [
+        "ysma-parthenon"
+      ]
+    }
+  ],
+  "notes": [
+    "Base dimensions are aggregate and do not establish each axis coordinate; stylobate curves, per-column inclinations and offsets require specialized survey.",
+    "Interior lengths and elevations are not treated as measured in this release.",
+    "External study used 8.65 m columns; do not reuse draft height as archaeological data."
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "specimenId": "parthenon",
+  "spaces": [
+    {
+      "id": "peristyle",
+      "type": "surrounding colonnade",
+      "entry": "visitor simulation",
+      "sourceIds": [
+        "acropolis-architecture"
+      ]
+    },
+    {
+      "id": "pronaos",
+      "type": "east front porch",
+      "access": "east",
+      "sourceIds": [
+        "ysma-parthenon"
+      ]
+    },
+    {
+      "id": "naos",
+      "type": "larger eastern sanctuary",
+      "access": "east through pronaos",
+      "sourceIds": [
+        "ysma-parthenon",
+        "museum-parthenon"
+      ]
+    },
+    {
+      "id": "opisthonaos",
+      "type": "west rear porch",
+      "access": "west",
+      "sourceIds": [
+        "ysma-parthenon"
+      ]
+    },
+    {
+      "id": "opisthodomos",
+      "type": "smaller western chamber",
+      "access": "west through opisthonaos",
+      "sourceIds": [
+        "ysma-parthenon"
+      ]
+    }
+  ],
+  "separation": "No ancient through-door between east and west cella chambers.",
+  "visitorRoutes": [
+    "Orbit around outer perimeter",
+    "Walk from east into east chamber",
+    "Return outside and enter west chamber separately"
+  ],
+  "caveat": "Interior circulation is a modern educational simulation, not archaeological evidence of visitor access."
+}

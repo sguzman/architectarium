@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "specimenId": "parthenon",
+  "materials": [
+    {
+      "part": "main architecture",
+      "material": "Pentelic marble",
+      "sourceIds": [
+        "museum-parthenon",
+        "acropolis-architecture"
+      ],
+      "representation": "original procedural stone shader with variable roughness and mineral mottling",
+      "precision": "visual interpretation"
+    },
+    {
+      "part": "roof",
+      "material": "marble tile cladding over timber substructure",
+      "sourceIds": [
+        "acropolis-architecture"
+      ],
+      "representation": "simplified marble-colored roof planes",
+      "precision": "timber and joint detail unresolved"
+    },
+    {
+      "part": "sculptural and painted details",
+      "material": "architectural carving and pigment historically attested",
+      "sourceIds": [
+        "acropolis-architecture",
+        "ysma-parthenon"
+      ],
+      "representation": "omitted",
+      "precision": "neither color palette nor reconstructive sculpture mesh is established here"
+    }
+  ],
+  "prohibitedAssumption": "Photorealistic texture and polished architectural finish do not establish actual surviving surface treatment.",
+  "licensePolicy": "Only algorithmically generated colors/noise and independently authored geometric primitives are distributed."
+}

@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "specimenId": "parthenon",
+  "title": "Parthenon: structural anatomy and spatial experience",
+  "permittedTier": "schematic",
+  "modelRequirements": [
+    "Stylobate 30.88 × 69.50 m aggregate envelope",
+    "46 exterior Doric shafts + 12 secondary porch Doric shafts + four west room Ionic supports",
+    "Representation of east U-shaped two-story colonnade, not claiming exact internal measurements",
+    "Two distinct noncommunicating cella chambers with east and west entries",
+    "92 blank metope placements, Ionic frieze bands, pediments, original roof silhouette",
+    "Semantic geometry picking and physical instance annotations",
+    "Walk mode and orbit mode, cutaway, adjustable lighting, accessibility and performance review"
+  ],
+  "exclusions": [
+    "Restoration-ready CAD",
+    "Survey-validated profiles and axes",
+    "Replica of lost ancient figural sculpture",
+    "Specific historical pigment palette"
+  ],
+  "acceptance": [
+    "Automated geometry count and model-envelope tests",
+    "Browser render and picking tests",
+    "Clear visual fidelity and rights notices"
+  ],
+  "references": [
+    {
+      "sourceId": "ysma-parthenon",
+      "sourcePath": "ontology/sources.json"
+    },
+    {
+      "sourceId": "acropolis-architecture",
+      "sourcePath": "ontology/sources.json"
+    },
+    {
+      "sourceId": "perseus-parthenon",
+      "sourcePath": "ontology/sources.json"
+    },
+    {
+      "sourceId": "museum-parthenon",
+      "sourcePath": "ontology/sources.json"
+    }
+  ]
+}

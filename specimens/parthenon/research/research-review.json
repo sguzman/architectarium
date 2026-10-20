@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "specimenId": "parthenon",
+  "reviewKind": "Document and evidence cross-check for a schematic visual study",
+  "decision": "accept-with-tier-restriction",
+  "findings": [
+    "Official institutional sources corroborate authorship, date, temple type, 46 + 12 exterior Doric columns and separated east/west chambers.",
+    "Tufts catalog provides useful dimensional aggregates, but not a georeferenced or per-member surveyed model.",
+    "Exterior approximate scaling can be constrained, while details of column refinements, ceilings, polychromy and original sculpture remain unresolved.",
+    "The intended digital exhibit must not be described as accurate restoration or conservation-grade reconstruction."
+  ],
+  "openItems": [
+    "Rights-cleared full survey",
+    "Specialist archaeological geometry review",
+    "Complete structural and sculpture reconstruction evidence"
+  ],
+  "approvedFor": "source-aware schematic teaching model only",
+  "sourcesReviewed": [
+    "ysma-parthenon",
+    "museum-parthenon",
+    "acropolis-architecture",
+    "perseus-parthenon",
+    "acropolis-frieze"
+  ]
+}

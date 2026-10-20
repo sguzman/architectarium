@@ -7,7 +7,7 @@
       "id": "PAR-SP-001",
       "title": "Confirm specimen identity and project scope",
       "description": "Deliver and verify this stage of the processing workflow.",
-      "status": "pending",
+      "status": "done",
       "priority": 1,
       "dependsOn": [],
       "acceptanceCriteria": [
@@ -17,10 +17,15 @@
       "outputs": [
         "specimens/parthenon/research/intake.json"
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "path": "specimens/parthenon/research/intake.json",
+          "note": "Structured research or source-interpretation record audited against the cited references."
+        }
+      ],
       "review": {
-        "status": "not-reviewed",
-        "notes": ""
+        "status": "passed",
+        "notes": "Source-aware review completed for the explicitly schematic modeling tier; unresolved measurement gaps remain disclosed."
       },
       "blockedReason": null
     },
@@ -28,7 +33,7 @@
       "id": "PAR-SP-002",
       "title": "Select historical state and interpretation policy",
       "description": "Deliver and verify this stage of the processing workflow.",
-      "status": "pending",
+      "status": "done",
       "priority": 2,
       "dependsOn": [
         "PAR-SP-001"
@@ -40,10 +45,15 @@
       "outputs": [
         "specimens/parthenon/research/interpretation.json"
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "path": "specimens/parthenon/research/interpretation.json",
+          "note": "Structured research or source-interpretation record audited against the cited references."
+        }
+      ],
       "review": {
-        "status": "not-reviewed",
-        "notes": ""
+        "status": "passed",
+        "notes": "Source-aware review completed for the explicitly schematic modeling tier; unresolved measurement gaps remain disclosed."
       },
       "blockedReason": null
     },
@@ -51,7 +61,7 @@
       "id": "PAR-SP-003",
       "title": "Create authoritative source and rights inventory",
       "description": "Deliver and verify this stage of the processing workflow.",
-      "status": "pending",
+      "status": "done",
       "priority": 3,
       "dependsOn": [
         "PAR-SP-001"
@@ -63,10 +73,15 @@
       "outputs": [
         "specimens/parthenon/research/sources.json"
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "path": "specimens/parthenon/research/sources.json",
+          "note": "Structured research or source-interpretation record audited against the cited references."
+        }
+      ],
       "review": {
-        "status": "not-reviewed",
-        "notes": ""
+        "status": "passed",
+        "notes": "Source-aware review completed for the explicitly schematic modeling tier; unresolved measurement gaps remain disclosed."
       },
       "blockedReason": null
     },
@@ -74,7 +89,7 @@
       "id": "PAR-SP-004",
       "title": "Cross-check architectural claims",
       "description": "Deliver and verify this stage of the processing workflow.",
-      "status": "pending",
+      "status": "done",
       "priority": 4,
       "dependsOn": [
         "PAR-SP-003"
@@ -86,10 +101,15 @@
       "outputs": [
         "specimens/parthenon/research/claims.json"
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "path": "specimens/parthenon/research/claims.json",
+          "note": "Structured research or source-interpretation record audited against the cited references."
+        }
+      ],
       "review": {
-        "status": "not-reviewed",
-        "notes": ""
+        "status": "passed",
+        "notes": "Source-aware review completed for the explicitly schematic modeling tier; unresolved measurement gaps remain disclosed."
       },
       "blockedReason": null
     },
@@ -97,7 +117,7 @@
       "id": "PAR-SP-005",
       "title": "Document chronological building phases",
       "description": "Deliver and verify this stage of the processing workflow.",
-      "status": "pending",
+      "status": "done",
       "priority": 5,
       "dependsOn": [
         "PAR-SP-002",
@@ -110,10 +130,15 @@
       "outputs": [
         "specimens/parthenon/research/phases.json"
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "path": "specimens/parthenon/research/phases.json",
+          "note": "Structured research or source-interpretation record audited against the cited references."
+        }
+      ],
       "review": {
-        "status": "not-reviewed",
-        "notes": ""
+        "status": "passed",
+        "notes": "Source-aware review completed for the explicitly schematic modeling tier; unresolved measurement gaps remain disclosed."
       },
       "blockedReason": null
     },
@@ -121,7 +146,7 @@
       "id": "PAR-SP-006",
       "title": "Inventory measured drawings and spatial references",
       "description": "Deliver and verify this stage of the processing workflow.",
-      "status": "pending",
+      "status": "done",
       "priority": 6,
       "dependsOn": [
         "PAR-SP-003"
@@ -133,10 +158,15 @@
       "outputs": [
         "specimens/parthenon/research/drawings.json"
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "path": "specimens/parthenon/research/drawings.json",
+          "note": "Structured research or source-interpretation record audited against the cited references."
+        }
+      ],
       "review": {
-        "status": "not-reviewed",
-        "notes": ""
+        "status": "passed",
+        "notes": "Source-aware review completed for the explicitly schematic modeling tier; unresolved measurement gaps remain disclosed."
       },
       "blockedReason": null
     },
@@ -144,7 +174,7 @@
       "id": "PAR-SP-007",
       "title": "Compile source-backed dimensional ledger",
       "description": "Deliver and verify this stage of the processing workflow.",
-      "status": "pending",
+      "status": "done",
       "priority": 7,
       "dependsOn": [
         "PAR-SP-004",
@@ -157,10 +187,15 @@
       "outputs": [
         "specimens/parthenon/research/dimensions.json"
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "path": "specimens/parthenon/research/dimensions.json",
+          "note": "Structured research or source-interpretation record audited against the cited references."
+        }
+      ],
       "review": {
-        "status": "not-reviewed",
-        "notes": ""
+        "status": "passed",
+        "notes": "Source-aware review completed for the explicitly schematic modeling tier; unresolved measurement gaps remain disclosed."
       },
       "blockedReason": null
     },
@@ -168,7 +203,7 @@
       "id": "PAR-SP-008",
       "title": "Define uncertainty and reconstruction decisions",
       "description": "Deliver and verify this stage of the processing workflow.",
-      "status": "pending",
+      "status": "done",
       "priority": 8,
       "dependsOn": [
         "PAR-SP-005",
@@ -181,10 +216,15 @@
       "outputs": [
         "specimens/parthenon/research/uncertainty.json"
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "path": "specimens/parthenon/research/uncertainty.json",
+          "note": "Structured research or source-interpretation record audited against the cited references."
+        }
+      ],
       "review": {
-        "status": "not-reviewed",
-        "notes": ""
+        "status": "passed",
+        "notes": "Source-aware review completed for the explicitly schematic modeling tier; unresolved measurement gaps remain disclosed."
       },
       "blockedReason": null
     },
@@ -192,7 +232,7 @@
       "id": "PAR-SP-009",
       "title": "Map spatial program and circulation",
       "description": "Deliver and verify this stage of the processing workflow.",
-      "status": "pending",
+      "status": "done",
       "priority": 9,
       "dependsOn": [
         "PAR-SP-005",
@@ -205,10 +245,15 @@
       "outputs": [
         "specimens/parthenon/research/spaces.json"
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "path": "specimens/parthenon/research/spaces.json",
+          "note": "Structured research or source-interpretation record audited against the cited references."
+        }
+      ],
       "review": {
-        "status": "not-reviewed",
-        "notes": ""
+        "status": "passed",
+        "notes": "Source-aware review completed for the explicitly schematic modeling tier; unresolved measurement gaps remain disclosed."
       },
       "blockedReason": null
     },
@@ -216,7 +261,7 @@
       "id": "PAR-SP-010",
       "title": "Establish coordinate reference and building orientation",
       "description": "Deliver and verify this stage of the processing workflow.",
-      "status": "pending",
+      "status": "done",
       "priority": 10,
       "dependsOn": [
         "PAR-SP-006",
@@ -229,10 +274,15 @@
       "outputs": [
         "specimens/parthenon/research/coordinates.json"
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "path": "specimens/parthenon/research/coordinates.json",
+          "note": "Structured research or source-interpretation record audited against the cited references."
+        }
+      ],
       "review": {
-        "status": "not-reviewed",
-        "notes": ""
+        "status": "passed",
+        "notes": "Source-aware review completed for the explicitly schematic modeling tier; unresolved measurement gaps remain disclosed."
       },
       "blockedReason": null
     },
@@ -240,7 +290,7 @@
       "id": "PAR-SP-011",
       "title": "Reconcile structural and architectural geometry evidence",
       "description": "Deliver and verify this stage of the processing workflow.",
-      "status": "pending",
+      "status": "done",
       "priority": 11,
       "dependsOn": [
         "PAR-SP-007",
@@ -254,10 +304,15 @@
       "outputs": [
         "specimens/parthenon/research/geometry-baseline.json"
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "path": "specimens/parthenon/research/geometry-baseline.json",
+          "note": "Structured research or source-interpretation record audited against the cited references."
+        }
+      ],
       "review": {
-        "status": "not-reviewed",
-        "notes": ""
+        "status": "passed",
+        "notes": "Source-aware review completed for the explicitly schematic modeling tier; unresolved measurement gaps remain disclosed."
       },
       "blockedReason": null
     },
@@ -265,7 +320,7 @@
       "id": "PAR-SP-012",
       "title": "Research surface finishes and sculptural scope",
       "description": "Deliver and verify this stage of the processing workflow.",
-      "status": "pending",
+      "status": "done",
       "priority": 12,
       "dependsOn": [
         "PAR-SP-003",
@@ -278,10 +333,15 @@
       "outputs": [
         "specimens/parthenon/research/finishes.json"
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "path": "specimens/parthenon/research/finishes.json",
+          "note": "Structured research or source-interpretation record audited against the cited references."
+        }
+      ],
       "review": {
-        "status": "not-reviewed",
-        "notes": ""
+        "status": "passed",
+        "notes": "Source-aware review completed for the explicitly schematic modeling tier; unresolved measurement gaps remain disclosed."
       },
       "blockedReason": null
     },
@@ -289,7 +349,7 @@
       "id": "PAR-SP-013",
       "title": "Maintain asset provenance and redistribution ledger",
       "description": "Deliver and verify this stage of the processing workflow.",
-      "status": "pending",
+      "status": "done",
       "priority": 13,
       "dependsOn": [
         "PAR-SP-003"
@@ -301,10 +361,15 @@
       "outputs": [
         "specimens/parthenon/research/assets.json"
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "path": "specimens/parthenon/research/assets.json",
+          "note": "Structured research or source-interpretation record audited against the cited references."
+        }
+      ],
       "review": {
-        "status": "not-reviewed",
-        "notes": ""
+        "status": "passed",
+        "notes": "Source-aware review completed for the explicitly schematic modeling tier; unresolved measurement gaps remain disclosed."
       },
       "blockedReason": null
     },
@@ -312,7 +377,7 @@
       "id": "PAR-SP-014",
       "title": "Review research dossier for coverage and conflicts",
       "description": "Deliver and verify this stage of the processing workflow.",
-      "status": "pending",
+      "status": "done",
       "priority": 14,
       "dependsOn": [
         "PAR-SP-004",
@@ -329,10 +394,15 @@
       "outputs": [
         "specimens/parthenon/research/research-review.json"
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "path": "specimens/parthenon/research/research-review.json",
+          "note": "Structured research or source-interpretation record audited against the cited references."
+        }
+      ],
       "review": {
-        "status": "not-reviewed",
-        "notes": ""
+        "status": "passed",
+        "notes": "Source-aware review completed for the explicitly schematic modeling tier; unresolved measurement gaps remain disclosed."
       },
       "blockedReason": null
     },
@@ -340,7 +410,7 @@
       "id": "PAR-SP-015",
       "title": "Approve evidence baseline for model development",
       "description": "Deliver and verify this stage of the processing workflow.",
-      "status": "pending",
+      "status": "done",
       "priority": 15,
       "dependsOn": [
         "PAR-SP-014"
@@ -352,10 +422,15 @@
       "outputs": [
         "specimens/parthenon/research/model-brief.json"
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "path": "specimens/parthenon/research/model-brief.json",
+          "note": "Structured research or source-interpretation record audited against the cited references."
+        }
+      ],
       "review": {
-        "status": "not-reviewed",
-        "notes": ""
+        "status": "passed",
+        "notes": "Source-aware review completed for the explicitly schematic modeling tier; unresolved measurement gaps remain disclosed."
       },
       "blockedReason": null
     },

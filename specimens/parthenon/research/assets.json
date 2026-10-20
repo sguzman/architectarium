@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "specimenId": "parthenon",
+  "assets": [
+    {
+      "path": "site/specimens/parthenon/model.js",
+      "type": "source-code procedural geometry",
+      "origin": "new original architecture-specific procedural implementation",
+      "license": "MIT project code",
+      "status": "proposed until authored"
+    },
+    {
+      "path": "site/specimens/parthenon/viewer.js",
+      "type": "source-code viewer controls",
+      "origin": "original application implementation",
+      "license": "MIT project code",
+      "status": "proposed until authored"
+    }
+  ],
+  "externallyLinkedSources": "References used as URLs only; no third-party asset meshes, photogrammetry, museum images, scanned plans, fonts or reliefs included in model.",
+  "dependencies": [
+    {
+      "package": "three",
+      "version": "0.180.0",
+      "license": "MIT",
+      "distribution": "ESM via jsDelivr pinned CDN"
+    }
+  ],
+  "rightsRisk": "Rights to reproduce institutional sculpture, photographs or plans not obtained. Exclude all such third-party media."
+}

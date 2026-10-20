@@ -72,6 +72,62 @@
       "url": "https://whc.unesco.org/en/list/356",
       "scope": "Hagia Sophia significance, sixth-century architecture and historical setting",
       "usage": "Reference; imagery not reproduced"
+    },
+    {
+      "id": "ysma-parthenon",
+      "title": "Parthenon",
+      "publisher": "Acropolis Restoration Service (YSMA)",
+      "url": "https://www.ysma.gr/en/monuments/parthenon/",
+      "scope": "Documented construction, phased history, structural features, optical refinements, and interior partitions",
+      "usage": "Public reference link and attribution only. No diagrams, images, textures, or 3D assets copied."
+    },
+    {
+      "id": "museum-parthenon",
+      "title": "The Parthenon Gallery",
+      "publisher": "Acropolis Museum",
+      "url": "https://www.theacropolismuseum.gr/en/exhibit-halls/parthenon-gallery",
+      "scope": "Architectural authorship, function, ancient rooms, sculpture chronology, and present interpretation",
+      "usage": "Public reference link and attribution only. No diagrams, images, textures, or 3D assets copied."
+    },
+    {
+      "id": "acropolis-architecture",
+      "title": "About Parthenon: Architecture and sculpture",
+      "publisher": "Parthenon Frieze Repository / Acropolis Museum",
+      "url": "https://repository.parthenonfrieze.gr/frieze/aboutParthenon.jsp",
+      "scope": "46 perimeter columns, 12 porch columns, four west Ionic columns, east U-plan double colonnade, roof, 92 metopes",
+      "usage": "Public reference link and attribution only. No diagrams, images, textures, or 3D assets copied."
+    },
+    {
+      "id": "perseus-parthenon",
+      "title": "Athens, Parthenon (Building)",
+      "publisher": "Perseus Digital Library / Tufts University",
+      "url": "https://www.perseus.tufts.edu/hopper/artifact?name=Athens%2C+Parthenon&object=Building",
+      "scope": "Published aggregate stylobate, column spacing, column and entablature dimensions; not a licensed survey mesh",
+      "usage": "Public reference link and attribution only. No diagrams, images, textures, or 3D assets copied."
+    },
+    {
+      "id": "ysma-geometric",
+      "title": "Geometric documentation",
+      "publisher": "Acropolis Restoration Service (YSMA)",
+      "url": "https://www.ysma.gr/en/documentation/geometric-documentation/",
+      "scope": "Availability and accuracy requirements for photogrammetric measurements and monument surveys",
+      "usage": "Public reference link and attribution only. No diagrams, images, textures, or 3D assets copied."
+    },
+    {
+      "id": "ysma-research",
+      "title": "Scientific publications",
+      "publisher": "Acropolis Restoration Service (YSMA)",
+      "url": "https://www.ysma.gr/en/open-access/publications/scientific-publications/",
+      "scope": "Bibliography of specialized archaeological and architectural restoration research",
+      "usage": "Public reference link and attribution only. No diagrams, images, textures, or 3D assets copied."
+    },
+    {
+      "id": "ysma-west-2026",
+      "title": "The west pediment of the Parthenon is complete after 220 years",
+      "publisher": "Acropolis Restoration Service (YSMA)",
+      "url": "https://www.ysma.gr/en/news/parthenon-west-pediment-complete/",
+      "scope": "2026 west pediment intervention and present-day restoration state",
+      "usage": "Public reference link and attribution only. No diagrams, images, textures, or 3D assets copied."
     }
   ]
 }

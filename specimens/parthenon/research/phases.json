@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "specimenId": "parthenon",
+  "sequence": [
+    {
+      "period": "490–480 BCE",
+      "event": "Pre-Parthenon construction and destruction by Persians",
+      "represented": false,
+      "sourceIds": [
+        "ysma-parthenon"
+      ]
+    },
+    {
+      "period": "447–438 BCE",
+      "event": "Main classical temple construction",
+      "represented": true,
+      "sourceIds": [
+        "ysma-parthenon"
+      ]
+    },
+    {
+      "period": "438–432 BCE",
+      "event": "Continuation/completion of major sculptural program",
+      "represented": "architectural placement only",
+      "sourceIds": [
+        "museum-parthenon"
+      ]
+    },
+    {
+      "period": "Late Roman and later",
+      "event": "Fire damage and conversion to church",
+      "represented": false,
+      "sourceIds": [
+        "ysma-parthenon"
+      ]
+    },
+    {
+      "period": "Ottoman period",
+      "event": "Mosque reuse and additions",
+      "represented": false,
+      "sourceIds": [
+        "ysma-parthenon"
+      ]
+    },
+    {
+      "period": "1687",
+      "event": "Explosion and extensive structural damage",
+      "represented": false,
+      "sourceIds": [
+        "ysma-parthenon"
+      ]
+    },
+    {
+      "period": "19th–21st centuries",
+      "event": "Artifact removal, stabilization and restoration",
+      "represented": false,
+      "sourceIds": [
+        "ysma-parthenon",
+        "ysma-west-2026"
+      ]
+    }
+  ],
+  "policy": "Do not mix current reconstructed/restored fabric into claimed original geometry."
+}

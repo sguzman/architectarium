@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "specimenId": "parthenon",
+  "targetPhase": "Approximate late-fifth-century BCE architectural state after the main structural campaign, before later conversions",
+  "tier": "schematic-with-measured-aggregate-constraints",
+  "historicalStates": {
+    "represented": "Interpretive ancient form",
+    "notRepresented": [
+      "Late Roman fire damage",
+      "Christian conversion",
+      "Ottoman reuse",
+      "1687 explosion",
+      "19th-century removals",
+      "Modern conservation and anastylosis"
+    ]
+  },
+  "policy": [
+    "Record sourced and approximate portions separately",
+    "Do not imply surviving or reconstructable sculpture designs are completely known",
+    "Portray incomplete or speculative interiors only as interpretive layouts",
+    "Make interpretive roof and color choices distinct from recovered fragments"
+  ],
+  "references": [
+    {
+      "sourceId": "ysma-parthenon",
+      "sourcePath": "ontology/sources.json"
+    },
+    {
+      "sourceId": "museum-parthenon",
+      "sourcePath": "ontology/sources.json"
+    },
+    {
+      "sourceId": "ysma-west-2026",
+      "sourcePath": "ontology/sources.json"
+    }
+  ]
+}

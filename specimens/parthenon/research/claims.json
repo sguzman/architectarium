@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 1,
+  "specimenId": "parthenon",
+  "claims": [
+    {
+      "id": "par-c01",
+      "claim": "Structural construction 447–438 BCE, later sculptural work until about 432 BCE.",
+      "confidence": "high",
+      "sourceIds": [
+        "ysma-parthenon",
+        "museum-parthenon"
+      ]
+    },
+    {
+      "id": "par-c02",
+      "claim": "Peripteral Doric temple with eight columns on each short side and seventeen on each long side; 46 distinct perimeter columns.",
+      "confidence": "high",
+      "sourceIds": [
+        "ysma-parthenon",
+        "acropolis-architecture"
+      ]
+    },
+    {
+      "id": "par-c03",
+      "claim": "Six-column east and west porch colonnades, 12 additional external Doric columns.",
+      "confidence": "high",
+      "sourceIds": [
+        "acropolis-architecture",
+        "ysma-parthenon"
+      ]
+    },
+    {
+      "id": "par-c04",
+      "claim": "An east/west double cella, noncommunicating ancient compartments; larger eastern chamber and smaller western chamber.",
+      "confidence": "high",
+      "sourceIds": [
+        "museum-parthenon",
+        "ysma-parthenon"
+      ]
+    },
+    {
+      "id": "par-c05",
+      "claim": "Four tall Ionic supports in the western room and a two-story U-shaped Doric colonnade in the east.",
+      "confidence": "high",
+      "sourceIds": [
+        "acropolis-architecture",
+        "ysma-parthenon"
+      ]
+    },
+    {
+      "id": "par-c06",
+      "claim": "Decorative Ionic frieze around the cella upper walls and inner porches; 115 blocks over roughly 160 metres.",
+      "confidence": "high",
+      "sourceIds": [
+        "acropolis-frieze",
+        "acropolis-architecture"
+      ]
+    },
+    {
+      "id": "par-c07",
+      "claim": "Ninety-two figured metopes across all four exterior faces.",
+      "confidence": "high",
+      "sourceIds": [
+        "acropolis-architecture"
+      ]
+    },
+    {
+      "id": "par-c08",
+      "claim": "Original building prominently used Pentelic marble.",
+      "confidence": "high",
+      "sourceIds": [
+        "museum-parthenon",
+        "acropolis-architecture"
+      ]
+    },
+    {
+      "id": "par-c09",
+      "claim": "Raised curved stylobate, column entasis and corner contraction are documented deliberate refinements.",
+      "confidence": "high",
+      "sourceIds": [
+        "ysma-parthenon"
+      ]
+    },
+    {
+      "id": "par-c10",
+      "claim": "Stylobate 30.88 x 69.50 m and exterior column height about 10.43 m are published summary measurements.",
+      "confidence": "moderate",
+      "sourceIds": [
+        "perseus-parthenon",
+        "acropolis-architecture"
+      ],
+      "note": "Published secondary aggregates vary slightly with rounding and conventions."
+    }
+  ],
+  "uncertainties": [
+    "Exact per-member axes and surveyed tolerances",
+    "Full capital profiles and course-by-course restoration details",
+    "Historic internal doors and original roof-truss configurations",
+    "Surface pigment distribution and lost sculpture geometry"
+  ],
+  "references": [
+    {
+      "sourceId": "ysma-parthenon",
+      "sourcePath": "ontology/sources.json"
+    },
+    {
+      "sourceId": "museum-parthenon",
+      "sourcePath": "ontology/sources.json"
+    },
+    {
+      "sourceId": "acropolis-architecture",
+      "sourcePath": "ontology/sources.json"
+    },
+    {
+      "sourceId": "perseus-parthenon",
+      "sourcePath": "ontology/sources.json"
+    }
+  ]
+}

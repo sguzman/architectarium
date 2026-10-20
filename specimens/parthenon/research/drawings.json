@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "specimenId": "parthenon",
+  "references": [
+    {
+      "sourceId": "acropolis-architecture",
+      "item": "Architectural floor plan attributed to M. Korres",
+      "form": "plan reproduced at linked official page",
+      "status": "web display only; no vector or scan rights asserted"
+    },
+    {
+      "sourceId": "perseus-parthenon",
+      "item": "Building-specific published measurements",
+      "form": "published descriptive inventory",
+      "status": "dimension summary; not an independently validated high-resolution survey"
+    },
+    {
+      "sourceId": "ysma-geometric",
+      "item": "Photogrammetric and scanning methods / documented survey programme",
+      "form": "institutional description",
+      "status": "survey methods and collection exist but precise Parthenon meshes not obtained"
+    },
+    {
+      "sourceId": "ysma-research",
+      "item": "Published restorations and architectural monographs",
+      "form": "bibliography",
+      "status": "further detailed plan and section studies not incorporated into this edition"
+    }
+  ],
+  "unavailable": [
+    "Digital site-coordinate control network",
+    "Licensed plan, elevation, section with per-member coordinates",
+    "Current archaeological survey tolerance matrix"
+  ],
+  "decision": "Proceed only at schematic tier with cited aggregate dimensions; do not represent coordinates as actual survey measurements."
+}

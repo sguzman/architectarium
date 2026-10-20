@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "specimenId": "parthenon",
+  "checked": "2026-10-20",
+  "records": [
+    {
+      "sourceId": "acropolis-parthenon",
+      "publisher": "Acropolis Museum / Hellenic Ministry of Culture",
+      "url": "https://parthenonfrieze.gr/en/the-parthenon/",
+      "sourceDate": "Not asserted; verify publication date where specified on page",
+      "use": "Cite factual statements and research context",
+      "redistribution": "Link only; reuse license for photographs, drawings and geometry NOT established"
+    },
+    {
+      "sourceId": "acropolis-frieze",
+      "publisher": "Acropolis Museum",
+      "url": "https://emfc.gr/en/sculptural-decoration/frieze",
+      "sourceDate": "Not asserted; verify publication date where specified on page",
+      "use": "Cite factual statements and research context",
+      "redistribution": "Link only; reuse license for photographs, drawings and geometry NOT established"
+    },
+    {
+      "sourceId": "ysma-parthenon",
+      "publisher": "Acropolis Restoration Service (YSMA)",
+      "url": "https://www.ysma.gr/en/monuments/parthenon/",
+      "sourceDate": "Not asserted; verify publication date where specified on page",
+      "use": "Cite factual statements and research context",
+      "redistribution": "Link only; reuse license for photographs, drawings and geometry NOT established"
+    },
+    {
+      "sourceId": "museum-parthenon",
+      "publisher": "Acropolis Museum",
+      "url": "https://www.theacropolismuseum.gr/en/exhibit-halls/parthenon-gallery",
+      "sourceDate": "Not asserted; verify publication date where specified on page",
+      "use": "Cite factual statements and research context",
+      "redistribution": "Link only; reuse license for photographs, drawings and geometry NOT established"
+    },
+    {
+      "sourceId": "acropolis-architecture",
+      "publisher": "Parthenon Frieze Repository / Acropolis Museum",
+      "url": "https://repository.parthenonfrieze.gr/frieze/aboutParthenon.jsp",
+      "sourceDate": "Not asserted; verify publication date where specified on page",
+      "use": "Cite factual statements and research context",
+      "redistribution": "Link only; reuse license for photographs, drawings and geometry NOT established"
+    },
+    {
+      "sourceId": "perseus-parthenon",
+      "publisher": "Perseus Digital Library / Tufts University",
+      "url": "https://www.perseus.tufts.edu/hopper/artifact?name=Athens%2C+Parthenon&object=Building",
+      "sourceDate": "Not asserted; verify publication date where specified on page",
+      "use": "Cite factual statements and research context",
+      "redistribution": "Link only; reuse license for photographs, drawings and geometry NOT established"
+    },
+    {
+      "sourceId": "ysma-geometric",
+      "publisher": "Acropolis Restoration Service (YSMA)",
+      "url": "https://www.ysma.gr/en/documentation/geometric-documentation/",
+      "sourceDate": "Not asserted; verify publication date where specified on page",
+      "use": "Cite factual statements and research context",
+      "redistribution": "Link only; reuse license for photographs, drawings and geometry NOT established"
+    },
+    {
+      "sourceId": "ysma-research",
+      "publisher": "Acropolis Restoration Service (YSMA)",
+      "url": "https://www.ysma.gr/en/open-access/publications/scientific-publications/",
+      "sourceDate": "Not asserted; verify publication date where specified on page",
+      "use": "Cite factual statements and research context",
+      "redistribution": "Link only; reuse license for photographs, drawings and geometry NOT established"
+    },
+    {
+      "sourceId": "ysma-west-2026",
+      "publisher": "Acropolis Restoration Service (YSMA)",
+      "url": "https://www.ysma.gr/en/news/parthenon-west-pediment-complete/",
+      "sourceDate": "Not asserted; verify publication date where specified on page",
+      "use": "Cite factual statements and research context",
+      "redistribution": "Link only; reuse license for photographs, drawings and geometry NOT established"
+    }
+  ],
+  "needsFollowup": [
+    "High-resolution archaeological drawings require explicit licensing and technical review",
+    "Photogrammetric survey data access and redistribution rights not established"
+  ]
+}

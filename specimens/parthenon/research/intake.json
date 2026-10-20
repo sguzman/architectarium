@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "specimenId": "parthenon",
+  "title": "Parthenon: identity and limits",
+  "subject": {
+    "name": "Parthenon",
+    "alternateNames": [
+      "Temple of Athena Parthenos",
+      "Parthenonas"
+    ],
+    "site": "Acropolis, Athens, Greece",
+    "period": "Fifth century BCE",
+    "construction": "447–438 BCE structural campaign; sculptural programme continued to approximately 432 BCE",
+    "architects": [
+      "Iktinos",
+      "Kallikrates"
+    ],
+    "supervisor": "Pheidias"
+  },
+  "scope": {
+    "included": [
+      "Classical-era architectural form",
+      "Doric and Ionic features",
+      "Structural components and internal plan",
+      "Virtual interpretive visitor traversal"
+    ],
+    "excluded": [
+      "Present-day ruin facsimile",
+      "Restoration engineering plans",
+      "Licensed sculpture replication",
+      "Conservation-grade measured digital twin"
+    ]
+  },
+  "earlierMaterials": [
+    "specimens/parthenon/evidence.json",
+    "site/model.js"
+  ],
+  "initialMaterialStatus": "Preexisting files are editorial drafts, not measurements or task completion evidence.",
+  "references": [
+    {
+      "sourceId": "ysma-parthenon",
+      "sourcePath": "ontology/sources.json"
+    },
+    {
+      "sourceId": "museum-parthenon",
+      "sourcePath": "ontology/sources.json"
+    },
+    {
+      "sourceId": "acropolis-architecture",
+      "sourcePath": "ontology/sources.json"
+    }
+  ]
+}
