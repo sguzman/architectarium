@@ -80,13 +80,13 @@ try{
  await page.waitForFunction(()=>document.querySelector('#walk')?.getAttribute('aria-pressed')==='false',null,{timeout:8000});
  await page.locator('.part-row').first().click();
  await page.locator('#siteTheme').selectOption('light');
- await page.screenshot({path:'qa-parthenon/desktop-light.png',fullPage:true});
+ await page.screenshot({path:'qa-parthenon/desktop-light.png',timeout:60000,animations:'disabled'});
  assert.ok(statSync('qa-parthenon/desktop-light.png').size>25000);
  await page.locator('#siteTheme').selectOption('system');
- await page.screenshot({path:'qa-parthenon/desktop.png',fullPage:true});
+ await page.screenshot({path:'qa-parthenon/desktop.png',timeout:60000,animations:'disabled'});
  assert.ok(statSync('qa-parthenon/desktop.png').size>25000,'Desktop scene screenshot is small');
  await page.setViewportSize({width:390,height:844});
- await page.screenshot({path:'qa-parthenon/mobile.png',fullPage:true});
+ await page.screenshot({path:'qa-parthenon/mobile.png',timeout:60000,animations:'disabled'});
  assert.ok(statSync('qa-parthenon/mobile.png').size>18000,'Mobile scene screenshot is small');
  const dimensions=await page.evaluate(()=>({viewport:innerWidth,scroll:document.documentElement.scrollWidth}));
  assert.ok(dimensions.scroll<=dimensions.viewport+3,'Mobile horizontal overflow: '+JSON.stringify(dimensions));
