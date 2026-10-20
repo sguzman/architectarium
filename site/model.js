@@ -8,6 +8,23 @@ export function buildParthenon() {
  const shadow=new THREE.MeshStandardMaterial({color:0xb5a28c,roughness:.92});
  const tile=new THREE.MeshStandardMaterial({color:0xb79d83,roughness:.91,side:THREE.DoubleSide});
  const olive=new THREE.MeshStandardMaterial({color:0x657057,roughness:1});
+ // Repeatable, original mineral-grain texture. No external texture assets.
+ function grainTexture(){
+  const canvas=document.createElement('canvas');canvas.width=canvas.height=192;
+  const ctx=canvas.getContext('2d');const img=ctx.createImageData(192,192);
+  let state=719;const random=()=>((state=(Math.imul(state,1664525)+1013904223)>>>0)/4294967296);
+  for(let y=0;y<192;y++)for(let x=0;x<192;x++){
+   const veins=4*Math.sin(x*.071+y*.039)+2*Math.sin(y*.129-x*.055);
+   const speck=(random()-.5)*20;const v=Math.max(190,Math.min(255,232+veins+speck));
+   const i=(y*192+x)*4;img.data[i]=v;img.data[i+1]=v-3;img.data[i+2]=v-8;img.data[i+3]=255;
+  }
+  ctx.putImageData(img,0,0);const t=new THREE.CanvasTexture(canvas);
+  t.wrapS=t.wrapT=THREE.RepeatWrapping;t.repeat.set(3,3);t.colorSpace=THREE.SRGBColorSpace;t.anisotropy=4;
+  return t;
+ }
+ const grain=grainTexture();
+ for(const m of [stone,bright,shadow]){m.map=grain;m.bumpMap=grain;m.bumpScale=.045;m.needsUpdate=true;}
+
  function add(geo,mat,x=0,y=0,z=0){const m=new THREE.Mesh(geo,mat);m.position.set(x,y,z);m.castShadow=m.receiveShadow=true;root.add(m);return m;}
  function tag(m,id,label){m.userData.partId=id;m.userData.instanceLabel=label;pickables.push(m);if(!instances.has(id))instances.set(id,[]);instances.get(id).push(m);return m;}
  function box(id,label,w,h,d,x,y,z,mat=stone,solid=false){
