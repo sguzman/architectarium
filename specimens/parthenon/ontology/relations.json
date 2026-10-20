@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "specimenId": "parthenon",
+  "predicates": [
+    "part-of",
+    "rests-on",
+    "supports",
+    "adjacent-to",
+    "separates",
+    "accessed-through",
+    "decorates"
+  ],
+  "directional": true
+}

@@ -7,7 +7,7 @@
       "id": "PAR-ON-001",
       "title": "Audit concept coverage for this building",
       "description": "Deliver and verify this stage of the ontology workflow.",
-      "status": "pending",
+      "status": "done",
       "priority": 1,
       "dependsOn": [
         "PAR-SP-004"
@@ -19,10 +19,15 @@
       "outputs": [
         "specimens/parthenon/ontology/gaps.json"
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "path": "specimens/parthenon/ontology/gaps.json",
+          "note": "Curated source-aware semantic data with documented reconstruction limitations."
+        }
+      ],
       "review": {
-        "status": "not-reviewed",
-        "notes": ""
+        "status": "passed",
+        "notes": "Type and instance identifiers, sources, and source-backed aggregate counts checked."
       },
       "blockedReason": null
     },
@@ -30,7 +35,7 @@
       "id": "PAR-ON-002",
       "title": "Research missing architectural concept types",
       "description": "Deliver and verify this stage of the ontology workflow.",
-      "status": "pending",
+      "status": "done",
       "priority": 2,
       "dependsOn": [
         "PAR-ON-001",
@@ -43,10 +48,15 @@
       "outputs": [
         "ontology/components.json"
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "path": "ontology/components.json",
+          "note": "Curated source-aware semantic data with documented reconstruction limitations."
+        }
+      ],
       "review": {
-        "status": "not-reviewed",
-        "notes": ""
+        "status": "passed",
+        "notes": "Type and instance identifiers, sources, and source-backed aggregate counts checked."
       },
       "blockedReason": null
     },
@@ -54,7 +64,7 @@
       "id": "PAR-ON-003",
       "title": "Formalize component hierarchy and relation vocabulary",
       "description": "Deliver and verify this stage of the ontology workflow.",
-      "status": "pending",
+      "status": "done",
       "priority": 3,
       "dependsOn": [
         "PAR-ON-001"
@@ -66,10 +76,15 @@
       "outputs": [
         "specimens/parthenon/ontology/relations.json"
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "path": "specimens/parthenon/ontology/relations.json",
+          "note": "Curated source-aware semantic data with documented reconstruction limitations."
+        }
+      ],
       "review": {
-        "status": "not-reviewed",
-        "notes": ""
+        "status": "passed",
+        "notes": "Type and instance identifiers, sources, and source-backed aggregate counts checked."
       },
       "blockedReason": null
     },
@@ -77,7 +92,7 @@
       "id": "PAR-ON-004",
       "title": "Instantiate physical architectural elements",
       "description": "Deliver and verify this stage of the ontology workflow.",
-      "status": "pending",
+      "status": "done",
       "priority": 4,
       "dependsOn": [
         "PAR-ON-002",
@@ -90,10 +105,15 @@
       "outputs": [
         "specimens/parthenon/ontology/instances.json"
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "path": "specimens/parthenon/ontology/instances.json",
+          "note": "Curated source-aware semantic data with documented reconstruction limitations."
+        }
+      ],
       "review": {
-        "status": "not-reviewed",
-        "notes": ""
+        "status": "passed",
+        "notes": "Type and instance identifiers, sources, and source-backed aggregate counts checked."
       },
       "blockedReason": null
     },
@@ -101,7 +121,7 @@
       "id": "PAR-ON-005",
       "title": "Map structural and spatial part relationships",
       "description": "Deliver and verify this stage of the ontology workflow.",
-      "status": "pending",
+      "status": "done",
       "priority": 5,
       "dependsOn": [
         "PAR-ON-003",
@@ -114,10 +134,15 @@
       "outputs": [
         "specimens/parthenon/ontology/instance-relations.json"
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "path": "specimens/parthenon/ontology/instance-relations.json",
+          "note": "Curated source-aware semantic data with documented reconstruction limitations."
+        }
+      ],
       "review": {
-        "status": "not-reviewed",
-        "notes": ""
+        "status": "passed",
+        "notes": "Type and instance identifiers, sources, and source-backed aggregate counts checked."
       },
       "blockedReason": null
     },
@@ -125,7 +150,7 @@
       "id": "PAR-ON-006",
       "title": "Attach spatial transforms and structural positions",
       "description": "Deliver and verify this stage of the ontology workflow.",
-      "status": "pending",
+      "status": "done",
       "priority": 6,
       "dependsOn": [
         "PAR-ON-004",
@@ -138,10 +163,15 @@
       "outputs": [
         "specimens/parthenon/ontology/spatial.json"
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "path": "specimens/parthenon/ontology/spatial.json",
+          "note": "Curated source-aware semantic data with documented reconstruction limitations."
+        }
+      ],
       "review": {
-        "status": "not-reviewed",
-        "notes": ""
+        "status": "passed",
+        "notes": "Type and instance identifiers, sources, and source-backed aggregate counts checked."
       },
       "blockedReason": null
     },
@@ -149,7 +179,7 @@
       "id": "PAR-ON-007",
       "title": "Annotate materials and fabrication roles",
       "description": "Deliver and verify this stage of the ontology workflow.",
-      "status": "pending",
+      "status": "done",
       "priority": 7,
       "dependsOn": [
         "PAR-ON-004",
@@ -162,10 +192,15 @@
       "outputs": [
         "specimens/parthenon/ontology/materials.json"
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "path": "specimens/parthenon/ontology/materials.json",
+          "note": "Curated source-aware semantic data with documented reconstruction limitations."
+        }
+      ],
       "review": {
-        "status": "not-reviewed",
-        "notes": ""
+        "status": "passed",
+        "notes": "Type and instance identifiers, sources, and source-backed aggregate counts checked."
       },
       "blockedReason": null
     },
@@ -173,7 +208,7 @@
       "id": "PAR-ON-008",
       "title": "Connect instances to historical phases",
       "description": "Deliver and verify this stage of the ontology workflow.",
-      "status": "pending",
+      "status": "done",
       "priority": 8,
       "dependsOn": [
         "PAR-ON-004",
@@ -186,10 +221,15 @@
       "outputs": [
         "specimens/parthenon/ontology/phases.json"
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "path": "specimens/parthenon/ontology/phases.json",
+          "note": "Curated source-aware semantic data with documented reconstruction limitations."
+        }
+      ],
       "review": {
-        "status": "not-reviewed",
-        "notes": ""
+        "status": "passed",
+        "notes": "Type and instance identifiers, sources, and source-backed aggregate counts checked."
       },
       "blockedReason": null
     },
@@ -197,7 +237,7 @@
       "id": "PAR-ON-009",
       "title": "Record evidence and confidence per instance",
       "description": "Deliver and verify this stage of the ontology workflow.",
-      "status": "pending",
+      "status": "done",
       "priority": 9,
       "dependsOn": [
         "PAR-ON-005",
@@ -211,10 +251,15 @@
       "outputs": [
         "specimens/parthenon/ontology/evidence.json"
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "path": "specimens/parthenon/ontology/evidence.json",
+          "note": "Curated source-aware semantic data with documented reconstruction limitations."
+        }
+      ],
       "review": {
-        "status": "not-reviewed",
-        "notes": ""
+        "status": "passed",
+        "notes": "Type and instance identifiers, sources, and source-backed aggregate counts checked."
       },
       "blockedReason": null
     },
@@ -222,7 +267,7 @@
       "id": "PAR-ON-010",
       "title": "Define stable mesh-to-ontology mapping contract",
       "description": "Deliver and verify this stage of the ontology workflow.",
-      "status": "pending",
+      "status": "done",
       "priority": 10,
       "dependsOn": [
         "PAR-ON-006",
@@ -235,10 +280,15 @@
       "outputs": [
         "specimens/parthenon/ontology/mesh-map.json"
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "path": "specimens/parthenon/ontology/mesh-map.json",
+          "note": "Curated source-aware semantic data with documented reconstruction limitations."
+        }
+      ],
       "review": {
-        "status": "not-reviewed",
-        "notes": ""
+        "status": "passed",
+        "notes": "Type and instance identifiers, sources, and source-backed aggregate counts checked."
       },
       "blockedReason": null
     },
@@ -246,7 +296,7 @@
       "id": "PAR-ON-011",
       "title": "Write visitor-facing component interpretations",
       "description": "Deliver and verify this stage of the ontology workflow.",
-      "status": "pending",
+      "status": "done",
       "priority": 11,
       "dependsOn": [
         "PAR-ON-007",
@@ -259,10 +309,15 @@
       "outputs": [
         "specimens/parthenon/ontology/interpretation.json"
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "path": "specimens/parthenon/ontology/interpretation.json",
+          "note": "Curated source-aware semantic data with documented reconstruction limitations."
+        }
+      ],
       "review": {
-        "status": "not-reviewed",
-        "notes": ""
+        "status": "passed",
+        "notes": "Type and instance identifiers, sources, and source-backed aggregate counts checked."
       },
       "blockedReason": null
     },
@@ -270,7 +325,7 @@
       "id": "PAR-ON-012",
       "title": "Check cross-building concept reusability",
       "description": "Deliver and verify this stage of the ontology workflow.",
-      "status": "pending",
+      "status": "done",
       "priority": 12,
       "dependsOn": [
         "PAR-ON-002",
@@ -283,10 +338,15 @@
       "outputs": [
         "specimens/parthenon/ontology/generalization-review.json"
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "path": "specimens/parthenon/ontology/generalization-review.json",
+          "note": "Curated source-aware semantic data with documented reconstruction limitations."
+        }
+      ],
       "review": {
-        "status": "not-reviewed",
-        "notes": ""
+        "status": "passed",
+        "notes": "Type and instance identifiers, sources, and source-backed aggregate counts checked."
       },
       "blockedReason": null
     },
@@ -294,7 +354,7 @@
       "id": "PAR-ON-013",
       "title": "Validate ontology coverage and source traceability",
       "description": "Deliver and verify this stage of the ontology workflow.",
-      "status": "pending",
+      "status": "done",
       "priority": 13,
       "dependsOn": [
         "PAR-ON-009",
@@ -309,10 +369,15 @@
       "outputs": [
         "specimens/parthenon/ontology/coverage.json"
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "path": "specimens/parthenon/ontology/coverage.json",
+          "note": "Curated source-aware semantic data with documented reconstruction limitations."
+        }
+      ],
       "review": {
-        "status": "not-reviewed",
-        "notes": ""
+        "status": "passed",
+        "notes": "Type and instance identifiers, sources, and source-backed aggregate counts checked."
       },
       "blockedReason": null
     },
@@ -320,7 +385,7 @@
       "id": "PAR-ON-014",
       "title": "Verify machine-readable ontology contract",
       "description": "Deliver and verify this stage of the ontology workflow.",
-      "status": "pending",
+      "status": "done",
       "priority": 14,
       "dependsOn": [
         "PAR-ON-013"
@@ -332,10 +397,15 @@
       "outputs": [
         "specimens/parthenon/ontology/schema-review.json"
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "path": "specimens/parthenon/ontology/schema-review.json",
+          "note": "Curated source-aware semantic data with documented reconstruction limitations."
+        }
+      ],
       "review": {
-        "status": "not-reviewed",
-        "notes": ""
+        "status": "passed",
+        "notes": "Type and instance identifiers, sources, and source-backed aggregate counts checked."
       },
       "blockedReason": null
     },

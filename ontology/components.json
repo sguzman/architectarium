@@ -1425,6 +1425,42 @@
         }
       ],
       "exampleEvidence": "The linked building source supplies contextual evidence; component-specific verification is a separate specimen gate."
+    },
+    {
+      "id": "ionic-capital",
+      "name": "Ionic capital",
+      "category": "capital",
+      "definition": "The head of a column of the Ionic order, typically featuring paired spiral volutes below an abacus.",
+      "typicalLocation": "Upper end of an Ionic column",
+      "function": "support and transition",
+      "connectedTo": [
+        "column-shaft",
+        "abacus",
+        "architrave"
+      ],
+      "examples": [
+        {
+          "building": "Parthenon",
+          "sourceId": "ysma-parthenon"
+        }
+      ],
+      "synonyms": [
+        "volute capital"
+      ],
+      "reviewStatus": "initial-reference",
+      "visualRecognition": "Spiraling volutes distinguish this capital from the swelling Doric echinus",
+      "typicalMaterialFamilies": [
+        "stone",
+        "marble"
+      ],
+      "relations": [
+        {
+          "predicate": "rests-on",
+          "target": "column-shaft",
+          "scope": "usual Ionic order"
+        }
+      ],
+      "exampleEvidence": "Four Ionic interior supports are documented for the Parthenon west chamber; exact profiles are not surveyed in this project."
     }
   ]
 }

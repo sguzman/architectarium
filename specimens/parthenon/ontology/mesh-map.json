@@ -1,0 +1,2418 @@
+{
+  "version": 1,
+  "specimenId": "parthenon",
+  "contract": "userData.instanceId and userData.typeId map 1:1 to a record",
+  "mappings": [
+    {
+      "id": "parthenon/base/lower",
+      "typeId": "stereobate",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/base/middle",
+      "typeId": "stereobate",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/base/stylobate",
+      "typeId": "stylobate",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/peristyle/east/column-01/shaft",
+      "typeId": "column-shaft",
+      "shape": "shaft"
+    },
+    {
+      "id": "parthenon/peristyle/east/column-01/capital",
+      "typeId": "echinus",
+      "shape": "echinus"
+    },
+    {
+      "id": "parthenon/peristyle/east/column-01/abacus",
+      "typeId": "abacus",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/peristyle/west/column-01/shaft",
+      "typeId": "column-shaft",
+      "shape": "shaft"
+    },
+    {
+      "id": "parthenon/peristyle/west/column-01/capital",
+      "typeId": "echinus",
+      "shape": "echinus"
+    },
+    {
+      "id": "parthenon/peristyle/west/column-01/abacus",
+      "typeId": "abacus",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/peristyle/east/column-02/shaft",
+      "typeId": "column-shaft",
+      "shape": "shaft"
+    },
+    {
+      "id": "parthenon/peristyle/east/column-02/capital",
+      "typeId": "echinus",
+      "shape": "echinus"
+    },
+    {
+      "id": "parthenon/peristyle/east/column-02/abacus",
+      "typeId": "abacus",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/peristyle/west/column-02/shaft",
+      "typeId": "column-shaft",
+      "shape": "shaft"
+    },
+    {
+      "id": "parthenon/peristyle/west/column-02/capital",
+      "typeId": "echinus",
+      "shape": "echinus"
+    },
+    {
+      "id": "parthenon/peristyle/west/column-02/abacus",
+      "typeId": "abacus",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/peristyle/east/column-03/shaft",
+      "typeId": "column-shaft",
+      "shape": "shaft"
+    },
+    {
+      "id": "parthenon/peristyle/east/column-03/capital",
+      "typeId": "echinus",
+      "shape": "echinus"
+    },
+    {
+      "id": "parthenon/peristyle/east/column-03/abacus",
+      "typeId": "abacus",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/peristyle/west/column-03/shaft",
+      "typeId": "column-shaft",
+      "shape": "shaft"
+    },
+    {
+      "id": "parthenon/peristyle/west/column-03/capital",
+      "typeId": "echinus",
+      "shape": "echinus"
+    },
+    {
+      "id": "parthenon/peristyle/west/column-03/abacus",
+      "typeId": "abacus",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/peristyle/east/column-04/shaft",
+      "typeId": "column-shaft",
+      "shape": "shaft"
+    },
+    {
+      "id": "parthenon/peristyle/east/column-04/capital",
+      "typeId": "echinus",
+      "shape": "echinus"
+    },
+    {
+      "id": "parthenon/peristyle/east/column-04/abacus",
+      "typeId": "abacus",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/peristyle/west/column-04/shaft",
+      "typeId": "column-shaft",
+      "shape": "shaft"
+    },
+    {
+      "id": "parthenon/peristyle/west/column-04/capital",
+      "typeId": "echinus",
+      "shape": "echinus"
+    },
+    {
+      "id": "parthenon/peristyle/west/column-04/abacus",
+      "typeId": "abacus",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/peristyle/east/column-05/shaft",
+      "typeId": "column-shaft",
+      "shape": "shaft"
+    },
+    {
+      "id": "parthenon/peristyle/east/column-05/capital",
+      "typeId": "echinus",
+      "shape": "echinus"
+    },
+    {
+      "id": "parthenon/peristyle/east/column-05/abacus",
+      "typeId": "abacus",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/peristyle/west/column-05/shaft",
+      "typeId": "column-shaft",
+      "shape": "shaft"
+    },
+    {
+      "id": "parthenon/peristyle/west/column-05/capital",
+      "typeId": "echinus",
+      "shape": "echinus"
+    },
+    {
+      "id": "parthenon/peristyle/west/column-05/abacus",
+      "typeId": "abacus",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/peristyle/east/column-06/shaft",
+      "typeId": "column-shaft",
+      "shape": "shaft"
+    },
+    {
+      "id": "parthenon/peristyle/east/column-06/capital",
+      "typeId": "echinus",
+      "shape": "echinus"
+    },
+    {
+      "id": "parthenon/peristyle/east/column-06/abacus",
+      "typeId": "abacus",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/peristyle/west/column-06/shaft",
+      "typeId": "column-shaft",
+      "shape": "shaft"
+    },
+    {
+      "id": "parthenon/peristyle/west/column-06/capital",
+      "typeId": "echinus",
+      "shape": "echinus"
+    },
+    {
+      "id": "parthenon/peristyle/west/column-06/abacus",
+      "typeId": "abacus",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/peristyle/east/column-07/shaft",
+      "typeId": "column-shaft",
+      "shape": "shaft"
+    },
+    {
+      "id": "parthenon/peristyle/east/column-07/capital",
+      "typeId": "echinus",
+      "shape": "echinus"
+    },
+    {
+      "id": "parthenon/peristyle/east/column-07/abacus",
+      "typeId": "abacus",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/peristyle/west/column-07/shaft",
+      "typeId": "column-shaft",
+      "shape": "shaft"
+    },
+    {
+      "id": "parthenon/peristyle/west/column-07/capital",
+      "typeId": "echinus",
+      "shape": "echinus"
+    },
+    {
+      "id": "parthenon/peristyle/west/column-07/abacus",
+      "typeId": "abacus",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/peristyle/east/column-08/shaft",
+      "typeId": "column-shaft",
+      "shape": "shaft"
+    },
+    {
+      "id": "parthenon/peristyle/east/column-08/capital",
+      "typeId": "echinus",
+      "shape": "echinus"
+    },
+    {
+      "id": "parthenon/peristyle/east/column-08/abacus",
+      "typeId": "abacus",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/peristyle/west/column-08/shaft",
+      "typeId": "column-shaft",
+      "shape": "shaft"
+    },
+    {
+      "id": "parthenon/peristyle/west/column-08/capital",
+      "typeId": "echinus",
+      "shape": "echinus"
+    },
+    {
+      "id": "parthenon/peristyle/west/column-08/abacus",
+      "typeId": "abacus",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-02/shaft",
+      "typeId": "column-shaft",
+      "shape": "shaft"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-02/capital",
+      "typeId": "echinus",
+      "shape": "echinus"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-02/abacus",
+      "typeId": "abacus",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-02/shaft",
+      "typeId": "column-shaft",
+      "shape": "shaft"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-02/capital",
+      "typeId": "echinus",
+      "shape": "echinus"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-02/abacus",
+      "typeId": "abacus",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-03/shaft",
+      "typeId": "column-shaft",
+      "shape": "shaft"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-03/capital",
+      "typeId": "echinus",
+      "shape": "echinus"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-03/abacus",
+      "typeId": "abacus",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-03/shaft",
+      "typeId": "column-shaft",
+      "shape": "shaft"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-03/capital",
+      "typeId": "echinus",
+      "shape": "echinus"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-03/abacus",
+      "typeId": "abacus",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-04/shaft",
+      "typeId": "column-shaft",
+      "shape": "shaft"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-04/capital",
+      "typeId": "echinus",
+      "shape": "echinus"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-04/abacus",
+      "typeId": "abacus",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-04/shaft",
+      "typeId": "column-shaft",
+      "shape": "shaft"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-04/capital",
+      "typeId": "echinus",
+      "shape": "echinus"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-04/abacus",
+      "typeId": "abacus",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-05/shaft",
+      "typeId": "column-shaft",
+      "shape": "shaft"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-05/capital",
+      "typeId": "echinus",
+      "shape": "echinus"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-05/abacus",
+      "typeId": "abacus",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-05/shaft",
+      "typeId": "column-shaft",
+      "shape": "shaft"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-05/capital",
+      "typeId": "echinus",
+      "shape": "echinus"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-05/abacus",
+      "typeId": "abacus",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-06/shaft",
+      "typeId": "column-shaft",
+      "shape": "shaft"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-06/capital",
+      "typeId": "echinus",
+      "shape": "echinus"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-06/abacus",
+      "typeId": "abacus",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-06/shaft",
+      "typeId": "column-shaft",
+      "shape": "shaft"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-06/capital",
+      "typeId": "echinus",
+      "shape": "echinus"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-06/abacus",
+      "typeId": "abacus",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-07/shaft",
+      "typeId": "column-shaft",
+      "shape": "shaft"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-07/capital",
+      "typeId": "echinus",
+      "shape": "echinus"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-07/abacus",
+      "typeId": "abacus",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-07/shaft",
+      "typeId": "column-shaft",
+      "shape": "shaft"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-07/capital",
+      "typeId": "echinus",
+      "shape": "echinus"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-07/abacus",
+      "typeId": "abacus",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-08/shaft",
+      "typeId": "column-shaft",
+      "shape": "shaft"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-08/capital",
+      "typeId": "echinus",
+      "shape": "echinus"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-08/abacus",
+      "typeId": "abacus",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-08/shaft",
+      "typeId": "column-shaft",
+      "shape": "shaft"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-08/capital",
+      "typeId": "echinus",
+      "shape": "echinus"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-08/abacus",
+      "typeId": "abacus",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-09/shaft",
+      "typeId": "column-shaft",
+      "shape": "shaft"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-09/capital",
+      "typeId": "echinus",
+      "shape": "echinus"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-09/abacus",
+      "typeId": "abacus",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-09/shaft",
+      "typeId": "column-shaft",
+      "shape": "shaft"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-09/capital",
+      "typeId": "echinus",
+      "shape": "echinus"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-09/abacus",
+      "typeId": "abacus",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-10/shaft",
+      "typeId": "column-shaft",
+      "shape": "shaft"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-10/capital",
+      "typeId": "echinus",
+      "shape": "echinus"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-10/abacus",
+      "typeId": "abacus",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-10/shaft",
+      "typeId": "column-shaft",
+      "shape": "shaft"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-10/capital",
+      "typeId": "echinus",
+      "shape": "echinus"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-10/abacus",
+      "typeId": "abacus",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-11/shaft",
+      "typeId": "column-shaft",
+      "shape": "shaft"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-11/capital",
+      "typeId": "echinus",
+      "shape": "echinus"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-11/abacus",
+      "typeId": "abacus",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-11/shaft",
+      "typeId": "column-shaft",
+      "shape": "shaft"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-11/capital",
+      "typeId": "echinus",
+      "shape": "echinus"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-11/abacus",
+      "typeId": "abacus",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-12/shaft",
+      "typeId": "column-shaft",
+      "shape": "shaft"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-12/capital",
+      "typeId": "echinus",
+      "shape": "echinus"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-12/abacus",
+      "typeId": "abacus",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-12/shaft",
+      "typeId": "column-shaft",
+      "shape": "shaft"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-12/capital",
+      "typeId": "echinus",
+      "shape": "echinus"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-12/abacus",
+      "typeId": "abacus",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-13/shaft",
+      "typeId": "column-shaft",
+      "shape": "shaft"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-13/capital",
+      "typeId": "echinus",
+      "shape": "echinus"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-13/abacus",
+      "typeId": "abacus",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-13/shaft",
+      "typeId": "column-shaft",
+      "shape": "shaft"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-13/capital",
+      "typeId": "echinus",
+      "shape": "echinus"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-13/abacus",
+      "typeId": "abacus",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-14/shaft",
+      "typeId": "column-shaft",
+      "shape": "shaft"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-14/capital",
+      "typeId": "echinus",
+      "shape": "echinus"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-14/abacus",
+      "typeId": "abacus",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-14/shaft",
+      "typeId": "column-shaft",
+      "shape": "shaft"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-14/capital",
+      "typeId": "echinus",
+      "shape": "echinus"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-14/abacus",
+      "typeId": "abacus",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-15/shaft",
+      "typeId": "column-shaft",
+      "shape": "shaft"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-15/capital",
+      "typeId": "echinus",
+      "shape": "echinus"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-15/abacus",
+      "typeId": "abacus",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-15/shaft",
+      "typeId": "column-shaft",
+      "shape": "shaft"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-15/capital",
+      "typeId": "echinus",
+      "shape": "echinus"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-15/abacus",
+      "typeId": "abacus",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-16/shaft",
+      "typeId": "column-shaft",
+      "shape": "shaft"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-16/capital",
+      "typeId": "echinus",
+      "shape": "echinus"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-16/abacus",
+      "typeId": "abacus",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-16/shaft",
+      "typeId": "column-shaft",
+      "shape": "shaft"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-16/capital",
+      "typeId": "echinus",
+      "shape": "echinus"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-16/abacus",
+      "typeId": "abacus",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/porch/east/column-01/shaft",
+      "typeId": "column-shaft",
+      "shape": "shaft"
+    },
+    {
+      "id": "parthenon/porch/east/column-01/capital",
+      "typeId": "echinus",
+      "shape": "echinus"
+    },
+    {
+      "id": "parthenon/porch/east/column-01/abacus",
+      "typeId": "abacus",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/porch/east/column-02/shaft",
+      "typeId": "column-shaft",
+      "shape": "shaft"
+    },
+    {
+      "id": "parthenon/porch/east/column-02/capital",
+      "typeId": "echinus",
+      "shape": "echinus"
+    },
+    {
+      "id": "parthenon/porch/east/column-02/abacus",
+      "typeId": "abacus",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/porch/east/column-03/shaft",
+      "typeId": "column-shaft",
+      "shape": "shaft"
+    },
+    {
+      "id": "parthenon/porch/east/column-03/capital",
+      "typeId": "echinus",
+      "shape": "echinus"
+    },
+    {
+      "id": "parthenon/porch/east/column-03/abacus",
+      "typeId": "abacus",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/porch/east/column-04/shaft",
+      "typeId": "column-shaft",
+      "shape": "shaft"
+    },
+    {
+      "id": "parthenon/porch/east/column-04/capital",
+      "typeId": "echinus",
+      "shape": "echinus"
+    },
+    {
+      "id": "parthenon/porch/east/column-04/abacus",
+      "typeId": "abacus",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/porch/east/column-05/shaft",
+      "typeId": "column-shaft",
+      "shape": "shaft"
+    },
+    {
+      "id": "parthenon/porch/east/column-05/capital",
+      "typeId": "echinus",
+      "shape": "echinus"
+    },
+    {
+      "id": "parthenon/porch/east/column-05/abacus",
+      "typeId": "abacus",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/porch/east/column-06/shaft",
+      "typeId": "column-shaft",
+      "shape": "shaft"
+    },
+    {
+      "id": "parthenon/porch/east/column-06/capital",
+      "typeId": "echinus",
+      "shape": "echinus"
+    },
+    {
+      "id": "parthenon/porch/east/column-06/abacus",
+      "typeId": "abacus",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/porch/west/column-01/shaft",
+      "typeId": "column-shaft",
+      "shape": "shaft"
+    },
+    {
+      "id": "parthenon/porch/west/column-01/capital",
+      "typeId": "echinus",
+      "shape": "echinus"
+    },
+    {
+      "id": "parthenon/porch/west/column-01/abacus",
+      "typeId": "abacus",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/porch/west/column-02/shaft",
+      "typeId": "column-shaft",
+      "shape": "shaft"
+    },
+    {
+      "id": "parthenon/porch/west/column-02/capital",
+      "typeId": "echinus",
+      "shape": "echinus"
+    },
+    {
+      "id": "parthenon/porch/west/column-02/abacus",
+      "typeId": "abacus",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/porch/west/column-03/shaft",
+      "typeId": "column-shaft",
+      "shape": "shaft"
+    },
+    {
+      "id": "parthenon/porch/west/column-03/capital",
+      "typeId": "echinus",
+      "shape": "echinus"
+    },
+    {
+      "id": "parthenon/porch/west/column-03/abacus",
+      "typeId": "abacus",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/porch/west/column-04/shaft",
+      "typeId": "column-shaft",
+      "shape": "shaft"
+    },
+    {
+      "id": "parthenon/porch/west/column-04/capital",
+      "typeId": "echinus",
+      "shape": "echinus"
+    },
+    {
+      "id": "parthenon/porch/west/column-04/abacus",
+      "typeId": "abacus",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/porch/west/column-05/shaft",
+      "typeId": "column-shaft",
+      "shape": "shaft"
+    },
+    {
+      "id": "parthenon/porch/west/column-05/capital",
+      "typeId": "echinus",
+      "shape": "echinus"
+    },
+    {
+      "id": "parthenon/porch/west/column-05/abacus",
+      "typeId": "abacus",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/porch/west/column-06/shaft",
+      "typeId": "column-shaft",
+      "shape": "shaft"
+    },
+    {
+      "id": "parthenon/porch/west/column-06/capital",
+      "typeId": "echinus",
+      "shape": "echinus"
+    },
+    {
+      "id": "parthenon/porch/west/column-06/abacus",
+      "typeId": "abacus",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/west-room/ionic/column-01/shaft",
+      "typeId": "column-shaft",
+      "shape": "shaft"
+    },
+    {
+      "id": "parthenon/west-room/ionic/column-01/capital",
+      "typeId": "ionic-capital",
+      "shape": "ionic"
+    },
+    {
+      "id": "parthenon/west-room/ionic/column-01/abacus",
+      "typeId": "abacus",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/west-room/ionic/column-02/shaft",
+      "typeId": "column-shaft",
+      "shape": "shaft"
+    },
+    {
+      "id": "parthenon/west-room/ionic/column-02/capital",
+      "typeId": "ionic-capital",
+      "shape": "ionic"
+    },
+    {
+      "id": "parthenon/west-room/ionic/column-02/abacus",
+      "typeId": "abacus",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/west-room/ionic/column-03/shaft",
+      "typeId": "column-shaft",
+      "shape": "shaft"
+    },
+    {
+      "id": "parthenon/west-room/ionic/column-03/capital",
+      "typeId": "ionic-capital",
+      "shape": "ionic"
+    },
+    {
+      "id": "parthenon/west-room/ionic/column-03/abacus",
+      "typeId": "abacus",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/west-room/ionic/column-04/shaft",
+      "typeId": "column-shaft",
+      "shape": "shaft"
+    },
+    {
+      "id": "parthenon/west-room/ionic/column-04/capital",
+      "typeId": "ionic-capital",
+      "shape": "ionic"
+    },
+    {
+      "id": "parthenon/west-room/ionic/column-04/abacus",
+      "typeId": "abacus",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-01/shaft",
+      "typeId": "column-shaft",
+      "shape": "shaft"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-01/capital",
+      "typeId": "echinus",
+      "shape": "echinus"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-01/abacus",
+      "typeId": "abacus",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-02/shaft",
+      "typeId": "column-shaft",
+      "shape": "shaft"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-02/capital",
+      "typeId": "echinus",
+      "shape": "echinus"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-02/abacus",
+      "typeId": "abacus",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-03/shaft",
+      "typeId": "column-shaft",
+      "shape": "shaft"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-03/capital",
+      "typeId": "echinus",
+      "shape": "echinus"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-03/abacus",
+      "typeId": "abacus",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-04/shaft",
+      "typeId": "column-shaft",
+      "shape": "shaft"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-04/capital",
+      "typeId": "echinus",
+      "shape": "echinus"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-04/abacus",
+      "typeId": "abacus",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-05/shaft",
+      "typeId": "column-shaft",
+      "shape": "shaft"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-05/capital",
+      "typeId": "echinus",
+      "shape": "echinus"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-05/abacus",
+      "typeId": "abacus",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-06/shaft",
+      "typeId": "column-shaft",
+      "shape": "shaft"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-06/capital",
+      "typeId": "echinus",
+      "shape": "echinus"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-06/abacus",
+      "typeId": "abacus",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-07/shaft",
+      "typeId": "column-shaft",
+      "shape": "shaft"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-07/capital",
+      "typeId": "echinus",
+      "shape": "echinus"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-07/abacus",
+      "typeId": "abacus",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-08/shaft",
+      "typeId": "column-shaft",
+      "shape": "shaft"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-08/capital",
+      "typeId": "echinus",
+      "shape": "echinus"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-08/abacus",
+      "typeId": "abacus",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-09/shaft",
+      "typeId": "column-shaft",
+      "shape": "shaft"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-09/capital",
+      "typeId": "echinus",
+      "shape": "echinus"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-09/abacus",
+      "typeId": "abacus",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-10/shaft",
+      "typeId": "column-shaft",
+      "shape": "shaft"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-10/capital",
+      "typeId": "echinus",
+      "shape": "echinus"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-10/abacus",
+      "typeId": "abacus",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-11/shaft",
+      "typeId": "column-shaft",
+      "shape": "shaft"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-11/capital",
+      "typeId": "echinus",
+      "shape": "echinus"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-11/abacus",
+      "typeId": "abacus",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-12/shaft",
+      "typeId": "column-shaft",
+      "shape": "shaft"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-12/capital",
+      "typeId": "echinus",
+      "shape": "echinus"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-12/abacus",
+      "typeId": "abacus",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-13/shaft",
+      "typeId": "column-shaft",
+      "shape": "shaft"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-13/capital",
+      "typeId": "echinus",
+      "shape": "echinus"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-13/abacus",
+      "typeId": "abacus",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-01/shaft",
+      "typeId": "column-shaft",
+      "shape": "shaft"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-01/capital",
+      "typeId": "echinus",
+      "shape": "echinus"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-01/abacus",
+      "typeId": "abacus",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-02/shaft",
+      "typeId": "column-shaft",
+      "shape": "shaft"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-02/capital",
+      "typeId": "echinus",
+      "shape": "echinus"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-02/abacus",
+      "typeId": "abacus",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-03/shaft",
+      "typeId": "column-shaft",
+      "shape": "shaft"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-03/capital",
+      "typeId": "echinus",
+      "shape": "echinus"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-03/abacus",
+      "typeId": "abacus",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-04/shaft",
+      "typeId": "column-shaft",
+      "shape": "shaft"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-04/capital",
+      "typeId": "echinus",
+      "shape": "echinus"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-04/abacus",
+      "typeId": "abacus",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-05/shaft",
+      "typeId": "column-shaft",
+      "shape": "shaft"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-05/capital",
+      "typeId": "echinus",
+      "shape": "echinus"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-05/abacus",
+      "typeId": "abacus",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-06/shaft",
+      "typeId": "column-shaft",
+      "shape": "shaft"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-06/capital",
+      "typeId": "echinus",
+      "shape": "echinus"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-06/abacus",
+      "typeId": "abacus",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-07/shaft",
+      "typeId": "column-shaft",
+      "shape": "shaft"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-07/capital",
+      "typeId": "echinus",
+      "shape": "echinus"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-07/abacus",
+      "typeId": "abacus",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-08/shaft",
+      "typeId": "column-shaft",
+      "shape": "shaft"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-08/capital",
+      "typeId": "echinus",
+      "shape": "echinus"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-08/abacus",
+      "typeId": "abacus",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-09/shaft",
+      "typeId": "column-shaft",
+      "shape": "shaft"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-09/capital",
+      "typeId": "echinus",
+      "shape": "echinus"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-09/abacus",
+      "typeId": "abacus",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-10/shaft",
+      "typeId": "column-shaft",
+      "shape": "shaft"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-10/capital",
+      "typeId": "echinus",
+      "shape": "echinus"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-10/abacus",
+      "typeId": "abacus",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-11/shaft",
+      "typeId": "column-shaft",
+      "shape": "shaft"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-11/capital",
+      "typeId": "echinus",
+      "shape": "echinus"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-11/abacus",
+      "typeId": "abacus",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-12/shaft",
+      "typeId": "column-shaft",
+      "shape": "shaft"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-12/capital",
+      "typeId": "echinus",
+      "shape": "echinus"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-12/abacus",
+      "typeId": "abacus",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-13/shaft",
+      "typeId": "column-shaft",
+      "shape": "shaft"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-13/capital",
+      "typeId": "echinus",
+      "shape": "echinus"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-13/abacus",
+      "typeId": "abacus",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/cella/north-wall",
+      "typeId": "cella",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/cella/south-wall",
+      "typeId": "cella",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/cella/east-jamb-north",
+      "typeId": "cella",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/cella/east-jamb-south",
+      "typeId": "cella",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/cella/east-lintel",
+      "typeId": "cella",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/cella/west-jamb-north",
+      "typeId": "cella",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/cella/west-jamb-south",
+      "typeId": "cella",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/cella/west-lintel",
+      "typeId": "cella",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/cella/divider",
+      "typeId": "cella",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/porch-floor/pronaos",
+      "typeId": "pronaos",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/porch-floor/opisthonaos",
+      "typeId": "portico",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/entablature/east/architrave",
+      "typeId": "architrave",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/entablature/east/cornice",
+      "typeId": "cornice",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/pediment/east",
+      "typeId": "pediment",
+      "shape": "pediment"
+    },
+    {
+      "id": "parthenon/entablature/west/architrave",
+      "typeId": "architrave",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/entablature/west/cornice",
+      "typeId": "cornice",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/pediment/west",
+      "typeId": "pediment",
+      "shape": "pediment"
+    },
+    {
+      "id": "parthenon/entablature/north/architrave",
+      "typeId": "architrave",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/entablature/north/cornice",
+      "typeId": "cornice",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/entablature/south/architrave",
+      "typeId": "architrave",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/entablature/south/cornice",
+      "typeId": "cornice",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/east/metope-01",
+      "typeId": "metope",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/east/metope-02",
+      "typeId": "metope",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/east/metope-03",
+      "typeId": "metope",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/east/metope-04",
+      "typeId": "metope",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/east/metope-05",
+      "typeId": "metope",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/east/metope-06",
+      "typeId": "metope",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/east/metope-07",
+      "typeId": "metope",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/east/metope-08",
+      "typeId": "metope",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/east/metope-09",
+      "typeId": "metope",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/east/metope-10",
+      "typeId": "metope",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/east/metope-11",
+      "typeId": "metope",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/east/metope-12",
+      "typeId": "metope",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/east/metope-13",
+      "typeId": "metope",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/east/metope-14",
+      "typeId": "metope",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/east/triglyph-01",
+      "typeId": "triglyph",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/east/triglyph-02",
+      "typeId": "triglyph",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/east/triglyph-03",
+      "typeId": "triglyph",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/east/triglyph-04",
+      "typeId": "triglyph",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/east/triglyph-05",
+      "typeId": "triglyph",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/east/triglyph-06",
+      "typeId": "triglyph",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/east/triglyph-07",
+      "typeId": "triglyph",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/east/triglyph-08",
+      "typeId": "triglyph",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/east/triglyph-09",
+      "typeId": "triglyph",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/east/triglyph-10",
+      "typeId": "triglyph",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/east/triglyph-11",
+      "typeId": "triglyph",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/east/triglyph-12",
+      "typeId": "triglyph",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/east/triglyph-13",
+      "typeId": "triglyph",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/east/triglyph-14",
+      "typeId": "triglyph",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/east/triglyph-15",
+      "typeId": "triglyph",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/west/metope-01",
+      "typeId": "metope",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/west/metope-02",
+      "typeId": "metope",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/west/metope-03",
+      "typeId": "metope",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/west/metope-04",
+      "typeId": "metope",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/west/metope-05",
+      "typeId": "metope",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/west/metope-06",
+      "typeId": "metope",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/west/metope-07",
+      "typeId": "metope",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/west/metope-08",
+      "typeId": "metope",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/west/metope-09",
+      "typeId": "metope",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/west/metope-10",
+      "typeId": "metope",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/west/metope-11",
+      "typeId": "metope",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/west/metope-12",
+      "typeId": "metope",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/west/metope-13",
+      "typeId": "metope",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/west/metope-14",
+      "typeId": "metope",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/west/triglyph-01",
+      "typeId": "triglyph",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/west/triglyph-02",
+      "typeId": "triglyph",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/west/triglyph-03",
+      "typeId": "triglyph",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/west/triglyph-04",
+      "typeId": "triglyph",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/west/triglyph-05",
+      "typeId": "triglyph",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/west/triglyph-06",
+      "typeId": "triglyph",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/west/triglyph-07",
+      "typeId": "triglyph",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/west/triglyph-08",
+      "typeId": "triglyph",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/west/triglyph-09",
+      "typeId": "triglyph",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/west/triglyph-10",
+      "typeId": "triglyph",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/west/triglyph-11",
+      "typeId": "triglyph",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/west/triglyph-12",
+      "typeId": "triglyph",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/west/triglyph-13",
+      "typeId": "triglyph",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/west/triglyph-14",
+      "typeId": "triglyph",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/west/triglyph-15",
+      "typeId": "triglyph",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/north/metope-01",
+      "typeId": "metope",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/north/metope-02",
+      "typeId": "metope",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/north/metope-03",
+      "typeId": "metope",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/north/metope-04",
+      "typeId": "metope",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/north/metope-05",
+      "typeId": "metope",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/north/metope-06",
+      "typeId": "metope",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/north/metope-07",
+      "typeId": "metope",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/north/metope-08",
+      "typeId": "metope",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/north/metope-09",
+      "typeId": "metope",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/north/metope-10",
+      "typeId": "metope",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/north/metope-11",
+      "typeId": "metope",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/north/metope-12",
+      "typeId": "metope",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/north/metope-13",
+      "typeId": "metope",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/north/metope-14",
+      "typeId": "metope",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/north/metope-15",
+      "typeId": "metope",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/north/metope-16",
+      "typeId": "metope",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/north/metope-17",
+      "typeId": "metope",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/north/metope-18",
+      "typeId": "metope",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/north/metope-19",
+      "typeId": "metope",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/north/metope-20",
+      "typeId": "metope",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/north/metope-21",
+      "typeId": "metope",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/north/metope-22",
+      "typeId": "metope",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/north/metope-23",
+      "typeId": "metope",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/north/metope-24",
+      "typeId": "metope",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/north/metope-25",
+      "typeId": "metope",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/north/metope-26",
+      "typeId": "metope",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/north/metope-27",
+      "typeId": "metope",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/north/metope-28",
+      "typeId": "metope",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/north/metope-29",
+      "typeId": "metope",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/north/metope-30",
+      "typeId": "metope",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/north/metope-31",
+      "typeId": "metope",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/north/metope-32",
+      "typeId": "metope",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/north/triglyph-01",
+      "typeId": "triglyph",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/north/triglyph-02",
+      "typeId": "triglyph",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/north/triglyph-03",
+      "typeId": "triglyph",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/north/triglyph-04",
+      "typeId": "triglyph",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/north/triglyph-05",
+      "typeId": "triglyph",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/north/triglyph-06",
+      "typeId": "triglyph",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/north/triglyph-07",
+      "typeId": "triglyph",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/north/triglyph-08",
+      "typeId": "triglyph",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/north/triglyph-09",
+      "typeId": "triglyph",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/north/triglyph-10",
+      "typeId": "triglyph",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/north/triglyph-11",
+      "typeId": "triglyph",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/north/triglyph-12",
+      "typeId": "triglyph",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/north/triglyph-13",
+      "typeId": "triglyph",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/north/triglyph-14",
+      "typeId": "triglyph",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/north/triglyph-15",
+      "typeId": "triglyph",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/north/triglyph-16",
+      "typeId": "triglyph",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/north/triglyph-17",
+      "typeId": "triglyph",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/north/triglyph-18",
+      "typeId": "triglyph",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/north/triglyph-19",
+      "typeId": "triglyph",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/north/triglyph-20",
+      "typeId": "triglyph",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/north/triglyph-21",
+      "typeId": "triglyph",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/north/triglyph-22",
+      "typeId": "triglyph",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/north/triglyph-23",
+      "typeId": "triglyph",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/north/triglyph-24",
+      "typeId": "triglyph",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/north/triglyph-25",
+      "typeId": "triglyph",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/north/triglyph-26",
+      "typeId": "triglyph",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/north/triglyph-27",
+      "typeId": "triglyph",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/north/triglyph-28",
+      "typeId": "triglyph",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/north/triglyph-29",
+      "typeId": "triglyph",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/north/triglyph-30",
+      "typeId": "triglyph",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/north/triglyph-31",
+      "typeId": "triglyph",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/north/triglyph-32",
+      "typeId": "triglyph",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/north/triglyph-33",
+      "typeId": "triglyph",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/south/metope-01",
+      "typeId": "metope",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/south/metope-02",
+      "typeId": "metope",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/south/metope-03",
+      "typeId": "metope",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/south/metope-04",
+      "typeId": "metope",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/south/metope-05",
+      "typeId": "metope",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/south/metope-06",
+      "typeId": "metope",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/south/metope-07",
+      "typeId": "metope",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/south/metope-08",
+      "typeId": "metope",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/south/metope-09",
+      "typeId": "metope",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/south/metope-10",
+      "typeId": "metope",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/south/metope-11",
+      "typeId": "metope",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/south/metope-12",
+      "typeId": "metope",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/south/metope-13",
+      "typeId": "metope",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/south/metope-14",
+      "typeId": "metope",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/south/metope-15",
+      "typeId": "metope",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/south/metope-16",
+      "typeId": "metope",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/south/metope-17",
+      "typeId": "metope",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/south/metope-18",
+      "typeId": "metope",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/south/metope-19",
+      "typeId": "metope",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/south/metope-20",
+      "typeId": "metope",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/south/metope-21",
+      "typeId": "metope",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/south/metope-22",
+      "typeId": "metope",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/south/metope-23",
+      "typeId": "metope",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/south/metope-24",
+      "typeId": "metope",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/south/metope-25",
+      "typeId": "metope",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/south/metope-26",
+      "typeId": "metope",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/south/metope-27",
+      "typeId": "metope",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/south/metope-28",
+      "typeId": "metope",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/south/metope-29",
+      "typeId": "metope",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/south/metope-30",
+      "typeId": "metope",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/south/metope-31",
+      "typeId": "metope",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/south/metope-32",
+      "typeId": "metope",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/south/triglyph-01",
+      "typeId": "triglyph",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/south/triglyph-02",
+      "typeId": "triglyph",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/south/triglyph-03",
+      "typeId": "triglyph",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/south/triglyph-04",
+      "typeId": "triglyph",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/south/triglyph-05",
+      "typeId": "triglyph",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/south/triglyph-06",
+      "typeId": "triglyph",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/south/triglyph-07",
+      "typeId": "triglyph",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/south/triglyph-08",
+      "typeId": "triglyph",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/south/triglyph-09",
+      "typeId": "triglyph",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/south/triglyph-10",
+      "typeId": "triglyph",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/south/triglyph-11",
+      "typeId": "triglyph",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/south/triglyph-12",
+      "typeId": "triglyph",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/south/triglyph-13",
+      "typeId": "triglyph",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/south/triglyph-14",
+      "typeId": "triglyph",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/south/triglyph-15",
+      "typeId": "triglyph",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/south/triglyph-16",
+      "typeId": "triglyph",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/south/triglyph-17",
+      "typeId": "triglyph",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/south/triglyph-18",
+      "typeId": "triglyph",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/south/triglyph-19",
+      "typeId": "triglyph",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/south/triglyph-20",
+      "typeId": "triglyph",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/south/triglyph-21",
+      "typeId": "triglyph",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/south/triglyph-22",
+      "typeId": "triglyph",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/south/triglyph-23",
+      "typeId": "triglyph",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/south/triglyph-24",
+      "typeId": "triglyph",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/south/triglyph-25",
+      "typeId": "triglyph",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/south/triglyph-26",
+      "typeId": "triglyph",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/south/triglyph-27",
+      "typeId": "triglyph",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/south/triglyph-28",
+      "typeId": "triglyph",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/south/triglyph-29",
+      "typeId": "triglyph",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/south/triglyph-30",
+      "typeId": "triglyph",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/south/triglyph-31",
+      "typeId": "triglyph",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/south/triglyph-32",
+      "typeId": "triglyph",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/frieze/south/triglyph-33",
+      "typeId": "triglyph",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/ionic-frieze/north",
+      "typeId": "ionic-frieze",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/ionic-frieze/south",
+      "typeId": "ionic-frieze",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/ionic-frieze/east",
+      "typeId": "ionic-frieze",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/ionic-frieze/west",
+      "typeId": "ionic-frieze",
+      "shape": "box"
+    },
+    {
+      "id": "parthenon/roof/north",
+      "typeId": "roof",
+      "shape": "roof"
+    },
+    {
+      "id": "parthenon/roof/south",
+      "typeId": "roof",
+      "shape": "roof"
+    }
+  ],
+  "expected": 482
+}

@@ -1,0 +1,887 @@
+{
+  "version": 1,
+  "specimenId": "parthenon",
+  "relations": [
+    {
+      "from": "parthenon/peristyle/east/column-01/capital",
+      "to": "parthenon/peristyle/east/column-01/shaft",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/peristyle/east/column-01/abacus",
+      "to": "parthenon/peristyle/east/column-01/capital",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/peristyle/west/column-01/capital",
+      "to": "parthenon/peristyle/west/column-01/shaft",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/peristyle/west/column-01/abacus",
+      "to": "parthenon/peristyle/west/column-01/capital",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/peristyle/east/column-02/capital",
+      "to": "parthenon/peristyle/east/column-02/shaft",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/peristyle/east/column-02/abacus",
+      "to": "parthenon/peristyle/east/column-02/capital",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/peristyle/west/column-02/capital",
+      "to": "parthenon/peristyle/west/column-02/shaft",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/peristyle/west/column-02/abacus",
+      "to": "parthenon/peristyle/west/column-02/capital",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/peristyle/east/column-03/capital",
+      "to": "parthenon/peristyle/east/column-03/shaft",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/peristyle/east/column-03/abacus",
+      "to": "parthenon/peristyle/east/column-03/capital",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/peristyle/west/column-03/capital",
+      "to": "parthenon/peristyle/west/column-03/shaft",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/peristyle/west/column-03/abacus",
+      "to": "parthenon/peristyle/west/column-03/capital",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/peristyle/east/column-04/capital",
+      "to": "parthenon/peristyle/east/column-04/shaft",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/peristyle/east/column-04/abacus",
+      "to": "parthenon/peristyle/east/column-04/capital",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/peristyle/west/column-04/capital",
+      "to": "parthenon/peristyle/west/column-04/shaft",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/peristyle/west/column-04/abacus",
+      "to": "parthenon/peristyle/west/column-04/capital",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/peristyle/east/column-05/capital",
+      "to": "parthenon/peristyle/east/column-05/shaft",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/peristyle/east/column-05/abacus",
+      "to": "parthenon/peristyle/east/column-05/capital",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/peristyle/west/column-05/capital",
+      "to": "parthenon/peristyle/west/column-05/shaft",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/peristyle/west/column-05/abacus",
+      "to": "parthenon/peristyle/west/column-05/capital",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/peristyle/east/column-06/capital",
+      "to": "parthenon/peristyle/east/column-06/shaft",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/peristyle/east/column-06/abacus",
+      "to": "parthenon/peristyle/east/column-06/capital",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/peristyle/west/column-06/capital",
+      "to": "parthenon/peristyle/west/column-06/shaft",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/peristyle/west/column-06/abacus",
+      "to": "parthenon/peristyle/west/column-06/capital",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/peristyle/east/column-07/capital",
+      "to": "parthenon/peristyle/east/column-07/shaft",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/peristyle/east/column-07/abacus",
+      "to": "parthenon/peristyle/east/column-07/capital",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/peristyle/west/column-07/capital",
+      "to": "parthenon/peristyle/west/column-07/shaft",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/peristyle/west/column-07/abacus",
+      "to": "parthenon/peristyle/west/column-07/capital",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/peristyle/east/column-08/capital",
+      "to": "parthenon/peristyle/east/column-08/shaft",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/peristyle/east/column-08/abacus",
+      "to": "parthenon/peristyle/east/column-08/capital",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/peristyle/west/column-08/capital",
+      "to": "parthenon/peristyle/west/column-08/shaft",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/peristyle/west/column-08/abacus",
+      "to": "parthenon/peristyle/west/column-08/capital",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/peristyle/north/column-02/capital",
+      "to": "parthenon/peristyle/north/column-02/shaft",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/peristyle/north/column-02/abacus",
+      "to": "parthenon/peristyle/north/column-02/capital",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/peristyle/south/column-02/capital",
+      "to": "parthenon/peristyle/south/column-02/shaft",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/peristyle/south/column-02/abacus",
+      "to": "parthenon/peristyle/south/column-02/capital",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/peristyle/north/column-03/capital",
+      "to": "parthenon/peristyle/north/column-03/shaft",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/peristyle/north/column-03/abacus",
+      "to": "parthenon/peristyle/north/column-03/capital",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/peristyle/south/column-03/capital",
+      "to": "parthenon/peristyle/south/column-03/shaft",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/peristyle/south/column-03/abacus",
+      "to": "parthenon/peristyle/south/column-03/capital",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/peristyle/north/column-04/capital",
+      "to": "parthenon/peristyle/north/column-04/shaft",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/peristyle/north/column-04/abacus",
+      "to": "parthenon/peristyle/north/column-04/capital",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/peristyle/south/column-04/capital",
+      "to": "parthenon/peristyle/south/column-04/shaft",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/peristyle/south/column-04/abacus",
+      "to": "parthenon/peristyle/south/column-04/capital",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/peristyle/north/column-05/capital",
+      "to": "parthenon/peristyle/north/column-05/shaft",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/peristyle/north/column-05/abacus",
+      "to": "parthenon/peristyle/north/column-05/capital",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/peristyle/south/column-05/capital",
+      "to": "parthenon/peristyle/south/column-05/shaft",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/peristyle/south/column-05/abacus",
+      "to": "parthenon/peristyle/south/column-05/capital",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/peristyle/north/column-06/capital",
+      "to": "parthenon/peristyle/north/column-06/shaft",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/peristyle/north/column-06/abacus",
+      "to": "parthenon/peristyle/north/column-06/capital",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/peristyle/south/column-06/capital",
+      "to": "parthenon/peristyle/south/column-06/shaft",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/peristyle/south/column-06/abacus",
+      "to": "parthenon/peristyle/south/column-06/capital",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/peristyle/north/column-07/capital",
+      "to": "parthenon/peristyle/north/column-07/shaft",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/peristyle/north/column-07/abacus",
+      "to": "parthenon/peristyle/north/column-07/capital",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/peristyle/south/column-07/capital",
+      "to": "parthenon/peristyle/south/column-07/shaft",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/peristyle/south/column-07/abacus",
+      "to": "parthenon/peristyle/south/column-07/capital",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/peristyle/north/column-08/capital",
+      "to": "parthenon/peristyle/north/column-08/shaft",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/peristyle/north/column-08/abacus",
+      "to": "parthenon/peristyle/north/column-08/capital",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/peristyle/south/column-08/capital",
+      "to": "parthenon/peristyle/south/column-08/shaft",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/peristyle/south/column-08/abacus",
+      "to": "parthenon/peristyle/south/column-08/capital",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/peristyle/north/column-09/capital",
+      "to": "parthenon/peristyle/north/column-09/shaft",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/peristyle/north/column-09/abacus",
+      "to": "parthenon/peristyle/north/column-09/capital",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/peristyle/south/column-09/capital",
+      "to": "parthenon/peristyle/south/column-09/shaft",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/peristyle/south/column-09/abacus",
+      "to": "parthenon/peristyle/south/column-09/capital",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/peristyle/north/column-10/capital",
+      "to": "parthenon/peristyle/north/column-10/shaft",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/peristyle/north/column-10/abacus",
+      "to": "parthenon/peristyle/north/column-10/capital",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/peristyle/south/column-10/capital",
+      "to": "parthenon/peristyle/south/column-10/shaft",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/peristyle/south/column-10/abacus",
+      "to": "parthenon/peristyle/south/column-10/capital",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/peristyle/north/column-11/capital",
+      "to": "parthenon/peristyle/north/column-11/shaft",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/peristyle/north/column-11/abacus",
+      "to": "parthenon/peristyle/north/column-11/capital",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/peristyle/south/column-11/capital",
+      "to": "parthenon/peristyle/south/column-11/shaft",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/peristyle/south/column-11/abacus",
+      "to": "parthenon/peristyle/south/column-11/capital",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/peristyle/north/column-12/capital",
+      "to": "parthenon/peristyle/north/column-12/shaft",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/peristyle/north/column-12/abacus",
+      "to": "parthenon/peristyle/north/column-12/capital",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/peristyle/south/column-12/capital",
+      "to": "parthenon/peristyle/south/column-12/shaft",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/peristyle/south/column-12/abacus",
+      "to": "parthenon/peristyle/south/column-12/capital",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/peristyle/north/column-13/capital",
+      "to": "parthenon/peristyle/north/column-13/shaft",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/peristyle/north/column-13/abacus",
+      "to": "parthenon/peristyle/north/column-13/capital",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/peristyle/south/column-13/capital",
+      "to": "parthenon/peristyle/south/column-13/shaft",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/peristyle/south/column-13/abacus",
+      "to": "parthenon/peristyle/south/column-13/capital",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/peristyle/north/column-14/capital",
+      "to": "parthenon/peristyle/north/column-14/shaft",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/peristyle/north/column-14/abacus",
+      "to": "parthenon/peristyle/north/column-14/capital",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/peristyle/south/column-14/capital",
+      "to": "parthenon/peristyle/south/column-14/shaft",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/peristyle/south/column-14/abacus",
+      "to": "parthenon/peristyle/south/column-14/capital",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/peristyle/north/column-15/capital",
+      "to": "parthenon/peristyle/north/column-15/shaft",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/peristyle/north/column-15/abacus",
+      "to": "parthenon/peristyle/north/column-15/capital",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/peristyle/south/column-15/capital",
+      "to": "parthenon/peristyle/south/column-15/shaft",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/peristyle/south/column-15/abacus",
+      "to": "parthenon/peristyle/south/column-15/capital",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/peristyle/north/column-16/capital",
+      "to": "parthenon/peristyle/north/column-16/shaft",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/peristyle/north/column-16/abacus",
+      "to": "parthenon/peristyle/north/column-16/capital",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/peristyle/south/column-16/capital",
+      "to": "parthenon/peristyle/south/column-16/shaft",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/peristyle/south/column-16/abacus",
+      "to": "parthenon/peristyle/south/column-16/capital",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/porch/east/column-01/capital",
+      "to": "parthenon/porch/east/column-01/shaft",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/porch/east/column-01/abacus",
+      "to": "parthenon/porch/east/column-01/capital",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/porch/east/column-02/capital",
+      "to": "parthenon/porch/east/column-02/shaft",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/porch/east/column-02/abacus",
+      "to": "parthenon/porch/east/column-02/capital",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/porch/east/column-03/capital",
+      "to": "parthenon/porch/east/column-03/shaft",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/porch/east/column-03/abacus",
+      "to": "parthenon/porch/east/column-03/capital",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/porch/east/column-04/capital",
+      "to": "parthenon/porch/east/column-04/shaft",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/porch/east/column-04/abacus",
+      "to": "parthenon/porch/east/column-04/capital",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/porch/east/column-05/capital",
+      "to": "parthenon/porch/east/column-05/shaft",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/porch/east/column-05/abacus",
+      "to": "parthenon/porch/east/column-05/capital",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/porch/east/column-06/capital",
+      "to": "parthenon/porch/east/column-06/shaft",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/porch/east/column-06/abacus",
+      "to": "parthenon/porch/east/column-06/capital",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/porch/west/column-01/capital",
+      "to": "parthenon/porch/west/column-01/shaft",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/porch/west/column-01/abacus",
+      "to": "parthenon/porch/west/column-01/capital",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/porch/west/column-02/capital",
+      "to": "parthenon/porch/west/column-02/shaft",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/porch/west/column-02/abacus",
+      "to": "parthenon/porch/west/column-02/capital",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/porch/west/column-03/capital",
+      "to": "parthenon/porch/west/column-03/shaft",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/porch/west/column-03/abacus",
+      "to": "parthenon/porch/west/column-03/capital",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/porch/west/column-04/capital",
+      "to": "parthenon/porch/west/column-04/shaft",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/porch/west/column-04/abacus",
+      "to": "parthenon/porch/west/column-04/capital",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/porch/west/column-05/capital",
+      "to": "parthenon/porch/west/column-05/shaft",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/porch/west/column-05/abacus",
+      "to": "parthenon/porch/west/column-05/capital",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/porch/west/column-06/capital",
+      "to": "parthenon/porch/west/column-06/shaft",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/porch/west/column-06/abacus",
+      "to": "parthenon/porch/west/column-06/capital",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/west-room/ionic/column-01/capital",
+      "to": "parthenon/west-room/ionic/column-01/shaft",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/west-room/ionic/column-01/abacus",
+      "to": "parthenon/west-room/ionic/column-01/capital",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/west-room/ionic/column-02/capital",
+      "to": "parthenon/west-room/ionic/column-02/shaft",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/west-room/ionic/column-02/abacus",
+      "to": "parthenon/west-room/ionic/column-02/capital",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/west-room/ionic/column-03/capital",
+      "to": "parthenon/west-room/ionic/column-03/shaft",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/west-room/ionic/column-03/abacus",
+      "to": "parthenon/west-room/ionic/column-03/capital",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/west-room/ionic/column-04/capital",
+      "to": "parthenon/west-room/ionic/column-04/shaft",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/west-room/ionic/column-04/abacus",
+      "to": "parthenon/west-room/ionic/column-04/capital",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/east-room/lower/column-01/capital",
+      "to": "parthenon/east-room/lower/column-01/shaft",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/east-room/lower/column-01/abacus",
+      "to": "parthenon/east-room/lower/column-01/capital",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/east-room/lower/column-02/capital",
+      "to": "parthenon/east-room/lower/column-02/shaft",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/east-room/lower/column-02/abacus",
+      "to": "parthenon/east-room/lower/column-02/capital",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/east-room/lower/column-03/capital",
+      "to": "parthenon/east-room/lower/column-03/shaft",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/east-room/lower/column-03/abacus",
+      "to": "parthenon/east-room/lower/column-03/capital",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/east-room/lower/column-04/capital",
+      "to": "parthenon/east-room/lower/column-04/shaft",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/east-room/lower/column-04/abacus",
+      "to": "parthenon/east-room/lower/column-04/capital",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/east-room/lower/column-05/capital",
+      "to": "parthenon/east-room/lower/column-05/shaft",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/east-room/lower/column-05/abacus",
+      "to": "parthenon/east-room/lower/column-05/capital",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/east-room/lower/column-06/capital",
+      "to": "parthenon/east-room/lower/column-06/shaft",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/east-room/lower/column-06/abacus",
+      "to": "parthenon/east-room/lower/column-06/capital",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/east-room/lower/column-07/capital",
+      "to": "parthenon/east-room/lower/column-07/shaft",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/east-room/lower/column-07/abacus",
+      "to": "parthenon/east-room/lower/column-07/capital",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/east-room/lower/column-08/capital",
+      "to": "parthenon/east-room/lower/column-08/shaft",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/east-room/lower/column-08/abacus",
+      "to": "parthenon/east-room/lower/column-08/capital",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/east-room/lower/column-09/capital",
+      "to": "parthenon/east-room/lower/column-09/shaft",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/east-room/lower/column-09/abacus",
+      "to": "parthenon/east-room/lower/column-09/capital",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/east-room/lower/column-10/capital",
+      "to": "parthenon/east-room/lower/column-10/shaft",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/east-room/lower/column-10/abacus",
+      "to": "parthenon/east-room/lower/column-10/capital",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/east-room/lower/column-11/capital",
+      "to": "parthenon/east-room/lower/column-11/shaft",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/east-room/lower/column-11/abacus",
+      "to": "parthenon/east-room/lower/column-11/capital",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/east-room/lower/column-12/capital",
+      "to": "parthenon/east-room/lower/column-12/shaft",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/east-room/lower/column-12/abacus",
+      "to": "parthenon/east-room/lower/column-12/capital",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/east-room/lower/column-13/capital",
+      "to": "parthenon/east-room/lower/column-13/shaft",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/east-room/lower/column-13/abacus",
+      "to": "parthenon/east-room/lower/column-13/capital",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/east-room/upper/column-01/capital",
+      "to": "parthenon/east-room/upper/column-01/shaft",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/east-room/upper/column-01/abacus",
+      "to": "parthenon/east-room/upper/column-01/capital",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/east-room/upper/column-02/capital",
+      "to": "parthenon/east-room/upper/column-02/shaft",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/east-room/upper/column-02/abacus",
+      "to": "parthenon/east-room/upper/column-02/capital",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/east-room/upper/column-03/capital",
+      "to": "parthenon/east-room/upper/column-03/shaft",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/east-room/upper/column-03/abacus",
+      "to": "parthenon/east-room/upper/column-03/capital",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/east-room/upper/column-04/capital",
+      "to": "parthenon/east-room/upper/column-04/shaft",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/east-room/upper/column-04/abacus",
+      "to": "parthenon/east-room/upper/column-04/capital",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/east-room/upper/column-05/capital",
+      "to": "parthenon/east-room/upper/column-05/shaft",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/east-room/upper/column-05/abacus",
+      "to": "parthenon/east-room/upper/column-05/capital",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/east-room/upper/column-06/capital",
+      "to": "parthenon/east-room/upper/column-06/shaft",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/east-room/upper/column-06/abacus",
+      "to": "parthenon/east-room/upper/column-06/capital",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/east-room/upper/column-07/capital",
+      "to": "parthenon/east-room/upper/column-07/shaft",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/east-room/upper/column-07/abacus",
+      "to": "parthenon/east-room/upper/column-07/capital",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/east-room/upper/column-08/capital",
+      "to": "parthenon/east-room/upper/column-08/shaft",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/east-room/upper/column-08/abacus",
+      "to": "parthenon/east-room/upper/column-08/capital",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/east-room/upper/column-09/capital",
+      "to": "parthenon/east-room/upper/column-09/shaft",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/east-room/upper/column-09/abacus",
+      "to": "parthenon/east-room/upper/column-09/capital",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/east-room/upper/column-10/capital",
+      "to": "parthenon/east-room/upper/column-10/shaft",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/east-room/upper/column-10/abacus",
+      "to": "parthenon/east-room/upper/column-10/capital",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/east-room/upper/column-11/capital",
+      "to": "parthenon/east-room/upper/column-11/shaft",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/east-room/upper/column-11/abacus",
+      "to": "parthenon/east-room/upper/column-11/capital",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/east-room/upper/column-12/capital",
+      "to": "parthenon/east-room/upper/column-12/shaft",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/east-room/upper/column-12/abacus",
+      "to": "parthenon/east-room/upper/column-12/capital",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/east-room/upper/column-13/capital",
+      "to": "parthenon/east-room/upper/column-13/shaft",
+      "predicate": "rests-on"
+    },
+    {
+      "from": "parthenon/east-room/upper/column-13/abacus",
+      "to": "parthenon/east-room/upper/column-13/capital",
+      "predicate": "rests-on"
+    }
+  ],
+  "policy": "Only recorded instance edges are asserted."
+}

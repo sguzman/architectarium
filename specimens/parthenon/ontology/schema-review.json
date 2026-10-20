@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "specimenId": "parthenon",
+  "checks": [
+    "Unique IDs",
+    "Canonical type references",
+    "Sourced structural interpretations",
+    "Finite positions and positive dimensions",
+    "Valid typed relations"
+  ],
+  "implementation": "Machine-readable inventory with a validating runtime viewer."
+}

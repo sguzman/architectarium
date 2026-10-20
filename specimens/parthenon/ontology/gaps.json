@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "specimenId": "parthenon",
+  "originalTypes": 42,
+  "newTypes": [
+    "ionic-capital"
+  ],
+  "excluded": [
+    "Figural sculpture typology",
+    "Measured individual stone block profiles"
+  ],
+  "decision": "Reuse existing general types unless new source-backed architectural distinctions arise."
+}

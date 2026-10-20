@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "specimenId": "parthenon",
+  "elements": [
+    {
+      "typeId": "metope",
+      "explanation": "One of 92 original sculptural panel positions, presented without copied relief sculpture."
+    },
+    {
+      "typeId": "column-shaft",
+      "explanation": "Exterior Doric perimeter and secondary porches form separate counted systems."
+    },
+    {
+      "typeId": "cella",
+      "explanation": "Separate east and west chambers, without a connecting passage."
+    },
+    {
+      "typeId": "ionic-frieze",
+      "explanation": "Continuous Ionic architectural band around the cella; actual sculptural procession omitted."
+    }
+  ],
+  "notice": "Individual placements are interpretive; source-backed aggregate counts and outline only."
+}

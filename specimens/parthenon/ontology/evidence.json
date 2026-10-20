@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "specimenId": "parthenon",
+  "counts": {
+    "perimeter": 46,
+    "porch": 12,
+    "westRoomIonic": 4,
+    "metopes": 92
+  },
+  "sourceIds": [
+    "ysma-parthenon",
+    "acropolis-architecture",
+    "perseus-parthenon"
+  ],
+  "limitations": [
+    "Eastern interior spacing schematic",
+    "Column optical refinements schematic",
+    "No original sculptural replicas"
+  ]
+}

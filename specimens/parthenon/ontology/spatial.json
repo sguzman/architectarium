@@ -1,0 +1,6756 @@
+{
+  "version": 1,
+  "specimenId": "parthenon",
+  "datum": "local modeling frame",
+  "georeferenced": false,
+  "transforms": [
+    {
+      "id": "parthenon/base/lower",
+      "position": [
+        0,
+        0.24,
+        0
+      ],
+      "size": [
+        33.4,
+        0.48,
+        72
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/base/middle",
+      "position": [
+        0,
+        0.59,
+        0
+      ],
+      "size": [
+        32.3,
+        0.36,
+        70.8
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/base/stylobate",
+      "position": [
+        0,
+        0.93,
+        0
+      ],
+      "size": [
+        30.88,
+        0.34,
+        69.5
+      ],
+      "certainty": "published-aggregate"
+    },
+    {
+      "id": "parthenon/peristyle/east/column-01/shaft",
+      "position": [
+        -13.48,
+        6.315,
+        -32.5
+      ],
+      "size": [
+        1.91,
+        10.43,
+        1.91
+      ],
+      "certainty": "published-height-aggregate"
+    },
+    {
+      "id": "parthenon/peristyle/east/column-01/capital",
+      "position": [
+        -13.48,
+        11.73,
+        -32.5
+      ],
+      "size": [
+        2.063,
+        0.4,
+        2.063
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/peristyle/east/column-01/abacus",
+      "position": [
+        -13.48,
+        11.99,
+        -32.5
+      ],
+      "size": [
+        2.197,
+        0.18,
+        2.197
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/peristyle/west/column-01/shaft",
+      "position": [
+        -13.48,
+        6.315,
+        32.5
+      ],
+      "size": [
+        1.91,
+        10.43,
+        1.91
+      ],
+      "certainty": "published-height-aggregate"
+    },
+    {
+      "id": "parthenon/peristyle/west/column-01/capital",
+      "position": [
+        -13.48,
+        11.73,
+        32.5
+      ],
+      "size": [
+        2.063,
+        0.4,
+        2.063
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/peristyle/west/column-01/abacus",
+      "position": [
+        -13.48,
+        11.99,
+        32.5
+      ],
+      "size": [
+        2.197,
+        0.18,
+        2.197
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/peristyle/east/column-02/shaft",
+      "position": [
+        -9.629,
+        6.315,
+        -32.5
+      ],
+      "size": [
+        1.91,
+        10.43,
+        1.91
+      ],
+      "certainty": "published-height-aggregate"
+    },
+    {
+      "id": "parthenon/peristyle/east/column-02/capital",
+      "position": [
+        -9.629,
+        11.73,
+        -32.5
+      ],
+      "size": [
+        2.063,
+        0.4,
+        2.063
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/peristyle/east/column-02/abacus",
+      "position": [
+        -9.629,
+        11.99,
+        -32.5
+      ],
+      "size": [
+        2.197,
+        0.18,
+        2.197
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/peristyle/west/column-02/shaft",
+      "position": [
+        -9.629,
+        6.315,
+        32.5
+      ],
+      "size": [
+        1.91,
+        10.43,
+        1.91
+      ],
+      "certainty": "published-height-aggregate"
+    },
+    {
+      "id": "parthenon/peristyle/west/column-02/capital",
+      "position": [
+        -9.629,
+        11.73,
+        32.5
+      ],
+      "size": [
+        2.063,
+        0.4,
+        2.063
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/peristyle/west/column-02/abacus",
+      "position": [
+        -9.629,
+        11.99,
+        32.5
+      ],
+      "size": [
+        2.197,
+        0.18,
+        2.197
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/peristyle/east/column-03/shaft",
+      "position": [
+        -5.777,
+        6.315,
+        -32.5
+      ],
+      "size": [
+        1.91,
+        10.43,
+        1.91
+      ],
+      "certainty": "published-height-aggregate"
+    },
+    {
+      "id": "parthenon/peristyle/east/column-03/capital",
+      "position": [
+        -5.777,
+        11.73,
+        -32.5
+      ],
+      "size": [
+        2.063,
+        0.4,
+        2.063
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/peristyle/east/column-03/abacus",
+      "position": [
+        -5.777,
+        11.99,
+        -32.5
+      ],
+      "size": [
+        2.197,
+        0.18,
+        2.197
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/peristyle/west/column-03/shaft",
+      "position": [
+        -5.777,
+        6.315,
+        32.5
+      ],
+      "size": [
+        1.91,
+        10.43,
+        1.91
+      ],
+      "certainty": "published-height-aggregate"
+    },
+    {
+      "id": "parthenon/peristyle/west/column-03/capital",
+      "position": [
+        -5.777,
+        11.73,
+        32.5
+      ],
+      "size": [
+        2.063,
+        0.4,
+        2.063
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/peristyle/west/column-03/abacus",
+      "position": [
+        -5.777,
+        11.99,
+        32.5
+      ],
+      "size": [
+        2.197,
+        0.18,
+        2.197
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/peristyle/east/column-04/shaft",
+      "position": [
+        -1.926,
+        6.315,
+        -32.5
+      ],
+      "size": [
+        1.91,
+        10.43,
+        1.91
+      ],
+      "certainty": "published-height-aggregate"
+    },
+    {
+      "id": "parthenon/peristyle/east/column-04/capital",
+      "position": [
+        -1.926,
+        11.73,
+        -32.5
+      ],
+      "size": [
+        2.063,
+        0.4,
+        2.063
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/peristyle/east/column-04/abacus",
+      "position": [
+        -1.926,
+        11.99,
+        -32.5
+      ],
+      "size": [
+        2.197,
+        0.18,
+        2.197
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/peristyle/west/column-04/shaft",
+      "position": [
+        -1.926,
+        6.315,
+        32.5
+      ],
+      "size": [
+        1.91,
+        10.43,
+        1.91
+      ],
+      "certainty": "published-height-aggregate"
+    },
+    {
+      "id": "parthenon/peristyle/west/column-04/capital",
+      "position": [
+        -1.926,
+        11.73,
+        32.5
+      ],
+      "size": [
+        2.063,
+        0.4,
+        2.063
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/peristyle/west/column-04/abacus",
+      "position": [
+        -1.926,
+        11.99,
+        32.5
+      ],
+      "size": [
+        2.197,
+        0.18,
+        2.197
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/peristyle/east/column-05/shaft",
+      "position": [
+        1.926,
+        6.315,
+        -32.5
+      ],
+      "size": [
+        1.91,
+        10.43,
+        1.91
+      ],
+      "certainty": "published-height-aggregate"
+    },
+    {
+      "id": "parthenon/peristyle/east/column-05/capital",
+      "position": [
+        1.926,
+        11.73,
+        -32.5
+      ],
+      "size": [
+        2.063,
+        0.4,
+        2.063
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/peristyle/east/column-05/abacus",
+      "position": [
+        1.926,
+        11.99,
+        -32.5
+      ],
+      "size": [
+        2.197,
+        0.18,
+        2.197
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/peristyle/west/column-05/shaft",
+      "position": [
+        1.926,
+        6.315,
+        32.5
+      ],
+      "size": [
+        1.91,
+        10.43,
+        1.91
+      ],
+      "certainty": "published-height-aggregate"
+    },
+    {
+      "id": "parthenon/peristyle/west/column-05/capital",
+      "position": [
+        1.926,
+        11.73,
+        32.5
+      ],
+      "size": [
+        2.063,
+        0.4,
+        2.063
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/peristyle/west/column-05/abacus",
+      "position": [
+        1.926,
+        11.99,
+        32.5
+      ],
+      "size": [
+        2.197,
+        0.18,
+        2.197
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/peristyle/east/column-06/shaft",
+      "position": [
+        5.777,
+        6.315,
+        -32.5
+      ],
+      "size": [
+        1.91,
+        10.43,
+        1.91
+      ],
+      "certainty": "published-height-aggregate"
+    },
+    {
+      "id": "parthenon/peristyle/east/column-06/capital",
+      "position": [
+        5.777,
+        11.73,
+        -32.5
+      ],
+      "size": [
+        2.063,
+        0.4,
+        2.063
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/peristyle/east/column-06/abacus",
+      "position": [
+        5.777,
+        11.99,
+        -32.5
+      ],
+      "size": [
+        2.197,
+        0.18,
+        2.197
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/peristyle/west/column-06/shaft",
+      "position": [
+        5.777,
+        6.315,
+        32.5
+      ],
+      "size": [
+        1.91,
+        10.43,
+        1.91
+      ],
+      "certainty": "published-height-aggregate"
+    },
+    {
+      "id": "parthenon/peristyle/west/column-06/capital",
+      "position": [
+        5.777,
+        11.73,
+        32.5
+      ],
+      "size": [
+        2.063,
+        0.4,
+        2.063
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/peristyle/west/column-06/abacus",
+      "position": [
+        5.777,
+        11.99,
+        32.5
+      ],
+      "size": [
+        2.197,
+        0.18,
+        2.197
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/peristyle/east/column-07/shaft",
+      "position": [
+        9.629,
+        6.315,
+        -32.5
+      ],
+      "size": [
+        1.91,
+        10.43,
+        1.91
+      ],
+      "certainty": "published-height-aggregate"
+    },
+    {
+      "id": "parthenon/peristyle/east/column-07/capital",
+      "position": [
+        9.629,
+        11.73,
+        -32.5
+      ],
+      "size": [
+        2.063,
+        0.4,
+        2.063
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/peristyle/east/column-07/abacus",
+      "position": [
+        9.629,
+        11.99,
+        -32.5
+      ],
+      "size": [
+        2.197,
+        0.18,
+        2.197
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/peristyle/west/column-07/shaft",
+      "position": [
+        9.629,
+        6.315,
+        32.5
+      ],
+      "size": [
+        1.91,
+        10.43,
+        1.91
+      ],
+      "certainty": "published-height-aggregate"
+    },
+    {
+      "id": "parthenon/peristyle/west/column-07/capital",
+      "position": [
+        9.629,
+        11.73,
+        32.5
+      ],
+      "size": [
+        2.063,
+        0.4,
+        2.063
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/peristyle/west/column-07/abacus",
+      "position": [
+        9.629,
+        11.99,
+        32.5
+      ],
+      "size": [
+        2.197,
+        0.18,
+        2.197
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/peristyle/east/column-08/shaft",
+      "position": [
+        13.48,
+        6.315,
+        -32.5
+      ],
+      "size": [
+        1.91,
+        10.43,
+        1.91
+      ],
+      "certainty": "published-height-aggregate"
+    },
+    {
+      "id": "parthenon/peristyle/east/column-08/capital",
+      "position": [
+        13.48,
+        11.73,
+        -32.5
+      ],
+      "size": [
+        2.063,
+        0.4,
+        2.063
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/peristyle/east/column-08/abacus",
+      "position": [
+        13.48,
+        11.99,
+        -32.5
+      ],
+      "size": [
+        2.197,
+        0.18,
+        2.197
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/peristyle/west/column-08/shaft",
+      "position": [
+        13.48,
+        6.315,
+        32.5
+      ],
+      "size": [
+        1.91,
+        10.43,
+        1.91
+      ],
+      "certainty": "published-height-aggregate"
+    },
+    {
+      "id": "parthenon/peristyle/west/column-08/capital",
+      "position": [
+        13.48,
+        11.73,
+        32.5
+      ],
+      "size": [
+        2.063,
+        0.4,
+        2.063
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/peristyle/west/column-08/abacus",
+      "position": [
+        13.48,
+        11.99,
+        32.5
+      ],
+      "size": [
+        2.197,
+        0.18,
+        2.197
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-02/shaft",
+      "position": [
+        -13.48,
+        6.315,
+        -28.437
+      ],
+      "size": [
+        1.91,
+        10.43,
+        1.91
+      ],
+      "certainty": "published-height-aggregate"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-02/capital",
+      "position": [
+        -13.48,
+        11.73,
+        -28.437
+      ],
+      "size": [
+        2.063,
+        0.4,
+        2.063
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-02/abacus",
+      "position": [
+        -13.48,
+        11.99,
+        -28.437
+      ],
+      "size": [
+        2.197,
+        0.18,
+        2.197
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-02/shaft",
+      "position": [
+        13.48,
+        6.315,
+        -28.437
+      ],
+      "size": [
+        1.91,
+        10.43,
+        1.91
+      ],
+      "certainty": "published-height-aggregate"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-02/capital",
+      "position": [
+        13.48,
+        11.73,
+        -28.437
+      ],
+      "size": [
+        2.063,
+        0.4,
+        2.063
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-02/abacus",
+      "position": [
+        13.48,
+        11.99,
+        -28.437
+      ],
+      "size": [
+        2.197,
+        0.18,
+        2.197
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-03/shaft",
+      "position": [
+        -13.48,
+        6.315,
+        -24.375
+      ],
+      "size": [
+        1.91,
+        10.43,
+        1.91
+      ],
+      "certainty": "published-height-aggregate"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-03/capital",
+      "position": [
+        -13.48,
+        11.73,
+        -24.375
+      ],
+      "size": [
+        2.063,
+        0.4,
+        2.063
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-03/abacus",
+      "position": [
+        -13.48,
+        11.99,
+        -24.375
+      ],
+      "size": [
+        2.197,
+        0.18,
+        2.197
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-03/shaft",
+      "position": [
+        13.48,
+        6.315,
+        -24.375
+      ],
+      "size": [
+        1.91,
+        10.43,
+        1.91
+      ],
+      "certainty": "published-height-aggregate"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-03/capital",
+      "position": [
+        13.48,
+        11.73,
+        -24.375
+      ],
+      "size": [
+        2.063,
+        0.4,
+        2.063
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-03/abacus",
+      "position": [
+        13.48,
+        11.99,
+        -24.375
+      ],
+      "size": [
+        2.197,
+        0.18,
+        2.197
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-04/shaft",
+      "position": [
+        -13.48,
+        6.315,
+        -20.312
+      ],
+      "size": [
+        1.91,
+        10.43,
+        1.91
+      ],
+      "certainty": "published-height-aggregate"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-04/capital",
+      "position": [
+        -13.48,
+        11.73,
+        -20.312
+      ],
+      "size": [
+        2.063,
+        0.4,
+        2.063
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-04/abacus",
+      "position": [
+        -13.48,
+        11.99,
+        -20.312
+      ],
+      "size": [
+        2.197,
+        0.18,
+        2.197
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-04/shaft",
+      "position": [
+        13.48,
+        6.315,
+        -20.312
+      ],
+      "size": [
+        1.91,
+        10.43,
+        1.91
+      ],
+      "certainty": "published-height-aggregate"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-04/capital",
+      "position": [
+        13.48,
+        11.73,
+        -20.312
+      ],
+      "size": [
+        2.063,
+        0.4,
+        2.063
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-04/abacus",
+      "position": [
+        13.48,
+        11.99,
+        -20.312
+      ],
+      "size": [
+        2.197,
+        0.18,
+        2.197
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-05/shaft",
+      "position": [
+        -13.48,
+        6.315,
+        -16.25
+      ],
+      "size": [
+        1.91,
+        10.43,
+        1.91
+      ],
+      "certainty": "published-height-aggregate"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-05/capital",
+      "position": [
+        -13.48,
+        11.73,
+        -16.25
+      ],
+      "size": [
+        2.063,
+        0.4,
+        2.063
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-05/abacus",
+      "position": [
+        -13.48,
+        11.99,
+        -16.25
+      ],
+      "size": [
+        2.197,
+        0.18,
+        2.197
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-05/shaft",
+      "position": [
+        13.48,
+        6.315,
+        -16.25
+      ],
+      "size": [
+        1.91,
+        10.43,
+        1.91
+      ],
+      "certainty": "published-height-aggregate"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-05/capital",
+      "position": [
+        13.48,
+        11.73,
+        -16.25
+      ],
+      "size": [
+        2.063,
+        0.4,
+        2.063
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-05/abacus",
+      "position": [
+        13.48,
+        11.99,
+        -16.25
+      ],
+      "size": [
+        2.197,
+        0.18,
+        2.197
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-06/shaft",
+      "position": [
+        -13.48,
+        6.315,
+        -12.187
+      ],
+      "size": [
+        1.91,
+        10.43,
+        1.91
+      ],
+      "certainty": "published-height-aggregate"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-06/capital",
+      "position": [
+        -13.48,
+        11.73,
+        -12.187
+      ],
+      "size": [
+        2.063,
+        0.4,
+        2.063
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-06/abacus",
+      "position": [
+        -13.48,
+        11.99,
+        -12.187
+      ],
+      "size": [
+        2.197,
+        0.18,
+        2.197
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-06/shaft",
+      "position": [
+        13.48,
+        6.315,
+        -12.187
+      ],
+      "size": [
+        1.91,
+        10.43,
+        1.91
+      ],
+      "certainty": "published-height-aggregate"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-06/capital",
+      "position": [
+        13.48,
+        11.73,
+        -12.187
+      ],
+      "size": [
+        2.063,
+        0.4,
+        2.063
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-06/abacus",
+      "position": [
+        13.48,
+        11.99,
+        -12.187
+      ],
+      "size": [
+        2.197,
+        0.18,
+        2.197
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-07/shaft",
+      "position": [
+        -13.48,
+        6.315,
+        -8.125
+      ],
+      "size": [
+        1.91,
+        10.43,
+        1.91
+      ],
+      "certainty": "published-height-aggregate"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-07/capital",
+      "position": [
+        -13.48,
+        11.73,
+        -8.125
+      ],
+      "size": [
+        2.063,
+        0.4,
+        2.063
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-07/abacus",
+      "position": [
+        -13.48,
+        11.99,
+        -8.125
+      ],
+      "size": [
+        2.197,
+        0.18,
+        2.197
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-07/shaft",
+      "position": [
+        13.48,
+        6.315,
+        -8.125
+      ],
+      "size": [
+        1.91,
+        10.43,
+        1.91
+      ],
+      "certainty": "published-height-aggregate"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-07/capital",
+      "position": [
+        13.48,
+        11.73,
+        -8.125
+      ],
+      "size": [
+        2.063,
+        0.4,
+        2.063
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-07/abacus",
+      "position": [
+        13.48,
+        11.99,
+        -8.125
+      ],
+      "size": [
+        2.197,
+        0.18,
+        2.197
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-08/shaft",
+      "position": [
+        -13.48,
+        6.315,
+        -4.062
+      ],
+      "size": [
+        1.91,
+        10.43,
+        1.91
+      ],
+      "certainty": "published-height-aggregate"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-08/capital",
+      "position": [
+        -13.48,
+        11.73,
+        -4.062
+      ],
+      "size": [
+        2.063,
+        0.4,
+        2.063
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-08/abacus",
+      "position": [
+        -13.48,
+        11.99,
+        -4.062
+      ],
+      "size": [
+        2.197,
+        0.18,
+        2.197
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-08/shaft",
+      "position": [
+        13.48,
+        6.315,
+        -4.062
+      ],
+      "size": [
+        1.91,
+        10.43,
+        1.91
+      ],
+      "certainty": "published-height-aggregate"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-08/capital",
+      "position": [
+        13.48,
+        11.73,
+        -4.062
+      ],
+      "size": [
+        2.063,
+        0.4,
+        2.063
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-08/abacus",
+      "position": [
+        13.48,
+        11.99,
+        -4.062
+      ],
+      "size": [
+        2.197,
+        0.18,
+        2.197
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-09/shaft",
+      "position": [
+        -13.48,
+        6.315,
+        0
+      ],
+      "size": [
+        1.91,
+        10.43,
+        1.91
+      ],
+      "certainty": "published-height-aggregate"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-09/capital",
+      "position": [
+        -13.48,
+        11.73,
+        0
+      ],
+      "size": [
+        2.063,
+        0.4,
+        2.063
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-09/abacus",
+      "position": [
+        -13.48,
+        11.99,
+        0
+      ],
+      "size": [
+        2.197,
+        0.18,
+        2.197
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-09/shaft",
+      "position": [
+        13.48,
+        6.315,
+        0
+      ],
+      "size": [
+        1.91,
+        10.43,
+        1.91
+      ],
+      "certainty": "published-height-aggregate"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-09/capital",
+      "position": [
+        13.48,
+        11.73,
+        0
+      ],
+      "size": [
+        2.063,
+        0.4,
+        2.063
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-09/abacus",
+      "position": [
+        13.48,
+        11.99,
+        0
+      ],
+      "size": [
+        2.197,
+        0.18,
+        2.197
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-10/shaft",
+      "position": [
+        -13.48,
+        6.315,
+        4.063
+      ],
+      "size": [
+        1.91,
+        10.43,
+        1.91
+      ],
+      "certainty": "published-height-aggregate"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-10/capital",
+      "position": [
+        -13.48,
+        11.73,
+        4.063
+      ],
+      "size": [
+        2.063,
+        0.4,
+        2.063
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-10/abacus",
+      "position": [
+        -13.48,
+        11.99,
+        4.063
+      ],
+      "size": [
+        2.197,
+        0.18,
+        2.197
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-10/shaft",
+      "position": [
+        13.48,
+        6.315,
+        4.063
+      ],
+      "size": [
+        1.91,
+        10.43,
+        1.91
+      ],
+      "certainty": "published-height-aggregate"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-10/capital",
+      "position": [
+        13.48,
+        11.73,
+        4.063
+      ],
+      "size": [
+        2.063,
+        0.4,
+        2.063
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-10/abacus",
+      "position": [
+        13.48,
+        11.99,
+        4.063
+      ],
+      "size": [
+        2.197,
+        0.18,
+        2.197
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-11/shaft",
+      "position": [
+        -13.48,
+        6.315,
+        8.125
+      ],
+      "size": [
+        1.91,
+        10.43,
+        1.91
+      ],
+      "certainty": "published-height-aggregate"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-11/capital",
+      "position": [
+        -13.48,
+        11.73,
+        8.125
+      ],
+      "size": [
+        2.063,
+        0.4,
+        2.063
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-11/abacus",
+      "position": [
+        -13.48,
+        11.99,
+        8.125
+      ],
+      "size": [
+        2.197,
+        0.18,
+        2.197
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-11/shaft",
+      "position": [
+        13.48,
+        6.315,
+        8.125
+      ],
+      "size": [
+        1.91,
+        10.43,
+        1.91
+      ],
+      "certainty": "published-height-aggregate"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-11/capital",
+      "position": [
+        13.48,
+        11.73,
+        8.125
+      ],
+      "size": [
+        2.063,
+        0.4,
+        2.063
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-11/abacus",
+      "position": [
+        13.48,
+        11.99,
+        8.125
+      ],
+      "size": [
+        2.197,
+        0.18,
+        2.197
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-12/shaft",
+      "position": [
+        -13.48,
+        6.315,
+        12.188
+      ],
+      "size": [
+        1.91,
+        10.43,
+        1.91
+      ],
+      "certainty": "published-height-aggregate"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-12/capital",
+      "position": [
+        -13.48,
+        11.73,
+        12.188
+      ],
+      "size": [
+        2.063,
+        0.4,
+        2.063
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-12/abacus",
+      "position": [
+        -13.48,
+        11.99,
+        12.188
+      ],
+      "size": [
+        2.197,
+        0.18,
+        2.197
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-12/shaft",
+      "position": [
+        13.48,
+        6.315,
+        12.188
+      ],
+      "size": [
+        1.91,
+        10.43,
+        1.91
+      ],
+      "certainty": "published-height-aggregate"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-12/capital",
+      "position": [
+        13.48,
+        11.73,
+        12.188
+      ],
+      "size": [
+        2.063,
+        0.4,
+        2.063
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-12/abacus",
+      "position": [
+        13.48,
+        11.99,
+        12.188
+      ],
+      "size": [
+        2.197,
+        0.18,
+        2.197
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-13/shaft",
+      "position": [
+        -13.48,
+        6.315,
+        16.25
+      ],
+      "size": [
+        1.91,
+        10.43,
+        1.91
+      ],
+      "certainty": "published-height-aggregate"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-13/capital",
+      "position": [
+        -13.48,
+        11.73,
+        16.25
+      ],
+      "size": [
+        2.063,
+        0.4,
+        2.063
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-13/abacus",
+      "position": [
+        -13.48,
+        11.99,
+        16.25
+      ],
+      "size": [
+        2.197,
+        0.18,
+        2.197
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-13/shaft",
+      "position": [
+        13.48,
+        6.315,
+        16.25
+      ],
+      "size": [
+        1.91,
+        10.43,
+        1.91
+      ],
+      "certainty": "published-height-aggregate"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-13/capital",
+      "position": [
+        13.48,
+        11.73,
+        16.25
+      ],
+      "size": [
+        2.063,
+        0.4,
+        2.063
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-13/abacus",
+      "position": [
+        13.48,
+        11.99,
+        16.25
+      ],
+      "size": [
+        2.197,
+        0.18,
+        2.197
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-14/shaft",
+      "position": [
+        -13.48,
+        6.315,
+        20.313
+      ],
+      "size": [
+        1.91,
+        10.43,
+        1.91
+      ],
+      "certainty": "published-height-aggregate"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-14/capital",
+      "position": [
+        -13.48,
+        11.73,
+        20.313
+      ],
+      "size": [
+        2.063,
+        0.4,
+        2.063
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-14/abacus",
+      "position": [
+        -13.48,
+        11.99,
+        20.313
+      ],
+      "size": [
+        2.197,
+        0.18,
+        2.197
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-14/shaft",
+      "position": [
+        13.48,
+        6.315,
+        20.313
+      ],
+      "size": [
+        1.91,
+        10.43,
+        1.91
+      ],
+      "certainty": "published-height-aggregate"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-14/capital",
+      "position": [
+        13.48,
+        11.73,
+        20.313
+      ],
+      "size": [
+        2.063,
+        0.4,
+        2.063
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-14/abacus",
+      "position": [
+        13.48,
+        11.99,
+        20.313
+      ],
+      "size": [
+        2.197,
+        0.18,
+        2.197
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-15/shaft",
+      "position": [
+        -13.48,
+        6.315,
+        24.375
+      ],
+      "size": [
+        1.91,
+        10.43,
+        1.91
+      ],
+      "certainty": "published-height-aggregate"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-15/capital",
+      "position": [
+        -13.48,
+        11.73,
+        24.375
+      ],
+      "size": [
+        2.063,
+        0.4,
+        2.063
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-15/abacus",
+      "position": [
+        -13.48,
+        11.99,
+        24.375
+      ],
+      "size": [
+        2.197,
+        0.18,
+        2.197
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-15/shaft",
+      "position": [
+        13.48,
+        6.315,
+        24.375
+      ],
+      "size": [
+        1.91,
+        10.43,
+        1.91
+      ],
+      "certainty": "published-height-aggregate"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-15/capital",
+      "position": [
+        13.48,
+        11.73,
+        24.375
+      ],
+      "size": [
+        2.063,
+        0.4,
+        2.063
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-15/abacus",
+      "position": [
+        13.48,
+        11.99,
+        24.375
+      ],
+      "size": [
+        2.197,
+        0.18,
+        2.197
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-16/shaft",
+      "position": [
+        -13.48,
+        6.315,
+        28.438
+      ],
+      "size": [
+        1.91,
+        10.43,
+        1.91
+      ],
+      "certainty": "published-height-aggregate"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-16/capital",
+      "position": [
+        -13.48,
+        11.73,
+        28.438
+      ],
+      "size": [
+        2.063,
+        0.4,
+        2.063
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-16/abacus",
+      "position": [
+        -13.48,
+        11.99,
+        28.438
+      ],
+      "size": [
+        2.197,
+        0.18,
+        2.197
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-16/shaft",
+      "position": [
+        13.48,
+        6.315,
+        28.438
+      ],
+      "size": [
+        1.91,
+        10.43,
+        1.91
+      ],
+      "certainty": "published-height-aggregate"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-16/capital",
+      "position": [
+        13.48,
+        11.73,
+        28.438
+      ],
+      "size": [
+        2.063,
+        0.4,
+        2.063
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-16/abacus",
+      "position": [
+        13.48,
+        11.99,
+        28.438
+      ],
+      "size": [
+        2.197,
+        0.18,
+        2.197
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/porch/east/column-01/shaft",
+      "position": [
+        -7.5,
+        5.93,
+        -26.7
+      ],
+      "size": [
+        1.5,
+        9.6,
+        1.5
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/porch/east/column-01/capital",
+      "position": [
+        -7.5,
+        10.93,
+        -26.7
+      ],
+      "size": [
+        1.62,
+        0.4,
+        1.62
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/porch/east/column-01/abacus",
+      "position": [
+        -7.5,
+        11.19,
+        -26.7
+      ],
+      "size": [
+        1.725,
+        0.18,
+        1.725
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/porch/east/column-02/shaft",
+      "position": [
+        -4.5,
+        5.93,
+        -26.7
+      ],
+      "size": [
+        1.5,
+        9.6,
+        1.5
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/porch/east/column-02/capital",
+      "position": [
+        -4.5,
+        10.93,
+        -26.7
+      ],
+      "size": [
+        1.62,
+        0.4,
+        1.62
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/porch/east/column-02/abacus",
+      "position": [
+        -4.5,
+        11.19,
+        -26.7
+      ],
+      "size": [
+        1.725,
+        0.18,
+        1.725
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/porch/east/column-03/shaft",
+      "position": [
+        -1.5,
+        5.93,
+        -26.7
+      ],
+      "size": [
+        1.5,
+        9.6,
+        1.5
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/porch/east/column-03/capital",
+      "position": [
+        -1.5,
+        10.93,
+        -26.7
+      ],
+      "size": [
+        1.62,
+        0.4,
+        1.62
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/porch/east/column-03/abacus",
+      "position": [
+        -1.5,
+        11.19,
+        -26.7
+      ],
+      "size": [
+        1.725,
+        0.18,
+        1.725
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/porch/east/column-04/shaft",
+      "position": [
+        1.5,
+        5.93,
+        -26.7
+      ],
+      "size": [
+        1.5,
+        9.6,
+        1.5
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/porch/east/column-04/capital",
+      "position": [
+        1.5,
+        10.93,
+        -26.7
+      ],
+      "size": [
+        1.62,
+        0.4,
+        1.62
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/porch/east/column-04/abacus",
+      "position": [
+        1.5,
+        11.19,
+        -26.7
+      ],
+      "size": [
+        1.725,
+        0.18,
+        1.725
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/porch/east/column-05/shaft",
+      "position": [
+        4.5,
+        5.93,
+        -26.7
+      ],
+      "size": [
+        1.5,
+        9.6,
+        1.5
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/porch/east/column-05/capital",
+      "position": [
+        4.5,
+        10.93,
+        -26.7
+      ],
+      "size": [
+        1.62,
+        0.4,
+        1.62
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/porch/east/column-05/abacus",
+      "position": [
+        4.5,
+        11.19,
+        -26.7
+      ],
+      "size": [
+        1.725,
+        0.18,
+        1.725
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/porch/east/column-06/shaft",
+      "position": [
+        7.5,
+        5.93,
+        -26.7
+      ],
+      "size": [
+        1.5,
+        9.6,
+        1.5
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/porch/east/column-06/capital",
+      "position": [
+        7.5,
+        10.93,
+        -26.7
+      ],
+      "size": [
+        1.62,
+        0.4,
+        1.62
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/porch/east/column-06/abacus",
+      "position": [
+        7.5,
+        11.19,
+        -26.7
+      ],
+      "size": [
+        1.725,
+        0.18,
+        1.725
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/porch/west/column-01/shaft",
+      "position": [
+        -7.5,
+        5.93,
+        26.7
+      ],
+      "size": [
+        1.5,
+        9.6,
+        1.5
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/porch/west/column-01/capital",
+      "position": [
+        -7.5,
+        10.93,
+        26.7
+      ],
+      "size": [
+        1.62,
+        0.4,
+        1.62
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/porch/west/column-01/abacus",
+      "position": [
+        -7.5,
+        11.19,
+        26.7
+      ],
+      "size": [
+        1.725,
+        0.18,
+        1.725
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/porch/west/column-02/shaft",
+      "position": [
+        -4.5,
+        5.93,
+        26.7
+      ],
+      "size": [
+        1.5,
+        9.6,
+        1.5
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/porch/west/column-02/capital",
+      "position": [
+        -4.5,
+        10.93,
+        26.7
+      ],
+      "size": [
+        1.62,
+        0.4,
+        1.62
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/porch/west/column-02/abacus",
+      "position": [
+        -4.5,
+        11.19,
+        26.7
+      ],
+      "size": [
+        1.725,
+        0.18,
+        1.725
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/porch/west/column-03/shaft",
+      "position": [
+        -1.5,
+        5.93,
+        26.7
+      ],
+      "size": [
+        1.5,
+        9.6,
+        1.5
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/porch/west/column-03/capital",
+      "position": [
+        -1.5,
+        10.93,
+        26.7
+      ],
+      "size": [
+        1.62,
+        0.4,
+        1.62
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/porch/west/column-03/abacus",
+      "position": [
+        -1.5,
+        11.19,
+        26.7
+      ],
+      "size": [
+        1.725,
+        0.18,
+        1.725
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/porch/west/column-04/shaft",
+      "position": [
+        1.5,
+        5.93,
+        26.7
+      ],
+      "size": [
+        1.5,
+        9.6,
+        1.5
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/porch/west/column-04/capital",
+      "position": [
+        1.5,
+        10.93,
+        26.7
+      ],
+      "size": [
+        1.62,
+        0.4,
+        1.62
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/porch/west/column-04/abacus",
+      "position": [
+        1.5,
+        11.19,
+        26.7
+      ],
+      "size": [
+        1.725,
+        0.18,
+        1.725
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/porch/west/column-05/shaft",
+      "position": [
+        4.5,
+        5.93,
+        26.7
+      ],
+      "size": [
+        1.5,
+        9.6,
+        1.5
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/porch/west/column-05/capital",
+      "position": [
+        4.5,
+        10.93,
+        26.7
+      ],
+      "size": [
+        1.62,
+        0.4,
+        1.62
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/porch/west/column-05/abacus",
+      "position": [
+        4.5,
+        11.19,
+        26.7
+      ],
+      "size": [
+        1.725,
+        0.18,
+        1.725
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/porch/west/column-06/shaft",
+      "position": [
+        7.5,
+        5.93,
+        26.7
+      ],
+      "size": [
+        1.5,
+        9.6,
+        1.5
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/porch/west/column-06/capital",
+      "position": [
+        7.5,
+        10.93,
+        26.7
+      ],
+      "size": [
+        1.62,
+        0.4,
+        1.62
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/porch/west/column-06/abacus",
+      "position": [
+        7.5,
+        11.19,
+        26.7
+      ],
+      "size": [
+        1.725,
+        0.18,
+        1.725
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/west-room/ionic/column-01/shaft",
+      "position": [
+        4.4,
+        5.4,
+        17.2
+      ],
+      "size": [
+        1.25,
+        8.4,
+        1.25
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/west-room/ionic/column-01/capital",
+      "position": [
+        4.4,
+        9.8,
+        17.2
+      ],
+      "size": [
+        1.35,
+        0.4,
+        1.35
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/west-room/ionic/column-01/abacus",
+      "position": [
+        4.4,
+        10.06,
+        17.2
+      ],
+      "size": [
+        1.438,
+        0.18,
+        1.438
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/west-room/ionic/column-02/shaft",
+      "position": [
+        -4.4,
+        5.4,
+        17.2
+      ],
+      "size": [
+        1.25,
+        8.4,
+        1.25
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/west-room/ionic/column-02/capital",
+      "position": [
+        -4.4,
+        9.8,
+        17.2
+      ],
+      "size": [
+        1.35,
+        0.4,
+        1.35
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/west-room/ionic/column-02/abacus",
+      "position": [
+        -4.4,
+        10.06,
+        17.2
+      ],
+      "size": [
+        1.438,
+        0.18,
+        1.438
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/west-room/ionic/column-03/shaft",
+      "position": [
+        4.4,
+        5.4,
+        22
+      ],
+      "size": [
+        1.25,
+        8.4,
+        1.25
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/west-room/ionic/column-03/capital",
+      "position": [
+        4.4,
+        9.8,
+        22
+      ],
+      "size": [
+        1.35,
+        0.4,
+        1.35
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/west-room/ionic/column-03/abacus",
+      "position": [
+        4.4,
+        10.06,
+        22
+      ],
+      "size": [
+        1.438,
+        0.18,
+        1.438
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/west-room/ionic/column-04/shaft",
+      "position": [
+        -4.4,
+        5.4,
+        22
+      ],
+      "size": [
+        1.25,
+        8.4,
+        1.25
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/west-room/ionic/column-04/capital",
+      "position": [
+        -4.4,
+        9.8,
+        22
+      ],
+      "size": [
+        1.35,
+        0.4,
+        1.35
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/west-room/ionic/column-04/abacus",
+      "position": [
+        -4.4,
+        10.06,
+        22
+      ],
+      "size": [
+        1.438,
+        0.18,
+        1.438
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-01/shaft",
+      "position": [
+        -6.4,
+        4.07,
+        -20
+      ],
+      "size": [
+        1.35,
+        5.6,
+        1.35
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-01/capital",
+      "position": [
+        -6.4,
+        7.07,
+        -20
+      ],
+      "size": [
+        1.458,
+        0.4,
+        1.458
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-01/abacus",
+      "position": [
+        -6.4,
+        7.33,
+        -20
+      ],
+      "size": [
+        1.553,
+        0.18,
+        1.553
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-02/shaft",
+      "position": [
+        6.4,
+        4.07,
+        -20
+      ],
+      "size": [
+        1.35,
+        5.6,
+        1.35
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-02/capital",
+      "position": [
+        6.4,
+        7.07,
+        -20
+      ],
+      "size": [
+        1.458,
+        0.4,
+        1.458
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-02/abacus",
+      "position": [
+        6.4,
+        7.33,
+        -20
+      ],
+      "size": [
+        1.553,
+        0.18,
+        1.553
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-03/shaft",
+      "position": [
+        -6.4,
+        4.07,
+        -14.7
+      ],
+      "size": [
+        1.35,
+        5.6,
+        1.35
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-03/capital",
+      "position": [
+        -6.4,
+        7.07,
+        -14.7
+      ],
+      "size": [
+        1.458,
+        0.4,
+        1.458
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-03/abacus",
+      "position": [
+        -6.4,
+        7.33,
+        -14.7
+      ],
+      "size": [
+        1.553,
+        0.18,
+        1.553
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-04/shaft",
+      "position": [
+        6.4,
+        4.07,
+        -14.7
+      ],
+      "size": [
+        1.35,
+        5.6,
+        1.35
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-04/capital",
+      "position": [
+        6.4,
+        7.07,
+        -14.7
+      ],
+      "size": [
+        1.458,
+        0.4,
+        1.458
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-04/abacus",
+      "position": [
+        6.4,
+        7.33,
+        -14.7
+      ],
+      "size": [
+        1.553,
+        0.18,
+        1.553
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-05/shaft",
+      "position": [
+        -6.4,
+        4.07,
+        -9.4
+      ],
+      "size": [
+        1.35,
+        5.6,
+        1.35
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-05/capital",
+      "position": [
+        -6.4,
+        7.07,
+        -9.4
+      ],
+      "size": [
+        1.458,
+        0.4,
+        1.458
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-05/abacus",
+      "position": [
+        -6.4,
+        7.33,
+        -9.4
+      ],
+      "size": [
+        1.553,
+        0.18,
+        1.553
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-06/shaft",
+      "position": [
+        6.4,
+        4.07,
+        -9.4
+      ],
+      "size": [
+        1.35,
+        5.6,
+        1.35
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-06/capital",
+      "position": [
+        6.4,
+        7.07,
+        -9.4
+      ],
+      "size": [
+        1.458,
+        0.4,
+        1.458
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-06/abacus",
+      "position": [
+        6.4,
+        7.33,
+        -9.4
+      ],
+      "size": [
+        1.553,
+        0.18,
+        1.553
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-07/shaft",
+      "position": [
+        -6.4,
+        4.07,
+        -4.1
+      ],
+      "size": [
+        1.35,
+        5.6,
+        1.35
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-07/capital",
+      "position": [
+        -6.4,
+        7.07,
+        -4.1
+      ],
+      "size": [
+        1.458,
+        0.4,
+        1.458
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-07/abacus",
+      "position": [
+        -6.4,
+        7.33,
+        -4.1
+      ],
+      "size": [
+        1.553,
+        0.18,
+        1.553
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-08/shaft",
+      "position": [
+        6.4,
+        4.07,
+        -4.1
+      ],
+      "size": [
+        1.35,
+        5.6,
+        1.35
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-08/capital",
+      "position": [
+        6.4,
+        7.07,
+        -4.1
+      ],
+      "size": [
+        1.458,
+        0.4,
+        1.458
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-08/abacus",
+      "position": [
+        6.4,
+        7.33,
+        -4.1
+      ],
+      "size": [
+        1.553,
+        0.18,
+        1.553
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-09/shaft",
+      "position": [
+        -6.4,
+        4.07,
+        1.2
+      ],
+      "size": [
+        1.35,
+        5.6,
+        1.35
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-09/capital",
+      "position": [
+        -6.4,
+        7.07,
+        1.2
+      ],
+      "size": [
+        1.458,
+        0.4,
+        1.458
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-09/abacus",
+      "position": [
+        -6.4,
+        7.33,
+        1.2
+      ],
+      "size": [
+        1.553,
+        0.18,
+        1.553
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-10/shaft",
+      "position": [
+        6.4,
+        4.07,
+        1.2
+      ],
+      "size": [
+        1.35,
+        5.6,
+        1.35
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-10/capital",
+      "position": [
+        6.4,
+        7.07,
+        1.2
+      ],
+      "size": [
+        1.458,
+        0.4,
+        1.458
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-10/abacus",
+      "position": [
+        6.4,
+        7.33,
+        1.2
+      ],
+      "size": [
+        1.553,
+        0.18,
+        1.553
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-11/shaft",
+      "position": [
+        -4.5,
+        4.07,
+        6.5
+      ],
+      "size": [
+        1.35,
+        5.6,
+        1.35
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-11/capital",
+      "position": [
+        -4.5,
+        7.07,
+        6.5
+      ],
+      "size": [
+        1.458,
+        0.4,
+        1.458
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-11/abacus",
+      "position": [
+        -4.5,
+        7.33,
+        6.5
+      ],
+      "size": [
+        1.553,
+        0.18,
+        1.553
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-12/shaft",
+      "position": [
+        0,
+        4.07,
+        6.5
+      ],
+      "size": [
+        1.35,
+        5.6,
+        1.35
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-12/capital",
+      "position": [
+        0,
+        7.07,
+        6.5
+      ],
+      "size": [
+        1.458,
+        0.4,
+        1.458
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-12/abacus",
+      "position": [
+        0,
+        7.33,
+        6.5
+      ],
+      "size": [
+        1.553,
+        0.18,
+        1.553
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-13/shaft",
+      "position": [
+        4.5,
+        4.07,
+        6.5
+      ],
+      "size": [
+        1.35,
+        5.6,
+        1.35
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-13/capital",
+      "position": [
+        4.5,
+        7.07,
+        6.5
+      ],
+      "size": [
+        1.458,
+        0.4,
+        1.458
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-13/abacus",
+      "position": [
+        4.5,
+        7.33,
+        6.5
+      ],
+      "size": [
+        1.553,
+        0.18,
+        1.553
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-01/shaft",
+      "position": [
+        -6.4,
+        8.5,
+        -20
+      ],
+      "size": [
+        1,
+        3.1,
+        1
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-01/capital",
+      "position": [
+        -6.4,
+        10.25,
+        -20
+      ],
+      "size": [
+        1.08,
+        0.4,
+        1.08
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-01/abacus",
+      "position": [
+        -6.4,
+        10.51,
+        -20
+      ],
+      "size": [
+        1.15,
+        0.18,
+        1.15
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-02/shaft",
+      "position": [
+        6.4,
+        8.5,
+        -20
+      ],
+      "size": [
+        1,
+        3.1,
+        1
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-02/capital",
+      "position": [
+        6.4,
+        10.25,
+        -20
+      ],
+      "size": [
+        1.08,
+        0.4,
+        1.08
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-02/abacus",
+      "position": [
+        6.4,
+        10.51,
+        -20
+      ],
+      "size": [
+        1.15,
+        0.18,
+        1.15
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-03/shaft",
+      "position": [
+        -6.4,
+        8.5,
+        -14.7
+      ],
+      "size": [
+        1,
+        3.1,
+        1
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-03/capital",
+      "position": [
+        -6.4,
+        10.25,
+        -14.7
+      ],
+      "size": [
+        1.08,
+        0.4,
+        1.08
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-03/abacus",
+      "position": [
+        -6.4,
+        10.51,
+        -14.7
+      ],
+      "size": [
+        1.15,
+        0.18,
+        1.15
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-04/shaft",
+      "position": [
+        6.4,
+        8.5,
+        -14.7
+      ],
+      "size": [
+        1,
+        3.1,
+        1
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-04/capital",
+      "position": [
+        6.4,
+        10.25,
+        -14.7
+      ],
+      "size": [
+        1.08,
+        0.4,
+        1.08
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-04/abacus",
+      "position": [
+        6.4,
+        10.51,
+        -14.7
+      ],
+      "size": [
+        1.15,
+        0.18,
+        1.15
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-05/shaft",
+      "position": [
+        -6.4,
+        8.5,
+        -9.4
+      ],
+      "size": [
+        1,
+        3.1,
+        1
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-05/capital",
+      "position": [
+        -6.4,
+        10.25,
+        -9.4
+      ],
+      "size": [
+        1.08,
+        0.4,
+        1.08
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-05/abacus",
+      "position": [
+        -6.4,
+        10.51,
+        -9.4
+      ],
+      "size": [
+        1.15,
+        0.18,
+        1.15
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-06/shaft",
+      "position": [
+        6.4,
+        8.5,
+        -9.4
+      ],
+      "size": [
+        1,
+        3.1,
+        1
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-06/capital",
+      "position": [
+        6.4,
+        10.25,
+        -9.4
+      ],
+      "size": [
+        1.08,
+        0.4,
+        1.08
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-06/abacus",
+      "position": [
+        6.4,
+        10.51,
+        -9.4
+      ],
+      "size": [
+        1.15,
+        0.18,
+        1.15
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-07/shaft",
+      "position": [
+        -6.4,
+        8.5,
+        -4.1
+      ],
+      "size": [
+        1,
+        3.1,
+        1
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-07/capital",
+      "position": [
+        -6.4,
+        10.25,
+        -4.1
+      ],
+      "size": [
+        1.08,
+        0.4,
+        1.08
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-07/abacus",
+      "position": [
+        -6.4,
+        10.51,
+        -4.1
+      ],
+      "size": [
+        1.15,
+        0.18,
+        1.15
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-08/shaft",
+      "position": [
+        6.4,
+        8.5,
+        -4.1
+      ],
+      "size": [
+        1,
+        3.1,
+        1
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-08/capital",
+      "position": [
+        6.4,
+        10.25,
+        -4.1
+      ],
+      "size": [
+        1.08,
+        0.4,
+        1.08
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-08/abacus",
+      "position": [
+        6.4,
+        10.51,
+        -4.1
+      ],
+      "size": [
+        1.15,
+        0.18,
+        1.15
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-09/shaft",
+      "position": [
+        -6.4,
+        8.5,
+        1.2
+      ],
+      "size": [
+        1,
+        3.1,
+        1
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-09/capital",
+      "position": [
+        -6.4,
+        10.25,
+        1.2
+      ],
+      "size": [
+        1.08,
+        0.4,
+        1.08
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-09/abacus",
+      "position": [
+        -6.4,
+        10.51,
+        1.2
+      ],
+      "size": [
+        1.15,
+        0.18,
+        1.15
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-10/shaft",
+      "position": [
+        6.4,
+        8.5,
+        1.2
+      ],
+      "size": [
+        1,
+        3.1,
+        1
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-10/capital",
+      "position": [
+        6.4,
+        10.25,
+        1.2
+      ],
+      "size": [
+        1.08,
+        0.4,
+        1.08
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-10/abacus",
+      "position": [
+        6.4,
+        10.51,
+        1.2
+      ],
+      "size": [
+        1.15,
+        0.18,
+        1.15
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-11/shaft",
+      "position": [
+        -4.5,
+        8.5,
+        6.5
+      ],
+      "size": [
+        1,
+        3.1,
+        1
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-11/capital",
+      "position": [
+        -4.5,
+        10.25,
+        6.5
+      ],
+      "size": [
+        1.08,
+        0.4,
+        1.08
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-11/abacus",
+      "position": [
+        -4.5,
+        10.51,
+        6.5
+      ],
+      "size": [
+        1.15,
+        0.18,
+        1.15
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-12/shaft",
+      "position": [
+        0,
+        8.5,
+        6.5
+      ],
+      "size": [
+        1,
+        3.1,
+        1
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-12/capital",
+      "position": [
+        0,
+        10.25,
+        6.5
+      ],
+      "size": [
+        1.08,
+        0.4,
+        1.08
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-12/abacus",
+      "position": [
+        0,
+        10.51,
+        6.5
+      ],
+      "size": [
+        1.15,
+        0.18,
+        1.15
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-13/shaft",
+      "position": [
+        4.5,
+        8.5,
+        6.5
+      ],
+      "size": [
+        1,
+        3.1,
+        1
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-13/capital",
+      "position": [
+        4.5,
+        10.25,
+        6.5
+      ],
+      "size": [
+        1.08,
+        0.4,
+        1.08
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-13/abacus",
+      "position": [
+        4.5,
+        10.51,
+        6.5
+      ],
+      "size": [
+        1.15,
+        0.18,
+        1.15
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/cella/north-wall",
+      "position": [
+        -9.1,
+        5.5,
+        0
+      ],
+      "size": [
+        0.78,
+        8.8,
+        50.2
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/cella/south-wall",
+      "position": [
+        9.1,
+        5.5,
+        0
+      ],
+      "size": [
+        0.78,
+        8.8,
+        50.2
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/cella/east-jamb-north",
+      "position": [
+        -5.9,
+        5.5,
+        -25.1
+      ],
+      "size": [
+        6,
+        8.8,
+        0.8
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/cella/east-jamb-south",
+      "position": [
+        5.9,
+        5.5,
+        -25.1
+      ],
+      "size": [
+        6,
+        8.8,
+        0.8
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/cella/east-lintel",
+      "position": [
+        0,
+        9.3,
+        -25.1
+      ],
+      "size": [
+        5,
+        1.2,
+        0.8
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/cella/west-jamb-north",
+      "position": [
+        -5.9,
+        5.5,
+        25.1
+      ],
+      "size": [
+        6,
+        8.8,
+        0.8
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/cella/west-jamb-south",
+      "position": [
+        5.9,
+        5.5,
+        25.1
+      ],
+      "size": [
+        6,
+        8.8,
+        0.8
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/cella/west-lintel",
+      "position": [
+        0,
+        9.3,
+        25.1
+      ],
+      "size": [
+        5,
+        1.2,
+        0.8
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/cella/divider",
+      "position": [
+        0,
+        5.5,
+        10.7
+      ],
+      "size": [
+        17.45,
+        8.8,
+        0.8
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/porch-floor/pronaos",
+      "position": [
+        0,
+        1.16,
+        -27.3
+      ],
+      "size": [
+        16.7,
+        0.12,
+        4
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/porch-floor/opisthonaos",
+      "position": [
+        0,
+        1.16,
+        27.3
+      ],
+      "size": [
+        16.7,
+        0.12,
+        4
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/entablature/east/architrave",
+      "position": [
+        0,
+        12.08,
+        -32.65
+      ],
+      "size": [
+        29.5,
+        0.85,
+        1.8
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/entablature/east/cornice",
+      "position": [
+        0,
+        14.48,
+        -32.65
+      ],
+      "size": [
+        31.4,
+        0.42,
+        2.5
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/pediment/east",
+      "position": [
+        0,
+        14.62,
+        -33.45
+      ],
+      "size": [
+        31.2,
+        3.35,
+        0.15
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/entablature/west/architrave",
+      "position": [
+        0,
+        12.08,
+        32.65
+      ],
+      "size": [
+        29.5,
+        0.85,
+        1.8
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/entablature/west/cornice",
+      "position": [
+        0,
+        14.48,
+        32.65
+      ],
+      "size": [
+        31.4,
+        0.42,
+        2.5
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/pediment/west",
+      "position": [
+        0,
+        14.62,
+        33.45
+      ],
+      "size": [
+        31.2,
+        3.35,
+        0.15
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/entablature/north/architrave",
+      "position": [
+        -13.68,
+        12.08,
+        0
+      ],
+      "size": [
+        1.8,
+        0.85,
+        66.6
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/entablature/north/cornice",
+      "position": [
+        -13.68,
+        14.48,
+        0
+      ],
+      "size": [
+        2.5,
+        0.42,
+        68.6
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/entablature/south/architrave",
+      "position": [
+        13.68,
+        12.08,
+        0
+      ],
+      "size": [
+        1.8,
+        0.85,
+        66.6
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/entablature/south/cornice",
+      "position": [
+        13.68,
+        14.48,
+        0
+      ],
+      "size": [
+        2.5,
+        0.42,
+        68.6
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/frieze/east/metope-01",
+      "position": [
+        -13.464,
+        13.29,
+        -32.76
+      ],
+      "size": [
+        1.512,
+        0.92,
+        0.18
+      ],
+      "certainty": "published-count"
+    },
+    {
+      "id": "parthenon/frieze/east/metope-02",
+      "position": [
+        -11.393,
+        13.29,
+        -32.76
+      ],
+      "size": [
+        1.512,
+        0.92,
+        0.18
+      ],
+      "certainty": "published-count"
+    },
+    {
+      "id": "parthenon/frieze/east/metope-03",
+      "position": [
+        -9.321,
+        13.29,
+        -32.76
+      ],
+      "size": [
+        1.512,
+        0.92,
+        0.18
+      ],
+      "certainty": "published-count"
+    },
+    {
+      "id": "parthenon/frieze/east/metope-04",
+      "position": [
+        -7.25,
+        13.29,
+        -32.76
+      ],
+      "size": [
+        1.512,
+        0.92,
+        0.18
+      ],
+      "certainty": "published-count"
+    },
+    {
+      "id": "parthenon/frieze/east/metope-05",
+      "position": [
+        -5.179,
+        13.29,
+        -32.76
+      ],
+      "size": [
+        1.512,
+        0.92,
+        0.18
+      ],
+      "certainty": "published-count"
+    },
+    {
+      "id": "parthenon/frieze/east/metope-06",
+      "position": [
+        -3.107,
+        13.29,
+        -32.76
+      ],
+      "size": [
+        1.512,
+        0.92,
+        0.18
+      ],
+      "certainty": "published-count"
+    },
+    {
+      "id": "parthenon/frieze/east/metope-07",
+      "position": [
+        -1.036,
+        13.29,
+        -32.76
+      ],
+      "size": [
+        1.512,
+        0.92,
+        0.18
+      ],
+      "certainty": "published-count"
+    },
+    {
+      "id": "parthenon/frieze/east/metope-08",
+      "position": [
+        1.036,
+        13.29,
+        -32.76
+      ],
+      "size": [
+        1.512,
+        0.92,
+        0.18
+      ],
+      "certainty": "published-count"
+    },
+    {
+      "id": "parthenon/frieze/east/metope-09",
+      "position": [
+        3.107,
+        13.29,
+        -32.76
+      ],
+      "size": [
+        1.512,
+        0.92,
+        0.18
+      ],
+      "certainty": "published-count"
+    },
+    {
+      "id": "parthenon/frieze/east/metope-10",
+      "position": [
+        5.179,
+        13.29,
+        -32.76
+      ],
+      "size": [
+        1.512,
+        0.92,
+        0.18
+      ],
+      "certainty": "published-count"
+    },
+    {
+      "id": "parthenon/frieze/east/metope-11",
+      "position": [
+        7.25,
+        13.29,
+        -32.76
+      ],
+      "size": [
+        1.512,
+        0.92,
+        0.18
+      ],
+      "certainty": "published-count"
+    },
+    {
+      "id": "parthenon/frieze/east/metope-12",
+      "position": [
+        9.321,
+        13.29,
+        -32.76
+      ],
+      "size": [
+        1.512,
+        0.92,
+        0.18
+      ],
+      "certainty": "published-count"
+    },
+    {
+      "id": "parthenon/frieze/east/metope-13",
+      "position": [
+        11.393,
+        13.29,
+        -32.76
+      ],
+      "size": [
+        1.512,
+        0.92,
+        0.18
+      ],
+      "certainty": "published-count"
+    },
+    {
+      "id": "parthenon/frieze/east/metope-14",
+      "position": [
+        13.464,
+        13.29,
+        -32.76
+      ],
+      "size": [
+        1.512,
+        0.92,
+        0.18
+      ],
+      "certainty": "published-count"
+    },
+    {
+      "id": "parthenon/frieze/east/triglyph-01",
+      "position": [
+        -14.5,
+        13.29,
+        -32.76
+      ],
+      "size": [
+        0.456,
+        0.92,
+        0.18
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/frieze/east/triglyph-02",
+      "position": [
+        -12.429,
+        13.29,
+        -32.76
+      ],
+      "size": [
+        0.456,
+        0.92,
+        0.18
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/frieze/east/triglyph-03",
+      "position": [
+        -10.357,
+        13.29,
+        -32.76
+      ],
+      "size": [
+        0.456,
+        0.92,
+        0.18
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/frieze/east/triglyph-04",
+      "position": [
+        -8.286,
+        13.29,
+        -32.76
+      ],
+      "size": [
+        0.456,
+        0.92,
+        0.18
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/frieze/east/triglyph-05",
+      "position": [
+        -6.214,
+        13.29,
+        -32.76
+      ],
+      "size": [
+        0.456,
+        0.92,
+        0.18
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/frieze/east/triglyph-06",
+      "position": [
+        -4.143,
+        13.29,
+        -32.76
+      ],
+      "size": [
+        0.456,
+        0.92,
+        0.18
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/frieze/east/triglyph-07",
+      "position": [
+        -2.071,
+        13.29,
+        -32.76
+      ],
+      "size": [
+        0.456,
+        0.92,
+        0.18
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/frieze/east/triglyph-08",
+      "position": [
+        0,
+        13.29,
+        -32.76
+      ],
+      "size": [
+        0.456,
+        0.92,
+        0.18
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/frieze/east/triglyph-09",
+      "position": [
+        2.071,
+        13.29,
+        -32.76
+      ],
+      "size": [
+        0.456,
+        0.92,
+        0.18
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/frieze/east/triglyph-10",
+      "position": [
+        4.143,
+        13.29,
+        -32.76
+      ],
+      "size": [
+        0.456,
+        0.92,
+        0.18
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/frieze/east/triglyph-11",
+      "position": [
+        6.214,
+        13.29,
+        -32.76
+      ],
+      "size": [
+        0.456,
+        0.92,
+        0.18
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/frieze/east/triglyph-12",
+      "position": [
+        8.286,
+        13.29,
+        -32.76
+      ],
+      "size": [
+        0.456,
+        0.92,
+        0.18
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/frieze/east/triglyph-13",
+      "position": [
+        10.357,
+        13.29,
+        -32.76
+      ],
+      "size": [
+        0.456,
+        0.92,
+        0.18
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/frieze/east/triglyph-14",
+      "position": [
+        12.429,
+        13.29,
+        -32.76
+      ],
+      "size": [
+        0.456,
+        0.92,
+        0.18
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/frieze/east/triglyph-15",
+      "position": [
+        14.5,
+        13.29,
+        -32.76
+      ],
+      "size": [
+        0.456,
+        0.92,
+        0.18
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/frieze/west/metope-01",
+      "position": [
+        -13.464,
+        13.29,
+        32.76
+      ],
+      "size": [
+        1.512,
+        0.92,
+        0.18
+      ],
+      "certainty": "published-count"
+    },
+    {
+      "id": "parthenon/frieze/west/metope-02",
+      "position": [
+        -11.393,
+        13.29,
+        32.76
+      ],
+      "size": [
+        1.512,
+        0.92,
+        0.18
+      ],
+      "certainty": "published-count"
+    },
+    {
+      "id": "parthenon/frieze/west/metope-03",
+      "position": [
+        -9.321,
+        13.29,
+        32.76
+      ],
+      "size": [
+        1.512,
+        0.92,
+        0.18
+      ],
+      "certainty": "published-count"
+    },
+    {
+      "id": "parthenon/frieze/west/metope-04",
+      "position": [
+        -7.25,
+        13.29,
+        32.76
+      ],
+      "size": [
+        1.512,
+        0.92,
+        0.18
+      ],
+      "certainty": "published-count"
+    },
+    {
+      "id": "parthenon/frieze/west/metope-05",
+      "position": [
+        -5.179,
+        13.29,
+        32.76
+      ],
+      "size": [
+        1.512,
+        0.92,
+        0.18
+      ],
+      "certainty": "published-count"
+    },
+    {
+      "id": "parthenon/frieze/west/metope-06",
+      "position": [
+        -3.107,
+        13.29,
+        32.76
+      ],
+      "size": [
+        1.512,
+        0.92,
+        0.18
+      ],
+      "certainty": "published-count"
+    },
+    {
+      "id": "parthenon/frieze/west/metope-07",
+      "position": [
+        -1.036,
+        13.29,
+        32.76
+      ],
+      "size": [
+        1.512,
+        0.92,
+        0.18
+      ],
+      "certainty": "published-count"
+    },
+    {
+      "id": "parthenon/frieze/west/metope-08",
+      "position": [
+        1.036,
+        13.29,
+        32.76
+      ],
+      "size": [
+        1.512,
+        0.92,
+        0.18
+      ],
+      "certainty": "published-count"
+    },
+    {
+      "id": "parthenon/frieze/west/metope-09",
+      "position": [
+        3.107,
+        13.29,
+        32.76
+      ],
+      "size": [
+        1.512,
+        0.92,
+        0.18
+      ],
+      "certainty": "published-count"
+    },
+    {
+      "id": "parthenon/frieze/west/metope-10",
+      "position": [
+        5.179,
+        13.29,
+        32.76
+      ],
+      "size": [
+        1.512,
+        0.92,
+        0.18
+      ],
+      "certainty": "published-count"
+    },
+    {
+      "id": "parthenon/frieze/west/metope-11",
+      "position": [
+        7.25,
+        13.29,
+        32.76
+      ],
+      "size": [
+        1.512,
+        0.92,
+        0.18
+      ],
+      "certainty": "published-count"
+    },
+    {
+      "id": "parthenon/frieze/west/metope-12",
+      "position": [
+        9.321,
+        13.29,
+        32.76
+      ],
+      "size": [
+        1.512,
+        0.92,
+        0.18
+      ],
+      "certainty": "published-count"
+    },
+    {
+      "id": "parthenon/frieze/west/metope-13",
+      "position": [
+        11.393,
+        13.29,
+        32.76
+      ],
+      "size": [
+        1.512,
+        0.92,
+        0.18
+      ],
+      "certainty": "published-count"
+    },
+    {
+      "id": "parthenon/frieze/west/metope-14",
+      "position": [
+        13.464,
+        13.29,
+        32.76
+      ],
+      "size": [
+        1.512,
+        0.92,
+        0.18
+      ],
+      "certainty": "published-count"
+    },
+    {
+      "id": "parthenon/frieze/west/triglyph-01",
+      "position": [
+        -14.5,
+        13.29,
+        32.76
+      ],
+      "size": [
+        0.456,
+        0.92,
+        0.18
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/frieze/west/triglyph-02",
+      "position": [
+        -12.429,
+        13.29,
+        32.76
+      ],
+      "size": [
+        0.456,
+        0.92,
+        0.18
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/frieze/west/triglyph-03",
+      "position": [
+        -10.357,
+        13.29,
+        32.76
+      ],
+      "size": [
+        0.456,
+        0.92,
+        0.18
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/frieze/west/triglyph-04",
+      "position": [
+        -8.286,
+        13.29,
+        32.76
+      ],
+      "size": [
+        0.456,
+        0.92,
+        0.18
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/frieze/west/triglyph-05",
+      "position": [
+        -6.214,
+        13.29,
+        32.76
+      ],
+      "size": [
+        0.456,
+        0.92,
+        0.18
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/frieze/west/triglyph-06",
+      "position": [
+        -4.143,
+        13.29,
+        32.76
+      ],
+      "size": [
+        0.456,
+        0.92,
+        0.18
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/frieze/west/triglyph-07",
+      "position": [
+        -2.071,
+        13.29,
+        32.76
+      ],
+      "size": [
+        0.456,
+        0.92,
+        0.18
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/frieze/west/triglyph-08",
+      "position": [
+        0,
+        13.29,
+        32.76
+      ],
+      "size": [
+        0.456,
+        0.92,
+        0.18
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/frieze/west/triglyph-09",
+      "position": [
+        2.071,
+        13.29,
+        32.76
+      ],
+      "size": [
+        0.456,
+        0.92,
+        0.18
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/frieze/west/triglyph-10",
+      "position": [
+        4.143,
+        13.29,
+        32.76
+      ],
+      "size": [
+        0.456,
+        0.92,
+        0.18
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/frieze/west/triglyph-11",
+      "position": [
+        6.214,
+        13.29,
+        32.76
+      ],
+      "size": [
+        0.456,
+        0.92,
+        0.18
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/frieze/west/triglyph-12",
+      "position": [
+        8.286,
+        13.29,
+        32.76
+      ],
+      "size": [
+        0.456,
+        0.92,
+        0.18
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/frieze/west/triglyph-13",
+      "position": [
+        10.357,
+        13.29,
+        32.76
+      ],
+      "size": [
+        0.456,
+        0.92,
+        0.18
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/frieze/west/triglyph-14",
+      "position": [
+        12.429,
+        13.29,
+        32.76
+      ],
+      "size": [
+        0.456,
+        0.92,
+        0.18
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/frieze/west/triglyph-15",
+      "position": [
+        14.5,
+        13.29,
+        32.76
+      ],
+      "size": [
+        0.456,
+        0.92,
+        0.18
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/frieze/north/metope-01",
+      "position": [
+        -13.88,
+        13.29,
+        -31.823
+      ],
+      "size": [
+        0.18,
+        0.92,
+        1.499
+      ],
+      "certainty": "published-count"
+    },
+    {
+      "id": "parthenon/frieze/north/metope-02",
+      "position": [
+        -13.88,
+        13.29,
+        -29.77
+      ],
+      "size": [
+        0.18,
+        0.92,
+        1.499
+      ],
+      "certainty": "published-count"
+    },
+    {
+      "id": "parthenon/frieze/north/metope-03",
+      "position": [
+        -13.88,
+        13.29,
+        -27.717
+      ],
+      "size": [
+        0.18,
+        0.92,
+        1.499
+      ],
+      "certainty": "published-count"
+    },
+    {
+      "id": "parthenon/frieze/north/metope-04",
+      "position": [
+        -13.88,
+        13.29,
+        -25.664
+      ],
+      "size": [
+        0.18,
+        0.92,
+        1.499
+      ],
+      "certainty": "published-count"
+    },
+    {
+      "id": "parthenon/frieze/north/metope-05",
+      "position": [
+        -13.88,
+        13.29,
+        -23.611
+      ],
+      "size": [
+        0.18,
+        0.92,
+        1.499
+      ],
+      "certainty": "published-count"
+    },
+    {
+      "id": "parthenon/frieze/north/metope-06",
+      "position": [
+        -13.88,
+        13.29,
+        -21.558
+      ],
+      "size": [
+        0.18,
+        0.92,
+        1.499
+      ],
+      "certainty": "published-count"
+    },
+    {
+      "id": "parthenon/frieze/north/metope-07",
+      "position": [
+        -13.88,
+        13.29,
+        -19.505
+      ],
+      "size": [
+        0.18,
+        0.92,
+        1.499
+      ],
+      "certainty": "published-count"
+    },
+    {
+      "id": "parthenon/frieze/north/metope-08",
+      "position": [
+        -13.88,
+        13.29,
+        -17.452
+      ],
+      "size": [
+        0.18,
+        0.92,
+        1.499
+      ],
+      "certainty": "published-count"
+    },
+    {
+      "id": "parthenon/frieze/north/metope-09",
+      "position": [
+        -13.88,
+        13.29,
+        -15.398
+      ],
+      "size": [
+        0.18,
+        0.92,
+        1.499
+      ],
+      "certainty": "published-count"
+    },
+    {
+      "id": "parthenon/frieze/north/metope-10",
+      "position": [
+        -13.88,
+        13.29,
+        -13.345
+      ],
+      "size": [
+        0.18,
+        0.92,
+        1.499
+      ],
+      "certainty": "published-count"
+    },
+    {
+      "id": "parthenon/frieze/north/metope-11",
+      "position": [
+        -13.88,
+        13.29,
+        -11.292
+      ],
+      "size": [
+        0.18,
+        0.92,
+        1.499
+      ],
+      "certainty": "published-count"
+    },
+    {
+      "id": "parthenon/frieze/north/metope-12",
+      "position": [
+        -13.88,
+        13.29,
+        -9.239
+      ],
+      "size": [
+        0.18,
+        0.92,
+        1.499
+      ],
+      "certainty": "published-count"
+    },
+    {
+      "id": "parthenon/frieze/north/metope-13",
+      "position": [
+        -13.88,
+        13.29,
+        -7.186
+      ],
+      "size": [
+        0.18,
+        0.92,
+        1.499
+      ],
+      "certainty": "published-count"
+    },
+    {
+      "id": "parthenon/frieze/north/metope-14",
+      "position": [
+        -13.88,
+        13.29,
+        -5.133
+      ],
+      "size": [
+        0.18,
+        0.92,
+        1.499
+      ],
+      "certainty": "published-count"
+    },
+    {
+      "id": "parthenon/frieze/north/metope-15",
+      "position": [
+        -13.88,
+        13.29,
+        -3.08
+      ],
+      "size": [
+        0.18,
+        0.92,
+        1.499
+      ],
+      "certainty": "published-count"
+    },
+    {
+      "id": "parthenon/frieze/north/metope-16",
+      "position": [
+        -13.88,
+        13.29,
+        -1.027
+      ],
+      "size": [
+        0.18,
+        0.92,
+        1.499
+      ],
+      "certainty": "published-count"
+    },
+    {
+      "id": "parthenon/frieze/north/metope-17",
+      "position": [
+        -13.88,
+        13.29,
+        1.027
+      ],
+      "size": [
+        0.18,
+        0.92,
+        1.499
+      ],
+      "certainty": "published-count"
+    },
+    {
+      "id": "parthenon/frieze/north/metope-18",
+      "position": [
+        -13.88,
+        13.29,
+        3.08
+      ],
+      "size": [
+        0.18,
+        0.92,
+        1.499
+      ],
+      "certainty": "published-count"
+    },
+    {
+      "id": "parthenon/frieze/north/metope-19",
+      "position": [
+        -13.88,
+        13.29,
+        5.133
+      ],
+      "size": [
+        0.18,
+        0.92,
+        1.499
+      ],
+      "certainty": "published-count"
+    },
+    {
+      "id": "parthenon/frieze/north/metope-20",
+      "position": [
+        -13.88,
+        13.29,
+        7.186
+      ],
+      "size": [
+        0.18,
+        0.92,
+        1.499
+      ],
+      "certainty": "published-count"
+    },
+    {
+      "id": "parthenon/frieze/north/metope-21",
+      "position": [
+        -13.88,
+        13.29,
+        9.239
+      ],
+      "size": [
+        0.18,
+        0.92,
+        1.499
+      ],
+      "certainty": "published-count"
+    },
+    {
+      "id": "parthenon/frieze/north/metope-22",
+      "position": [
+        -13.88,
+        13.29,
+        11.292
+      ],
+      "size": [
+        0.18,
+        0.92,
+        1.499
+      ],
+      "certainty": "published-count"
+    },
+    {
+      "id": "parthenon/frieze/north/metope-23",
+      "position": [
+        -13.88,
+        13.29,
+        13.345
+      ],
+      "size": [
+        0.18,
+        0.92,
+        1.499
+      ],
+      "certainty": "published-count"
+    },
+    {
+      "id": "parthenon/frieze/north/metope-24",
+      "position": [
+        -13.88,
+        13.29,
+        15.398
+      ],
+      "size": [
+        0.18,
+        0.92,
+        1.499
+      ],
+      "certainty": "published-count"
+    },
+    {
+      "id": "parthenon/frieze/north/metope-25",
+      "position": [
+        -13.88,
+        13.29,
+        17.452
+      ],
+      "size": [
+        0.18,
+        0.92,
+        1.499
+      ],
+      "certainty": "published-count"
+    },
+    {
+      "id": "parthenon/frieze/north/metope-26",
+      "position": [
+        -13.88,
+        13.29,
+        19.505
+      ],
+      "size": [
+        0.18,
+        0.92,
+        1.499
+      ],
+      "certainty": "published-count"
+    },
+    {
+      "id": "parthenon/frieze/north/metope-27",
+      "position": [
+        -13.88,
+        13.29,
+        21.558
+      ],
+      "size": [
+        0.18,
+        0.92,
+        1.499
+      ],
+      "certainty": "published-count"
+    },
+    {
+      "id": "parthenon/frieze/north/metope-28",
+      "position": [
+        -13.88,
+        13.29,
+        23.611
+      ],
+      "size": [
+        0.18,
+        0.92,
+        1.499
+      ],
+      "certainty": "published-count"
+    },
+    {
+      "id": "parthenon/frieze/north/metope-29",
+      "position": [
+        -13.88,
+        13.29,
+        25.664
+      ],
+      "size": [
+        0.18,
+        0.92,
+        1.499
+      ],
+      "certainty": "published-count"
+    },
+    {
+      "id": "parthenon/frieze/north/metope-30",
+      "position": [
+        -13.88,
+        13.29,
+        27.717
+      ],
+      "size": [
+        0.18,
+        0.92,
+        1.499
+      ],
+      "certainty": "published-count"
+    },
+    {
+      "id": "parthenon/frieze/north/metope-31",
+      "position": [
+        -13.88,
+        13.29,
+        29.77
+      ],
+      "size": [
+        0.18,
+        0.92,
+        1.499
+      ],
+      "certainty": "published-count"
+    },
+    {
+      "id": "parthenon/frieze/north/metope-32",
+      "position": [
+        -13.88,
+        13.29,
+        31.823
+      ],
+      "size": [
+        0.18,
+        0.92,
+        1.499
+      ],
+      "certainty": "published-count"
+    },
+    {
+      "id": "parthenon/frieze/north/triglyph-01",
+      "position": [
+        -13.88,
+        13.29,
+        -32.85
+      ],
+      "size": [
+        0.18,
+        0.92,
+        0.452
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/frieze/north/triglyph-02",
+      "position": [
+        -13.88,
+        13.29,
+        -30.797
+      ],
+      "size": [
+        0.18,
+        0.92,
+        0.452
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/frieze/north/triglyph-03",
+      "position": [
+        -13.88,
+        13.29,
+        -28.744
+      ],
+      "size": [
+        0.18,
+        0.92,
+        0.452
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/frieze/north/triglyph-04",
+      "position": [
+        -13.88,
+        13.29,
+        -26.691
+      ],
+      "size": [
+        0.18,
+        0.92,
+        0.452
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/frieze/north/triglyph-05",
+      "position": [
+        -13.88,
+        13.29,
+        -24.638
+      ],
+      "size": [
+        0.18,
+        0.92,
+        0.452
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/frieze/north/triglyph-06",
+      "position": [
+        -13.88,
+        13.29,
+        -22.584
+      ],
+      "size": [
+        0.18,
+        0.92,
+        0.452
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/frieze/north/triglyph-07",
+      "position": [
+        -13.88,
+        13.29,
+        -20.531
+      ],
+      "size": [
+        0.18,
+        0.92,
+        0.452
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/frieze/north/triglyph-08",
+      "position": [
+        -13.88,
+        13.29,
+        -18.478
+      ],
+      "size": [
+        0.18,
+        0.92,
+        0.452
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/frieze/north/triglyph-09",
+      "position": [
+        -13.88,
+        13.29,
+        -16.425
+      ],
+      "size": [
+        0.18,
+        0.92,
+        0.452
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/frieze/north/triglyph-10",
+      "position": [
+        -13.88,
+        13.29,
+        -14.372
+      ],
+      "size": [
+        0.18,
+        0.92,
+        0.452
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/frieze/north/triglyph-11",
+      "position": [
+        -13.88,
+        13.29,
+        -12.319
+      ],
+      "size": [
+        0.18,
+        0.92,
+        0.452
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/frieze/north/triglyph-12",
+      "position": [
+        -13.88,
+        13.29,
+        -10.266
+      ],
+      "size": [
+        0.18,
+        0.92,
+        0.452
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/frieze/north/triglyph-13",
+      "position": [
+        -13.88,
+        13.29,
+        -8.212
+      ],
+      "size": [
+        0.18,
+        0.92,
+        0.452
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/frieze/north/triglyph-14",
+      "position": [
+        -13.88,
+        13.29,
+        -6.159
+      ],
+      "size": [
+        0.18,
+        0.92,
+        0.452
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/frieze/north/triglyph-15",
+      "position": [
+        -13.88,
+        13.29,
+        -4.106
+      ],
+      "size": [
+        0.18,
+        0.92,
+        0.452
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/frieze/north/triglyph-16",
+      "position": [
+        -13.88,
+        13.29,
+        -2.053
+      ],
+      "size": [
+        0.18,
+        0.92,
+        0.452
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/frieze/north/triglyph-17",
+      "position": [
+        -13.88,
+        13.29,
+        0
+      ],
+      "size": [
+        0.18,
+        0.92,
+        0.452
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/frieze/north/triglyph-18",
+      "position": [
+        -13.88,
+        13.29,
+        2.053
+      ],
+      "size": [
+        0.18,
+        0.92,
+        0.452
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/frieze/north/triglyph-19",
+      "position": [
+        -13.88,
+        13.29,
+        4.106
+      ],
+      "size": [
+        0.18,
+        0.92,
+        0.452
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/frieze/north/triglyph-20",
+      "position": [
+        -13.88,
+        13.29,
+        6.159
+      ],
+      "size": [
+        0.18,
+        0.92,
+        0.452
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/frieze/north/triglyph-21",
+      "position": [
+        -13.88,
+        13.29,
+        8.212
+      ],
+      "size": [
+        0.18,
+        0.92,
+        0.452
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/frieze/north/triglyph-22",
+      "position": [
+        -13.88,
+        13.29,
+        10.266
+      ],
+      "size": [
+        0.18,
+        0.92,
+        0.452
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/frieze/north/triglyph-23",
+      "position": [
+        -13.88,
+        13.29,
+        12.319
+      ],
+      "size": [
+        0.18,
+        0.92,
+        0.452
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/frieze/north/triglyph-24",
+      "position": [
+        -13.88,
+        13.29,
+        14.372
+      ],
+      "size": [
+        0.18,
+        0.92,
+        0.452
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/frieze/north/triglyph-25",
+      "position": [
+        -13.88,
+        13.29,
+        16.425
+      ],
+      "size": [
+        0.18,
+        0.92,
+        0.452
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/frieze/north/triglyph-26",
+      "position": [
+        -13.88,
+        13.29,
+        18.478
+      ],
+      "size": [
+        0.18,
+        0.92,
+        0.452
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/frieze/north/triglyph-27",
+      "position": [
+        -13.88,
+        13.29,
+        20.531
+      ],
+      "size": [
+        0.18,
+        0.92,
+        0.452
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/frieze/north/triglyph-28",
+      "position": [
+        -13.88,
+        13.29,
+        22.584
+      ],
+      "size": [
+        0.18,
+        0.92,
+        0.452
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/frieze/north/triglyph-29",
+      "position": [
+        -13.88,
+        13.29,
+        24.638
+      ],
+      "size": [
+        0.18,
+        0.92,
+        0.452
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/frieze/north/triglyph-30",
+      "position": [
+        -13.88,
+        13.29,
+        26.691
+      ],
+      "size": [
+        0.18,
+        0.92,
+        0.452
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/frieze/north/triglyph-31",
+      "position": [
+        -13.88,
+        13.29,
+        28.744
+      ],
+      "size": [
+        0.18,
+        0.92,
+        0.452
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/frieze/north/triglyph-32",
+      "position": [
+        -13.88,
+        13.29,
+        30.797
+      ],
+      "size": [
+        0.18,
+        0.92,
+        0.452
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/frieze/north/triglyph-33",
+      "position": [
+        -13.88,
+        13.29,
+        32.85
+      ],
+      "size": [
+        0.18,
+        0.92,
+        0.452
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/frieze/south/metope-01",
+      "position": [
+        13.88,
+        13.29,
+        -31.823
+      ],
+      "size": [
+        0.18,
+        0.92,
+        1.499
+      ],
+      "certainty": "published-count"
+    },
+    {
+      "id": "parthenon/frieze/south/metope-02",
+      "position": [
+        13.88,
+        13.29,
+        -29.77
+      ],
+      "size": [
+        0.18,
+        0.92,
+        1.499
+      ],
+      "certainty": "published-count"
+    },
+    {
+      "id": "parthenon/frieze/south/metope-03",
+      "position": [
+        13.88,
+        13.29,
+        -27.717
+      ],
+      "size": [
+        0.18,
+        0.92,
+        1.499
+      ],
+      "certainty": "published-count"
+    },
+    {
+      "id": "parthenon/frieze/south/metope-04",
+      "position": [
+        13.88,
+        13.29,
+        -25.664
+      ],
+      "size": [
+        0.18,
+        0.92,
+        1.499
+      ],
+      "certainty": "published-count"
+    },
+    {
+      "id": "parthenon/frieze/south/metope-05",
+      "position": [
+        13.88,
+        13.29,
+        -23.611
+      ],
+      "size": [
+        0.18,
+        0.92,
+        1.499
+      ],
+      "certainty": "published-count"
+    },
+    {
+      "id": "parthenon/frieze/south/metope-06",
+      "position": [
+        13.88,
+        13.29,
+        -21.558
+      ],
+      "size": [
+        0.18,
+        0.92,
+        1.499
+      ],
+      "certainty": "published-count"
+    },
+    {
+      "id": "parthenon/frieze/south/metope-07",
+      "position": [
+        13.88,
+        13.29,
+        -19.505
+      ],
+      "size": [
+        0.18,
+        0.92,
+        1.499
+      ],
+      "certainty": "published-count"
+    },
+    {
+      "id": "parthenon/frieze/south/metope-08",
+      "position": [
+        13.88,
+        13.29,
+        -17.452
+      ],
+      "size": [
+        0.18,
+        0.92,
+        1.499
+      ],
+      "certainty": "published-count"
+    },
+    {
+      "id": "parthenon/frieze/south/metope-09",
+      "position": [
+        13.88,
+        13.29,
+        -15.398
+      ],
+      "size": [
+        0.18,
+        0.92,
+        1.499
+      ],
+      "certainty": "published-count"
+    },
+    {
+      "id": "parthenon/frieze/south/metope-10",
+      "position": [
+        13.88,
+        13.29,
+        -13.345
+      ],
+      "size": [
+        0.18,
+        0.92,
+        1.499
+      ],
+      "certainty": "published-count"
+    },
+    {
+      "id": "parthenon/frieze/south/metope-11",
+      "position": [
+        13.88,
+        13.29,
+        -11.292
+      ],
+      "size": [
+        0.18,
+        0.92,
+        1.499
+      ],
+      "certainty": "published-count"
+    },
+    {
+      "id": "parthenon/frieze/south/metope-12",
+      "position": [
+        13.88,
+        13.29,
+        -9.239
+      ],
+      "size": [
+        0.18,
+        0.92,
+        1.499
+      ],
+      "certainty": "published-count"
+    },
+    {
+      "id": "parthenon/frieze/south/metope-13",
+      "position": [
+        13.88,
+        13.29,
+        -7.186
+      ],
+      "size": [
+        0.18,
+        0.92,
+        1.499
+      ],
+      "certainty": "published-count"
+    },
+    {
+      "id": "parthenon/frieze/south/metope-14",
+      "position": [
+        13.88,
+        13.29,
+        -5.133
+      ],
+      "size": [
+        0.18,
+        0.92,
+        1.499
+      ],
+      "certainty": "published-count"
+    },
+    {
+      "id": "parthenon/frieze/south/metope-15",
+      "position": [
+        13.88,
+        13.29,
+        -3.08
+      ],
+      "size": [
+        0.18,
+        0.92,
+        1.499
+      ],
+      "certainty": "published-count"
+    },
+    {
+      "id": "parthenon/frieze/south/metope-16",
+      "position": [
+        13.88,
+        13.29,
+        -1.027
+      ],
+      "size": [
+        0.18,
+        0.92,
+        1.499
+      ],
+      "certainty": "published-count"
+    },
+    {
+      "id": "parthenon/frieze/south/metope-17",
+      "position": [
+        13.88,
+        13.29,
+        1.027
+      ],
+      "size": [
+        0.18,
+        0.92,
+        1.499
+      ],
+      "certainty": "published-count"
+    },
+    {
+      "id": "parthenon/frieze/south/metope-18",
+      "position": [
+        13.88,
+        13.29,
+        3.08
+      ],
+      "size": [
+        0.18,
+        0.92,
+        1.499
+      ],
+      "certainty": "published-count"
+    },
+    {
+      "id": "parthenon/frieze/south/metope-19",
+      "position": [
+        13.88,
+        13.29,
+        5.133
+      ],
+      "size": [
+        0.18,
+        0.92,
+        1.499
+      ],
+      "certainty": "published-count"
+    },
+    {
+      "id": "parthenon/frieze/south/metope-20",
+      "position": [
+        13.88,
+        13.29,
+        7.186
+      ],
+      "size": [
+        0.18,
+        0.92,
+        1.499
+      ],
+      "certainty": "published-count"
+    },
+    {
+      "id": "parthenon/frieze/south/metope-21",
+      "position": [
+        13.88,
+        13.29,
+        9.239
+      ],
+      "size": [
+        0.18,
+        0.92,
+        1.499
+      ],
+      "certainty": "published-count"
+    },
+    {
+      "id": "parthenon/frieze/south/metope-22",
+      "position": [
+        13.88,
+        13.29,
+        11.292
+      ],
+      "size": [
+        0.18,
+        0.92,
+        1.499
+      ],
+      "certainty": "published-count"
+    },
+    {
+      "id": "parthenon/frieze/south/metope-23",
+      "position": [
+        13.88,
+        13.29,
+        13.345
+      ],
+      "size": [
+        0.18,
+        0.92,
+        1.499
+      ],
+      "certainty": "published-count"
+    },
+    {
+      "id": "parthenon/frieze/south/metope-24",
+      "position": [
+        13.88,
+        13.29,
+        15.398
+      ],
+      "size": [
+        0.18,
+        0.92,
+        1.499
+      ],
+      "certainty": "published-count"
+    },
+    {
+      "id": "parthenon/frieze/south/metope-25",
+      "position": [
+        13.88,
+        13.29,
+        17.452
+      ],
+      "size": [
+        0.18,
+        0.92,
+        1.499
+      ],
+      "certainty": "published-count"
+    },
+    {
+      "id": "parthenon/frieze/south/metope-26",
+      "position": [
+        13.88,
+        13.29,
+        19.505
+      ],
+      "size": [
+        0.18,
+        0.92,
+        1.499
+      ],
+      "certainty": "published-count"
+    },
+    {
+      "id": "parthenon/frieze/south/metope-27",
+      "position": [
+        13.88,
+        13.29,
+        21.558
+      ],
+      "size": [
+        0.18,
+        0.92,
+        1.499
+      ],
+      "certainty": "published-count"
+    },
+    {
+      "id": "parthenon/frieze/south/metope-28",
+      "position": [
+        13.88,
+        13.29,
+        23.611
+      ],
+      "size": [
+        0.18,
+        0.92,
+        1.499
+      ],
+      "certainty": "published-count"
+    },
+    {
+      "id": "parthenon/frieze/south/metope-29",
+      "position": [
+        13.88,
+        13.29,
+        25.664
+      ],
+      "size": [
+        0.18,
+        0.92,
+        1.499
+      ],
+      "certainty": "published-count"
+    },
+    {
+      "id": "parthenon/frieze/south/metope-30",
+      "position": [
+        13.88,
+        13.29,
+        27.717
+      ],
+      "size": [
+        0.18,
+        0.92,
+        1.499
+      ],
+      "certainty": "published-count"
+    },
+    {
+      "id": "parthenon/frieze/south/metope-31",
+      "position": [
+        13.88,
+        13.29,
+        29.77
+      ],
+      "size": [
+        0.18,
+        0.92,
+        1.499
+      ],
+      "certainty": "published-count"
+    },
+    {
+      "id": "parthenon/frieze/south/metope-32",
+      "position": [
+        13.88,
+        13.29,
+        31.823
+      ],
+      "size": [
+        0.18,
+        0.92,
+        1.499
+      ],
+      "certainty": "published-count"
+    },
+    {
+      "id": "parthenon/frieze/south/triglyph-01",
+      "position": [
+        13.88,
+        13.29,
+        -32.85
+      ],
+      "size": [
+        0.18,
+        0.92,
+        0.452
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/frieze/south/triglyph-02",
+      "position": [
+        13.88,
+        13.29,
+        -30.797
+      ],
+      "size": [
+        0.18,
+        0.92,
+        0.452
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/frieze/south/triglyph-03",
+      "position": [
+        13.88,
+        13.29,
+        -28.744
+      ],
+      "size": [
+        0.18,
+        0.92,
+        0.452
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/frieze/south/triglyph-04",
+      "position": [
+        13.88,
+        13.29,
+        -26.691
+      ],
+      "size": [
+        0.18,
+        0.92,
+        0.452
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/frieze/south/triglyph-05",
+      "position": [
+        13.88,
+        13.29,
+        -24.638
+      ],
+      "size": [
+        0.18,
+        0.92,
+        0.452
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/frieze/south/triglyph-06",
+      "position": [
+        13.88,
+        13.29,
+        -22.584
+      ],
+      "size": [
+        0.18,
+        0.92,
+        0.452
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/frieze/south/triglyph-07",
+      "position": [
+        13.88,
+        13.29,
+        -20.531
+      ],
+      "size": [
+        0.18,
+        0.92,
+        0.452
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/frieze/south/triglyph-08",
+      "position": [
+        13.88,
+        13.29,
+        -18.478
+      ],
+      "size": [
+        0.18,
+        0.92,
+        0.452
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/frieze/south/triglyph-09",
+      "position": [
+        13.88,
+        13.29,
+        -16.425
+      ],
+      "size": [
+        0.18,
+        0.92,
+        0.452
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/frieze/south/triglyph-10",
+      "position": [
+        13.88,
+        13.29,
+        -14.372
+      ],
+      "size": [
+        0.18,
+        0.92,
+        0.452
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/frieze/south/triglyph-11",
+      "position": [
+        13.88,
+        13.29,
+        -12.319
+      ],
+      "size": [
+        0.18,
+        0.92,
+        0.452
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/frieze/south/triglyph-12",
+      "position": [
+        13.88,
+        13.29,
+        -10.266
+      ],
+      "size": [
+        0.18,
+        0.92,
+        0.452
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/frieze/south/triglyph-13",
+      "position": [
+        13.88,
+        13.29,
+        -8.212
+      ],
+      "size": [
+        0.18,
+        0.92,
+        0.452
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/frieze/south/triglyph-14",
+      "position": [
+        13.88,
+        13.29,
+        -6.159
+      ],
+      "size": [
+        0.18,
+        0.92,
+        0.452
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/frieze/south/triglyph-15",
+      "position": [
+        13.88,
+        13.29,
+        -4.106
+      ],
+      "size": [
+        0.18,
+        0.92,
+        0.452
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/frieze/south/triglyph-16",
+      "position": [
+        13.88,
+        13.29,
+        -2.053
+      ],
+      "size": [
+        0.18,
+        0.92,
+        0.452
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/frieze/south/triglyph-17",
+      "position": [
+        13.88,
+        13.29,
+        0
+      ],
+      "size": [
+        0.18,
+        0.92,
+        0.452
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/frieze/south/triglyph-18",
+      "position": [
+        13.88,
+        13.29,
+        2.053
+      ],
+      "size": [
+        0.18,
+        0.92,
+        0.452
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/frieze/south/triglyph-19",
+      "position": [
+        13.88,
+        13.29,
+        4.106
+      ],
+      "size": [
+        0.18,
+        0.92,
+        0.452
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/frieze/south/triglyph-20",
+      "position": [
+        13.88,
+        13.29,
+        6.159
+      ],
+      "size": [
+        0.18,
+        0.92,
+        0.452
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/frieze/south/triglyph-21",
+      "position": [
+        13.88,
+        13.29,
+        8.212
+      ],
+      "size": [
+        0.18,
+        0.92,
+        0.452
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/frieze/south/triglyph-22",
+      "position": [
+        13.88,
+        13.29,
+        10.266
+      ],
+      "size": [
+        0.18,
+        0.92,
+        0.452
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/frieze/south/triglyph-23",
+      "position": [
+        13.88,
+        13.29,
+        12.319
+      ],
+      "size": [
+        0.18,
+        0.92,
+        0.452
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/frieze/south/triglyph-24",
+      "position": [
+        13.88,
+        13.29,
+        14.372
+      ],
+      "size": [
+        0.18,
+        0.92,
+        0.452
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/frieze/south/triglyph-25",
+      "position": [
+        13.88,
+        13.29,
+        16.425
+      ],
+      "size": [
+        0.18,
+        0.92,
+        0.452
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/frieze/south/triglyph-26",
+      "position": [
+        13.88,
+        13.29,
+        18.478
+      ],
+      "size": [
+        0.18,
+        0.92,
+        0.452
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/frieze/south/triglyph-27",
+      "position": [
+        13.88,
+        13.29,
+        20.531
+      ],
+      "size": [
+        0.18,
+        0.92,
+        0.452
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/frieze/south/triglyph-28",
+      "position": [
+        13.88,
+        13.29,
+        22.584
+      ],
+      "size": [
+        0.18,
+        0.92,
+        0.452
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/frieze/south/triglyph-29",
+      "position": [
+        13.88,
+        13.29,
+        24.638
+      ],
+      "size": [
+        0.18,
+        0.92,
+        0.452
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/frieze/south/triglyph-30",
+      "position": [
+        13.88,
+        13.29,
+        26.691
+      ],
+      "size": [
+        0.18,
+        0.92,
+        0.452
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/frieze/south/triglyph-31",
+      "position": [
+        13.88,
+        13.29,
+        28.744
+      ],
+      "size": [
+        0.18,
+        0.92,
+        0.452
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/frieze/south/triglyph-32",
+      "position": [
+        13.88,
+        13.29,
+        30.797
+      ],
+      "size": [
+        0.18,
+        0.92,
+        0.452
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/frieze/south/triglyph-33",
+      "position": [
+        13.88,
+        13.29,
+        32.85
+      ],
+      "size": [
+        0.18,
+        0.92,
+        0.452
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/ionic-frieze/north",
+      "position": [
+        -9.5,
+        10.12,
+        0
+      ],
+      "size": [
+        0.2,
+        0.6,
+        49.5
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/ionic-frieze/south",
+      "position": [
+        9.5,
+        10.12,
+        0
+      ],
+      "size": [
+        0.2,
+        0.6,
+        49.5
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/ionic-frieze/east",
+      "position": [
+        0,
+        10.12,
+        -25.57
+      ],
+      "size": [
+        19,
+        0.6,
+        0.2
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/ionic-frieze/west",
+      "position": [
+        0,
+        10.12,
+        25.57
+      ],
+      "size": [
+        19,
+        0.6,
+        0.2
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/roof/north",
+      "position": [
+        0,
+        16.4,
+        0
+      ],
+      "size": [
+        15.48,
+        3.35,
+        68.5
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "parthenon/roof/south",
+      "position": [
+        0,
+        16.4,
+        0
+      ],
+      "size": [
+        15.48,
+        3.35,
+        68.5
+      ],
+      "certainty": "schematic"
+    }
+  ]
+}

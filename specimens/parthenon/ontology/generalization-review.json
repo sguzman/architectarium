@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "specimenId": "parthenon",
+  "addedTypes": [
+    "ionic-capital"
+  ],
+  "reason": "Reusable Ionic architectural type independently of any building instance",
+  "preservedExistingTypes": true
+}

@@ -7,7 +7,7 @@
   ],
   "reconstruction": {
     "kind": "procedural-interpretive",
-    "confidence": "low-to-moderate",
+    "confidence": "schematic geometry with supported aggregate counts",
     "notes": "First-pass pedagogical volume, NOT a survey, photogrammetric record, restoration proposal, or current-condition model. Sculptural groups and original painted surfaces are not reconstructed. Column fluting is modeled as part of each shaft surface, not a separately pickable object."
   },
   "facts": [
@@ -41,5 +41,2417 @@
   ],
   "modelStatus": "illustrative",
   "assets": [],
-  "access": "virtual walkthrough is interpretive, not a reconstruction of historical public access"
+  "access": "virtual walkthrough is interpretive, not a reconstruction of historical public access",
+  "partInventory": [
+    {
+      "id": "parthenon/base/lower",
+      "typeId": "stereobate",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/base/middle",
+      "typeId": "stereobate",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/base/stylobate",
+      "typeId": "stylobate",
+      "sourceId": "perseus-parthenon"
+    },
+    {
+      "id": "parthenon/peristyle/east/column-01/shaft",
+      "typeId": "column-shaft",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/peristyle/east/column-01/capital",
+      "typeId": "echinus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/peristyle/east/column-01/abacus",
+      "typeId": "abacus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/peristyle/west/column-01/shaft",
+      "typeId": "column-shaft",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/peristyle/west/column-01/capital",
+      "typeId": "echinus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/peristyle/west/column-01/abacus",
+      "typeId": "abacus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/peristyle/east/column-02/shaft",
+      "typeId": "column-shaft",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/peristyle/east/column-02/capital",
+      "typeId": "echinus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/peristyle/east/column-02/abacus",
+      "typeId": "abacus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/peristyle/west/column-02/shaft",
+      "typeId": "column-shaft",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/peristyle/west/column-02/capital",
+      "typeId": "echinus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/peristyle/west/column-02/abacus",
+      "typeId": "abacus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/peristyle/east/column-03/shaft",
+      "typeId": "column-shaft",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/peristyle/east/column-03/capital",
+      "typeId": "echinus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/peristyle/east/column-03/abacus",
+      "typeId": "abacus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/peristyle/west/column-03/shaft",
+      "typeId": "column-shaft",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/peristyle/west/column-03/capital",
+      "typeId": "echinus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/peristyle/west/column-03/abacus",
+      "typeId": "abacus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/peristyle/east/column-04/shaft",
+      "typeId": "column-shaft",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/peristyle/east/column-04/capital",
+      "typeId": "echinus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/peristyle/east/column-04/abacus",
+      "typeId": "abacus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/peristyle/west/column-04/shaft",
+      "typeId": "column-shaft",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/peristyle/west/column-04/capital",
+      "typeId": "echinus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/peristyle/west/column-04/abacus",
+      "typeId": "abacus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/peristyle/east/column-05/shaft",
+      "typeId": "column-shaft",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/peristyle/east/column-05/capital",
+      "typeId": "echinus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/peristyle/east/column-05/abacus",
+      "typeId": "abacus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/peristyle/west/column-05/shaft",
+      "typeId": "column-shaft",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/peristyle/west/column-05/capital",
+      "typeId": "echinus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/peristyle/west/column-05/abacus",
+      "typeId": "abacus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/peristyle/east/column-06/shaft",
+      "typeId": "column-shaft",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/peristyle/east/column-06/capital",
+      "typeId": "echinus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/peristyle/east/column-06/abacus",
+      "typeId": "abacus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/peristyle/west/column-06/shaft",
+      "typeId": "column-shaft",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/peristyle/west/column-06/capital",
+      "typeId": "echinus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/peristyle/west/column-06/abacus",
+      "typeId": "abacus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/peristyle/east/column-07/shaft",
+      "typeId": "column-shaft",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/peristyle/east/column-07/capital",
+      "typeId": "echinus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/peristyle/east/column-07/abacus",
+      "typeId": "abacus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/peristyle/west/column-07/shaft",
+      "typeId": "column-shaft",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/peristyle/west/column-07/capital",
+      "typeId": "echinus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/peristyle/west/column-07/abacus",
+      "typeId": "abacus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/peristyle/east/column-08/shaft",
+      "typeId": "column-shaft",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/peristyle/east/column-08/capital",
+      "typeId": "echinus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/peristyle/east/column-08/abacus",
+      "typeId": "abacus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/peristyle/west/column-08/shaft",
+      "typeId": "column-shaft",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/peristyle/west/column-08/capital",
+      "typeId": "echinus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/peristyle/west/column-08/abacus",
+      "typeId": "abacus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-02/shaft",
+      "typeId": "column-shaft",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-02/capital",
+      "typeId": "echinus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-02/abacus",
+      "typeId": "abacus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-02/shaft",
+      "typeId": "column-shaft",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-02/capital",
+      "typeId": "echinus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-02/abacus",
+      "typeId": "abacus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-03/shaft",
+      "typeId": "column-shaft",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-03/capital",
+      "typeId": "echinus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-03/abacus",
+      "typeId": "abacus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-03/shaft",
+      "typeId": "column-shaft",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-03/capital",
+      "typeId": "echinus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-03/abacus",
+      "typeId": "abacus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-04/shaft",
+      "typeId": "column-shaft",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-04/capital",
+      "typeId": "echinus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-04/abacus",
+      "typeId": "abacus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-04/shaft",
+      "typeId": "column-shaft",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-04/capital",
+      "typeId": "echinus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-04/abacus",
+      "typeId": "abacus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-05/shaft",
+      "typeId": "column-shaft",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-05/capital",
+      "typeId": "echinus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-05/abacus",
+      "typeId": "abacus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-05/shaft",
+      "typeId": "column-shaft",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-05/capital",
+      "typeId": "echinus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-05/abacus",
+      "typeId": "abacus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-06/shaft",
+      "typeId": "column-shaft",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-06/capital",
+      "typeId": "echinus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-06/abacus",
+      "typeId": "abacus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-06/shaft",
+      "typeId": "column-shaft",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-06/capital",
+      "typeId": "echinus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-06/abacus",
+      "typeId": "abacus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-07/shaft",
+      "typeId": "column-shaft",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-07/capital",
+      "typeId": "echinus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-07/abacus",
+      "typeId": "abacus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-07/shaft",
+      "typeId": "column-shaft",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-07/capital",
+      "typeId": "echinus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-07/abacus",
+      "typeId": "abacus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-08/shaft",
+      "typeId": "column-shaft",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-08/capital",
+      "typeId": "echinus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-08/abacus",
+      "typeId": "abacus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-08/shaft",
+      "typeId": "column-shaft",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-08/capital",
+      "typeId": "echinus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-08/abacus",
+      "typeId": "abacus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-09/shaft",
+      "typeId": "column-shaft",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-09/capital",
+      "typeId": "echinus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-09/abacus",
+      "typeId": "abacus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-09/shaft",
+      "typeId": "column-shaft",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-09/capital",
+      "typeId": "echinus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-09/abacus",
+      "typeId": "abacus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-10/shaft",
+      "typeId": "column-shaft",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-10/capital",
+      "typeId": "echinus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-10/abacus",
+      "typeId": "abacus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-10/shaft",
+      "typeId": "column-shaft",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-10/capital",
+      "typeId": "echinus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-10/abacus",
+      "typeId": "abacus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-11/shaft",
+      "typeId": "column-shaft",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-11/capital",
+      "typeId": "echinus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-11/abacus",
+      "typeId": "abacus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-11/shaft",
+      "typeId": "column-shaft",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-11/capital",
+      "typeId": "echinus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-11/abacus",
+      "typeId": "abacus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-12/shaft",
+      "typeId": "column-shaft",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-12/capital",
+      "typeId": "echinus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-12/abacus",
+      "typeId": "abacus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-12/shaft",
+      "typeId": "column-shaft",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-12/capital",
+      "typeId": "echinus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-12/abacus",
+      "typeId": "abacus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-13/shaft",
+      "typeId": "column-shaft",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-13/capital",
+      "typeId": "echinus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-13/abacus",
+      "typeId": "abacus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-13/shaft",
+      "typeId": "column-shaft",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-13/capital",
+      "typeId": "echinus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-13/abacus",
+      "typeId": "abacus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-14/shaft",
+      "typeId": "column-shaft",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-14/capital",
+      "typeId": "echinus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-14/abacus",
+      "typeId": "abacus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-14/shaft",
+      "typeId": "column-shaft",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-14/capital",
+      "typeId": "echinus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-14/abacus",
+      "typeId": "abacus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-15/shaft",
+      "typeId": "column-shaft",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-15/capital",
+      "typeId": "echinus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-15/abacus",
+      "typeId": "abacus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-15/shaft",
+      "typeId": "column-shaft",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-15/capital",
+      "typeId": "echinus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-15/abacus",
+      "typeId": "abacus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-16/shaft",
+      "typeId": "column-shaft",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-16/capital",
+      "typeId": "echinus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-16/abacus",
+      "typeId": "abacus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-16/shaft",
+      "typeId": "column-shaft",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-16/capital",
+      "typeId": "echinus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-16/abacus",
+      "typeId": "abacus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/porch/east/column-01/shaft",
+      "typeId": "column-shaft",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/porch/east/column-01/capital",
+      "typeId": "echinus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/porch/east/column-01/abacus",
+      "typeId": "abacus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/porch/east/column-02/shaft",
+      "typeId": "column-shaft",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/porch/east/column-02/capital",
+      "typeId": "echinus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/porch/east/column-02/abacus",
+      "typeId": "abacus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/porch/east/column-03/shaft",
+      "typeId": "column-shaft",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/porch/east/column-03/capital",
+      "typeId": "echinus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/porch/east/column-03/abacus",
+      "typeId": "abacus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/porch/east/column-04/shaft",
+      "typeId": "column-shaft",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/porch/east/column-04/capital",
+      "typeId": "echinus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/porch/east/column-04/abacus",
+      "typeId": "abacus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/porch/east/column-05/shaft",
+      "typeId": "column-shaft",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/porch/east/column-05/capital",
+      "typeId": "echinus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/porch/east/column-05/abacus",
+      "typeId": "abacus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/porch/east/column-06/shaft",
+      "typeId": "column-shaft",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/porch/east/column-06/capital",
+      "typeId": "echinus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/porch/east/column-06/abacus",
+      "typeId": "abacus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/porch/west/column-01/shaft",
+      "typeId": "column-shaft",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/porch/west/column-01/capital",
+      "typeId": "echinus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/porch/west/column-01/abacus",
+      "typeId": "abacus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/porch/west/column-02/shaft",
+      "typeId": "column-shaft",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/porch/west/column-02/capital",
+      "typeId": "echinus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/porch/west/column-02/abacus",
+      "typeId": "abacus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/porch/west/column-03/shaft",
+      "typeId": "column-shaft",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/porch/west/column-03/capital",
+      "typeId": "echinus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/porch/west/column-03/abacus",
+      "typeId": "abacus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/porch/west/column-04/shaft",
+      "typeId": "column-shaft",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/porch/west/column-04/capital",
+      "typeId": "echinus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/porch/west/column-04/abacus",
+      "typeId": "abacus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/porch/west/column-05/shaft",
+      "typeId": "column-shaft",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/porch/west/column-05/capital",
+      "typeId": "echinus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/porch/west/column-05/abacus",
+      "typeId": "abacus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/porch/west/column-06/shaft",
+      "typeId": "column-shaft",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/porch/west/column-06/capital",
+      "typeId": "echinus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/porch/west/column-06/abacus",
+      "typeId": "abacus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/west-room/ionic/column-01/shaft",
+      "typeId": "column-shaft",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/west-room/ionic/column-01/capital",
+      "typeId": "ionic-capital",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/west-room/ionic/column-01/abacus",
+      "typeId": "abacus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/west-room/ionic/column-02/shaft",
+      "typeId": "column-shaft",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/west-room/ionic/column-02/capital",
+      "typeId": "ionic-capital",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/west-room/ionic/column-02/abacus",
+      "typeId": "abacus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/west-room/ionic/column-03/shaft",
+      "typeId": "column-shaft",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/west-room/ionic/column-03/capital",
+      "typeId": "ionic-capital",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/west-room/ionic/column-03/abacus",
+      "typeId": "abacus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/west-room/ionic/column-04/shaft",
+      "typeId": "column-shaft",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/west-room/ionic/column-04/capital",
+      "typeId": "ionic-capital",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/west-room/ionic/column-04/abacus",
+      "typeId": "abacus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-01/shaft",
+      "typeId": "column-shaft",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-01/capital",
+      "typeId": "echinus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-01/abacus",
+      "typeId": "abacus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-02/shaft",
+      "typeId": "column-shaft",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-02/capital",
+      "typeId": "echinus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-02/abacus",
+      "typeId": "abacus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-03/shaft",
+      "typeId": "column-shaft",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-03/capital",
+      "typeId": "echinus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-03/abacus",
+      "typeId": "abacus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-04/shaft",
+      "typeId": "column-shaft",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-04/capital",
+      "typeId": "echinus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-04/abacus",
+      "typeId": "abacus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-05/shaft",
+      "typeId": "column-shaft",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-05/capital",
+      "typeId": "echinus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-05/abacus",
+      "typeId": "abacus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-06/shaft",
+      "typeId": "column-shaft",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-06/capital",
+      "typeId": "echinus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-06/abacus",
+      "typeId": "abacus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-07/shaft",
+      "typeId": "column-shaft",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-07/capital",
+      "typeId": "echinus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-07/abacus",
+      "typeId": "abacus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-08/shaft",
+      "typeId": "column-shaft",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-08/capital",
+      "typeId": "echinus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-08/abacus",
+      "typeId": "abacus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-09/shaft",
+      "typeId": "column-shaft",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-09/capital",
+      "typeId": "echinus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-09/abacus",
+      "typeId": "abacus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-10/shaft",
+      "typeId": "column-shaft",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-10/capital",
+      "typeId": "echinus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-10/abacus",
+      "typeId": "abacus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-11/shaft",
+      "typeId": "column-shaft",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-11/capital",
+      "typeId": "echinus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-11/abacus",
+      "typeId": "abacus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-12/shaft",
+      "typeId": "column-shaft",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-12/capital",
+      "typeId": "echinus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-12/abacus",
+      "typeId": "abacus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-13/shaft",
+      "typeId": "column-shaft",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-13/capital",
+      "typeId": "echinus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-13/abacus",
+      "typeId": "abacus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-01/shaft",
+      "typeId": "column-shaft",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-01/capital",
+      "typeId": "echinus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-01/abacus",
+      "typeId": "abacus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-02/shaft",
+      "typeId": "column-shaft",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-02/capital",
+      "typeId": "echinus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-02/abacus",
+      "typeId": "abacus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-03/shaft",
+      "typeId": "column-shaft",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-03/capital",
+      "typeId": "echinus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-03/abacus",
+      "typeId": "abacus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-04/shaft",
+      "typeId": "column-shaft",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-04/capital",
+      "typeId": "echinus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-04/abacus",
+      "typeId": "abacus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-05/shaft",
+      "typeId": "column-shaft",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-05/capital",
+      "typeId": "echinus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-05/abacus",
+      "typeId": "abacus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-06/shaft",
+      "typeId": "column-shaft",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-06/capital",
+      "typeId": "echinus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-06/abacus",
+      "typeId": "abacus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-07/shaft",
+      "typeId": "column-shaft",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-07/capital",
+      "typeId": "echinus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-07/abacus",
+      "typeId": "abacus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-08/shaft",
+      "typeId": "column-shaft",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-08/capital",
+      "typeId": "echinus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-08/abacus",
+      "typeId": "abacus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-09/shaft",
+      "typeId": "column-shaft",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-09/capital",
+      "typeId": "echinus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-09/abacus",
+      "typeId": "abacus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-10/shaft",
+      "typeId": "column-shaft",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-10/capital",
+      "typeId": "echinus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-10/abacus",
+      "typeId": "abacus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-11/shaft",
+      "typeId": "column-shaft",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-11/capital",
+      "typeId": "echinus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-11/abacus",
+      "typeId": "abacus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-12/shaft",
+      "typeId": "column-shaft",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-12/capital",
+      "typeId": "echinus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-12/abacus",
+      "typeId": "abacus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-13/shaft",
+      "typeId": "column-shaft",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-13/capital",
+      "typeId": "echinus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-13/abacus",
+      "typeId": "abacus",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/cella/north-wall",
+      "typeId": "cella",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/cella/south-wall",
+      "typeId": "cella",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/cella/east-jamb-north",
+      "typeId": "cella",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/cella/east-jamb-south",
+      "typeId": "cella",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/cella/east-lintel",
+      "typeId": "cella",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/cella/west-jamb-north",
+      "typeId": "cella",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/cella/west-jamb-south",
+      "typeId": "cella",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/cella/west-lintel",
+      "typeId": "cella",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/cella/divider",
+      "typeId": "cella",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/porch-floor/pronaos",
+      "typeId": "pronaos",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/porch-floor/opisthonaos",
+      "typeId": "portico",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/entablature/east/architrave",
+      "typeId": "architrave",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/entablature/east/cornice",
+      "typeId": "cornice",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/pediment/east",
+      "typeId": "pediment",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/entablature/west/architrave",
+      "typeId": "architrave",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/entablature/west/cornice",
+      "typeId": "cornice",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/pediment/west",
+      "typeId": "pediment",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/entablature/north/architrave",
+      "typeId": "architrave",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/entablature/north/cornice",
+      "typeId": "cornice",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/entablature/south/architrave",
+      "typeId": "architrave",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/entablature/south/cornice",
+      "typeId": "cornice",
+      "sourceId": "ysma-parthenon"
+    },
+    {
+      "id": "parthenon/frieze/east/metope-01",
+      "typeId": "metope",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/east/metope-02",
+      "typeId": "metope",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/east/metope-03",
+      "typeId": "metope",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/east/metope-04",
+      "typeId": "metope",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/east/metope-05",
+      "typeId": "metope",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/east/metope-06",
+      "typeId": "metope",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/east/metope-07",
+      "typeId": "metope",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/east/metope-08",
+      "typeId": "metope",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/east/metope-09",
+      "typeId": "metope",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/east/metope-10",
+      "typeId": "metope",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/east/metope-11",
+      "typeId": "metope",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/east/metope-12",
+      "typeId": "metope",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/east/metope-13",
+      "typeId": "metope",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/east/metope-14",
+      "typeId": "metope",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/east/triglyph-01",
+      "typeId": "triglyph",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/east/triglyph-02",
+      "typeId": "triglyph",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/east/triglyph-03",
+      "typeId": "triglyph",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/east/triglyph-04",
+      "typeId": "triglyph",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/east/triglyph-05",
+      "typeId": "triglyph",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/east/triglyph-06",
+      "typeId": "triglyph",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/east/triglyph-07",
+      "typeId": "triglyph",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/east/triglyph-08",
+      "typeId": "triglyph",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/east/triglyph-09",
+      "typeId": "triglyph",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/east/triglyph-10",
+      "typeId": "triglyph",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/east/triglyph-11",
+      "typeId": "triglyph",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/east/triglyph-12",
+      "typeId": "triglyph",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/east/triglyph-13",
+      "typeId": "triglyph",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/east/triglyph-14",
+      "typeId": "triglyph",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/east/triglyph-15",
+      "typeId": "triglyph",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/west/metope-01",
+      "typeId": "metope",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/west/metope-02",
+      "typeId": "metope",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/west/metope-03",
+      "typeId": "metope",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/west/metope-04",
+      "typeId": "metope",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/west/metope-05",
+      "typeId": "metope",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/west/metope-06",
+      "typeId": "metope",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/west/metope-07",
+      "typeId": "metope",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/west/metope-08",
+      "typeId": "metope",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/west/metope-09",
+      "typeId": "metope",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/west/metope-10",
+      "typeId": "metope",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/west/metope-11",
+      "typeId": "metope",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/west/metope-12",
+      "typeId": "metope",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/west/metope-13",
+      "typeId": "metope",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/west/metope-14",
+      "typeId": "metope",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/west/triglyph-01",
+      "typeId": "triglyph",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/west/triglyph-02",
+      "typeId": "triglyph",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/west/triglyph-03",
+      "typeId": "triglyph",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/west/triglyph-04",
+      "typeId": "triglyph",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/west/triglyph-05",
+      "typeId": "triglyph",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/west/triglyph-06",
+      "typeId": "triglyph",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/west/triglyph-07",
+      "typeId": "triglyph",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/west/triglyph-08",
+      "typeId": "triglyph",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/west/triglyph-09",
+      "typeId": "triglyph",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/west/triglyph-10",
+      "typeId": "triglyph",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/west/triglyph-11",
+      "typeId": "triglyph",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/west/triglyph-12",
+      "typeId": "triglyph",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/west/triglyph-13",
+      "typeId": "triglyph",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/west/triglyph-14",
+      "typeId": "triglyph",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/west/triglyph-15",
+      "typeId": "triglyph",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/north/metope-01",
+      "typeId": "metope",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/north/metope-02",
+      "typeId": "metope",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/north/metope-03",
+      "typeId": "metope",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/north/metope-04",
+      "typeId": "metope",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/north/metope-05",
+      "typeId": "metope",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/north/metope-06",
+      "typeId": "metope",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/north/metope-07",
+      "typeId": "metope",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/north/metope-08",
+      "typeId": "metope",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/north/metope-09",
+      "typeId": "metope",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/north/metope-10",
+      "typeId": "metope",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/north/metope-11",
+      "typeId": "metope",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/north/metope-12",
+      "typeId": "metope",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/north/metope-13",
+      "typeId": "metope",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/north/metope-14",
+      "typeId": "metope",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/north/metope-15",
+      "typeId": "metope",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/north/metope-16",
+      "typeId": "metope",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/north/metope-17",
+      "typeId": "metope",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/north/metope-18",
+      "typeId": "metope",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/north/metope-19",
+      "typeId": "metope",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/north/metope-20",
+      "typeId": "metope",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/north/metope-21",
+      "typeId": "metope",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/north/metope-22",
+      "typeId": "metope",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/north/metope-23",
+      "typeId": "metope",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/north/metope-24",
+      "typeId": "metope",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/north/metope-25",
+      "typeId": "metope",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/north/metope-26",
+      "typeId": "metope",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/north/metope-27",
+      "typeId": "metope",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/north/metope-28",
+      "typeId": "metope",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/north/metope-29",
+      "typeId": "metope",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/north/metope-30",
+      "typeId": "metope",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/north/metope-31",
+      "typeId": "metope",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/north/metope-32",
+      "typeId": "metope",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/north/triglyph-01",
+      "typeId": "triglyph",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/north/triglyph-02",
+      "typeId": "triglyph",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/north/triglyph-03",
+      "typeId": "triglyph",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/north/triglyph-04",
+      "typeId": "triglyph",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/north/triglyph-05",
+      "typeId": "triglyph",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/north/triglyph-06",
+      "typeId": "triglyph",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/north/triglyph-07",
+      "typeId": "triglyph",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/north/triglyph-08",
+      "typeId": "triglyph",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/north/triglyph-09",
+      "typeId": "triglyph",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/north/triglyph-10",
+      "typeId": "triglyph",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/north/triglyph-11",
+      "typeId": "triglyph",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/north/triglyph-12",
+      "typeId": "triglyph",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/north/triglyph-13",
+      "typeId": "triglyph",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/north/triglyph-14",
+      "typeId": "triglyph",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/north/triglyph-15",
+      "typeId": "triglyph",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/north/triglyph-16",
+      "typeId": "triglyph",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/north/triglyph-17",
+      "typeId": "triglyph",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/north/triglyph-18",
+      "typeId": "triglyph",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/north/triglyph-19",
+      "typeId": "triglyph",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/north/triglyph-20",
+      "typeId": "triglyph",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/north/triglyph-21",
+      "typeId": "triglyph",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/north/triglyph-22",
+      "typeId": "triglyph",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/north/triglyph-23",
+      "typeId": "triglyph",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/north/triglyph-24",
+      "typeId": "triglyph",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/north/triglyph-25",
+      "typeId": "triglyph",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/north/triglyph-26",
+      "typeId": "triglyph",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/north/triglyph-27",
+      "typeId": "triglyph",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/north/triglyph-28",
+      "typeId": "triglyph",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/north/triglyph-29",
+      "typeId": "triglyph",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/north/triglyph-30",
+      "typeId": "triglyph",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/north/triglyph-31",
+      "typeId": "triglyph",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/north/triglyph-32",
+      "typeId": "triglyph",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/north/triglyph-33",
+      "typeId": "triglyph",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/south/metope-01",
+      "typeId": "metope",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/south/metope-02",
+      "typeId": "metope",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/south/metope-03",
+      "typeId": "metope",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/south/metope-04",
+      "typeId": "metope",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/south/metope-05",
+      "typeId": "metope",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/south/metope-06",
+      "typeId": "metope",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/south/metope-07",
+      "typeId": "metope",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/south/metope-08",
+      "typeId": "metope",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/south/metope-09",
+      "typeId": "metope",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/south/metope-10",
+      "typeId": "metope",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/south/metope-11",
+      "typeId": "metope",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/south/metope-12",
+      "typeId": "metope",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/south/metope-13",
+      "typeId": "metope",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/south/metope-14",
+      "typeId": "metope",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/south/metope-15",
+      "typeId": "metope",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/south/metope-16",
+      "typeId": "metope",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/south/metope-17",
+      "typeId": "metope",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/south/metope-18",
+      "typeId": "metope",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/south/metope-19",
+      "typeId": "metope",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/south/metope-20",
+      "typeId": "metope",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/south/metope-21",
+      "typeId": "metope",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/south/metope-22",
+      "typeId": "metope",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/south/metope-23",
+      "typeId": "metope",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/south/metope-24",
+      "typeId": "metope",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/south/metope-25",
+      "typeId": "metope",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/south/metope-26",
+      "typeId": "metope",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/south/metope-27",
+      "typeId": "metope",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/south/metope-28",
+      "typeId": "metope",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/south/metope-29",
+      "typeId": "metope",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/south/metope-30",
+      "typeId": "metope",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/south/metope-31",
+      "typeId": "metope",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/south/metope-32",
+      "typeId": "metope",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/south/triglyph-01",
+      "typeId": "triglyph",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/south/triglyph-02",
+      "typeId": "triglyph",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/south/triglyph-03",
+      "typeId": "triglyph",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/south/triglyph-04",
+      "typeId": "triglyph",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/south/triglyph-05",
+      "typeId": "triglyph",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/south/triglyph-06",
+      "typeId": "triglyph",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/south/triglyph-07",
+      "typeId": "triglyph",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/south/triglyph-08",
+      "typeId": "triglyph",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/south/triglyph-09",
+      "typeId": "triglyph",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/south/triglyph-10",
+      "typeId": "triglyph",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/south/triglyph-11",
+      "typeId": "triglyph",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/south/triglyph-12",
+      "typeId": "triglyph",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/south/triglyph-13",
+      "typeId": "triglyph",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/south/triglyph-14",
+      "typeId": "triglyph",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/south/triglyph-15",
+      "typeId": "triglyph",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/south/triglyph-16",
+      "typeId": "triglyph",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/south/triglyph-17",
+      "typeId": "triglyph",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/south/triglyph-18",
+      "typeId": "triglyph",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/south/triglyph-19",
+      "typeId": "triglyph",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/south/triglyph-20",
+      "typeId": "triglyph",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/south/triglyph-21",
+      "typeId": "triglyph",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/south/triglyph-22",
+      "typeId": "triglyph",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/south/triglyph-23",
+      "typeId": "triglyph",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/south/triglyph-24",
+      "typeId": "triglyph",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/south/triglyph-25",
+      "typeId": "triglyph",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/south/triglyph-26",
+      "typeId": "triglyph",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/south/triglyph-27",
+      "typeId": "triglyph",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/south/triglyph-28",
+      "typeId": "triglyph",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/south/triglyph-29",
+      "typeId": "triglyph",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/south/triglyph-30",
+      "typeId": "triglyph",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/south/triglyph-31",
+      "typeId": "triglyph",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/south/triglyph-32",
+      "typeId": "triglyph",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/frieze/south/triglyph-33",
+      "typeId": "triglyph",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/ionic-frieze/north",
+      "typeId": "ionic-frieze",
+      "sourceId": "acropolis-frieze"
+    },
+    {
+      "id": "parthenon/ionic-frieze/south",
+      "typeId": "ionic-frieze",
+      "sourceId": "acropolis-frieze"
+    },
+    {
+      "id": "parthenon/ionic-frieze/east",
+      "typeId": "ionic-frieze",
+      "sourceId": "acropolis-frieze"
+    },
+    {
+      "id": "parthenon/ionic-frieze/west",
+      "typeId": "ionic-frieze",
+      "sourceId": "acropolis-frieze"
+    },
+    {
+      "id": "parthenon/roof/north",
+      "typeId": "roof",
+      "sourceId": "acropolis-architecture"
+    },
+    {
+      "id": "parthenon/roof/south",
+      "typeId": "roof",
+      "sourceId": "acropolis-architecture"
+    }
+  ]
 }

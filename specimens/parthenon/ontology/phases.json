@@ -1,0 +1,1939 @@
+{
+  "version": 1,
+  "specimenId": "parthenon",
+  "represented": "late fifth century BCE as a schematic envelope",
+  "instances": [
+    {
+      "id": "parthenon/base/lower",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/base/middle",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/base/stylobate",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/peristyle/east/column-01/shaft",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/peristyle/east/column-01/capital",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/peristyle/east/column-01/abacus",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/peristyle/west/column-01/shaft",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/peristyle/west/column-01/capital",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/peristyle/west/column-01/abacus",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/peristyle/east/column-02/shaft",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/peristyle/east/column-02/capital",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/peristyle/east/column-02/abacus",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/peristyle/west/column-02/shaft",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/peristyle/west/column-02/capital",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/peristyle/west/column-02/abacus",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/peristyle/east/column-03/shaft",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/peristyle/east/column-03/capital",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/peristyle/east/column-03/abacus",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/peristyle/west/column-03/shaft",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/peristyle/west/column-03/capital",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/peristyle/west/column-03/abacus",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/peristyle/east/column-04/shaft",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/peristyle/east/column-04/capital",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/peristyle/east/column-04/abacus",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/peristyle/west/column-04/shaft",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/peristyle/west/column-04/capital",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/peristyle/west/column-04/abacus",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/peristyle/east/column-05/shaft",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/peristyle/east/column-05/capital",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/peristyle/east/column-05/abacus",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/peristyle/west/column-05/shaft",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/peristyle/west/column-05/capital",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/peristyle/west/column-05/abacus",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/peristyle/east/column-06/shaft",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/peristyle/east/column-06/capital",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/peristyle/east/column-06/abacus",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/peristyle/west/column-06/shaft",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/peristyle/west/column-06/capital",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/peristyle/west/column-06/abacus",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/peristyle/east/column-07/shaft",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/peristyle/east/column-07/capital",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/peristyle/east/column-07/abacus",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/peristyle/west/column-07/shaft",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/peristyle/west/column-07/capital",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/peristyle/west/column-07/abacus",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/peristyle/east/column-08/shaft",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/peristyle/east/column-08/capital",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/peristyle/east/column-08/abacus",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/peristyle/west/column-08/shaft",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/peristyle/west/column-08/capital",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/peristyle/west/column-08/abacus",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-02/shaft",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-02/capital",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-02/abacus",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-02/shaft",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-02/capital",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-02/abacus",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-03/shaft",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-03/capital",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-03/abacus",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-03/shaft",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-03/capital",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-03/abacus",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-04/shaft",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-04/capital",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-04/abacus",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-04/shaft",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-04/capital",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-04/abacus",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-05/shaft",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-05/capital",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-05/abacus",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-05/shaft",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-05/capital",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-05/abacus",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-06/shaft",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-06/capital",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-06/abacus",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-06/shaft",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-06/capital",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-06/abacus",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-07/shaft",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-07/capital",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-07/abacus",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-07/shaft",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-07/capital",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-07/abacus",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-08/shaft",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-08/capital",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-08/abacus",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-08/shaft",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-08/capital",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-08/abacus",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-09/shaft",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-09/capital",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-09/abacus",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-09/shaft",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-09/capital",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-09/abacus",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-10/shaft",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-10/capital",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-10/abacus",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-10/shaft",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-10/capital",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-10/abacus",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-11/shaft",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-11/capital",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-11/abacus",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-11/shaft",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-11/capital",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-11/abacus",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-12/shaft",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-12/capital",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-12/abacus",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-12/shaft",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-12/capital",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-12/abacus",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-13/shaft",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-13/capital",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-13/abacus",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-13/shaft",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-13/capital",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-13/abacus",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-14/shaft",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-14/capital",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-14/abacus",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-14/shaft",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-14/capital",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-14/abacus",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-15/shaft",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-15/capital",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-15/abacus",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-15/shaft",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-15/capital",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-15/abacus",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-16/shaft",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-16/capital",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/peristyle/north/column-16/abacus",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-16/shaft",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-16/capital",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/peristyle/south/column-16/abacus",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/porch/east/column-01/shaft",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/porch/east/column-01/capital",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/porch/east/column-01/abacus",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/porch/east/column-02/shaft",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/porch/east/column-02/capital",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/porch/east/column-02/abacus",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/porch/east/column-03/shaft",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/porch/east/column-03/capital",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/porch/east/column-03/abacus",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/porch/east/column-04/shaft",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/porch/east/column-04/capital",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/porch/east/column-04/abacus",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/porch/east/column-05/shaft",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/porch/east/column-05/capital",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/porch/east/column-05/abacus",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/porch/east/column-06/shaft",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/porch/east/column-06/capital",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/porch/east/column-06/abacus",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/porch/west/column-01/shaft",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/porch/west/column-01/capital",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/porch/west/column-01/abacus",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/porch/west/column-02/shaft",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/porch/west/column-02/capital",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/porch/west/column-02/abacus",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/porch/west/column-03/shaft",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/porch/west/column-03/capital",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/porch/west/column-03/abacus",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/porch/west/column-04/shaft",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/porch/west/column-04/capital",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/porch/west/column-04/abacus",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/porch/west/column-05/shaft",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/porch/west/column-05/capital",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/porch/west/column-05/abacus",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/porch/west/column-06/shaft",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/porch/west/column-06/capital",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/porch/west/column-06/abacus",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/west-room/ionic/column-01/shaft",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/west-room/ionic/column-01/capital",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/west-room/ionic/column-01/abacus",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/west-room/ionic/column-02/shaft",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/west-room/ionic/column-02/capital",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/west-room/ionic/column-02/abacus",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/west-room/ionic/column-03/shaft",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/west-room/ionic/column-03/capital",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/west-room/ionic/column-03/abacus",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/west-room/ionic/column-04/shaft",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/west-room/ionic/column-04/capital",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/west-room/ionic/column-04/abacus",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-01/shaft",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-01/capital",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-01/abacus",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-02/shaft",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-02/capital",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-02/abacus",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-03/shaft",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-03/capital",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-03/abacus",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-04/shaft",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-04/capital",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-04/abacus",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-05/shaft",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-05/capital",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-05/abacus",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-06/shaft",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-06/capital",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-06/abacus",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-07/shaft",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-07/capital",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-07/abacus",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-08/shaft",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-08/capital",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-08/abacus",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-09/shaft",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-09/capital",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-09/abacus",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-10/shaft",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-10/capital",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-10/abacus",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-11/shaft",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-11/capital",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-11/abacus",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-12/shaft",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-12/capital",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-12/abacus",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-13/shaft",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-13/capital",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/east-room/lower/column-13/abacus",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-01/shaft",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-01/capital",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-01/abacus",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-02/shaft",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-02/capital",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-02/abacus",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-03/shaft",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-03/capital",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-03/abacus",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-04/shaft",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-04/capital",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-04/abacus",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-05/shaft",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-05/capital",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-05/abacus",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-06/shaft",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-06/capital",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-06/abacus",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-07/shaft",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-07/capital",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-07/abacus",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-08/shaft",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-08/capital",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-08/abacus",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-09/shaft",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-09/capital",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-09/abacus",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-10/shaft",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-10/capital",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-10/abacus",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-11/shaft",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-11/capital",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-11/abacus",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-12/shaft",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-12/capital",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-12/abacus",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-13/shaft",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-13/capital",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/east-room/upper/column-13/abacus",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/cella/north-wall",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/cella/south-wall",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/cella/east-jamb-north",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/cella/east-jamb-south",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/cella/east-lintel",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/cella/west-jamb-north",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/cella/west-jamb-south",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/cella/west-lintel",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/cella/divider",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/porch-floor/pronaos",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/porch-floor/opisthonaos",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/entablature/east/architrave",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/entablature/east/cornice",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/pediment/east",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/entablature/west/architrave",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/entablature/west/cornice",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/pediment/west",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/entablature/north/architrave",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/entablature/north/cornice",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/entablature/south/architrave",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/entablature/south/cornice",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/east/metope-01",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/east/metope-02",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/east/metope-03",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/east/metope-04",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/east/metope-05",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/east/metope-06",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/east/metope-07",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/east/metope-08",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/east/metope-09",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/east/metope-10",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/east/metope-11",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/east/metope-12",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/east/metope-13",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/east/metope-14",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/east/triglyph-01",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/east/triglyph-02",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/east/triglyph-03",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/east/triglyph-04",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/east/triglyph-05",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/east/triglyph-06",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/east/triglyph-07",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/east/triglyph-08",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/east/triglyph-09",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/east/triglyph-10",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/east/triglyph-11",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/east/triglyph-12",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/east/triglyph-13",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/east/triglyph-14",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/east/triglyph-15",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/west/metope-01",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/west/metope-02",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/west/metope-03",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/west/metope-04",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/west/metope-05",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/west/metope-06",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/west/metope-07",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/west/metope-08",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/west/metope-09",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/west/metope-10",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/west/metope-11",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/west/metope-12",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/west/metope-13",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/west/metope-14",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/west/triglyph-01",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/west/triglyph-02",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/west/triglyph-03",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/west/triglyph-04",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/west/triglyph-05",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/west/triglyph-06",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/west/triglyph-07",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/west/triglyph-08",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/west/triglyph-09",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/west/triglyph-10",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/west/triglyph-11",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/west/triglyph-12",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/west/triglyph-13",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/west/triglyph-14",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/west/triglyph-15",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/north/metope-01",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/north/metope-02",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/north/metope-03",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/north/metope-04",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/north/metope-05",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/north/metope-06",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/north/metope-07",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/north/metope-08",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/north/metope-09",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/north/metope-10",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/north/metope-11",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/north/metope-12",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/north/metope-13",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/north/metope-14",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/north/metope-15",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/north/metope-16",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/north/metope-17",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/north/metope-18",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/north/metope-19",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/north/metope-20",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/north/metope-21",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/north/metope-22",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/north/metope-23",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/north/metope-24",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/north/metope-25",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/north/metope-26",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/north/metope-27",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/north/metope-28",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/north/metope-29",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/north/metope-30",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/north/metope-31",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/north/metope-32",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/north/triglyph-01",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/north/triglyph-02",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/north/triglyph-03",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/north/triglyph-04",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/north/triglyph-05",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/north/triglyph-06",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/north/triglyph-07",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/north/triglyph-08",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/north/triglyph-09",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/north/triglyph-10",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/north/triglyph-11",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/north/triglyph-12",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/north/triglyph-13",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/north/triglyph-14",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/north/triglyph-15",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/north/triglyph-16",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/north/triglyph-17",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/north/triglyph-18",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/north/triglyph-19",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/north/triglyph-20",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/north/triglyph-21",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/north/triglyph-22",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/north/triglyph-23",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/north/triglyph-24",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/north/triglyph-25",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/north/triglyph-26",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/north/triglyph-27",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/north/triglyph-28",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/north/triglyph-29",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/north/triglyph-30",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/north/triglyph-31",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/north/triglyph-32",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/north/triglyph-33",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/south/metope-01",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/south/metope-02",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/south/metope-03",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/south/metope-04",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/south/metope-05",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/south/metope-06",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/south/metope-07",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/south/metope-08",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/south/metope-09",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/south/metope-10",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/south/metope-11",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/south/metope-12",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/south/metope-13",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/south/metope-14",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/south/metope-15",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/south/metope-16",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/south/metope-17",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/south/metope-18",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/south/metope-19",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/south/metope-20",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/south/metope-21",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/south/metope-22",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/south/metope-23",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/south/metope-24",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/south/metope-25",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/south/metope-26",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/south/metope-27",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/south/metope-28",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/south/metope-29",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/south/metope-30",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/south/metope-31",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/south/metope-32",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/south/triglyph-01",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/south/triglyph-02",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/south/triglyph-03",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/south/triglyph-04",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/south/triglyph-05",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/south/triglyph-06",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/south/triglyph-07",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/south/triglyph-08",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/south/triglyph-09",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/south/triglyph-10",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/south/triglyph-11",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/south/triglyph-12",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/south/triglyph-13",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/south/triglyph-14",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/south/triglyph-15",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/south/triglyph-16",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/south/triglyph-17",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/south/triglyph-18",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/south/triglyph-19",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/south/triglyph-20",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/south/triglyph-21",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/south/triglyph-22",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/south/triglyph-23",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/south/triglyph-24",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/south/triglyph-25",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/south/triglyph-26",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/south/triglyph-27",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/south/triglyph-28",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/south/triglyph-29",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/south/triglyph-30",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/south/triglyph-31",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/south/triglyph-32",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/frieze/south/triglyph-33",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/ionic-frieze/north",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/ionic-frieze/south",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/ionic-frieze/east",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/ionic-frieze/west",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/roof/north",
+      "phase": "classical-interpretive"
+    },
+    {
+      "id": "parthenon/roof/south",
+      "phase": "classical-interpretive"
+    }
+  ],
+  "excluded": [
+    "Modern restorations",
+    "Destroyed original figural decoration"
+  ]
+}
