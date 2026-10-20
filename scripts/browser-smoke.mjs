@@ -52,6 +52,10 @@ try{
   await page.locator('#inspector .related button').first().click();
   assert.ok((await page.locator('#inspector .term-name').innerText()).length>3);
   await page.locator('#search').fill('');
+  await page.locator('#siteTheme').selectOption('light');
+  await page.screenshot({path:'qa-shots/desktop-light.png',fullPage:true});
+  assert.ok(statSync('qa-shots/desktop-light.png').size>12000);
+  await page.locator('#siteTheme').selectOption('system');
   await page.screenshot({path:'qa-shots/desktop.png',fullPage:true});
   assert.ok(statSync('qa-shots/desktop.png').size>12000);
   await page.setViewportSize({width:390,height:844});

@@ -69,6 +69,10 @@ try{
  else await page.keyboard.press('Escape');
  await page.waitForFunction(()=>document.querySelector('#walk')?.getAttribute('aria-pressed')==='false',null,{timeout:8000});
  await page.locator('.part-row').first().click();
+ await page.locator('#siteTheme').selectOption('light');
+ await page.screenshot({path:'qa-parthenon/desktop-light.png',fullPage:true});
+ assert.ok(statSync('qa-parthenon/desktop-light.png').size>25000);
+ await page.locator('#siteTheme').selectOption('system');
  await page.screenshot({path:'qa-parthenon/desktop.png',fullPage:true});
  assert.ok(statSync('qa-parthenon/desktop.png').size>25000,'Desktop scene screenshot is small');
  await page.setViewportSize({width:390,height:844});
