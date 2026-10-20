@@ -8,7 +8,7 @@
   "reconstruction": {
     "kind": "procedural-interpretive",
     "confidence": "low-to-moderate",
-    "notes": "First-pass pedagogical volume, NOT a survey, photogrammetric record, restoration proposal, or current-condition model. Sculptural groups and original painted surfaces are not reconstructed."
+    "notes": "First-pass pedagogical volume, NOT a survey, photogrammetric record, restoration proposal, or current-condition model. Sculptural groups and original painted surfaces are not reconstructed. Column fluting is modeled as part of each shaft surface, not a separately pickable object."
   },
   "facts": [
     {
@@ -28,7 +28,6 @@
     "stylobate",
     "stereobate",
     "column-shaft",
-    "fluting",
     "echinus",
     "abacus",
     "architrave",
