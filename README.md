@@ -20,7 +20,7 @@ See [specimen protocol](docs/SPECIMEN_PROTOCOL.md) and [model standards](docs/MO
 
 ## Parthenon model materials and assembly
 
-The public Parthenon exhibit provides a **Materials: Study / Realistic** toggle. Study retains the initial simplified materials; Realistic uses deterministic locally generated stone color, bump and roughness maps. The mode is a display choice, not evidence of recovered original pigment or measured surface finish. No museum media or external texture assets are distributed. The roof and pediments use sealed interpretive solid geometry, with explicit frieze and cornice continuity checks. The machine-readable specimen inventory contains 536 addressable architectural instances.
+The public Parthenon exhibit provides a **Materials: Study / Realistic** toggle. Clicking an architectural part outlines it and focuses the 3D orbit camera; clicking it again clears the selection and restores the previous view. An unobtrusive on-screen marker identifies small or obscured parts. Study retains the initial simplified materials; Realistic uses deterministic locally generated stone color, bump and roughness maps. The mode is a display choice, not evidence of recovered original pigment or measured surface finish. No museum media or external texture assets are distributed. The roof and pediments use sealed interpretive solid geometry, with explicit frieze and cornice continuity checks. The machine-readable specimen inventory contains 536 addressable architectural instances.
 
 ## Atmospheric visualization
 

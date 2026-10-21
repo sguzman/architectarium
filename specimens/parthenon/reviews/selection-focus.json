@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "specimenId": "parthenon",
+  "taskId": "PAR-3D-030",
+  "status": "passed",
+  "purpose": "Improve the discoverability and focus behavior of individual physical component selections.",
+  "behaviors": [
+    "Selected physical mesh receives an independent gold-colored back-face silhouette and crisp edge lines; no unselected architectural mesh changes.",
+    "Camera and orbit target move together to center the selected part; existing zoom/angle are preserved.",
+    "A second click on the same 3D mesh or its matching index row clears the selection and restores the prior camera and target.",
+    "An anchored screen-space ring and label locate small or occluded parts, including elements within the roofed cella.",
+    "The marker is pointer-transparent, and both marker and temporary outline are removed on deselection.",
+    "The existing Study and Realistic material toggle preserves the selected part and outline, without shifting its focus.",
+    "Reset returns to the standard exterior home camera without restoring an older selection viewpoint."
+  ],
+  "validation": {
+    "chromiumRun": "https://github.com/sguzman/architectarium/actions/runs/39518618799",
+    "releaseRun": "https://github.com/sguzman/architectarium/actions/runs/39518618855",
+    "automatedChecks": [
+      "scripts/browser-parthenon.mjs",
+      "scripts/test-parthenon.mjs"
+    ],
+    "images": [
+      "qa-parthenon/selection-outlined.png"
+    ],
+    "renderedReview": "Inspected the Chromium image showing a distinct gold ring and readable component label on an interior Ionic capital beyond the roof, with component inspector still visible."
+  },
+  "bounds": "This affects visitor selection overlays and camera navigation only, not the 536-instance architectural ontology or archaeological accuracy classification.",
+  "rights": "Original local rendering and CSS; no external icon, image, or material asset."
+}

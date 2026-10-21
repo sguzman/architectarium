@@ -982,6 +982,46 @@
         "notes": "Headless Chromium recorded two different rendered scenes, verified stronger haze, particles, button state, clear-air reset and mobile visitor regression."
       },
       "blockedReason": null
+    },
+    {
+      "id": "PAR-3D-030",
+      "title": "Outline, focus and toggle individual architectural selections",
+      "description": "Make architectural components visually identifiable and let users select and unfocus them by repeated selection.",
+      "status": "done",
+      "priority": 30,
+      "dependsOn": [
+        "PAR-3D-017",
+        "PAR-3D-027",
+        "PAR-3D-029"
+      ],
+      "acceptanceCriteria": [
+        "Selecting a 3D physical component or index entry draws a shape-following outline and focuses the orbit camera so zoom approaches the actual part.",
+        "A second click on the same part removes the outline and returns to the preselection view and zoom target.",
+        "Interior parts obscured by surrounding geometry remain locatable using a noninteractive on-screen marker and label.",
+        "Changing material modes preserves selected physical identity and outlining; clearing, resetting and page cleanup detach temporary GPU resources."
+      ],
+      "outputs": [
+        "specimens/parthenon/reviews/selection-focus.json"
+      ],
+      "evidence": [
+        {
+          "path": "specimens/parthenon/reviews/selection-focus.json",
+          "note": "Source-level and browser-rendered feature review"
+        },
+        {
+          "path": "site/specimens/parthenon/selection-outline.js",
+          "note": "Selectable part-specific edge and silhouette geometry"
+        },
+        {
+          "path": "scripts/browser-parthenon.mjs",
+          "note": "Executable selection, repeat-click, view restoration, locator and material preservation assertions"
+        }
+      ],
+      "review": {
+        "status": "passed",
+        "notes": "Chromium visitor review succeeded with repeated-click deselection, full camera target restoration, two-part 3D outline, accessible index, visible screen locator and material-mode preservation."
+      },
+      "blockedReason": null
     }
   ]
 }
