@@ -43,3 +43,19 @@ html[data-resolved-theme="light"] .detail-note{color:#596e61}
 html[data-resolved-theme="light"] .interpretation-key{background:#edf0e9;color:#526a5c;border-left-color:#865b2b}
 html[data-resolved-theme="light"] footer{color:#5e7467}
 html[data-resolved-theme="light"] .theme-switch select{background:#ffffff;border-color:#9daf9f;color:#263934}
+
+/* Screen-space locator accompanies the true 3D selection outline.
+   It remains legible even when an interior component is hidden by the roof. */
+.selection-marker{position:absolute;z-index:3;display:flex;align-items:center;gap:10px;
+ transform:translate(-12px,-50%);pointer-events:none;max-width:210px;
+ filter:drop-shadow(0 1px 3px rgba(0,0,0,.55))}
+.selection-marker[hidden]{display:none}
+.selection-marker-ring{display:block;flex:0 0 24px;width:24px;height:24px;
+ border:3px solid #ffd27e;border-radius:50%;
+ background:rgba(255,185,75,.18);
+ box-shadow:0 0 0 4px rgba(26,28,24,.42),0 0 0 6px rgba(255,191,87,.34),0 0 16px #ffc16d}
+.selection-marker-label{display:block;max-width:168px;padding:5px 8px;
+ color:#fff5df;background:rgba(22,31,30,.92);border:1px solid #fac577;
+ border-radius:3px;font-size:10px;font-weight:700;letter-spacing:.02em;
+ white-space:normal;overflow-wrap:anywhere;line-height:1.35}
+@media(max-width:600px){.selection-marker-label{max-width:125px;font-size:9px}}

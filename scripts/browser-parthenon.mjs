@@ -39,6 +39,10 @@ try{
  assert.equal(focused.id,'parthenon/west-room/ionic/column-01/capital');
  assert.equal(focused.outlined,true);
  assert.equal(focused.outlineParts,2,'Selected part needs edge and silhouette renderers');
+ await page.waitForFunction(()=>document.querySelector('#selectionMarker')?.hidden===false);
+ assert.equal(await page.locator('#selectionMarker').isVisible(),true,'Selected part must have a visible locator');
+ assert.match(await page.locator('#selectionMarkerLabel').innerText(),/ionic column 1 capital/i);
+ assert.equal(await page.locator('#selectionMarker').evaluate(x=>getComputedStyle(x).pointerEvents),'none','Locator cannot intercept 3D interactions');
  assert.notDeepEqual(focused.orbitTarget,initialOrbit,'Orbit focus should track selected geometry');
  assert.equal(await targetRow.getAttribute('aria-pressed'),'true');
  await page.screenshot({path:'qa-parthenon/selection-outlined.png',animations:'disabled'});
@@ -46,6 +50,7 @@ try{
  const cleared=await page.evaluate(()=>window.__architectariumSelection);
  assert.equal(cleared.id,null,'Selecting the same row again must unfocus it');
  assert.equal(cleared.outlined,false,'Outline should detach after deselection');
+ await page.waitForFunction(()=>document.querySelector('#selectionMarker')?.hidden===true);
  assert.deepEqual(cleared.orbitTarget,initialOrbit,'Unfocus must restore original zoom target');
  assert.deepEqual(cleared.cameraPosition,initialCamera,'Unfocus must restore original camera view');
  assert.equal(await targetRow.getAttribute('aria-pressed'),'false');
@@ -69,6 +74,7 @@ try{
  assert.equal(await page.locator('#materials').getAttribute('aria-pressed'),'false');
  assert.equal(await page.evaluate(()=>window.__architectariumMetrics.materialMode),'study');
  assert.equal(await page.evaluate(()=>window.__architectariumSelection.outlined),true,'Material mode must preserve outlined part');
+ assert.equal(await page.locator('#selectionMarker').isVisible(),true,'Material changes must preserve location marker');
  await page.screenshot({path:'qa-parthenon/material-study.png'});
  await page.locator('#materials').click();
  await page.waitForFunction(()=>window.__architectariumMetrics.materialMode==='realistic');

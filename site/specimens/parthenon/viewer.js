@@ -38,6 +38,19 @@ try{
  window.__architectariumMetrics={parts:model.modelCount,firstBatchMilliseconds:firstBatchMillis,buildMilliseconds:Math.round(performance.now()-firstFrameStart),progressive:true};
  const ray=new THREE.Raycaster(),uv=new THREE.Vector2();let activeId=null,material=null,selected=null,outline=null,focusBeforeSelection=null,walking=false,hiddenRoof=false,hiddenWalls=false,search='',zone='all',frame=0,last=0,dirty=true;
  const keys=new Set(),zones=[...new Set(inventory.map(x=>x.zone))].sort();
+ const selectionMarker=$('selectionMarker');
+ const selectionPoint=new THREE.Vector3(),selectionBounds=new THREE.Box3();
+ function locateSelection(){
+  if(!selected){selectionMarker.hidden=true;return;}
+  selectionBounds.setFromObject(selected).getCenter(selectionPoint).project(camera);
+  if(selectionPoint.z< -1||selectionPoint.z>1){selectionMarker.hidden=true;return;}
+  const w=stage.clientWidth,h=stage.clientHeight;
+  if(!w||!h){selectionMarker.hidden=true;return;}
+  const x=(selectionPoint.x*.5+.5)*w,y=(-selectionPoint.y*.5+.5)*h;
+  selectionMarker.style.left=Math.max(30,Math.min(w-188,x))+'px';
+  selectionMarker.style.top=Math.max(25,Math.min(h-25,y))+'px';
+  selectionMarker.hidden=false;
+ }
  function press(id,on,onLabel,offLabel){const b=$(id);b.classList.toggle('active',on);b.setAttribute('aria-pressed',String(on));if(onLabel)b.textContent=on?onLabel:offLabel;}
  function draw(){dirty=true;if(!frame)frame=requestAnimationFrame(tick);}
  function tick(now){
@@ -54,7 +67,7 @@ try{
    if(Math.abs(p.x)>85||Math.abs(p.z)>90||colliding)p.copy(old);
    p.y=Math.abs(p.x)<14&&Math.abs(p.z)<35?2.86:1.76;dirty=true;
   }
-  if(dirty){renderer.render(scene,camera);dirty=false;}
+  if(dirty){locateSelection();renderer.render(scene,camera);dirty=false;}
   if(walking&&keys.size)draw();
  }
  orbit.addEventListener('change',draw);walk.addEventListener('change',draw);
@@ -124,6 +137,7 @@ try{
  }
  function clearSelection(restoreFocus=false,clearDetail=false){
   if(outline){outline.detach();outline=null;}
+  selectionMarker.hidden=true;
   if(selected){
    const highlight=selected.material;selected.material=material;
    if(highlight!==material)highlight.dispose();
@@ -156,6 +170,7 @@ try{
   const glow=material.clone();glow.emissive=new THREE.Color('#aa7245');glow.emissiveIntensity=.5;mesh.material=glow;
   mesh.userData.extents=part.size;
   outline=attachSelectionOutline(mesh);
+  $('selectionMarkerLabel').textContent=part.label;
   if(focus&&orbit.enabled){
    // Translate camera and orbit target together: keep zoom and view direction,
    // but center the actual selected mesh so subsequent zoom goes toward it.
